@@ -1,0 +1,77 @@
+@media (min-width:320px) {
+    header{
+        display: block;
+    }
+
+    .logo{
+        width: 90%;
+        height: auto;
+      }
+    .card{
+        width: 100%;
+    }
+
+    .p-galleria-thumbnail-item img{
+        width: 100px;
+       height: auto;
+       margin-right: 20px;
+        margin: 0 auto;
+        border: 1px solid black;
+       
+      }
+      
+      .p-galleria-thumbnail-item {
+        background-color: black;
+       
+      }
+      
+      
+      
+      .p-galleria-item {
+        width: 100%;
+        height: auto;
+      }
+}
+
+@media (min-width:481px) {
+}
+
+@media(min-width: 641px) {
+    header{
+        display: flex;
+    }
+
+    .logo{
+        width: 45%;
+        height: auto;
+      }
+    .card{
+        width: 55%;
+    }
+
+    .p-galleria-thumbnail-item img{
+        width: 110px;
+       height: auto;
+       margin-right: 20px;
+        margin: 0 auto;
+        border: 1px solid black;
+       
+      }
+
+}
+
+@media(min-width: 1025px) {
+    header{
+        display: flex;
+    }
+
+    .logo{
+        width: 35%;
+        height: auto;
+      }
+    .card{
+        width: 100%;
+    }
+
+}
+

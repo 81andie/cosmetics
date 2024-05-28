@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+body {
+
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: rgb(252, 251, 251);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  color: white;
+  background: slateblue;
+}
+
+.pi {
+  font-size: 25px;
+  padding: 5px;
+}
+
+.social_icons {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  background: rgb(9, 9, 9);
+  padding: 4px;
+}
+
+.logo {
+  width: 40%;
+  height: auto;
+  filter: drop-shadow(0 0 0.75rem rgb(247, 200, 244));
+}
+
+.card {
+  width: 70%;
+  height: auto;
+}
+
+.p-galleria-thumbnail-item img {
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+  border: 1px solid black;
+
+}
+
+.p-galleria-thumbnail-item {
+  background-color: black;
+
+}
+
+.p-menuitem-icon {
+  color: rgb(145, 131, 237);
+}
+
+
+.p-menuitem-text {
+  color: slateblue;
+  font-weight: bolder;
+}
+
+.p-submenu {
+  color: slateblue;
+}
+
+.p-submenu-header {
+  font-size: 1.1rem;
+  font-weight: bolder;
+  color: rgb(44, 35, 107);
+}
+
+.Ofertas {
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #bdcd59;
+  color: white;
+  gap: 5px;
+}
+
+.Ofertas h1 {
+  margin-top: 15px;
+
+}
+
+.pi-hourglass {
+  margin-top: 7px;
+  margin-left: 5px;
+}
+
+.Ofertas-solar {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  background: #cd59bd;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.solar{
+  width: 20%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-shooping{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+}
+
+.img-products {
+  width: auto;
+  height: 200px; /* Establece la altura fija */
+  object-fit:contain; /* Asegura que la imagen cubra el contenedor */
+  border-radius: 8px; /* Simula border-round */
+  padding: 20px;
 }
