@@ -31,6 +31,13 @@
         width: 100%;
         height: auto;
       }
+
+      .card-shooping{
+        text-align: center;
+        width: 100%;
+        letter-spacing: 0.3px;
+        line-height: 1.2;
+      }
 }
 
 @media (min-width:481px) {
@@ -56,6 +63,10 @@
         margin: 0 auto;
         border: 1px solid black;
        
+      }
+      .card-shooping{
+        text-align: center;
+        width: 80%;
       }
 
 }

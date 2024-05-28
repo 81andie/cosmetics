@@ -5,13 +5,14 @@ body {
   margin: 0;
   box-sizing: border-box;
   background: rgb(252, 251, 251);
+  font-family: "Mulish", sans-serif;
 }
 
 header {
   display: flex;
   justify-content: center;
   color: white;
-  background: slateblue;
+  background: rgb(136, 119, 241);
 }
 
 .pi {
@@ -28,6 +29,7 @@ header {
 }
 
 .logo {
+  margin: 0 auto;
   width: 40%;
   height: auto;
   filter: drop-shadow(0 0 0.75rem rgb(247, 200, 244));
@@ -47,28 +49,35 @@ header {
 }
 
 .p-galleria-thumbnail-item {
-  background-color: black;
+  background-color: rgb(233, 198, 198);
+  padding: 2px;
 
 }
 
 .p-menuitem-icon {
-  color: rgb(145, 131, 237);
+  color: rgb(32, 44, 4);
 }
 
 
 .p-menuitem-text {
-  color: slateblue;
-  font-weight: bolder;
+  color: rgb(38, 37, 37);
+  font-weight: lighter;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .p-submenu {
-  color: slateblue;
+  color: rgb(117, 100, 223);
 }
 
 .p-submenu-header {
   font-size: 1.1rem;
   font-weight: bolder;
-  color: rgb(44, 35, 107);
+  color: rgb(4, 4, 4);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  
 }
 
 .Ofertas {
@@ -104,16 +113,32 @@ header {
 }
 
 .card-shooping{
+  padding: 20px;
   display: block;
-  margin: 0 auto;
-  text-align: center;
-  width: 60%;
+ margin: 0 auto;
+ 
+  width: 80%;
+  margin-top: 20px;
+ 
 }
 
 .img-products {
   width: auto;
-  height: 200px; /* Establece la altura fija */
-  object-fit:contain; /* Asegura que la imagen cubra el contenedor */
-  border-radius: 8px; /* Simula border-round */
-  padding: 20px;
+  height: 200px; 
+  object-fit:contain;
+  border-radius: 28px;
+  padding: 4px;
+  /*border: 1px solid rgb(117, 100, 223);*/
+  
+
+}
+
+.col-12{
+  border: 1px solid rgb(214, 212, 212);
+  margin-top: 30px;
+  box-shadow: 1px 2px 2px 2px  rgba(239, 226, 228, 0.525);
+}
+
+.p-rating .p-rating-item.p-rating-item-active .p-rating-icon{
+  color: black;
 }
