@@ -69,7 +69,10 @@ export const Prueba = () => {
 
   return (
     <div className="card-shooping">
-        <h1>OFERTAS FLASH</h1>
+        <div className="card-oferta">
+        <h1 className="ofertasflash-title">OFERTAS FLASH</h1>
+        <h3 className="ofertas-subtitle">Por sólo 24 horas, corre! No te quedes sin ellas!!</h3>
+        </div>
             <DataView value={products} itemTemplate={itemTemplate} paginator rows={5} />
         </div>
   )

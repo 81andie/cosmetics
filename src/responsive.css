@@ -38,6 +38,14 @@
         letter-spacing: 0.3px;
         line-height: 1.2;
       }
+      .card-oferta{
+        height: 50vh;
+      }
+
+      .ofertasflash-title{
+        font-size: 2rem;
+        
+      }
 }
 
 @media (min-width:481px) {
@@ -67,6 +75,13 @@
       .card-shooping{
         text-align: center;
         width: 80%;
+      }
+
+      .card-oferta{
+        height: 40vh;
+      }
+      .ofertasflash-title{
+        font-size: 5rem;
       }
 
 }

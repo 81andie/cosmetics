@@ -142,3 +142,32 @@ header {
 .p-rating .p-rating-item.p-rating-item-active .p-rating-icon{
   color: black;
 }
+
+.ofertasflash-title{
+ 
+  background-repeat: no-repeat;
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+  font-family: "Reenie Beanie", cursive;
+  font-weight: 800;
+  font-style: normal;
+  text-shadow: #FC0 1px 0 10px;
+ 
+
+
+}
+
+.card-oferta{
+   
+  background-repeat: no-repeat;
+  height: 30vh;
+  background-image: url("https://img.freepik.com/fotos-premium/closeup-hermosos-labios-sexy-labios-regordetes-que-lapiz-labial-rojo_168410-2832.jpg?w=900");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: cover;
+}
+
+.ofertas-subtitle{
+  font-size: 1.5rem;
+}
