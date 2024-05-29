@@ -179,9 +179,11 @@ header {
 
 .img-products1 {
 
-  height: 230px;
+  height: 210px;
   object-fit: cover;
+
   border-radius: 28px;
+  padding: 2px;
  
 
   /*border: 1px solid rgb(117, 100, 223);*/
@@ -193,4 +195,7 @@ header {
   font-size: 20px;
 }
 
+.p-button{
+  background: black;
+}
 

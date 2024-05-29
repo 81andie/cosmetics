@@ -37,6 +37,7 @@
         width: 100%;
         letter-spacing: 0.3px;
         line-height: 1.2;
+        padding: 2px;
       }
       .card-oferta{
         height: 50vh;

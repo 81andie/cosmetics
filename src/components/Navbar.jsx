@@ -96,7 +96,7 @@ export const Navbar = () => {
         },
 
         {
-            label: 'Ofertas Flash', icon: 'pi pi-fw pi-palette',
+            label: 'Ofertas Flash', icon: 'pi pi-fw pi-hourglass',
             items: [
                 [
                     {
