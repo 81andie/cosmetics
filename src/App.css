@@ -77,7 +77,7 @@ header {
   color: rgb(4, 4, 4);
   letter-spacing: 3px;
   text-transform: uppercase;
-  
+
 }
 
 .Ofertas {
@@ -108,43 +108,43 @@ header {
   color: white;
 }
 
-.solar{
+.solar {
   width: 20%;
 }
 
-.card-shooping{
+.card-shooping {
   padding: 20px;
   display: block;
- margin: 0 auto;
- 
+  margin: 0 auto;
+
   width: 80%;
   margin-top: 20px;
- 
+
 }
 
 .img-products {
-  width: auto;
-  height: 200px; 
-  object-fit:contain;
+ 
+  height: 200px;
+  object-fit: contain;
   border-radius: 28px;
-  padding: 4px;
+  padding: 3px;
   /*border: 1px solid rgb(117, 100, 223);*/
-  
+
 
 }
 
-.col-12{
+.col-12 {
   border: 1px solid rgb(214, 212, 212);
   margin-top: 30px;
-  box-shadow: 1px 2px 2px 2px  rgba(239, 226, 228, 0.525);
+  box-shadow: 1px 2px 2px 2px rgba(239, 226, 228, 0.525);
 }
 
-.p-rating .p-rating-item.p-rating-item-active .p-rating-icon{
+.p-rating .p-rating-item.p-rating-item-active .p-rating-icon {
   color: black;
 }
 
-.ofertasflash-title{
- 
+.ofertasflash-title {
+
   background-repeat: no-repeat;
   font-size: 4rem;
   color: rgb(255, 255, 255);
@@ -152,13 +152,13 @@ header {
   font-weight: 800;
   font-style: normal;
   text-shadow: #FC0 1px 0 10px;
- 
+
 
 
 }
 
-.card-oferta{
-   
+.card-oferta {
+
   background-repeat: no-repeat;
   height: 30vh;
   background-image: url("https://img.freepik.com/fotos-premium/closeup-hermosos-labios-sexy-labios-regordetes-que-lapiz-labial-rojo_168410-2832.jpg?w=900");
@@ -168,6 +168,6 @@ header {
   background-image: cover;
 }
 
-.ofertas-subtitle{
+.ofertas-subtitle {
   font-size: 1.5rem;
 }
