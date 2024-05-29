@@ -1,17 +1,33 @@
 import React from 'react'
 import { MegaMenu } from 'primereact/megamenu';
+import { useNavigate } from 'react-router-dom';
+
 
 
 export const Navbar = () => {
-
+    
+    const navigate = useNavigate();
+    
     const items = [
+ 
+       
+
         {
             label: 'Nuestros Productos', icon: 'pi pi-fw pi-star-fill', 
             items: [
                 [
                     {
-                        label: 'Marcas', 
-                        items: [{ label: 'Dior' }, { label: 'Chanel' }, { label: 'Carolina Herrera' }, { label: 'Guerlain' },{ label: 'Gucci' }]
+                        label: 'marcas ', 
+                        items: [
+                            
+                            {
+                                label: 'Dior',
+                                command: () => {
+                                    navigate('/dior');
+                                }
+
+                             }, { label: 'Chanel' }, { label: 'Carolina Herrera' }, { label: 'Guerlain' },{ label: 'Gucci' }]
+                        
                     },
                     {
                         label: 'Perfumes', 
@@ -76,6 +92,22 @@ export const Navbar = () => {
                         items: [{ label: 'Corrector' }, { label: 'Bases' }]
                     }
                 ]
+            ]
+        },
+
+        {
+            label: 'Ofertas Flash', icon: 'pi pi-fw pi-palette',
+            items: [
+                [
+                    {
+                        label: 'Ofertas',
+                        items: [{ label: 'Sólo 24h',  command: () => {
+                            navigate('/Inicio');
+                        } }, ]
+                    },
+                    
+                ],
+               
             ]
         },
         {

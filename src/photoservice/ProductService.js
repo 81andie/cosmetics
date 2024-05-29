@@ -340,11 +340,11 @@ export const ProductService = {
             {
                 id: '1028',
                 code: 'tx125ck42',
-                name: 'Yoga Mat',
-                description: 'Product Description',
-                image: 'yoga-mat.jpg',
-                price: 20,
-                category: 'Fitness',
+                name: 'Opi, Nail Lacquer, Colección Blancas y Naturales',
+                description: 'Esmalte de duración de hasta 7 días de OPI, líder mundial en el cuidado profesional de las uñas. ¡Porque la vida es muy corta para tener uñas aburridas!',
+                image: 'opi.webp',
+                price: 5.75,
+                category: 'Laca de Uñas Duración hasta 7 días',
                 quantity: 15,
                 inventoryStatus: 'INSTOCK',
                 rating: 5
@@ -352,11 +352,11 @@ export const ProductService = {
             {
                 id: '1029',
                 code: 'gwuby345v',
-                name: 'Yoga Set',
-                description: 'Product Description',
-                image: 'yoga-set.jpg',
-                price: 20,
-                category: 'Fitness',
+                name: 'It Cosmetics, CC + Nude Glow Spf 40',
+                description: '¡IT COSMETICS PRESENTA LA PRIMERA BASE DE MAQUILLAJE CON UN 90% DE INGREDIENTES QUE CUIDAN DE LA PIEL!',
+                image: 'it.webp',
+                price: 30.55,
+                category: 'Base de maquillaje',
                 quantity: 25,
                 inventoryStatus: 'INSTOCK',
                 rating: 8

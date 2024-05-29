@@ -171,3 +171,26 @@ header {
 .ofertas-subtitle {
   font-size: 1.5rem;
 }
+
+.Dior_portada{
+  width: 100%;
+  height: auto;
+}
+
+.img-products1 {
+
+  height: 230px;
+  object-fit: cover;
+  border-radius: 28px;
+ 
+
+  /*border: 1px solid rgb(117, 100, 223);*/
+
+
+}
+
+.pi-shopping-cart{
+  font-size: 20px;
+}
+
+

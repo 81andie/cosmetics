@@ -1,8 +1,9 @@
 
 import './App.css';
 import './responsive.css';
-import {Prueba} from './components/Prueba';
 
+import { Routing } from './Routing/Rutas';
+import { BrowserRouter as Router } from 'react-router-dom';
 import 'primeflex/primeflex.css';
         
 
@@ -13,9 +14,12 @@ import 'primeicons/primeicons.css';
 function App() {
   return (
     <div className="App">
+      <Router>
      <Header/>
-     <Inicio/>
-     <Prueba/>
+   
+   
+     <Routing/>
+     </Router>
     </div>
   );
 }

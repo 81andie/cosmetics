@@ -1,4 +1,6 @@
 import React from 'react'
+import { Prueba } from './Prueba'
+
 
 export const Inicio = () => {
   return (
@@ -16,6 +18,9 @@ export const Inicio = () => {
          <img src="./cremasolar-removebg-preview.png" className="solar" alt="foto cremas solares"/>
 
     </div>
+
+<Prueba/>
+   
 
 </>
   )
