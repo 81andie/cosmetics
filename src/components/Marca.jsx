@@ -5,15 +5,27 @@ import { Button } from 'primereact/button';
 import { DataScroller } from 'primereact/datascroller';
 import { Rating } from 'primereact/rating';
 import { Tag } from 'primereact/tag';
-import { ProductServiceDior } from '../photoservice/ProductServiceDior';
+import { ProductServiceMarca } from '../photoservice/ProductServiceMarca';
+import { useParams } from 'react-router-dom'
 
 
-export const Dior = () => {
+export const Marca = () => {
+    const { id } = useParams()
+    console.log("marcas", id);
+
     const [products, setProducts] = useState([]);
     const ds = useRef(null);
 
     useEffect(() => {
-        ProductServiceDior.getProducts().then((data) => setProducts(data));
+        ProductServiceMarca.getProducts().then(
+            (data) => {
+                let items = data.filter(item => {
+
+                    return item.marca === id
+                })
+                setProducts(items)
+            }
+        );
     }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
     const getSeverity = (product) => {
@@ -36,16 +48,18 @@ export const Dior = () => {
         return (
             <div className="col-12">
                 <div className="flex flex-column xl:flex-row xl:align-items-start p-4 gap-4">
-                    <img className="w-9 sm:w-16rem xl:w-10rem shadow-2 block xl:block mx-auto border-round img-products1" src={`images/${data.image}`} alt={data.name} />
+                    <img className="w-9 sm:w-16rem xl:w-10rem shadow-2 block xl:block mx-auto border-round img-products1" src={`/images/${data.image}`} alt={data.name} />
                     <div className="flex flex-column lg:flex-row justify-content-between align-items-center xl:align-items-start lg:flex-1 gap-4">
                         <div className="flex flex-column align-items-center lg:align-items-start gap-3">
                             <div className="flex flex-column gap-1">
                                 <div className="text-3xl font-bold text-900">{data.name}</div>
                                 {/* Aquí puedes agregar el selector de color */}
                                 {data.variants && (
-                                    <div className="flex flex-row gap-2">
+                                    <div className="flex flex-row gap-1 p-1 color-selectors-container">
                                         {data.variants.map((variant) => (
-                                            <button key={variant.id} className={`color-selector-button bg-${variant.color.toLowerCase()}`}></button>
+                                            <button key={variant.id} className={`color-selector-button bg-${variant.color.toLowerCase()}`}>{variant.color}
+
+                                            </button>
                                         ))}
                                     </div>
                                 )}

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import { Inicio } from '../components/Inicio';
-import { Dior } from '../components/Dior';
+import { Marca } from '../components/Marca';
 
 export const Routing = () => {
     return (
@@ -10,7 +10,9 @@ export const Routing = () => {
                 <Routes>
                     <Route path="/" element={<Inicio />} />
                     <Route path="/inicio" element={<Inicio />} />
-                    <Route path= "/dior" element={<Dior/>}/>
+                    <Route path= "/marcas/:id" element={<Marca/>}/>
+                   
+                    
                 </Routes>
             
         </>

@@ -33,6 +33,7 @@
       }
 
       .card-shooping{
+        display: block;
         text-align: center;
         width: 100%;
         letter-spacing: 0.3px;

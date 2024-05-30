@@ -5,32 +5,51 @@ import { useNavigate } from 'react-router-dom';
 
 
 export const Navbar = () => {
-    
+
     const navigate = useNavigate();
-    
+
     const items = [
- 
-       
+
+
 
         {
-            label: 'Nuestros Productos', icon: 'pi pi-fw pi-star-fill', 
+            label: 'Nuestros Productos', icon: 'pi pi-fw pi-star-fill',
             items: [
                 [
                     {
-                        label: 'marcas ', 
+                        label: 'marcas ',
                         items: [
-                            
+
                             {
                                 label: 'Dior',
                                 command: () => {
-                                    navigate('/dior');
+                                    navigate("/marcas/dior");
                                 }
 
-                             }, { label: 'Chanel' }, { label: 'Carolina Herrera' }, { label: 'Guerlain' },{ label: 'Gucci' }]
-                        
+                            }, {
+                                label: 'Chanel',
+                                command: () => {
+                                    navigate("/marcas/chanel");
+                                }
+                            }, 
+                            
+                            { label: 'Carolina Herrera', 
+                            command: () => {
+                                navigate("/marcas/carolinaherrera");
+                            } }, 
+
+
+                            { label: 'Guerlain', command: () => {
+                                navigate("/marcas/guerlain");
+                            }  }, 
+                            
+                            { label: 'Gucci', command: () => {
+                                navigate("/marcas/gucci");
+                            }  }]
+
                     },
                     {
-                        label: 'Perfumes', 
+                        label: 'Perfumes',
                         items: [{ label: 'Perfumes' }, { label: 'Agua de Colonia' }]
                     }
                 ],
@@ -64,9 +83,9 @@ export const Navbar = () => {
                         label: 'Cremas de protección solar',
                         items: [{ label: 'Aceites' }, { label: 'Crema' }, { label: 'Aftesun' }]
                     }
-                    
+
                 ]
-                
+
             ]
         },
         {
@@ -101,13 +120,15 @@ export const Navbar = () => {
                 [
                     {
                         label: 'Ofertas',
-                        items: [{ label: 'Sólo 24h',  command: () => {
-                            navigate('/Inicio');
-                        } }, ]
+                        items: [{
+                            label: 'Sólo 24h', command: () => {
+                                navigate('/Inicio');
+                            }
+                        },]
                     },
-                    
+
                 ],
-               
+
             ]
         },
         {
@@ -118,19 +139,19 @@ export const Navbar = () => {
                         label: 'Resumen de tu pedido',
                         items: [{ label: 'Ver' }]
                     }
-                   
+
                 ]
-               
+
             ]
         }
     ];
-   
 
-  return (
-    <div>
-        <div className="card-menu">
-            <MegaMenu model={items} breakpoint="960px" />
+
+    return (
+        <div>
+            <div className="card-menu">
+                <MegaMenu model={items} breakpoint="960px" />
+            </div>
         </div>
-    </div>
-  )
+    )
 }

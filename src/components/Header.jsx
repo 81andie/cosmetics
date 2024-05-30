@@ -52,7 +52,7 @@ export const Header = () => {
 <Navbar/>
   
     <header className="header">
-        <img src="./logo.jpg" className="logo"/>
+        <img src="/logo.jpg" className="logo"/>
       
         
         <div className="card">

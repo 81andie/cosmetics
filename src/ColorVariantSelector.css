@@ -1,29 +1,52 @@
-.color-selector {
-    display: flex;
-    gap: 20px;
-    margin: 10px 0;
-  }
-  
-  .bg {
-    width: 30px;
-    height: 30px;
-    border: 2px solid #eec8c8;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-  }
-  
-  .color-option:hover {
-    transform: scale(1.1);
-  }
-  
-  .color-option.selected {
-    border-color: #000000;
-  }
+.color-selector-button {
 
-  .bg-red{
-    background-color: red;
-    width: 30px;
-    height: 30px;
-    border-radius: 100%;
-  }
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  font-size: 7.1px;
+  color: white;
+  margin-left: 2px;
+
+}
+
+.bg-008 {
+  background-color: rgb(169, 7, 61);
+}
+
+.bg-100 {
+  background: rgb(158, 98, 118);
+}
+
+.bg-jardin {
+  background-color: #a17467;
+}
+.bg-329{
+ background-color: #c46d69;
+}
+
+.bg-mimi{
+  background-color: #f5bbb7;
+}
+.bg-rose{
+  background-color: #e77186;
+}
+
+.bg-beige{
+  background-color: #b4635e;
+}
+.bg-dioreli{
+  background-color: #bd6c6e;
+}
+.bg-lucky{
+ background-color: #e52130;
+}
+.bg-brown{
+  background-color: #9b533d;
+}
+
+.color-selectors-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}

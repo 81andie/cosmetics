@@ -1,4 +1,5 @@
-export const ProductServiceDior = {
+export const ProductServiceMarca = {
+   
     getProductsData() {
         return [
             {
@@ -10,6 +11,7 @@ export const ProductServiceDior = {
                 price: 130,
                 category: 'Eau da parfum unisex ',
                 quantity: 24,
+                marca: 'dior',
                 inventoryStatus: 'INSTOCK',
                 rating: 5
             },
@@ -22,6 +24,7 @@ export const ProductServiceDior = {
                 price: 265,
                 category: 'Eau da parfum unisex || 125ml',
                 quantity: 61,
+                marca: 'dior',
                 inventoryStatus: 'INSTOCK',
                 rating: 4
             },
@@ -34,6 +37,7 @@ export const ProductServiceDior = {
                 price: 168,
                 category: 'Eau da Parfum mujer || 125ml',
                 quantity: 2,
+                marca: 'dior',
                 inventoryStatus: 'LOWSTOCK',
                 rating: 3
             },
@@ -46,6 +50,7 @@ export const ProductServiceDior = {
                 price: 164,
                 category: 'Eau da Parfum mujer || 100ml',
                 quantity: 25,
+                marca: 'dior',
                 inventoryStatus: 'INSTOCK',
                 rating: 5
             },
@@ -57,12 +62,21 @@ export const ProductServiceDior = {
                 image: 'DiosAddicts.avif',
                 price: 30,
                 variants: [
-                    { color: 'Red', id: '1-red' },
-                    { color: 'Pink', id: '1-pink' },
-                    { color: 'Nude', id: '1-nude' },
+                    { color: '008 Dior', id: '1-red' },
+                    { color: '100 Nude', id: '1-pink' },
+                    { color: 'Jardin Doré', id: '1-nude' },
+                    { color: '329 Tie', id: '1-nude' },
+                    { color: 'Mimi Rose', id: '1-nude' },
+                    { color: 'Rose', id: '1-nude' },
+                    { color: 'Beige', id: '1-nude' },
+                    { color: 'Dioreli', id: '1-nude' },
+                    { color: 'Lucky', id: '1-nude' },
+                    { color: 'Brown', id: '1-nude' },
+                    
                 ],
                 category: 'Lipstic',
                 quantity: 73,
+                marca: 'dior',
                 inventoryStatus: 'INSTOCK',
                 rating: 4
             },
@@ -75,6 +89,7 @@ export const ProductServiceDior = {
                 price: 44,
                 category: 'Accessories',
                 quantity: 0,
+                marca: 'dior',
                 inventoryStatus: 'OUTOFSTOCK',
                 rating: 4
             },
@@ -87,6 +102,7 @@ export const ProductServiceDior = {
                 price: 32,
                 category: 'Brillo Labios',
                 quantity: 5,
+                marca: 'dior',
                 inventoryStatus: 'LOWSTOCK',
                 rating: 3
             },
@@ -99,6 +115,7 @@ export const ProductServiceDior = {
                 price: 34,
                 category: 'Sombras de ojos',
                 quantity: 23,
+                marca: 'dior',
                 inventoryStatus: 'INSTOCK',
                 rating: 5
             },
@@ -111,6 +128,7 @@ export const ProductServiceDior = {
                 price: 39,
                 category: 'Laca de uñas',
                 quantity: 2,
+                marca: 'dior',
                 inventoryStatus: 'LOWSTOCK',
                 rating: 4
             },
@@ -123,6 +141,7 @@ export const ProductServiceDior = {
                 price: 165,
                 category: 'Parfum',
                 quantity: 63,
+                marca: 'dior',
                 inventoryStatus: 'INSTOCK',
                 rating: 3
             },
