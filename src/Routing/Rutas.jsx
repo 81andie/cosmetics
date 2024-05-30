@@ -12,6 +12,7 @@ export const Routing = () => {
                     <Route path="/inicio" element={<Inicio />} />
                     <Route path= "/marcas/:id" element={<Marca/>}/>
                    
+                   
                     
                 </Routes>
             

@@ -26,7 +26,7 @@ export const Marca = () => {
                 setProducts(items)
             }
         );
-    }, []); // eslint-disable-line react-hooks/exhaustive-deps
+    }, [id]); // eslint-disable-line react-hooks/exhaustive-deps
 
     const getSeverity = (product) => {
         switch (product.inventoryStatus) {
