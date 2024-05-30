@@ -56,6 +56,11 @@ export const ProductServiceDior = {
                 description: 'La barra de labios Dior Addict se viste con carcasas de edición limitada, con diseños inspirados en las tendencias de los desfiles Dior. Combínelos con los 40 tonos brillantes de la gama para un mix & match firmado por Dior.',
                 image: 'DiosAddicts.avif',
                 price: 30,
+                variants: [
+                    { color: 'Red', id: '1-red' },
+                    { color: 'Pink', id: '1-pink' },
+                    { color: 'Nude', id: '1-nude' },
+                ],
                 category: 'Lipstic',
                 quantity: 73,
                 inventoryStatus: 'INSTOCK',

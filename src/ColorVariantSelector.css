@@ -1,0 +1,29 @@
+.color-selector {
+    display: flex;
+    gap: 20px;
+    margin: 10px 0;
+  }
+  
+  .bg {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #eec8c8;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .color-option:hover {
+    transform: scale(1.1);
+  }
+  
+  .color-option.selected {
+    border-color: #000000;
+  }
+
+  .bg-red{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+  }
