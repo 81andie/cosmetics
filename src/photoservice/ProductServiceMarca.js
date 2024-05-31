@@ -2,6 +2,12 @@ export const ProductServiceMarca = {
    
     getProductsData() {
         return [
+
+
+            
+            
+           
+
             {
                 id: '1000',
                
@@ -355,6 +361,7 @@ export const ProductServiceMarca = {
             {
                 id: '1009',
                 code: 'cm230f032',
+                portada:'logo carolina.jpg',
                 name: 'Carolina, Good GirlGloss',
                 description: '12 h de hidratación · Hasta 8 h de brillo · Labios un 36 % más carnosos · Aplicador de ala exclusivo · Fórmula 100 % vegana · Personalizable ',
                 image: 'Goodgirl.png',
@@ -378,6 +385,7 @@ export const ProductServiceMarca = {
             {
                 id: '1009',
                 code: 'cm230f032',
+                portada:'logo carolina.jpg',
                 name: 'Carolina, Set Fabulous kiss',
                 description: 'Hasta 12 horas de hidratación Con esferas de relleno de ácido hialurónico 12 horas de confort duradero Color de aspecto natural, pero combinable Difumina las líneas de expresión y deja un acabado suave y empolvado Sensación esponjosa ultrasuave ',
                 image: 'Setfabolus.png',
@@ -401,6 +409,7 @@ export const ProductServiceMarca = {
             {
                 id: '1009',
                 code: 'cm230f032',
+                portada:'logo carolina.jpg',
                 name: 'CH, Men',
                 description: 'CH Men tiene una sofisticada nota superior de mandarina siciliana y hojas de violeta que le da a este perfume una personalidad única. También contiene raíces de nuez moscada y angélica y notas finales de madera de cachemir y un suave toque de cuero. ',
                 image: 'Chicmen.webp',
@@ -415,6 +424,7 @@ export const ProductServiceMarca = {
             {
                 id: '1009',
                 code: 'cm230f032',
+                portada:'logo carolina.jpg',
                 name: 'CH, l´Eau',
                 description: 'Té Rojo, Esencia de Naranja, una mezcla de cítricos, son la firma inusual de la fragancia. Siempre fresca. Mezcla una base boscosa de Vetiver, madera de Cedro fina y un poco de Pachuli. nuestro perfume es ese emocionante acelerador de los días de verano. ',
                 image: 'Chicwomen.webp',
@@ -426,7 +436,205 @@ export const ProductServiceMarca = {
                 rating: 3
             },
 
-            
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'logo carolina.jpg',
+                name: 'CH, Good Girl',
+                description: 'Good Girl Blush Eau de Parfum es un contraste de un fondo de dos extracciones diferentes de sensual vainilla, el romanticismo de un corazón de peonía, y distintas formas de exótico Ylang Ylang y agua de rosas reaprovechada. Good Girl Blush es 100 % vegana y la vainilla y el Ylang Ylang proceden de fuentes sostenibles. ',
+                image: 'goodgirl.avif',
+                price: 195,
+                category: 'Fragancias para mujer',
+                quantity: 63,
+                marca: 'carolinaherrera',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'logo carolina.jpg',
+                name: 'Amazonian Rose',
+                description: 'Con su color rojo característico, Amazonian Rose es una fragante oda a Carolina Herrera: un homenaje a su pasión, personalidad y éxito, ligados a los suntuosos paisajes de Latinoamérica. Este atrevido aroma tropical se inspira en la flor Rosa de Venezuela, una exótica flor que sintetiza la belleza de Venezuela y sirve como metáfora de la propia Carolina. ',
+                image: 'Amazonian.avif',
+                price: 249,
+                category: 'Fragancias UNISEX || 100ml',
+                quantity: 63,
+                marca: 'carolinaherrera',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'logo carolina.jpg',
+                name: 'Mistery Tobaco',
+                description: 'El habilidoso tratamiento de la materia prima revela todos los secretos de sus delicadas hojas y alaba el trabajo artesanal del perfumista, combinando de forma sutil tacto y olfato.',
+                image: 'tobaco.avif',
+                price: 95,
+                category: 'Fragancias UNISEX | 100ML',
+                quantity: 63,
+                marca: 'carolinaherrera',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'logo carolina.jpg',
+                name: 'Luckycharms Alegría de Vivir',
+                description: 'Alegría de Vivir Eau de Parfum es un aroma ligero y ultrafemenino que te da la bienvenida con un ramo de delicadas peonías y un rico corazón de madera de cedro, enraizado en notas de fondo de vapor de arroz.',
+                image: 'lucky.avif',
+                price: 95,
+                category: 'Eau de Parfum| 100ML',
+                quantity: 63,
+                marca: 'carolinaherrera',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'logoguerlain.png',
+                name: 'Tobaco Honey',
+                description: 'El tabaco, un ingrediente atrevido, se revela de forma armoniosa y desprende sus más bellas facetas cuando entra en contacto con la miel. Una tensión y un contraste olfativo entre la luz dorada de la miel y la intensidad envolvente del acorde de tabaco. Un acorde de tabaco deliciosamente ambarino se envuelve en vainilla, haba tonka y sésamo,',
+                image: 'Tobacoguerlain.avif',
+                price: 325,
+                category: 'Eau de Parfum| 100ML',
+                quantity: 63,
+                marca: 'guerlain',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'logoguerlain.png',
+                name: 'Aqua allegoria Bosca Vanilla forte',
+                description: 'La colección Aqua Allegoria Forte, un viaje cálido y envolvente al corazón de las maravillas del mundo: perfumes que rinden homenaje a la belleza intensa de la naturaleza, revelada por los rayos dorados de un sol poniente.',
+                image: 'AQUA.avif',
+                price: 95,
+                category: 'Eau de Parfum| 100ML',
+                quantity: 63,
+                marca: 'guerlain',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'logoguerlain.png',
+                name: 'Aqua Mandarine Basilic Forte',
+                description: 'Mandarine Basilic Forte, una mandarina dorada combinada con una albahaca vibrante sublimada por la calidez de la madera de sándalo y la deliciosa tintura de vainilla.',
+                image: 'aquamandarina.avif',
+                price: 95,
+                category: 'Eau de Parfum| 100ML',
+                quantity: 63,
+                marca: 'guerlain',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'logoguerlain.png',
+                name: 'Luckycharms Alegría de Vivir',
+                description: 'Alegría de Vivir Eau de Parfum es un aroma ligero y ultrafemenino que te da la bienvenida con un ramo de delicadas peonías y un rico corazón de madera de cedro, enraizado en notas de fondo de vapor de arroz.',
+                image: 'lucky.avif',
+                price: 95,
+                category: 'Eau de Parfum| 100ML',
+                quantity: 63,
+                marca: 'guerlain',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'logoguerlain.png',
+                name: 'Luckycharms Alegría de Vivir',
+                description: 'Alegría de Vivir Eau de Parfum es un aroma ligero y ultrafemenino que te da la bienvenida con un ramo de delicadas peonías y un rico corazón de madera de cedro, enraizado en notas de fondo de vapor de arroz.',
+                image: 'lucky.avif',
+                price: 95,
+                category: 'Eau de Parfum| 100ML',
+                quantity: 63,
+                marca: 'guerlain',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'logoguerlain.png',
+                name: 'Luckycharms Alegría de Vivir',
+                description: 'Alegría de Vivir Eau de Parfum es un aroma ligero y ultrafemenino que te da la bienvenida con un ramo de delicadas peonías y un rico corazón de madera de cedro, enraizado en notas de fondo de vapor de arroz.',
+                image: 'lucky.avif',
+                price: 95,
+                category: 'Eau de Parfum| 100ML',
+                quantity: 63,
+                marca: 'guerlain',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'logoguerlain.png',
+                name: 'Luckycharms Alegría de Vivir',
+                description: 'Alegría de Vivir Eau de Parfum es un aroma ligero y ultrafemenino que te da la bienvenida con un ramo de delicadas peonías y un rico corazón de madera de cedro, enraizado en notas de fondo de vapor de arroz.',
+                image: 'lucky.avif',
+                price: 95,
+                category: 'Eau de Parfum| 100ML',
+                quantity: 63,
+                marca: 'guerlain',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'logoguerlain.png',
+                name: 'Luckycharms Alegría de Vivir',
+                description: 'Alegría de Vivir Eau de Parfum es un aroma ligero y ultrafemenino que te da la bienvenida con un ramo de delicadas peonías y un rico corazón de madera de cedro, enraizado en notas de fondo de vapor de arroz.',
+                image: 'lucky.avif',
+                price: 95,
+                category: 'Eau de Parfum| 100ML',
+                quantity: 63,
+                marca: 'guerlain',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'logoguerlain.png',
+                name: 'Luckycharms Alegría de Vivir',
+                description: 'Alegría de Vivir Eau de Parfum es un aroma ligero y ultrafemenino que te da la bienvenida con un ramo de delicadas peonías y un rico corazón de madera de cedro, enraizado en notas de fondo de vapor de arroz.',
+                image: 'lucky.avif',
+                price: 95,
+                category: 'Eau de Parfum| 100ML',
+                quantity: 63,
+                marca: 'guerlain',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
             
           
              
