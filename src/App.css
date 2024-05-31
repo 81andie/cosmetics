@@ -10,9 +10,12 @@ body {
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   color: white;
   background: rgb(136, 119, 241);
+  background-image: url("https://fimgs.net/images/secundar/o.54358.jpg");
+  background-size: cover;
+  object-fit: cover;
 }
 
 .pi {
@@ -29,30 +32,13 @@ header {
 }
 
 .logo {
-  margin: 0 auto;
+ 
   width: 40%;
   height: auto;
   filter: drop-shadow(0 0 0.75rem rgb(247, 200, 244));
 }
 
-.card {
-  width: 70%;
-  height: auto;
-}
 
-.p-galleria-thumbnail-item img {
-  width: 150px;
-  height: auto;
-  margin: 0 auto;
-  border: 1px solid black;
-
-}
-
-.p-galleria-thumbnail-item {
-  background-color: rgb(233, 198, 198);
-  padding: 2px;
-
-}
 
 .p-menuitem-icon {
   color: rgb(32, 44, 4);
@@ -62,7 +48,7 @@ header {
 .p-menuitem-text {
   color: rgb(38, 37, 37);
   font-weight: lighter;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   border-radius: 5px;
   padding: 5px;
 }
