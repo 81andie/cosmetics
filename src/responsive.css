@@ -48,6 +48,12 @@
         font-size: 2rem;
         
       }
+
+      .marca_logo{
+        width: 28%;
+        height: auto;
+        margin-top: -10px;
+      }
 }
 
 @media (min-width:481px) {
@@ -86,6 +92,12 @@
         font-size: 5rem;
       }
 
+      .marca_logo{
+        width: 28%;
+        height: auto;
+        margin-top: -50px;
+      }
+
 }
 
 @media(min-width: 1025px) {
@@ -99,6 +111,12 @@
       }
     .card{
         width: 100%;
+    }
+
+    .marca_logo{
+      width: 10%;
+      height: auto;
+      margin-top: -20px;
     }
 
 }
