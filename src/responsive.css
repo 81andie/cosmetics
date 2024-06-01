@@ -1,10 +1,13 @@
 @media (min-width:320px) {
     header{
         display: block;
+       
+        background-size: cover;
+        height: 30vh;
     }
 
-    .logo{
-        width: 90%;
+    .logo_tienda{
+        width: 30%;
         height: auto;
       }
     .card{
@@ -50,7 +53,7 @@
       }
 
       .marca_logo{
-        width: 35%;
+        width: 25%;
         height: auto;
         margin-top: 10px;
       }
@@ -62,10 +65,16 @@
 @media(min-width: 641px) {
     header{
         display: flex;
+          align-items: flex-start;
+          color: white;
+          height: 47vh;
+         
+          background-size: cover;
+          opacity: 80%;
     }
 
-    .logo{
-        width: 45%;
+    .logo_tienda{
+        width: 35%;
         height: auto;
       }
     .card{
@@ -104,10 +113,20 @@
 @media(min-width: 1025px) {
     header{
         display: flex;
+      
+        align-items: flex-start;
+          color: white;
+          height: 80vh;
+         
+          background-size: cover;
+          opacity: 80%;
+         
+      
+        
     }
 
-    .logo{
-        width: 35%;
+    .logo_tienda{
+        width: 25%;
         height: auto;
       }
     .card{

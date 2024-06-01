@@ -69,7 +69,7 @@ export const Marca = () => {
                                         </div>
                                     )}
 
-                                    <div className="text-2l p-2 ">{data.description}</div>
+                                    <div className="text-2l p-2 parrafo_descripcion">{data.description}</div>
 
 
                                 </div>
@@ -85,7 +85,7 @@ export const Marca = () => {
                                     </span>
                                 </div>
                             </div>
-                            <div className="flex flex-row lg:flex-column align-items-center lg:align-items-end gap-4 lg:gap-2">
+                            <div className="flex flex-row lg:flex-column align-items-center lg:align-items-end gap-4 lg:gap-2 container_btncompra">
                                 <span className="text-2xl font-semibold">${data.price}</span>
                                 <Button icon="pi pi-shopping-cart w-9" label="Comprar" disabled={data.inventoryStatus === 'OUTOFSTOCK'}></Button>
                                 <Tag value={data.inventoryStatus} severity={getSeverity(data)} className="tags"></Tag>

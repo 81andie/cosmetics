@@ -16,16 +16,16 @@ export const Header = () => {
     <>
      <div className="social_icons">
        
-        <i className="pi pi-instagram" style={{ color: 'slateblue' }}></i>
-        <i className="pi pi-youtube" style={{ color: 'slateblue' }}></i>
-        <i className="pi pi-facebook" style={{ color: 'slateblue' }}></i>
-        <i className="pi pi-telegram" style={{ color: 'slateblue' }}></i>
+        <i className="pi pi-instagram" style={{ color: 'white' }}></i>
+        <i className="pi pi-youtube" style={{ color: 'white' }}></i>
+        <i className="pi pi-facebook" style={{ color: 'white' }}></i>
+        <i className="pi pi-telegram" style={{ color: 'white' }}></i>
         </div>
 
 <Navbar/>
   
     <header className="header">
-        <img src="/logo.jpg" className="logo"/>
+        <img src="/logo.jpg" className="logo_tienda"/>
       
         
        

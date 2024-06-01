@@ -50,7 +50,12 @@ export const Navbar = () => {
                     },
                     {
                         label: 'Perfumes',
-                        items: [{ label: 'Perfumes' }, { label: 'Agua de Colonia' }]
+                        items: [{ label: 'Perfumes', command: () =>{
+                            navigate("/marcas/perfumes")
+                        }
+
+                        
+                        }, { label: 'Agua de Colonia' }]
                     }
                 ],
                 [

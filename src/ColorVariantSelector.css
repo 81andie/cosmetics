@@ -161,6 +161,15 @@
   background-image: url("/public/images/granate.webp");
 }
 
+.bg-luminios{
+  background-image: url("/public/images/iluminité.avif");
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  object-fit: cover;
+  
+}
+
 
 
 .color-selectors-container {
