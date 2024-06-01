@@ -55,19 +55,12 @@ export const Navbar = () => {
                         }
 
                         
-                        }, { label: 'Agua de Colonia' }]
+                        }, { label: 'Agua de Colonia', command: () =>{
+                            navigate("/marcas/aguasdecolonia")
+                        } }]
                     }
                 ],
-                [
-                    {
-                        label: 'Perfumes Hombre',
-                        items: [{ label: 'Perfumes' }, { label: 'Agua de Colonia' }]
-                    },
-                    {
-                        label: 'Perfumes sólidos',
-                        items: [{ label: 'Hombre' }, { label: 'Mujer' }]
-                    }
-                ]
+               
             ]
         },
         {
@@ -76,7 +69,19 @@ export const Navbar = () => {
                 [
                     {
                         label: 'Cremas faciales',
-                        items: [{ label: 'Serums' }, { label: 'Ojos' }, { label: 'Anti-Arrugas' }, { label: 'Hidratantes' }, { label: 'Con Color' }, { label: 'BB Correct' }, { label: 'AntiManchas' }]
+                        items: [{ label: 'Cremas', command:()=>{
+                            navigate("/marcas/cremas")
+                        } }, 
+                        
+                        { label: 'Serums',  command:()=>{
+                            navigate("/marcas/serums")
+                        }}, { label: 'Ojos' }, { label: 'Anti-Arrugas' }, { label: 'Hidratantes' }, { label: 'Con Color' }, 
+                        
+                        
+                        
+                        { label: 'BB Correct', command:()=>{
+                            navigate("/marcas/BB")
+                        }}, { label: 'AntiManchas' }]
                     },
                     {
                         label: 'Cremas Corporales',

@@ -821,6 +821,236 @@ export const ProductServiceMarca = {
                 inventoryStatus: 'INSTOCK',
                 rating: 3
             },
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'aqua di parma.jpg',
+                name: 'blue mediterraneo mirto di panarea',
+                description: 'Regenera ya desde el inicio, gracias a las notas aromáticas del mirto y de la albahaca, unidas al limón y a la bergamota.En el corazón, toques de brisa marina se unen a  la rosa y al jazmín.El fondo es intenso, con lentisco y enebro que se fusionan con la madera de cedro y el ámbar.',
+                image: 'aquadi.webp',
+                price: 105.95,
+                category: 'Eau de Parfum  mujer|| 100ml',
+                quantity: 63,
+                marca: 'perfumes',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'logo joemalone.jpg',
+                name: 'Cologne English Pear & Freesia Edición especial',
+                description: 'Regálese el diseño del envase de edición especial de esta atemporal fragancia floral afrutada que está elaborada con extracto de fruta de pera 100 % natural, el equivalente a una pera en cada frasco. El aroma a un huerto bañado por la luz del sol que caldea las curvas color ocre de las suntuosas peras. La sensual frescura de la fruta madura envuelta en elegantes fresias blancas, e intensificada con rosa enraizada en pachuli.',
+                image: 'pear.png',
+                price: 140,
+                category: 'Eau de Parfum  hombre|| 100ml',
+                quantity: 63,
+                marca: 'perfumes',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'logo joemalone.jpg',
+                name: 'Cologne aqua lemon',
+                description: 'Aqua Lemon Cologne de Jo Malone London es una fragancia de la familia olfativa Cítrica Aromática para Hombres y Mujeres. Esta fragrancia es nueva. Aqua Lemon Cologne se lanzó en 2022. La Nota de Salida es mandarina; las Notas de Corazón son petit grain y menta; la Nota de Fondo es cedro.',
+                image: 'aqualimon.jpg',
+                price: 120,
+                category: 'Eau de Parfum  mujer|| 100ml',
+                quantity: 63,
+                marca: 'aguasdecolonia',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'logo joemalone.jpg',
+                name: 'Scarlet Poppy',
+                description: 'Las estepas salvajes del sudoeste de Asia están cubiertas de extravagantes flores de excelente scarlet poppy. La aterciopelada flor de iris intensifica su opulencia y el haba tonka le añade elegante dulzura. Deslumbrante y adictiva.',
+                image: 'scarlet.avif',
+                price: 132,
+                category: 'Eau de Parfum  mujer|| 100ml',
+                quantity: 63,
+                marca: 'aguasdecolonia',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'logo giorgioarmani.jpg',
+                name: 'Acqua di Giò',
+                description: 'Acqua di Giò Eau de Toilette es un perfume que se inicia con notas marinas y de bergamota, para crear su icónica frescura estimulante. En el corazón, se encuentra una mezcla de jazmín, madera de cedro y romero, evocando el paisaje mediterráneo.',
+                image: 'aquadigiogio.webp',
+                price: 50,
+                category: 'Eau de Toulette homme|| 100ml',
+                quantity: 63,
+                marca: 'aguasdecolonia',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'siheidologo.png',
+                name: 'Essential Energy',
+                description: 'Descubre la eficacia de la crema hidratante de SHISEIDO: Essential Energy. Con 24 horas de hidratación y prevención de los primeros signos de la edad, esta ligera crema proporciona una hidratación rápida y profunda, potenciando la luminosidad y evitando los primeros signos del envejecimiento. ',
+                image: 'creme shisheido.webp',
+                price: 44.95,
+                category: 'Crema hidratante',
+                quantity: 63,
+                marca: 'cremas',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'cliniquelogo.png',
+                name: 'mousture surge 100h auto-replenishing hydrator',
+                description: 'Esta innovadora crema hidratante de Clinique se absorbe rápidamente gracias a su textura en gel. Contiene ingredientes altamente hidratantes como el biofermento de aloe exclusivo y ácido hialurónico, que trabajan en conjunto para mantener la piel hidratada y humectada durante largos períodos, estimulando la capacidad de la piel para retener la humedad. El resultado es una piel visiblemente más joven, saludable y firme.',
+                image: 'mousture.webp',
+                price: 15.28,
+                category: 'Crema hidratante',
+                quantity: 63,
+                marca: 'cremas',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+            
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'cliniquelogo.png',
+                name: 'Smart clinical repair',
+                description: 'Esta innovadora crema hidratante de Clinique se absorbe rápidamente gracias a su textura en gel. Contiene ingredientes altamente hidratantes como el biofermento de aloe exclusivo y ácido hialurónico, que trabajan en conjunto para mantener la piel hidratada y humectada durante largos períodos, estimulando la capacidad de la piel para retener la humedad. El resultado es una piel visiblemente más joven, saludable y firme.',
+                image: 'smart.jpg',
+                price: 64.28,
+                category: 'Crema hidratante',
+                quantity: 63,
+                marca: 'cremas',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'cliniquelogo.png',
+                name: 'Superdefense CC cream spf30',
+                description: 'Superdefense CC Cream SPF30 de Clinique es una hidratante protectora correctora de tono. En algún momento, el aspecto de tu piel puede volverse diferente: más apagado, cetrino o tal vez enrojecido. Ahora, gracias a la tecnología inteligente de corrección del tono de Clinique  Superdefense CC Cream SPF30, te ayudamos a recuperarlo.',
+                image: 'BBcream.webp',
+                price: 20.28,
+                category: 'Crema hidratante',
+                quantity: 63,
+                marca: 'BB',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'elisabet.png',
+                name: 'Visible difference',
+                description: 'Visible Difference Refining Moisture Cream Complex de Elizabeth Arden es una crema hidratante intensa, emoliente y protectora. Además, aporta una barrera oclusiva que impide la pérdida de hidratación.',
+                image: 'hidratantearden.webp',
+                price: 15.95,
+                category: 'Crema hidratante',
+                quantity: 63,
+                marca: 'cremas',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'elisabet.png',
+                name: '8 hour Cream Original',
+                description: 'Bálsamo reparador sin perfume que protege e hidrata la piel en cualquier momento y lugar. + Tratamiento práctico para hidratar, suavizar y calmar los labios en cualquier circunstancia. ',
+                image: 'hidra.webp',
+                price: 23.95,
+                category: 'Crema hidratante',
+                quantity: 63,
+                marca: 'cremas',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'elisabet.png',
+                name: 'Ceramide premire crema hidrante regenerante intensiva spf 30',
+                description: 'Para garantizar la comodidad y tersura de la piel madura, Ceramide Premiere proporciona un triple beneficio, hidratando* de forma intensa la piel, fortaleciéndola con nutrientes esenciales, favoreciendo su renovación celular en superficie y mejorando su aspecto.',
+                image: 'creme.webp',
+                price: 23.95,
+                category: 'Crema hidratante',
+                quantity: 63,
+                marca: 'cremas',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'cliniquelogo.png',
+                name: 'Clinique id dramatically different oil-free',
+                description: 'Equilibra y refresca la piel grasa. Se extiende fácilmente, se absorbe rápidamente. Protege la piel de la contaminación.',
+                image: 'hidr.jpg',
+                price: 23.95,
+                category: 'Crema hidratante',
+                quantity: 63,
+                marca: 'cremas',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'cliniquelogo.png',
+                name: 'Even Better Clinical',
+                description: 'Suero iluminador super potente de Clinique. Ayuda a corregir visiblemente la decoloración y las cicatrices del acné, al tiempo que interrumpe las futuras manchas oscuras.',
+                image: 'event.webp',
+                price: 47.95,
+                category: 'Crema hidratante',
+                quantity: 63,
+                marca: 'serums',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1009',
+                code: 'cm230f032',
+                portada:'siheidologo.png',
+                name: 'Bio Performance Skin filler serum antiedad',
+                description: 'Descubre la innovación en el cuidado de la piel con el serum antiedad de SHISEIDO: Bio-Performance Skin Filler. Este dúo de sérums complementarios, inspirados en la medicina estética, redefine el enfoque anti-edad para obtener una piel con aspecto cinco años más joven en un solo día* ',
+                image: 'bioperfomance.webp',
+                price: 147.95,
+                category: 'Serums',
+                quantity: 63,
+                marca: 'serums',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+            
             
             
           
