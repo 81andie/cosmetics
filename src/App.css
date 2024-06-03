@@ -239,3 +239,25 @@ header {
 .container_btncompra{
  margin-bottom: 20px;
 }
+
+.logo_tienda1{
+  width: 10%
+}
+
+
+.pedido_titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+table{
+  width: 70%;
+  margin: 0 auto;
+}
+
+td{
+  font-size: 1.9rem;
+  font-weight: bold;
+}

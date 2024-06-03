@@ -1,6 +1,7 @@
 import React from 'react'
 import { MegaMenu } from 'primereact/megamenu';
 import { useNavigate } from 'react-router-dom';
+import { Pedido } from './Pedido';
 
 
 
@@ -147,7 +148,9 @@ export const Navbar = () => {
                 [
                     {
                         label: 'Resumen de tu pedido',
-                        items: [{ label: 'Ver' }]
+                        items: [{ label: 'Ver', command: ()=>{
+                            navigate('/Pedido')
+                        } }]
                     }
 
                 ]
@@ -158,10 +161,17 @@ export const Navbar = () => {
 
 
     return (
+        <>
         <div>
             <div className="card-menu">
-                <MegaMenu model={items} breakpoint="960px" />
+           
+                <MegaMenu model={items} breakpoint="960px" 
+               
+                />
+                
+
             </div>
         </div>
+        </>
     )
 }
