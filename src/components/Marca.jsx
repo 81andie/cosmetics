@@ -11,10 +11,34 @@ import { useParams } from 'react-router-dom'
 
 export const Marca = () => {
     const { id } = useParams()
-    console.log("marcas", id);
+
 
     const [products, setProducts] = useState([]);
+
+    const[cart,setCart] = useState(()=>{
+        const savedCart = localStorage.getItem('cart');
+       
+        return savedCart ? JSON.parse(savedCart) : [];
+    })
+
+ const addToCart = (product)=>{
+
+    console.log("Agregando al carrito:", product);
+
+    const isProductInCart = cart.some(item=>item.id === product.id);
+    if(!isProductInCart){
+        const updateCart = [...cart,product];
+        setCart(updateCart);
+        localStorage.setItem('cart', JSON.stringify(updateCart));
+    }
+   
+   
+
+ };
+
     const ds = useRef(null);
+
+
 
     useEffect(() => {
         ProductServiceMarca.getProducts().then(
@@ -23,7 +47,10 @@ export const Marca = () => {
 
                     return item.marca === id
                 })
+
+             
                 setProducts(items)
+                console.log(items)
             }
         );
     }, [id]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -90,7 +117,7 @@ export const Marca = () => {
                             </div>
                             <div className="flex flex-row lg:flex-column align-items-center lg:align-items-end gap-4 lg:gap-2 container_btncompra">
                                 <span className="text-2xl font-semibold">${data.price}</span>
-                                <Button icon="pi pi-shopping-cart w-9" label="Comprar" disabled={data.inventoryStatus === 'OUTOFSTOCK'}></Button>
+                                <Button icon="pi pi-shopping-cart w-9" label="Comprar" disabled={data.inventoryStatus === 'OUTOFSTOCK'} onClick={() => addToCart(data)}> </Button>
                                 <Tag value={data.inventoryStatus} severity={getSeverity(data)} className="tags"></Tag>
                             </div>
                         </div>

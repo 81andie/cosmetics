@@ -1,6 +1,22 @@
 import React from 'react'
+import { useEffect, useState } from 'react'
 
 export const Pedido = () => {
+
+  const[cart, setCart]= useState([]);
+
+const getCartFromLocalStorage=()=>{
+  const savedCart = localStorage.getItem('cart');
+  return savedCart ? JSON.parse(savedCart): [];
+}
+
+useEffect(()=>{
+  const cartFromLocalStorage = getCartFromLocalStorage();
+})
+
+
+
+
     return (
         <section className="container_pedido">
             <div className="pedido_titulo">
