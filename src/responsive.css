@@ -57,6 +57,18 @@
         height: auto;
         margin-top: 10px;
       }
+
+      table{
+        width: 98%;
+        margin: 0 auto;
+        border: 1px solid black;
+        
+      
+      }
+
+      .img_compra{
+        width: 23%;
+      }
 }
 
 @media (min-width:481px) {

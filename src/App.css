@@ -253,11 +253,26 @@ header {
 }
 
 table{
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
+  border: 1px solid black;
+  font-size: 1.2rem;
+
 }
 
 td{
-  font-size: 1.9rem;
-  font-weight: bold;
+  border-bottom: 1px solid black;
+
+}
+
+tr{
+  background-color: rgb(243, 241, 240);
+}
+
+.producto_celda{
+  display: flex;
+}
+
+.img_compra{
+  width: 20%;
 }

@@ -12,8 +12,8 @@ export const Pedido = () => {
 
             <table>
   <tr>
-    <td>&nbsp;</td>
-  
+    <td>&nbsp;PRODUCTOS</td>
+   
     <td>Precio</td>
     <td>Cantidad</td>
     <td>Subtotal</td>
@@ -21,9 +21,11 @@ export const Pedido = () => {
   </tr>
   
   <tr>
-    <td>Producto
-<h4>Gloss lancome</h4>
-<h6>Gloss sublime</h6>
+    <td className="producto_celda">
+     
+<h5>Gloss lancome</h5>
+<img src="images/1957.webp" className="img_compra"/>
+
     </td>
     <td>16</td>
     <td>1</td>
@@ -51,10 +53,12 @@ export const Pedido = () => {
     <td>
         <h3>Total</h3>
     </td>
-    <hr/>
+   
     <td></td>
 
+   
     <td></td>
+    <td>15.72</td>
     <td>15.72</td>
 
     

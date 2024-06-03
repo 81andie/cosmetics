@@ -44,6 +44,9 @@ export const Marca = () => {
         }
     };
 
+
+    
+
     const itemTemplate = (data) => {
         return (
             <>
