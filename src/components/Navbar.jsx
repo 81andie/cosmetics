@@ -30,7 +30,7 @@ export const Navbar = () => {
                             }, {
                                 label: 'Nuestras marcas',
                                 command: () => {
-                                    navigate("/marcas/chanel");
+                                    navigate("/marcas");
                                 }
                             }, 
                             

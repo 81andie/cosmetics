@@ -323,7 +323,7 @@ tr{
 
 .nuestrasMarcas{
   width: 100%;
-  background-color: whitesmoke;
+  background-color: rgb(241, 239, 239);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -339,4 +339,5 @@ tr{
   height: auto;
   padding: 20px;
   object-fit: contain;
+ 
 }
