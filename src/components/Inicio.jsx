@@ -1,4 +1,5 @@
 import React from 'react'
+import { Footer } from './Footer'
 
 export const Inicio = () => {
   return (
@@ -29,9 +30,9 @@ export const Inicio = () => {
       <img src="images/elisabet.png" className="marca_logo1"/>
       
       
-     
-
     </div>
+
+    <Footer/>
     </>
   )
 }

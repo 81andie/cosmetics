@@ -61,7 +61,7 @@ header {
   color: rgb(19, 19, 19);
   font-size: 1rem;
   font-weight: bold;
- 
+
   border-radius: 5px;
   font-family: "Cormorant Garamond", serif;
   text-transform: uppercase;
@@ -232,27 +232,27 @@ header {
   padding: 4px;
 }
 
-.parrafo_descripcion{
+.parrafo_descripcion {
   line-height: 23px;
 }
 
-.container_btncompra{
- margin-bottom: 20px;
+.container_btncompra {
+  margin-bottom: 20px;
 }
 
-.logo_tienda1{
+.logo_tienda1 {
   width: 10%
 }
 
 
-.pedido_titulo{
+.pedido_titulo {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
 }
 
-table{
+table {
   width: 60%;
   margin: 0 auto;
   border: 1px solid black;
@@ -260,68 +260,68 @@ table{
 
 }
 
-td{
+td {
   border-bottom: 1px solid black;
 
 }
 
-tr{
+tr {
   background-color: rgb(243, 241, 240);
 }
 
-.producto_celda{
+.producto_celda {
   display: flex;
 }
 
-.img_compra{
+.img_compra {
   height: 50px;
   object-fit: cover;
 
 
 }
 
-.sobre_nosotros{
+.sobre_nosotros {
   width: 100%;
   text-align: center;
 }
 
-.container_sobreNosotros{
+.container_sobreNosotros {
   width: 90%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   margin: 0 auto;
- background-color: black;
+  background-color: black;
 
 
 
 }
 
-.img_sobrenosotros{
+.img_sobrenosotros {
   margin-top: 30px;
   padding: 20px;
   width: 45%;
   height: auto;
-  
-  
-  
-  
+
+
+
+
 }
 
-.parr_sobreNosotros{
+.parr_sobreNosotros {
   width: 45%;
   height: auto;
   color: white;
   font-size: 1.2rem;
   margin: 0 auto;
- 
 
 
-  
+
+
 }
 
 
-.nuestrasMarcas{
+.nuestrasMarcas {
   width: 100%;
   background-color: rgb(241, 239, 239);
   display: flex;
@@ -330,14 +330,46 @@ tr{
   justify-content: center;
 }
 
-.nuestrasMarcas h1{
+.nuestrasMarcas h1 {
   text-align: center;
 }
 
-.marca_logo1{
+.marca_logo1 {
   width: 20%;
   height: auto;
   padding: 20px;
   object-fit: contain;
+
+}
+
+.informacion_container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: rgb(253, 238, 238);
+  justify-content: center;
+}
+
+.container_info {
+  width: 200px;
+  height: 190px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+  line-height: 17px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(254, 249, 249, 0.68);
+  color: black;
+  border: 1px solid white;
+  border-radius:23px;
+
+
+}
+
+.container_info span{
+  margin-top: 20px;
+  font-size: 1.2rem;
  
 }
