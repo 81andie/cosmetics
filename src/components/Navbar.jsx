@@ -13,7 +13,54 @@ export const Navbar = () => {
 
 
 
-        {
+        { 
+            label: 'Home', icon: 'pi pi-fw pi-star-fill',
+            items: [
+                [
+                    {
+                        label: 'Quiénes somos',
+                        items: [
+
+                            {
+                                label: 'Sobre nosotros',
+                                command: () => {
+                                    navigate("/Inicio");
+                                }
+
+                            }, {
+                                label: 'Nuestras marcas',
+                                command: () => {
+                                    navigate("/marcas/chanel");
+                                }
+                            }, 
+                            
+                            { label: 'Contacto', 
+                            command: () => {
+                                navigate("/marcas/carolinaherrera");
+                            } }, 
+
+
+                          
+                    ]
+
+                    },
+                    {
+                        label: 'Perfumes',
+                        items: [{ label: 'Perfumes', command: () =>{
+                            navigate("/marcas/perfumes")
+                        }
+
+                        
+                        }, { label: 'Agua de Colonia', command: () =>{
+                            navigate("/marcas/aguasdecolonia")
+                        } }]
+                    }
+                ],
+               
+            ]
+        },
+
+        { 
             label: 'Nuestros Productos', icon: 'pi pi-fw pi-star-fill',
             items: [
                 [
@@ -133,7 +180,7 @@ export const Navbar = () => {
                         label: 'Ofertas',
                         items: [{
                             label: 'Sólo 24h', command: () => {
-                                navigate('/Inicio');
+                                navigate('/ofertas');
                             }
                         },]
                     },

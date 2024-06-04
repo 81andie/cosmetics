@@ -1,153 +1,219 @@
 @media (min-width:320px) {
-    header{
-        display: block;
-       
-        background-size: cover;
-        height: 30vh;
-    }
+  header {
+    display: block;
 
-    .logo_tienda{
-        width: 30%;
-        height: auto;
-      }
-    .card{
-        width: 100%;
-    }
+    background-size: cover;
+    height: 30vh;
+  }
 
-    .p-galleria-thumbnail-item img{
-        width: 100px;
-       height: auto;
-       margin-right: 20px;
-        margin: 0 auto;
-        border: 1px solid black;
-       
-      }
-      
-      .p-galleria-thumbnail-item {
-        background-color: black;
-       
-      }
-      
-      
-      
-      .p-galleria-item {
-        width: 100%;
-        height: auto;
-      }
+  .logo_tienda {
+    width: 30%;
+    height: auto;
+  }
 
-      .card-shooping{
-        display: block;
-        text-align: center;
-        width: 100%;
-        letter-spacing: 0.3px;
-        line-height: 1.2;
-        padding: 2px;
-      }
-      .card-oferta{
-        height: 50vh;
-      }
+  .card {
+    width: 100%;
+  }
 
-      .ofertasflash-title{
-        font-size: 2rem;
-        
-      }
+  .p-galleria-thumbnail-item img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    margin: 0 auto;
+    border: 1px solid black;
 
-      .marca_logo{
-        width: 25%;
-        height: auto;
-        margin-top: 10px;
-      }
+  }
 
-      table{
-        width: 98%;
-        margin: 0 auto;
-        border: 1px solid black;
-        
-      
-      }
+  .p-galleria-thumbnail-item {
+    background-color: black;
 
-      
+  }
+
+
+
+  .p-galleria-item {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-shooping {
+    display: block;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 0.3px;
+    line-height: 1.2;
+    padding: 2px;
+  }
+
+  .card-oferta {
+    height: 50vh;
+  }
+
+  .ofertasflash-title {
+    font-size: 2rem;
+
+  }
+
+  .marca_logo {
+    width: 25%;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  table {
+    width: 98%;
+    margin: 0 auto;
+    border: 1px solid black;
+
+
+  }
+
+  .sobre_nosotros {
+    width: 100%;
+
+  }
+
+
+  .container_sobreNosotros {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .parr_sobreNosotros {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .img_sobrenosotros {
+    width: 100%;
+  }
+
+  .marca_logo1{
+    width: 29%;
+    height: auto;
+    padding: 20px;
+    object-fit: contain;
+  }
+
 }
 
-@media (min-width:481px) {
-}
+@media (min-width:481px) {}
 
 @media(min-width: 641px) {
-    header{
-        display: flex;
-          align-items: flex-start;
-          color: white;
-          height: 47vh;
-         
-          background-size: cover;
-          opacity: 80%;
-    }
+  header {
+    display: flex;
+    align-items: flex-start;
+    color: white;
+    height: 47vh;
 
-    .logo_tienda{
-        width: 35%;
-        height: auto;
-      }
-    .card{
-        width: 55%;
-    }
+    background-size: cover;
+    opacity: 80%;
+  }
 
-    .p-galleria-thumbnail-item img{
-        width: 110px;
-       height: auto;
-       margin-right: 20px;
-        margin: 0 auto;
-        border: 1px solid black;
-       
-      }
-      .card-shooping{
-        text-align: center;
-        width: 80%;
-      }
+  .logo_tienda {
+    width: 35%;
+    height: auto;
+  }
 
-      .card-oferta{
-        height: 40vh;
-      }
-      .ofertasflash-title{
-        font-size: 5rem;
-      }
+  .card {
+    width: 55%;
+  }
 
-      .marca_logo{
-        width: 20%;
-        height: auto;
-        margin-top: 10px;
-        
-      }
+  .p-galleria-thumbnail-item img {
+    width: 110px;
+    height: auto;
+    margin-right: 20px;
+    margin: 0 auto;
+    border: 1px solid black;
+
+  }
+
+  .card-shooping {
+    text-align: center;
+    width: 80%;
+  }
+
+  .card-oferta {
+    height: 40vh;
+  }
+
+  .ofertasflash-title {
+    font-size: 5rem;
+  }
+
+  .marca_logo {
+    width: 20%;
+    height: auto;
+    margin-top: 10px;
+
+  }
+
+  .container_sobreNosotros {
+ 
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    background-color: black;
+  }
+
+  .parr_sobreNosotros {
+    width: 45%;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .img_sobrenosotros {
+    width: 45%;
+  }
+
+  .marca_logo1{
+    width: 20%;
+    height: auto;
+    padding: 20px;
+    object-fit: contain;
+  }
 
 }
 
 @media(min-width: 1025px) {
-    header{
-        display: flex;
-      
-        align-items: flex-start;
-          color: white;
-          height: 80vh;
-         
-          background-size: cover;
-          opacity: 80%;
-         
-      
-        
-    }
+  header {
+    display: flex;
 
-    .logo_tienda{
-        width: 25%;
-        height: auto;
-      }
-    .card{
-        width: 100%;
-    }
+    align-items: flex-start;
+    color: white;
+    height: 80vh;
 
-    .marca_logo{
-      width: 10%;
-      height: auto;
-      margin-top: 10px;
-    }
+    background-size: cover;
+    opacity: 80%;
+
+
+
+  }
+
+  .logo_tienda {
+    width: 25%;
+    height: auto;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .marca_logo {
+    width: 10%;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .marca_logo1{
+    width: 12%;
+    height: auto;
+    padding: 20px;
+    object-fit: contain;
+  }
 
 }
-

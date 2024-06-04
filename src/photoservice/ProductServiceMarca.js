@@ -3,11 +3,6 @@ export const ProductServiceMarca = {
     getProductsData() {
         return [
 
-
-            
-            
-           
-
             {
                 id: '1000',
                

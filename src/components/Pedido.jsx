@@ -59,10 +59,15 @@ export const Pedido = () => {
                 <img src={`/images/${item.image}`} className="img_compra" />
 
               </td>
-              <td>16</td>
-              <td>1</td>
-              <td>16</td>
-              <td>16</td>
+              <td>{item.price}</td>
+              <td>
+
+              {/*<button onClick={() => updateQuantity(index, -1)}>-</button>
+                {item.cantidad}
+          <button onClick={() => updateQuantity(index, 1)}>+</button>*/}
+          </td>
+              <td>{item.price}</td>
+              <td></td>
             </tr>
 
           ))}
@@ -72,8 +77,8 @@ export const Pedido = () => {
             <td>Gastos de envío</td>
             <td></td>
             <td></td>
-            <td>3.36</td>
-            <td>3.36</td>
+            <td>0</td>
+            <td>0</td>
 
           </tr>
           <tr>

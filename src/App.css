@@ -276,6 +276,67 @@ tr{
 .img_compra{
   height: 50px;
   object-fit: cover;
+
+
+}
+
+.sobre_nosotros{
+  width: 100%;
+  text-align: center;
+}
+
+.container_sobreNosotros{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+ background-color: black;
+
+
+
+}
+
+.img_sobrenosotros{
+  margin-top: 30px;
+  padding: 20px;
+  width: 45%;
+  height: auto;
+  
+  
+  
+  
+}
+
+.parr_sobreNosotros{
+  width: 45%;
+  height: auto;
+  color: white;
+  font-size: 1.2rem;
+  margin: 0 auto;
  
-  border-radius: 28px;
+
+
+  
+}
+
+
+.nuestrasMarcas{
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.nuestrasMarcas h1{
+  text-align: center;
+}
+
+.marca_logo1{
+  width: 20%;
+  height: auto;
+  padding: 20px;
+  object-fit: contain;
 }
