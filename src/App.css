@@ -274,5 +274,8 @@ tr{
 }
 
 .img_compra{
-  width: 20%;
+  height: 50px;
+  object-fit: cover;
+ 
+  border-radius: 28px;
 }
