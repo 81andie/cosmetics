@@ -5,6 +5,7 @@ import { ProductServiceMarca } from '../photoservice/ProductServiceMarca';
 export const Pedido = () => {
 
   const [cart, setCart] = useState([]);
+  const [quantities, setQuantities ]= useState({});
 
   const getCartFromLocalStorage = () => {
     const savedCart = localStorage.getItem('cart');
@@ -16,6 +17,12 @@ export const Pedido = () => {
     if (cartFromLocalStorage) {
       setCart(cartFromLocalStorage);
 
+      const initialQuantities ={};
+      cartFromLocalStorage.forEach(product=>{
+        initialQuantities[product.id]= 1
+      })
+
+      setQuantities(initialQuantities);
 
 
 
@@ -23,45 +30,51 @@ export const Pedido = () => {
   }, []);
 
 
+const handleCantidadChange =(e, productId)=>{
+  const value = e.target.value;
+  const cantidad = value === "" ? "" : parseInt(value);
 
+  console.log(`Changing quantity of product ID ${productId} to ${cantidad}`);
+  setQuantities({
+    ...quantities,
+    [productId]: cantidad
 
-  let prueba = [...cart];
-
-  function totalCarrito(precio) {
-
-    let suma = 0;
-    for (let i = 0; i < prueba.length; i++) {
-      suma += precio[i].price;
-
-    }
-    return suma;
-  }
-
-
-
-  let total = totalCarrito(prueba);
-
-
-
-  function cantidadProductos(e) {
-    e.preventDefault();
-    let cantidad = [];
-    let productosCantidad = e.target.value;
-
-
-   for(let i=0; i<prueba.length; i++){
-
-    console.log(prueba[i].price * productosCantidad)
-   }
+    
+  });
 
 }
 
+let prueba = [...cart];
+
+ let resultado= [];
+
+
+function subtotalCarrito (subtotal){
+
+  let total=0;
+  let total1= 0;
+  for(let i = 0; i<subtotal.length; i++){
+    const product = subtotal[i];
+    const quantity = quantities[product.id] || 1;
+
+   console.log(product);
+   total1= product.price * quantity;
+   resultado.push(total1);
+
+  total+= product.price * quantity;
+
+
   
+  
+  }
+  return total;
+}
 
 
+subtotalCarrito(prueba);
 
 
-
+console.log(resultado)
 
 
 
@@ -92,25 +105,33 @@ export const Pedido = () => {
         </thead>
         <tbody>
 
-          {cart.map((item, index) => (
+          {cart.map((product) => (
 
-            <tr key={index}>
+            <tr key={product.id}>
               <td className="producto_celda">
 
-                <h5>{item.name}</h5>
-                <img src={`/images/${item.image}`} className="img_compra" />
+                <h5>{product.name}</h5>
+                <img src={`/images/${product.image}`} className="img_compra" />
 
               </td>
-              <td>{item.price}</td>
+              <td>{product.price}</td>
               <td>
 
                 {/*<button onClick={() => updateQuantity(index, -1)}>-</button>
-                {item.cantidad}
-          <button onClick={() => updateQuantity(index, 1)}>+</button>*/}
-                <input type="number" id="productos" name="productos" min="1" max="10" onChange={cantidadProductos} />
+                {item.cantidad}*/}
+
+<input
+            type="number"
+            value={quantities[product.id] !== undefined ? quantities[product.id] : 1}
+            min="1"
+            max="10"
+            onChange={(e) => handleCantidadChange(e, product.id)}
+          />
+ 
+               
 
               </td>
-              <td>{item.price}</td>
+              <td>{product.price}</td>
               <td></td>
             </tr>
 
@@ -127,7 +148,7 @@ export const Pedido = () => {
           </tr>
           <tr>
             <td>
-              <h3>Total</h3>
+            <h2>Total:${total} </h2>
             </td>
             <td></td>
             <td></td>
