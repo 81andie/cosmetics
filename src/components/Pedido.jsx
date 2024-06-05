@@ -40,17 +40,27 @@ export const Pedido = () => {
 
 
   let total = totalCarrito(prueba);
-  console.log(total);
+
+
+
+  function cantidadProductos(e) {
+    e.preventDefault();
+    let cantidad = [];
+    let productosCantidad = e.target.value;
+
+
+   for(let i=0; i<prueba.length; i++){
+
+    console.log(prueba[i].price * productosCantidad)
+   }
+
+}
+
   
 
-  function cantidadProductos (e){
-  let cantidad =e.target.value;
-  console.log(cantidad);
-
-  }
 
 
-  
+
 
 
 
@@ -88,7 +98,7 @@ export const Pedido = () => {
               <td className="producto_celda">
 
                 <h5>{item.name}</h5>
-                <img src={`/images/${item.image}`} className="img_compra"  />
+                <img src={`/images/${item.image}`} className="img_compra" />
 
               </td>
               <td>{item.price}</td>
@@ -97,7 +107,7 @@ export const Pedido = () => {
                 {/*<button onClick={() => updateQuantity(index, -1)}>-</button>
                 {item.cantidad}
           <button onClick={() => updateQuantity(index, 1)}>+</button>*/}
-                <input type="number" id="productos" name="productos" min="1" max="10"  onChange={cantidadProductos}/>
+                <input type="number" id="productos" name="productos" min="1" max="10" onChange={cantidadProductos} />
 
               </td>
               <td>{item.price}</td>
