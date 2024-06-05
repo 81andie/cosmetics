@@ -16,11 +16,43 @@ export const Pedido = () => {
     if (cartFromLocalStorage) {
       setCart(cartFromLocalStorage);
 
-      console.log(cart);
+
 
 
     }
   }, []);
+
+
+
+
+  let prueba = [...cart];
+
+  function totalCarrito(precio) {
+
+    let suma = 0;
+    for (let i = 0; i < prueba.length; i++) {
+      suma += precio[i].price;
+
+    }
+    return suma;
+  }
+
+
+
+  let total = totalCarrito(prueba);
+  console.log(total);
+  
+
+  function cantidadProductos (e){
+  let cantidad =e.target.value;
+  console.log(cantidad);
+
+  }
+
+
+  
+
+
 
 
 
@@ -56,16 +88,18 @@ export const Pedido = () => {
               <td className="producto_celda">
 
                 <h5>{item.name}</h5>
-                <img src={`/images/${item.image}`} className="img_compra" />
+                <img src={`/images/${item.image}`} className="img_compra"  />
 
               </td>
               <td>{item.price}</td>
               <td>
 
-              {/*<button onClick={() => updateQuantity(index, -1)}>-</button>
+                {/*<button onClick={() => updateQuantity(index, -1)}>-</button>
                 {item.cantidad}
           <button onClick={() => updateQuantity(index, 1)}>+</button>*/}
-          </td>
+                <input type="number" id="productos" name="productos" min="1" max="10"  onChange={cantidadProductos}/>
+
+              </td>
               <td>{item.price}</td>
               <td></td>
             </tr>
