@@ -1,139 +1,109 @@
-import React from 'react'
-import { useEffect, useState } from 'react'
-import { ProductServiceMarca } from '../photoservice/ProductServiceMarca';
+import React, { useEffect, useState } from 'react';
+import { DataTable } from 'primereact/datatable';
+import { Column } from 'primereact/column';
+import { Button } from 'primereact/button';
+import { Rating } from 'primereact/rating';
+import { Tag } from 'primereact/tag';
 
 export const Pedido = () => {
-
-  const [cart, setCart] = useState([]);
-  const [quantities, setQuantities] = useState({});
-  const [total, setTotal] = useState(0);
-
-  const IVA_RATE = 0.21; 
-
-
-  const getCartFromLocalStorage = () => {
-    const savedCart = localStorage.getItem('cart');
-    return savedCart ? JSON.parse(savedCart) : [];
-  }
+  const [products, setProducts] = useState([]);
 
   useEffect(() => {
-
-    const cartFromLocalStorage = getCartFromLocalStorage();
-    if (cartFromLocalStorage) {
-      setCart(cartFromLocalStorage);
-
-      const initialQuantities = {};
-      cartFromLocalStorage.forEach(product => {
-        initialQuantities[product.id] = 1
-      })
-
-      setQuantities(initialQuantities);
-      calculateTotal(cartFromLocalStorage, initialQuantities);
-
-
+    const storedProducts = localStorage.getItem('cart');
+    console.log(storedProducts);
+    if (storedProducts) {
+      const parsedProducts = JSON.parse(storedProducts);
+      console.log('Productos recuperados de localStorage:', parsedProducts);
+      setProducts(parsedProducts);
+    } else {
+      console.log('No products found in localStorage.');
     }
   }, []);
 
-
-  const handleCantidadChange = (e, productId) => {
-    const value = e.target.value;
-    const cantidad = value === "" ? "" : parseInt(value);
-
-    setQuantities(prevQuantities => {
-      const newQuantities = {
-        ...prevQuantities,
-        [productId]: cantidad,
-      };
-      calculateTotal(cart, newQuantities);
-      return newQuantities;
-    });
-
-  }
-
-
-  const calculateTotal = (cart, quantities) => {
-    let total = 0;
-   
-    cart.forEach(product => {
-      const quantity = quantities[product.id] || 1;
-      total += product.price * quantity;
-     
-    });
-    setTotal(total);
-    
+  const formatCurrency = (value) => {
+    return value.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
   };
-  
-  const renderRows =  cart.map((product) => {
-    const quantity = quantities[product.id] || 1;
-    const subtotal = product.price * quantity;
-    const iva = subtotal * IVA_RATE;
-    const totalConIva = subtotal+iva;
-  
-    return (
-      <tr key={product.id}>
-        <td className="producto_celda">
-          <h5>{product.name}</h5>
-          <img src={`/images/${product.image}`} className="img_compra" />
-        </td>
-        <td>{product.price.toFixed(2)}</td>
-        <td>
-          <input
-            type="number"
-            value={quantity}
-            min="1"
-            max="10"
-            onChange={e => handleCantidadChange(e, product.id)}
-          />
-        </td>
-        <td>{subtotal.toFixed(2)}</td>
-        <td>{iva.toFixed(2)}</td>
-        <td>{totalConIva.toFixed(2)}</td>
-        <td></td>
-      </tr>
-    );
-  });
+
+  const imageBodyTemplate = (product) => {
+    return <img src={`/images/${product.image}`} alt={product.name} className="w-6rem shadow-2 border-round" />;
+  };
+
+  const priceBodyTemplate = (product) => {
+    return formatCurrency(product.price);
+  };
+
+  const ratingBodyTemplate = (product) => {
+    return <Rating value={product.rating} readOnly cancel={false} />;
+  };
+
+  const statusBodyTemplate = (product) => {
+    return <Tag value={product.inventoryStatus} severity={getSeverity(product)}></Tag>;
+  };
+
+  const getSeverity = (product) => {
+    switch (product.inventoryStatus) {
+      case 'INSTOCK':
+        return 'success';
+      case 'LOWSTOCK':
+        return 'warning';
+      case 'OUTOFSTOCK':
+        return 'danger';
+      default:
+        return null;
+    }
+  };
+
+  const calculateSubtotal = (product) => {
+    return product.price * (product.quantity || 1);
+  };
+
+  const total = products.reduce((sum, product) => sum + calculateSubtotal(product), 0);
+  console.log(total)
+  const IVA = total * 0.21; // Assuming 21% IVA
+  const totalWithIVA = total + IVA;
+  const companyAddress = "1234 Company St, City, Country";
+
+  const footer = (
+    <div>
+      <div style={{ textAlign: 'right' }}>
+        <strong>Total:</strong> {formatCurrency(total)}
+      </div>
+      <div style={{ textAlign: 'right' }}>
+        <strong>IVA (21%):</strong> {formatCurrency(IVA)}
+      </div>
+      <div style={{ textAlign: 'right' }}>
+        <strong>Total con IVA:</strong> {formatCurrency(totalWithIVA)}
+      </div>
+      <div style={{ textAlign: 'right' }}>
+        <strong>Dirección:</strong> {companyAddress}
+      </div>
+    </div>
+  );
+
+  const header = (
+    <div className="flex flex-wrap align-items-center justify-content-between gap-2">
+      <span className="text-xl text-900 font-bold">Productos</span>
+      <Button icon="pi pi-refresh" rounded raised onClick={() => window.location.reload()} />
+    </div>
+  );
 
   return (
     <section className="container_pedido">
       <div className="pedido_titulo">
-        <img src="/logo.jpg" className="logo_tienda1" />
+        <img src="/logo.jpg" className="logo_tienda1" alt="logo" />
         <h1>TU PEDIDO</h1>
       </div>
       <hr />
 
-      <table>
-        <thead>
-          <tr>
-            <td>&nbsp;PRODUCTOS</td>
-            <td>Precio</td>
-            <td>Cantidad</td>
-            <td>Subtotal</td>
-            <td>IVA</td>
-            <td>Total</td>
-          </tr>
-        </thead>
-        <tbody>
-          {renderRows}
-          <tr>
-            <td>
-              <h2>Total: {total.toFixed(2)}</h2>
-            </td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>{total.toFixed(2)}</td>
-          </tr>
-        </tbody>
-      </table>
+      <div className="card3">
+        <DataTable value={products} header={header} footer={footer} tableStyle={{ minWidth: '60rem' }}>
+          <Column field="name" header="Producto" />
+          <Column header="Imagen" body={imageBodyTemplate} />
+          <Column field="price" header="Precio" body={priceBodyTemplate} />
+          <Column field="category" header="Categoria" />
+          <Column header="Subtotal" body={(product) => formatCurrency(calculateSubtotal(product))} />
+        </DataTable>
+      </div>
     </section>
   );
-
-  
-
-
-
-
-
- 
-}
+};

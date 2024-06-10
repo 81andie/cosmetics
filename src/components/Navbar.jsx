@@ -61,7 +61,7 @@ export const Navbar = () => {
         },
 
         { 
-            label: 'Nuestros Productos', icon: 'pi pi-fw pi-star-fill',
+            label: 'Productos', icon: 'pi pi-fw pi-star-fill',
             items: [
                 [
                     {
@@ -112,7 +112,7 @@ export const Navbar = () => {
             ]
         },
         {
-            label: 'Tratamientos Corporales y Faciales', icon: 'pi pi-fw pi-star',
+            label: 'Tratamientos', icon: 'pi pi-fw pi-star',
             items: [
                 [
                     {

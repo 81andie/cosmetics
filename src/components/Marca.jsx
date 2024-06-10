@@ -14,27 +14,28 @@ export const Marca = () => {
 
 
     const [products, setProducts] = useState([]);
+ 
 
-    const[cart,setCart] = useState(()=>{
+    const [cart, setCart] = useState(() => {
         const savedCart = localStorage.getItem('cart');
-       
+
         return savedCart ? JSON.parse(savedCart) : [];
     })
 
- const addToCart = (product)=>{
+    const addToCart = (product) => {
 
-    console.log("Agregando al carrito:", product);
+        console.log("Agregando al carrito:", product);
 
-    const isProductInCart = cart.some(item=>item.id === product.id);
-    if(!isProductInCart){
-        const updateCart = [...cart,product];
-        setCart(updateCart);
-        localStorage.setItem('cart', JSON.stringify(updateCart));
-    }
-   
-   
+        const isProductInCart = cart.some(item => item.id === product.id);
+        if (!isProductInCart) {
+            const updateCart = [...cart, product];
+            setCart(updateCart);
+            localStorage.setItem('cart', JSON.stringify(updateCart));
+        }
 
- };
+
+
+    };
 
     const ds = useRef(null);
 
@@ -48,7 +49,7 @@ export const Marca = () => {
                     return item.marca === id
                 })
 
-             
+
                 setProducts(items)
                 console.log(items)
             }
@@ -72,14 +73,14 @@ export const Marca = () => {
     };
 
 
-    
+
 
     const itemTemplate = (data) => {
         return (
             <>
-               
+
                 <div className="col-12">
-              
+
                     <img className="marca_logo " src={`/images/${data.portada}`} alt={data.portada} />
                     <div className="flex flex-column xl:flex-row xl:align-items-start p-2 gap-5">
 
@@ -106,7 +107,7 @@ export const Marca = () => {
 
 
                                 <div className="flex flex-column gap-2 mt-3.5">
-                                    <Rating value={data.rating} readOnly cancel={false}></Rating>
+                                    <Rating value={data.rating} readOnly cancel={false} ></Rating>
                                     <span className="flex align-items-center p-1 gap-2">
 
                                         <i className="pi pi-tag product-category-icon "></i>
@@ -135,7 +136,7 @@ export const Marca = () => {
         <div className="card-shooping">
 
             <DataScroller ref={ds} value={products} itemTemplate={itemTemplate} rows={5} loader footer={footer} header="Click Load Button at Footer to Load More" />
-            
+
         </div>
     )
 
