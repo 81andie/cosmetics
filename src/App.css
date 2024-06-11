@@ -368,8 +368,59 @@ tr {
 
 }
 
+
+
 .container_info span{
   margin-top: 20px;
   font-size: 1.2rem;
  
+}
+
+.container_total,
+.totalIva{
+  width: 100%;
+  font-size: 1.3rem;
+  background: rgb(9, 9, 9);
+  color: white;
+  margin-bottom: 5px;
+
+}
+
+.iva
+{
+
+  border-bottom: 1px solid black;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+.producto{
+  width: 230px;
+  text-align: center;
+  font-weight: bolder;
+  font-size:1rem;
+}
+
+.cantidad input{
+  width: 60px;
+  padding: 8px;
+}
+
+.container_informacion{
+  margin-top: 20px;
+  padding: 20px;
+  width: 150px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  
+}
+
+.container_informacion img{
+  width: 100px;
+ 
+}
+
+.card3{
+  width: 80%;
 }

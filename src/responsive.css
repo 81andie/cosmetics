@@ -96,6 +96,10 @@
     object-fit: contain;
   }
 
+  .card3{
+    width: 100%;
+  }
+
 }
 
 @media (min-width:481px) {}
@@ -177,6 +181,11 @@
     object-fit: contain;
   }
 
+  .card3{
+    width: 100%;
+   
+  }
+
 }
 
 @media(min-width: 1025px) {
@@ -214,6 +223,10 @@
     height: auto;
     padding: 20px;
     object-fit: contain;
+  }
+
+  .card3{
+    width: 100%;
   }
 
 }

@@ -6,15 +6,18 @@ import { DataScroller } from 'primereact/datascroller';
 import { Rating } from 'primereact/rating';
 import { Tag } from 'primereact/tag';
 import { ProductServiceMarca } from '../photoservice/ProductServiceMarca';
-import { useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom';
+import { Toast } from 'primereact/toast';
 
 
 export const Marca = () => {
+    const toast = useRef(null);
+
     const { id } = useParams()
 
 
     const [products, setProducts] = useState([]);
- 
+
 
     const [cart, setCart] = useState(() => {
         const savedCart = localStorage.getItem('cart');
@@ -72,6 +75,15 @@ export const Marca = () => {
         }
     };
 
+    const showInfo = () => {
+        toast.current.show({ 
+            severity: 'info', 
+            summary: 'Mensaje información al usuario', 
+            detail: 'Ha agregado su producto en el carrito', 
+            life: 3000 
+        });
+    }
+
 
 
 
@@ -117,8 +129,20 @@ export const Marca = () => {
                                 </div>
                             </div>
                             <div className="flex flex-row lg:flex-column align-items-center lg:align-items-end gap-4 lg:gap-2 container_btncompra">
-                                <span className="text-2xl font-semibold">${data.price}</span>
-                                <Button icon="pi pi-shopping-cart w-9" label="Comprar" disabled={data.inventoryStatus === 'OUTOFSTOCK'} onClick={() => addToCart(data)}> </Button>
+                                <Toast ref={toast} />
+
+                                <span className="text-2xl font-semibold">€{data.price}</span>
+                                <Button
+                                    icon="pi pi-shopping-cart w-9"
+                                    label="Comprar"
+                                    disabled={data.inventoryStatus === 'OUTOFSTOCK'}
+                                    onClick={() => {
+                                        addToCart(data);
+                                        showInfo();
+                                    }}
+                                />
+
+
                                 <Tag value={data.inventoryStatus} severity={getSeverity(data)} className="tags"></Tag>
                             </div>
                         </div>
