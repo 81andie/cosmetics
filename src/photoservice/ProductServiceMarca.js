@@ -249,15 +249,15 @@ export const ProductServiceMarca = {
                 marca: 'chanel',
                 variants: [
                     { color: 'Roige Beige', id: '1-red' },
-                    { color: 'Nude', id: '1-pink' },
-                    { color: 'Doré', id: '1-nude' },
-                    { color: 'fucsia', id: '1-nude' },
-                    { color: 'chery', id: '1-nude' },
-                    { color: 'Rose', id: '1-nude' },
-                    { color: 'dorado', id: '1-nude' },
-                    { color: 'chanel', id: '1-nude' },
-                    { color: 'Lucky', id: '1-nude' },
-                    { color: 'Brown', id: '1-nude' },
+                    { color: 'Nude', id: '1-pinky' },
+                    { color: 'Doré', id: '1-nudeon' },
+                    { color: 'fucsia', id: '1-nud' },
+                    { color: 'chery', id: '1-cherry' },
+                    { color: 'Rose', id: '1-Rose electric' },
+                    { color: 'dorado', id: '1-doradi' },
+                    { color: 'chanel', id: '1-chanel' },
+                    { color: 'Lucky', id: '1-luckyChanel' },
+                    { color: 'Brown', id: '1-brownsugar' },
 
                 ],
                 inventoryStatus: 'INSTOCK',
@@ -277,13 +277,13 @@ export const ProductServiceMarca = {
                 marca: 'chanel',
                 variants: [
 
-                    { color: 'fucsia', id: '1-nude' },
-                    { color: 'chery', id: '1-nude' },
-                    { color: 'Rose', id: '1-nude' },
-                    { color: 'dorado', id: '1-nude' },
-                    { color: 'chanel', id: '1-nude' },
-                    { color: 'Lucky', id: '1-nude' },
-                    { color: 'Brown', id: '1-nude' },
+                    { color: 'fucsia', id: 'fucAsiatic' },
+                    { color: 'chery', id: 'CherrySweet' },
+                    { color: 'Rose', id: '1-RosaBulgaria' },
+                    { color: 'dorado', id: '1-doradoBecah' },
+                    { color: 'chanel', id: '1-Chanelepico' },
+                    { color: 'Lucky', id: '1-Suerte' },
+                    { color: 'Brown', id: '1-Browns' },
 
                 ],
                 inventoryStatus: 'INSTOCK',
@@ -303,26 +303,26 @@ export const ProductServiceMarca = {
                 marca: 'chanel',
                 variants: [
 
-                    { color: '01', id: '1-nude' },
-                    { color: '02', id: '1-nude' },
-                    { color: '03', id: '1-nude' },
-                    { color: '04', id: '1-nude' },
-                    { color: '05', id: '1-nude' },
-                    { color: '06', id: '1-nude' },
-                    { color: '07', id: '1-nude' },
-                    { color: '08', id: '1-nude' },
-                    { color: '09', id: '1-nude' },
-                    { color: '10', id: '1-nude' },
-                    { color: '11', id: '1-nude' },
-                    { color: '12', id: '1-nude' },
-                    { color: '13', id: '1-nude' },
-                    { color: '14', id: '1-nude' },
-                    { color: '15', id: '1-nude' },
-                    { color: '16', id: '1-nude' },
-                    { color: '17', id: '1-nude' },
-                    { color: '18', id: '1-nude' },
-                    { color: '19', id: '1-nude' },
-                    { color: '20', id: '1-nude' },
+                    { color: '01', id: '00001' },
+                    { color: '02', id: '00002' },
+                    { color: '03', id: '00003' },
+                    { color: '04', id: '00004' },
+                    { color: '05', id: '00005' },
+                    { color: '06', id: '00006' },
+                    { color: '07', id: '00007' },
+                    { color: '08', id: '00008' },
+                    { color: '09', id: '00009' },
+                    { color: '10', id: '00010' },
+                    { color: '11', id: '00011' },
+                    { color: '12', id: '00012' },
+                    { color: '13', id: '00013' },
+                    { color: '14', id: '00014' },
+                    { color: '15', id: '00015' },
+                    { color: '16', id: '00016' },
+                    { color: '17', id: '00017' },
+                    { color: '18', id: '00018' },
+                    { color: '19', id: '00019' },
+                    { color: '20', id: '00020' },
 
                 ],
                 inventoryStatus: 'INSTOCK',
@@ -342,9 +342,9 @@ export const ProductServiceMarca = {
                 marca: 'chanel',
                 variants: [
 
-                    { color: 'noir', id: '1-nude' },
-                    { color: 'lilac', id: '1-nude' },
-                    { color: 'granate', id: '1-nude' },
+                    { color: 'noir', id: '1-noir' },
+                    { color: 'lilac', id: '1-lilack' },
+                    { color: 'granate', id: '1-granat' },
 
 
 
@@ -367,12 +367,12 @@ export const ProductServiceMarca = {
                 inventoryStatus: 'INSTOCK',
 
                 variants: [
-                    { color: '008 Dior', id: '1-red' },
-                    { color: '100 Nude', id: '1-pink' },
-                    { color: 'Jardin Doré', id: '1-nude' },
-                    { color: '329 Tie', id: '1-nude' },
-                    { color: 'Mimi Rose', id: '1-nude' },
-                    { color: 'Rose', id: '1-nude' }],
+                    { color: 'Mil nuits', id: '00021' },
+                    { color: 'Nud Pasion', id: '00022' },
+                    { color: 'Or dor', id: '00023' },
+                    { color: 'Carolina', id: '00024' },
+                    { color: 'Mimi Carolina', id: '00025' },
+                    { color: 'Rose Carolina', id: '00026' }],
 
                 rating: 3
             },
@@ -391,12 +391,12 @@ export const ProductServiceMarca = {
                 inventoryStatus: 'INSTOCK',
 
                 variants: [
-                    { color: '008 Dior', id: '1-red' },
-                    { color: '100 Nude', id: '1-pink' },
-                    { color: 'Jardin Doré', id: '1-nude' },
-                    { color: '329 Tie', id: '1-nude' },
-                    { color: 'Mimi Rose', id: '1-nude' },
-                    { color: 'Rose', id: '1-nude' }],
+                    { color: '008 Dior', id: '00027' },
+                    { color: '100 Nude', id: '00028' },
+                    { color: 'Jardin Doré', id: '00029' },
+                    { color: '329 Tie', id: '00030' },
+                    { color: 'Mimi Rose', id: '00031' },
+                    { color: 'Rose', id: '00032' }],
 
                 rating: 3
             },
@@ -720,7 +720,7 @@ export const ProductServiceMarca = {
                 quantity: 0,
                 marca: 'gucci',
                 variants: [
-                    { color: 'luminios', id: '1-red' },
+                    { color: 'luminios', id: '00033' },
                 ],
                 inventoryStatus: 'INSTOCK',
                 rating: 3
