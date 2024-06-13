@@ -14,28 +14,55 @@ export const Marca = () => {
     const toast = useRef(null);
 
     const { id } = useParams()
-
-
     const [products, setProducts] = useState([]);
-
-
-
+    const[color,setColor]= useState([]);
     const [cart, setCart] = useState(() => {
         const savedCart = localStorage.getItem('cart');
 
         return savedCart ? JSON.parse(savedCart) : [];
     })
 
+    const agregarColor = (e, productId) => {
+        const selectedColor = e.target.getAttribute('data-color');
+        setColor(prevState => ({ ...prevState, [productId]: selectedColor }));
+        console.log(`Color seleccionado para el producto ${productId}: ${selectedColor}`);
+       
+        setCart(prevCart => {
+            const updatedCart = prevCart.map(item => {
+                if (item.id === productId) {
+                    return { ...item, color: selectedColor };
+                }
+                return item;
+            });
+            console.log('Carrito actualizado:', updatedCart);
+            return updatedCart;
+        });
+
+        
+       
+    };
+
+
+
+
+
     const addToCart = (product) => {
 
         console.log("Agregando al carrito:", product);
 
         const isProductInCart = cart.some(item => item.id === product.id);
+
+       
         if (!isProductInCart) {
-            const updateCart = [...cart, product];
+             const updatedProduct = { ...product, color: color[product.id] || '' };
+            const updateCart = [...cart, updatedProduct];
+            console.log('Producto actualizado:', updatedProduct);
+           
             setCart(updateCart);
+         
 
             localStorage.setItem('cart', JSON.stringify(updateCart));
+          
         }
 
 
@@ -85,22 +112,16 @@ export const Marca = () => {
             life: 3000
         });
     }
+  
 
     
 
+  
+   
 
-        const agregarColor = (e) => {
-            e.preventDefault();
-            let colors = e.target.getAttribute('data-color');
+     
 
-            if (colors) {
-                setColor(colors);
-                
-            console.log(colors);
 
-            }
-
-        }
 
         const itemTemplate = (data) => {
             return (
@@ -120,7 +141,10 @@ export const Marca = () => {
                                         {data.variants && (
                                             <div className="flex flex-row gap-1 p-1 color-selectors-container">
                                                 {data.variants.map((variant) => (
-                                                    <button key={variant.id} data-color={variant.color} onClick={agregarColor} className={`color-selector-button bg-${variant.color.toLowerCase()}`}>{variant.color}
+                                                    <button key={variant.id} 
+                                                    data-color={variant.color} 
+                                                    onClick={(e) => agregarColor(e, data.id)}
+                                                     className={`color-selector-button bg-${variant.color.toLowerCase()}`}>{variant.color}
 
                                                     </button>
                                                 ))}
@@ -154,6 +178,7 @@ export const Marca = () => {
                                         onClick={() => {
                                             addToCart(data);
                                             showInfo();
+                                        
                                         }}
                                     />
 

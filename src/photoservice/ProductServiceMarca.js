@@ -5,7 +5,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1000',
-
+                color: 'No color',
                 portada: 'dior logo.png',
                 code: 'f230fh0g3',
                 name: 'Christian Dior Eden-Roc',
@@ -16,10 +16,12 @@ export const ProductServiceMarca = {
                 quantity: 0,
                 marca: 'dior',
                 inventoryStatus: 'INSTOCK',
-                rating: 5
+                rating: 5,
+               
             },
             {
                 id: '1001',
+                color: 'No color',
                 portada: 'dior logo.png',
                 code: 'nvklal433',
                 name: 'Christian Dior, Gris Dior ',
@@ -30,11 +32,13 @@ export const ProductServiceMarca = {
                 quantity: 0,
                 marca: 'dior',
                 inventoryStatus: 'INSTOCK',
-                rating: 4
+                rating: 4,
+                
             },
             {
                 id: '1002',
                 code: 'zz21cz3c1',
+                color: 'No color',
                 portada: 'dior logo.png',
                 name: 'Christian Dior, J´adore l´or ',
                 description: 'Todo el oro de Jadore en un concentrado puro y esencial. Para L´Or de J´adore, Francis Kurkdjian, Director Creativo de Perfumes Dior, exalta la belleza de las flores de J´adore amplificando sus matices y acentuando sus colores.',
@@ -49,6 +53,7 @@ export const ProductServiceMarca = {
             {
                 id: '1003',
                 code: '244wgerg2',
+                color: 'No color',
                 portada: 'dior logo.png',
                 name: 'Christian Dior, Miss Dior',
                 description: 'En 1947, Miss Dior nació de ese impulso irracional, de ese deseo imperioso de reencantar la vida de las mujeres, de hacerles redescubrir los resplandecientes colores del amor. ',
@@ -62,6 +67,7 @@ export const ProductServiceMarca = {
             },
             {
                 id: '1004',
+                color: '',
                 code: 'h456wer53',
                 portada: 'dior logo.png',
                 name: 'Dior Addict',
@@ -78,10 +84,12 @@ export const ProductServiceMarca = {
                     { color: 'Beige', id: '1-Bei' },
                     { color: 'Dioreli', id: '1-Dio' },
                     { color: 'Lucky', id: '1-lucky' },
-                    { color: 'Brown', id: '1-nuding' },
+                    { color: '', id: 'colorSeleccionado' },
+                   
 
                 ],
                 category: 'Lipstic',
+              
                 quantity: 0,
                 marca: 'dior',
                 inventoryStatus: 'INSTOCK',
@@ -89,6 +97,7 @@ export const ProductServiceMarca = {
             },
             {
                 id: '1005',
+                color: 'No color',
                 code: 'av2231fwg',
                 portada: 'dior logo.png',
                 name: 'Dior Addict Lip Tint',
@@ -103,6 +112,7 @@ export const ProductServiceMarca = {
             },
             {
                 id: '1006',
+                color: 'No color',
                 code: 'bib36pfvm',
                 portada: 'dior logo.png',
                 name: 'Dior Addict Lip Glow Oil',
@@ -117,6 +127,7 @@ export const ProductServiceMarca = {
             },
             {
                 id: '1007',
+                color: 'No color',
                 code: 'mbvjkgip5',
                 portada: 'dior logo.png',
                 name: 'Diorshow 5 coulers',
@@ -131,6 +142,7 @@ export const ProductServiceMarca = {
             },
             {
                 id: '1008',
+                color: 'No color',
                 code: 'vbb124btr',
                 portada: 'dior logo.png',
                 name: 'Dior Vernís',
@@ -145,6 +157,7 @@ export const ProductServiceMarca = {
             },
             {
                 id: '1009',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'dior logo.png',
                 name: 'Sauvage',
@@ -161,6 +174,7 @@ export const ProductServiceMarca = {
             {
                 id: '1010',
                 code: 'cm230f032',
+                color: 'No color',
                 portada: 'logoChanel.png',
                 name: 'Chanel, Bleu de Chanel',
                 description: 'BLEU DE CHANEL Eau de Parfum es un aromático amaderado en el que la nobleza de la madera de sándalo de Nueva Caledonia está acompañada por notas de cedro ambarinas y haba tonka. Su estela es cálida y sensual.',
@@ -176,6 +190,7 @@ export const ProductServiceMarca = {
             {
                 id: '1011',
                 code: 'cm230f032',
+                color: 'No color',
                 portada: 'logoChanel.png',
                 name: 'Chanel, Comète',
                 description: 'Nacida con estrella, la colección “Bijoux de diamants” creada en 1932 por Gabrielle Chanel revela el legendario collar Comète, cuya estrella fugaz en el hueco del cuello simboliza la parte íntima de una joya. Luminoso y sensual, COMÈTE Eau de Parfum evoca mediante su acorde de flores de cerezo atravesado por notas de heliotropo y notas empolvadas de lirio, una estela de polvo de estrellas.',
@@ -192,6 +207,7 @@ export const ProductServiceMarca = {
             {
                 id: '1012',
                 code: 'cm230f032',
+                color: 'No color',
                 portada: 'logoChanel.png',
                 name: 'Chanel, 1957',
                 description: ' Estados Unidos, 1957. Coco Chanel se consagra, es mundialmente reconocida. Su audacia para obtener materias únicas y después reinventarlas, así como su talento para sublimarlas, son la esencia de su creación reflejada en 1957, un acorde de almizcles blancos delicadamente elaborado, y salpicado de notas florales, acentos amaderados, melados y empolvados. Un sello luminoso del estilo de CHANEL.',
@@ -208,6 +224,7 @@ export const ProductServiceMarca = {
             {
                 id: '1013',
                 code: 'cm230f032',
+                color: 'No color',
                 portada: 'logoChanel.png',
                 name: 'Chanel, Coco Mademoiselle',
                 description: ' COCO MADEMOISELLE Eau de Parfum es un perfume oriental, una fragancia viva y voluptuosa. Las notas de naranja, vivas y frescas, despiertan los sentidos. El corazón, claro y sensual, desvela acordes transparentes de jazmín y rosa. La estela desvela los acentos depurados de pachulí y de vetiver que realzan la silueta elegante de la composición. ',
@@ -224,6 +241,7 @@ export const ProductServiceMarca = {
             {
                 id: '1014',
                 code: 'cm230f032',
+                color: 'No color',
                 portada: 'logoChanel.png',
                 name: 'Chanel, Les Beiges',
                 description: 'LES BEIGES CRÈME BELLE MINE ENSOLEILLÉE se presenta en formato viaje para acompañarle durante todo el verano. Esta crema gel con un efecto bronceador sublima la tez con un bronceado natural y radiante. ',
@@ -238,13 +256,14 @@ export const ProductServiceMarca = {
 
             {
                 id: '1015',
+                color: '',
                 code: 'cm230f032',
                 portada: 'logoChanel.png',
                 name: 'Chanel, Le Rouge 31',
                 description: 'La barra de labios más exclusiva de la Maison inspirada en una dirección emblemática, 31 rue Cambon , cuna de la creación CHANEL.',
                 image: 'lerouge.webp',
                 price: 165,
-                category: 'Eau de Parfum, vaporizador || 100ml',
+                category: 'Lipstic',
                 quantity: 0,
                 marca: 'chanel',
                 variants: [
@@ -258,14 +277,17 @@ export const ProductServiceMarca = {
                     { color: 'chanel', id: '1-chanel' },
                     { color: 'Lucky', id: '1-luckyChanel' },
                     { color: 'Brown', id: '1-brownsugar' },
+                 
 
                 ],
+               
                 inventoryStatus: 'INSTOCK',
                 rating: 3
             },
 
             {
                 id: '1016',
+                color: '',
                 code: 'cm230f032',
                 portada: 'logoChanel.png',
                 name: 'Chanel, Rouge Allure',
@@ -284,14 +306,16 @@ export const ProductServiceMarca = {
                     { color: 'chanel', id: '1-Chanelepico' },
                     { color: 'Lucky', id: '1-Suerte' },
                     { color: 'Brown', id: '1-Browns' },
-
+                    
                 ],
+              
                 inventoryStatus: 'INSTOCK',
                 rating: 3
             },
 
             {
                 id: '1017',
+                color: '',
                 code: 'cm230f032',
                 portada: 'logoChanel.png',
                 name: 'Chanel, Les Beiges',
@@ -323,14 +347,17 @@ export const ProductServiceMarca = {
                     { color: '18', id: '00018' },
                     { color: '19', id: '00019' },
                     { color: '20', id: '00020' },
+                    
 
                 ],
+                
                 inventoryStatus: 'INSTOCK',
                 rating: 3
             },
 
             {
                 id: '1018',
+                color: '',
                 code: 'cm230f032',
                 portada: 'logoChanel.png',
                 name: 'Chanel, Noir Allure',
@@ -345,16 +372,18 @@ export const ProductServiceMarca = {
                     { color: 'noir', id: '1-noir' },
                     { color: 'lilac', id: '1-lilack' },
                     { color: 'granate', id: '1-granat' },
-
+                    
 
 
                 ],
+                
                 inventoryStatus: 'INSTOCK',
                 rating: 3
             },
 
             {
                 id: '1019',
+                color: '',
                 code: 'cm230f032',
                 portada: 'logo carolina.jpg',
                 name: 'Carolina, Good GirlGloss',
@@ -372,13 +401,18 @@ export const ProductServiceMarca = {
                     { color: 'Or dor', id: '00023' },
                     { color: 'Carolina', id: '00024' },
                     { color: 'Mimi Carolina', id: '00025' },
-                    { color: 'Rose Carolina', id: '00026' }],
+                    { color: 'Rose Carolina', id: '00026' },
+                  
+                
+                ],
 
-                rating: 3
+                rating: 3,
+                
             },
 
             {
                 id: '1020',
+                color: '',
                 code: 'cm230f032',
                 portada: 'logo carolina.jpg',
                 name: 'Carolina, Set Fabulous kiss',
@@ -396,13 +430,17 @@ export const ProductServiceMarca = {
                     { color: 'Jardin Doré', id: '00029' },
                     { color: '329 Tie', id: '00030' },
                     { color: 'Mimi Rose', id: '00031' },
-                    { color: 'Rose', id: '00032' }],
+                    { color: 'Rose', id: '00032' },
+                  
+                ],
 
-                rating: 3
+                rating: 3,
+              
             },
 
             {
                 id: '1021',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'logo carolina.jpg',
                 name: 'CH, Men',
@@ -418,6 +456,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1022',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'logo carolina.jpg',
                 name: 'CH, l´Eau',
@@ -433,6 +472,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1023',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'logo carolina.jpg',
                 name: 'CH, Good Girl',
@@ -449,6 +489,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1024',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'logo carolina.jpg',
                 name: 'Amazonian Rose',
@@ -465,6 +506,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1025',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'logo carolina.jpg',
                 name: 'Mistery Tobaco',
@@ -481,6 +523,7 @@ export const ProductServiceMarca = {
             {
                 id: '1026',
                 code: 'cm230f032',
+                color: 'No color',
                 portada: 'logo carolina.jpg',
                 name: 'Luckycharms Alegría de Vivir',
                 description: 'Alegría de Vivir Eau de Parfum es un aroma ligero y ultrafemenino que te da la bienvenida con un ramo de delicadas peonías y un rico corazón de madera de cedro, enraizado en notas de fondo de vapor de arroz.',
@@ -496,6 +539,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1027',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'logoguerlain.png',
                 name: 'Tobaco Honey',
@@ -511,6 +555,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1028',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'logoguerlain.png',
                 name: 'Aqua allegoria Bosca Vanilla forte',
@@ -526,6 +571,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1029',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'logoguerlain.png',
                 name: 'Aqua Mandarine Basilic Forte',
@@ -543,6 +589,7 @@ export const ProductServiceMarca = {
             {
                 id: '1030',
                 code: 'cm230f032',
+                color: 'No color',
                 portada: 'logoguerlain.png',
                 name: 'HABIT ROUGE',
                 description: 'Los perfumistas de la Maison Guerlain han reinterpretado la estela ambarina del icónico Habit Rouge, inspirado en el mundo de los licores. Este mundo, que tiene mucho en común con el de la perfumería, les ha aportado notas emblemáticas y una estética intensa y cautivadora. Esta fragancia, elaborada con ingredientes excepcionales y altamente concentrados, ofrece una seducción inédita.',
@@ -573,6 +620,7 @@ export const ProductServiceMarca = {
             {
                 id: '1032',
                 code: 'cm230f032',
+                color: 'No color',
                 portada: 'logoguerlain.png',
                 name: 'brocha para polvos bronceadores, terracotta',
                 description: 'Alegría de Vivir Eau de Parfum es un aroma ligero y ultrafemenino que te da la bienvenida con un ramo de delicadas peonías y un rico corazón de madera de cedro, enraizado en notas de fondo de vapor de arroz.',
@@ -587,6 +635,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1033',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'logoguerlain.png',
                 name: 'kiskiss liplift',
@@ -602,6 +651,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1034',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'logoguerlain.png',
                 name: 'Ombres g aura glow',
@@ -618,6 +668,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1035',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'logoguerlain.png',
                 name: 'La petite robe noire',
@@ -633,6 +684,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1036',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'gucci.jpg',
                 name: 'Gucci Bloom intense',
@@ -649,6 +701,7 @@ export const ProductServiceMarca = {
             {
                 id: '1037',
                 code: 'cm230f032',
+                color: 'No color',
                 portada: 'gucci.jpg',
                 name: 'A song for the rose',
                 description: 'La colección personalizable, compuesta por eaux de parfum, aceites perfumados y acque profumate (aguas perfumadas), se inspira en el arte de la alquimia y la elaboración de fragancias. Cada uno de sus aromas se ha diseñado para poder combinarse y crear así una fusión de fragancias exclusiva y personal. ',
@@ -664,6 +717,7 @@ export const ProductServiceMarca = {
             {
                 id: '1038',
                 code: 'cm230f032',
+                color: 'No color',
                 portada: 'gucci.jpg',
                 name: 'Acqua profumata a winter melody, ciprés',
                 description: 'Las fragancias se han creado a partir de un ingrediente clave vinculado a los códigos emblemáticos de la Firma. Además, cada una de ellas puede intensificarse, neutralizarse o fusionarse con otras fragancias de la colección de lujo para crear combinaciones únicas.',
@@ -679,6 +733,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1039',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'gucci.jpg',
                 name: 'palette de beauté quatuor',
@@ -695,6 +750,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1040',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'gucci.jpg',
                 name: 'Gucci Vernis à òngles, crystal black',
@@ -710,6 +766,8 @@ export const ProductServiceMarca = {
 
             {
                 id: '1041',
+                
+                color: '',
                 code: 'cm230f032',
                 portada: 'gucci.jpg',
                 name: 'Illuminateur de beauté',
@@ -721,7 +779,10 @@ export const ProductServiceMarca = {
                 marca: 'gucci',
                 variants: [
                     { color: 'luminios', id: '00033' },
+                    
                 ],
+
+                
                 inventoryStatus: 'INSTOCK',
                 rating: 3
             },
@@ -729,6 +790,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1042',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'gucci.jpg',
                 name: 'The alchemist´s Garden , the heart of leo',
@@ -744,6 +806,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1043',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'gucci.jpg',
                 name: 'Baume nourrissant universel',
@@ -759,6 +822,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1044',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'Touslogo.webp',
                 name: 'Loveme the emerald elixir',
@@ -774,6 +838,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1045',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'zadig-voltaire-2.jpg',
                 name: 'this is her!',
@@ -789,6 +854,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1046',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'doceygabana.png',
                 name: 'Devotion',
@@ -804,6 +870,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1047',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'logo lancome.webp',
                 name: 'La Vie Est Belle',
@@ -819,6 +886,8 @@ export const ProductServiceMarca = {
 
             {
                 id: '1048',
+
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'aqua di parma.jpg',
                 name: 'blue mediterraneo mirto di panarea',
@@ -834,6 +903,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1049',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'logo joemalone.jpg',
                 name: 'Cologne English Pear & Freesia Edición especial',
@@ -849,6 +919,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1050',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'logo joemalone.jpg',
                 name: 'Cologne aqua lemon',
@@ -864,6 +935,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1051',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'logo joemalone.jpg',
                 name: 'Scarlet Poppy',
@@ -879,6 +951,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1052',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'logo giorgioarmani.jpg',
                 name: 'Acqua di Giò',
@@ -894,6 +967,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1053',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'siheidologo.png',
                 name: 'Essential Energy',
@@ -911,6 +985,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1054',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'cliniquelogo.png',
                 name: 'mousture surge 100h auto-replenishing hydrator',
@@ -927,6 +1002,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1055',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'cliniquelogo.png',
                 name: 'Smart clinical repair',
@@ -942,6 +1018,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1056',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'cliniquelogo.png',
                 name: 'Superdefense CC cream spf30',
@@ -958,6 +1035,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1057',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'elisabet.png',
                 name: 'Visible difference',
@@ -973,6 +1051,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1058',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'elisabet.png',
                 name: '8 hour Cream Original',
@@ -987,6 +1066,7 @@ export const ProductServiceMarca = {
             },
             {
                 id: '1059',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'elisabet.png',
                 name: 'Ceramide premire crema hidrante regenerante intensiva spf 30',
@@ -1002,6 +1082,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1060',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'cliniquelogo.png',
                 name: 'Clinique id dramatically different oil-free',
@@ -1018,6 +1099,7 @@ export const ProductServiceMarca = {
 
             {
                 id: '1061',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'cliniquelogo.png',
                 name: 'Even Better Clinical',
@@ -1033,12 +1115,45 @@ export const ProductServiceMarca = {
 
             {
                 id: '1062',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'siheidologo.png',
                 name: 'Bio Performance Skin filler serum antiedad',
                 description: 'Descubre la innovación en el cuidado de la piel con el serum antiedad de SHISEIDO: Bio-Performance Skin Filler. Este dúo de sérums complementarios, inspirados en la medicina estética, redefine el enfoque anti-edad para obtener una piel con aspecto cinco años más joven en un solo día* ',
                 image: 'bioperfomance.webp',
                 price: 147.95,
+                category: 'Serums',
+                quantity: 0,
+                marca: 'serums',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1062',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'siheidologo.png',
+                name: 'Ultimune',
+                description: 'El sérum emblemático de Shiseido renovado con mayores beneficios antiedad para una piel sana y vibrante, con menos signos de envejecimiento. Una textura exquisita, que se funde con la piel, demostrando que cambia tanto la piel como la forma en que se siente el usuario. ',
+                image: 'shiserum.jpg',
+                price: 116.95,
+                category: 'Serums',
+                quantity: 0,
+                marca: 'serums',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1062',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'siheidologo.png',
+                name: 'Future Solution LX, Sérum Éclat Ultime',
+                description: 'Crema revitalizadora, que proteje de los cambios de la piel, en el tiempo, piel rejuvenecida en pocas semanas',
+                image: 'shiserum1.jpg',
+                price: 447.95,
                 category: 'Serums',
                 quantity: 0,
                 marca: 'serums',

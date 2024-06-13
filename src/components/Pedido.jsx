@@ -8,19 +8,45 @@ import { Tag } from 'primereact/tag';
 export const Pedido = () => {
   const [products, setProducts] = useState([]);
 
+
   useEffect(() => {
     const storedProducts = localStorage.getItem('cart');
+ 
+ 
     
-    if (storedProducts) {
+   
+
+ 
+    if (storedProducts ) {
       const parsedProducts = JSON.parse(storedProducts);
-     //console.log('Productos recuperados de localStorage:', parsedProducts);
+   
+      console.log('Productos recuperados de localStorage:', parsedProducts);
       setProducts(parsedProducts);
+      
+    
     } else {
       console.log('No products found in localStorage.');
     }
+
+
+
+   
   }, []);
 
+
+
+
+
+ 
+
+
+
+
+
   const formatCurrency = (value) => {
+    if (typeof value !== 'number' || isNaN(value)) {
+      return '';
+    }
     return value.toLocaleString('en-DE', { style: 'currency', currency: 'EUR' });
   };
 
@@ -35,6 +61,21 @@ export const Pedido = () => {
   const ratingBodyTemplate = (product) => {
     return <Rating value={product.rating} readOnly cancel={false} />;
   };
+
+
+  const BodyTemplateColor= (product) => {
+    return product.color ? <span>{product.color}</span> : null;
+  };
+ 
+  const nameBodyTemplate = (rowData) => {
+    return (
+        <span>
+            {rowData.name}
+            {rowData.color && <span className="spanColor"> - {rowData.color}</span>}
+        </span>
+    );
+};
+  
 
  
 
@@ -56,7 +97,7 @@ export const Pedido = () => {
   };
 
   const total = products.reduce((sum, product) => sum + calculateSubtotal(product), 0);
-  console.log(total)
+
   const IVA = total * 0.21; // Assuming 21% IVA
   const totalWithIVA = total + IVA;
   const companyAddress = "Avenida de las Acácias,20 Narnia";
@@ -103,9 +144,14 @@ export const Pedido = () => {
 
       <div className="card3">
         <DataTable value={products} header={header} footer={footer} tableStyle={{ minWidth: '60rem' }}>
-          <Column field="name" header="Producto" className="producto"/>
-          <Column header="Imagen" body={imageBodyTemplate} />
+        <Column field="name" header="Producto" className="producto" body={nameBodyTemplate} />
+        <Column header="Imagen" body={imageBodyTemplate} />
+          
+         
+       
           <Column field="price" header="Precio" body={priceBodyTemplate} />
+        
+         
         
           <Column
             className="cantidad"
