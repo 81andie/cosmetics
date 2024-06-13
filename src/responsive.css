@@ -72,7 +72,8 @@
     width: 100%;
 
   }
-
+  
+ 
 
   .container_sobreNosotros {
     flex-direction: column;
@@ -221,7 +222,7 @@
   .marca_logo1{
     width: 12%;
     height: auto;
-    padding: 20px;
+    
     object-fit: contain;
   }
 

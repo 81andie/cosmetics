@@ -280,54 +280,64 @@ tr {
 
 }
 
-.sobre_nosotros {
-  width: 100%;
-  text-align: center;
-}
-
-.container_sobreNosotros {
-  width: 90%;
+.sobre_nosotros{
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 0 auto;
-  background-color: black;
 
 
-
+  
 }
 
-.img_sobrenosotros {
+
+
+.sobre_nosotrosPresentacion {
+  font-size: 2rem;
+  display: flex;
+ flex-wrap: wrap;
+  
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  padding: 50px;
+
+}    
+
+.sobre_nosotrosPresentacion h1{
+  font-size: 2.3rem;
+}
+
+.sobre_nosotrosPresentacion span{
+  font-size: 1.5rem;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
   margin-top: 30px;
-  padding: 20px;
-  width: 45%;
-  height: auto;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  
 
 
+}                                  
 
 
+.iframe_sobrenosotros{
+  width: 20vw;
+  height: 30vh;
+  box-shadow: 12px 19px 2px 2px rgb(248, 211, 211);
+ 
+  
 }
 
-.parr_sobreNosotros {
-  width: 45%;
-  height: auto;
-  color: white;
-  font-size: 1.2rem;
-  margin: 0 auto;
 
-
-
-
-}
 
 
 .nuestrasMarcas {
   width: 100%;
-  background-color: rgb(241, 239, 239);
+
+  background-color: rgba(241, 239, 239, 0.1);
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+ margin: 0 auto;
+ vertical-align: text-bottom;
+  
+  
 }
 
 .nuestrasMarcas h1 {
@@ -335,14 +345,15 @@ tr {
 }
 
 .marca_logo1 {
-  width: 20%;
+  width: 29%;
   height: auto;
-  padding: 20px;
+
   object-fit: contain;
 
 }
 
 .informacion_container {
+  margin-top: 230px;
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
