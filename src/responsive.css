@@ -91,11 +91,16 @@
   }
 
   .marca_logo1{
-    width: 29%;
+    width: 42%;
     height: auto;
-    padding: 20px;
+    padding: 10px;
     object-fit: contain;
   }
+  .nuestrasMarcas{
+    width: 100%;
+    padding: 20px;
+  }
+  
 
   .card3{
     width: 100%;
@@ -182,6 +187,11 @@
     object-fit: contain;
   }
 
+  .nuestrasMarcas{
+    width: 70%;
+    padding: 20px;
+  }
+
   .card3{
     width: 100%;
    
@@ -220,10 +230,15 @@
   }
 
   .marca_logo1{
-    width: 12%;
+    width: 25%;
     height: auto;
     
     object-fit: contain;
+  }
+
+  .nuestrasMarcas{
+    width: 60%;
+    padding: 20px;
   }
 
   .card3{

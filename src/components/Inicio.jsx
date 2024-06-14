@@ -31,7 +31,7 @@ export const Inicio = () => {
       <img src="images/logo lancome.webp" className="marca_logo1"/>
       <img src="images/logo joemalone.jpg" className="marca_logo1"/>
       <img src="images/logo giorgioarmani.jpg" className="marca_logo1"/>
-      <img src="images/guccilogo.avif" className="marca_logo1"/>
+     
       <img src="images/cliniquelogo.png" className="marca_logo1"/>
       <img src="images/siheidologo.png" className="marca_logo1"/>
       <img src="images/elisabet.png" className="marca_logo1"/>

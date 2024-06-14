@@ -280,44 +280,69 @@ tr {
 
 }
 
-.sobre_nosotros{
+.sobre_nosotros {
   display: flex;
- 
+
 }
 
 
 
 .sobre_nosotrosPresentacion {
-  height:50vh;
-  font-size: 2rem;
+  height: 65vh;
+  width: auto;
+  position: relative;
   display: flex;
- flex-wrap: wrap;
- margin-top: 100px;
- margin-bottom: 50px;
-justify-content: center;
-background-image: url("https://img.freepik.com/fotos-premium/melocoton-ruboriza-polvo-fondo-blanco_38705-53.jpg?w=996");
-background-size: contain;
-background-repeat: no-repeat;
-object-fit: contain;
-color: rgb(36, 33, 33);
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: center;
+
+  background-image: 
+  url("https://img.freepik.com/fotos-premium/melocoton-ruboriza-polvo-fondo-blanco_38705-53.jpg?w=996");
+
   
+  background-repeat: no-repeat;
 
+  object-fit: cover;
+  color: rgb(0, 0, 0);
 
-}    
-
-.sobre_nosotrosPresentacion h1{
-  font-size: 2.3rem;
 }
 
-.sobre_nosotrosPresentacion span{
+
+.sobre_nosotrosPresentacion::before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(255, 253, 253, 0.685), rgba(245, 227, 227, 0.027));
+  pointer-events: none;
+  /* Para que el pseudo-elemento no afecte a la interacción del usuario */
+}
+
+
+
+
+
+.sobre_nosotrosPresentacion h1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  letter-spacing: 10px;
+  background-color: rgba(240, 248, 255, 0.498);
+ 
+}
+
+.sobre_nosotrosPresentacion span {
   font-size: 1.8rem;
   font-weight: bolder;
   text-align: unset;
- 
- margin-left: 35px;
+
+  margin-left: 35px;
 
 
-}                                  
+}
 
 
 
@@ -326,51 +351,60 @@ color: rgb(36, 33, 33);
 
 .nuestrasMarcas {
   width: 70%;
-  background-color: rgba(241, 239, 239, 0.1);
   display: flex;
   flex-wrap: wrap;
- margin: 0 auto;
-
-  
-}
-
-.marcas{
-  display: flex;
-  flex-wrap: wrap;
-  width: 70%;
   margin: 0 auto;
+  color: rgb(2, 2, 2);
+  background-image: url("../public/images/trazorojo.jpg");
+  background-size: cover;
+ 
+
+
 }
-.nuestrasMarcas h1{
-  font-size: 2.3rem;
-  text-align: center;
+
+.marcas {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+
+}
+
+.nuestrasMarcas h1 {
+ 
+
+  font-size: 2.5rem;
+  font-weight: bolder;
+  letter-spacing: 20px;
+  background-color: rgba(240, 248, 255, 0.498);
 }
 
 
 
 .marca_logo1 {
-  width: 29%;
+  width: 30%;
+  position: relative;
   height: auto;
-  font-size: 1.8rem;
+  border: 2px solid rgb(252, 250, 250);
   font-weight: bolder;
- 
- margin-left: 15px;
+  margin-left: 15px;
   object-fit: contain;
-  padding: 20px;
+ 
   margin-top: 20px;
-
-  height:50vh;
+ 
   font-size: 2rem;
   display: flex;
- flex-wrap: wrap;
- margin-top: 50px;
-justify-content: center;
-background-image: url("../public/images/trazorojo.jpg");
-background-size: contain;
-background-repeat: no-repeat;
-object-fit: cover;
-  
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+  border-radius: 20px;
+  object-fit: cover;
+  filter: drop-shadow(3px 9px 6px rgb(77, 76, 42));
+  box-shadow: 2px 3px 2px black;
+
 
 }
+
 
 .informacion_container {
   margin-top: 230px;
@@ -394,21 +428,21 @@ object-fit: cover;
   background-color: rgba(254, 249, 249, 0.68);
   color: black;
   border: 1px solid white;
-  border-radius:23px;
+  border-radius: 23px;
 
 
 }
 
 
 
-.container_info span{
+.container_info span {
   margin-top: 20px;
   font-size: 1.2rem;
- 
+
 }
 
 .container_total,
-.totalIva{
+.totalIva {
   width: 100%;
   font-size: 1.3rem;
   background: rgb(9, 9, 9);
@@ -417,54 +451,54 @@ object-fit: cover;
 
 }
 
-.iva
-{
+.iva {
 
   border-bottom: 1px solid black;
   font-size: 1.1rem;
   margin-bottom: 5px;
 }
-.producto{
+
+.producto {
   width: 230px;
   text-align: center;
   font-weight: bolder;
-  font-size:1rem;
+  font-size: 1rem;
 }
 
-.cantidad input{
+.cantidad input {
   width: 60px;
   padding: 8px;
 }
 
-.container_informacion{
+.container_informacion {
   margin-top: 20px;
   padding: 20px;
   width: 150px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  
+
 }
 
-.container_informacion img{
+.container_informacion img {
   width: 100px;
- 
+
 }
 
-.card3{
+.card3 {
   width: 80%;
 }
 
-.spanColor{
+.spanColor {
   width: 50px;
-  height:50px;
+  height: 50px;
   padding: 10px;
   background-color: rgba(86, 72, 72, 0.68);
   color: white;
   font-size: 12px;
- margin-left: 10px;
- border: 1px solid black;
+  margin-left: 10px;
+  border: 1px solid black;
 
- 
+
 }
