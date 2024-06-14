@@ -292,12 +292,14 @@ tr {
   font-size: 2rem;
   display: flex;
  flex-wrap: wrap;
- margin-top: 50px;
+ margin-top: 100px;
+ margin-bottom: 50px;
 justify-content: center;
-background-image: url("../public/images/trazorojo.jpg");
+background-image: url("https://img.freepik.com/fotos-premium/melocoton-ruboriza-polvo-fondo-blanco_38705-53.jpg?w=996");
 background-size: contain;
 background-repeat: no-repeat;
-object-fit: cover;
+object-fit: contain;
+color: rgb(36, 33, 33);
   
 
 
@@ -310,13 +312,9 @@ object-fit: cover;
 .sobre_nosotrosPresentacion span{
   font-size: 1.8rem;
   font-weight: bolder;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
- margin-left: 15px;
- padding: 60px;
-
+  text-align: unset;
  
- 
+ margin-left: 35px;
 
 
 }                                  
@@ -327,25 +325,50 @@ object-fit: cover;
 
 
 .nuestrasMarcas {
-  width: 100%;
+  width: 70%;
   background-color: rgba(241, 239, 239, 0.1);
   display: flex;
   flex-wrap: wrap;
  margin: 0 auto;
- vertical-align: text-bottom;
-  
+
   
 }
 
-.nuestrasMarcas h1 {
+.marcas{
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
+}
+.nuestrasMarcas h1{
+  font-size: 2.3rem;
   text-align: center;
 }
+
+
 
 .marca_logo1 {
   width: 29%;
   height: auto;
-
+  font-size: 1.8rem;
+  font-weight: bolder;
+ 
+ margin-left: 15px;
   object-fit: contain;
+  padding: 20px;
+  margin-top: 20px;
+
+  height:50vh;
+  font-size: 2rem;
+  display: flex;
+ flex-wrap: wrap;
+ margin-top: 50px;
+justify-content: center;
+background-image: url("../public/images/trazorojo.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+object-fit: cover;
+  
 
 }
 

@@ -15,12 +15,14 @@ export const Inicio = () => {
 </div>
    
    
-    <div className ="sobre_nosotros">
+
 
    
 <div className="nuestrasMarcas" id="marcas">
 
     <h1>Nuestras marcas</h1>
+
+    <div className="marcas">
       <img src="images/dior logo.png" className="marca_logo1"/>
       <img src="images/Touslogo.webp" className="marca_logo1"/>
       <img src="images/gucci.jpg" className="marca_logo1"/>
@@ -35,8 +37,8 @@ export const Inicio = () => {
       <img src="images/elisabet.png" className="marca_logo1"/>
       
       
-    </div>
-   
+
+      </div>
    
    
     </div>
