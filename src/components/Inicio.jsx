@@ -7,9 +7,10 @@ export const Inicio = () => {
 
 <div className ="sobre_nosotrosPresentacion">
       <h1>Sobre Nosotros</h1>
-    <span className="parr_sobreNosotros">Fundada en 1950, Cleopatra nació de la idea de crear una experiencia de compra única para los amantes de la belleza. Nos inspiramos en la naturaleza y la ciencia para seleccionar los mejores productos para ti.</span>
-    <iframe  src="images/MISS DIOR - THE NEW PARFUM.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowFullScreen className="iframe_sobrenosotros"></iframe>
+      {/*<iframe  src="images/MISS DIOR - THE NEW PARFUM.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowFullScreen className="iframe_sobrenosotros"></iframe>*/}
     
+    <span className="parr_sobreNosotros">Fundada en 1950, Cleopatra nació de la idea de crear una experiencia de compra única para los amantes de la belleza. Nos inspiramos en la naturaleza y la ciencia para seleccionar los mejores productos para ti.</span>
+   
 
 </div>
    

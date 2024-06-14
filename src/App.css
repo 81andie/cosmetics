@@ -282,21 +282,24 @@ tr {
 
 .sobre_nosotros{
   display: flex;
-
-
-  
+ 
 }
 
 
 
 .sobre_nosotrosPresentacion {
+  height:50vh;
   font-size: 2rem;
   display: flex;
  flex-wrap: wrap;
+ margin-top: 50px;
+justify-content: center;
+background-image: url("../public/images/trazorojo.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+object-fit: cover;
   
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
-  padding: 50px;
+
 
 }    
 
@@ -305,32 +308,26 @@ tr {
 }
 
 .sobre_nosotrosPresentacion span{
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: bolder;
   border-top: 3px solid black;
   border-bottom: 3px solid black;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 20px;
-  
+ margin-left: 15px;
+ padding: 60px;
+
+ 
+ 
 
 
 }                                  
 
 
-.iframe_sobrenosotros{
-  width: 20vw;
-  height: 30vh;
-  box-shadow: 12px 19px 2px 2px rgb(248, 211, 211);
- 
-  
-}
 
 
 
 
 .nuestrasMarcas {
   width: 100%;
-
   background-color: rgba(241, 239, 239, 0.1);
   display: flex;
   flex-wrap: wrap;
