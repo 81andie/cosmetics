@@ -237,8 +237,13 @@
   }
 
   .nuestrasMarcas{
-    width: 60%;
+    width: 45%;
     padding: 20px;
+  }
+
+  .sobre_nosotrosPresentacion img{
+    margin-top:50px;
+    width: 100%;
   }
 
   .card3{
