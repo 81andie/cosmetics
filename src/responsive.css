@@ -120,8 +120,8 @@
   }
 
   .container_subscripción{
-    width: 87%;
-  
+    width: 89%;
+    margin-left: 20px;
   }
 
 }
@@ -255,14 +255,14 @@
   .subscripcion{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     align-items:center;
    justify-content: center;
   }
 
   .container_subscripción{
-    width: 45%;
-    margin-left: 20px;
+    width: 40%;
+    margin-left: 10px;
   }
 
 }

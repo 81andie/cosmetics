@@ -45,6 +45,7 @@ export const Inicio = () => {
           <img src="images/cliniquelogo.png" className="marca_logo1" />
           <img src="images/siheidologo.png" className="marca_logo1" />
           <img src="images/elisabet.png" className="marca_logo1" />
+          <img src="images/aqua di parma.jpg" className="marca_logo1" />
 
 
 

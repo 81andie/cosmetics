@@ -347,25 +347,30 @@ url("https://img.freepik.com/fotos-premium/melocoton-ruboriza-polvo-fondo-blanco
 }
 
 .nuestrasMarcas {
-  
-  width: 70%;
+
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
+ 
+ margin: 0 auto;
+ 
+
   color: rgb(2, 2, 2);
   margin-bottom: 60px;
-
+ 
+ 
 
 }
 
-.marcas {
-  display: flex;
-  margin-top: 50px;
-  flex-wrap: wrap;
+.marcas{
   width: 100%;
-  background-image: url("../public/images/trazorojo.jpg");
-  
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 15px;
+  padding: 10px;
+  padding-left: 10px;
 }
+
 
 
 
@@ -379,6 +384,7 @@ url("https://img.freepik.com/fotos-premium/melocoton-ruboriza-polvo-fondo-blanco
 }
 
 figure{
+  margin-bottom: 50px;
   width: 70%;
   margin: 0 auto;
   color: rgb(2, 2, 2);
@@ -394,21 +400,21 @@ figure img{
 
 
 .marca_logo1 {
-  width: 30%;
+  width: 25%;
  
   height: auto;
   border: 2px solid rgb(252, 250, 250);
   font-weight: bolder;
-  margin-left: 15px;
-  object-fit: contain;
+
+ 
   margin-top: 20px;
-  
+  align-items: stretch;
   display: flex;
   flex-wrap: wrap;
-  padding: 10px;
-  justify-content: center;
   border-radius: 20px;
-  object-fit: cover;
+  margin: 0 auto;
+  gap: 20px;
+ 
   filter: drop-shadow(3px 9px 6px rgb(77, 76, 42));
   box-shadow: 2px 3px 2px black;
  
@@ -426,7 +432,7 @@ figure img{
 }
 
 .container_subscripción{
-  width: 45%;
+  width: 42%;
   margin-left: 10px;
 }
 
@@ -572,12 +578,33 @@ input{
   vertical-align: middle;
   text-decoration: none;
   list-style: none;
+  color: white;
+  background-color: black;
+ gap: 10px;
 
 
 }
 
+.logo_empresa_footer{
+  width: 20%;
+  padding: 20px;
+  background-color: white;;
+}
 .container_info_empresa{
  
+  margin-left: 15px;
+  line-height: 30px;
 
-  width: 30vw;
+}
+
+.social_icons1{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.logo_empresa_footer{
+  width: 20vw;
+  border-radius: 10%;
 }

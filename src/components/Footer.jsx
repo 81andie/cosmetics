@@ -5,6 +5,8 @@ export const Footer = () => {
   return (
     <>
       <section className='informacion_container'>
+    
+
         <div className="container_info_footer">
           <i className="pi pi-truck"> Envios gratis</i>
 
@@ -40,24 +42,33 @@ export const Footer = () => {
 
       <section className="footer">
 
-        <div className='container_info_empresa'>
-          <img src="logo.jpg" />
+      <div className="social_icons1">
+          <h1>Encuentranos en</h1>
+       
+          <img src="logo.jpg" className="logo_empresa_footer" />
+         
+       <i className="pi pi-instagram" style={{ color: 'white' }}></i>
+       <i className="pi pi-youtube" style={{ color: 'white' }}></i>
+       <i className="pi pi-facebook" style={{ color: 'white' }}></i>
+       <i className="pi pi-telegram" style={{ color: 'white' }}></i>
+       </div>
 
-          <ul>Ubicación</ul>
-          <li>C/Acacias (Narnia)</li>
-          <li>telf: XXXXXXXXXXX</li>
-          <li>Correo Electrónico: XXXXXXXXXXX@gmail.com</li>
 
-          
-        </div>
+     
 
         <div className='container_info_empresa'>
        
+         
+       </div>
+        
+      
 
-          <ul>Ubicación</ul>
+        <div className='container_info_empresa'>
+       
+        <ul>Ubicación</ul>
           <li>C/Acacias (Narnia)</li>
           <li>telf: XXXXXXXXXXX</li>
-          <li>Correo Electrónico: XXXXXXXXXXX@gmail.com</li>
+          <li>Correo Electrónico:<br/> XXXXXXXXXXX@gmail.com</li>
 
           
         </div>
@@ -65,16 +76,19 @@ export const Footer = () => {
         <div className='container_info_empresa'>
         
 
-          <ul>Ubicación</ul>
-          <li>C/Acacias (Narnia)</li>
-          <li>telf: XXXXXXXXXXX</li>
-          <li>Correo Electrónico: XXXXXXXXXXX@gmail.com</li>
+          <ul>Información</ul>
+          <li>Atención al cliente</li>
+          <li>Concertar Cita en tienda</li>
+        <li>Problemas con el pedido</li>
+        <li>Atención al cliente 24 horas</li>
 
           
         </div>
 
+        <div className='container_info_empresa'>
 
        
+       </div>
 
       </section>
     </>
