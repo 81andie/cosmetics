@@ -68,27 +68,18 @@
 
   }
 
-  .sobre_nosotros {
-    width: 100%;
+  .sobre_nosotrosPresentacion span{
 
-  }
-  
+    width: 100%;
+     font-size: 1.3rem;
+     font-weight: bolder;
+     padding: 10px;
+     line-height: 25px;
+     letter-spacing: 2px;
+     margin-top: 40px;
+   
+   }
  
-
-  .container_sobreNosotros {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .parr_sobreNosotros {
-    width: 100%;
-    margin-top: 20px;
-    padding: 10px;
-  }
-
-  .img_sobrenosotros {
-    width: 100%;
-  }
 
   .marca_logo1{
     width: 42%;
@@ -100,10 +91,37 @@
     width: 100%;
     padding: 20px;
   }
+
+  .container_fotografiasTienda{
+    width: 100%;
+  }
+
+  figure{
+    width: 100%;
+    margin: 0 auto;
+    color: rgb(2, 2, 2);
+  }
   
+  figure img{
+    width: 100%;
+    margin-top: 60px;
+  }
 
   .card3{
     width: 100%;
+  }
+
+  .subscripcion{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items:center;
+   justify-content: center;
+  }
+
+  .container_subscripción{
+    width: 87%;
+  
   }
 
 }
@@ -158,27 +176,31 @@
     margin-top: 10px;
 
   }
+  .sobre_nosotrosPresentacion{
+ 
+    width: 70%;
+    display: flex;
+    justify-content: center;
+  
+    flex-wrap: wrap;
+    margin: 0 auto;
+    color: rgb(2, 2, 2);
+  }
 
-  .container_sobreNosotros {
+  .sobre_nosotrosPresentacion span{
+
+   
+     font-size: 1.3rem;
+     font-weight: bolder;
+     padding: 10px;
+     line-height: 25px;
+     letter-spacing: 2px;
+     margin-top: 40px;
+   
+   }
  
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 0 auto;
-    background-color: black;
-  }
 
-  .parr_sobreNosotros {
-    width: 45%;
-    margin-top: 20px;
-    padding: 10px;
-  }
-
-  .img_sobrenosotros {
-    width: 45%;
-  }
 
   .marca_logo1{
     width: 20%;
@@ -192,9 +214,55 @@
     padding: 20px;
   }
 
+  .sobre_nosotrosPresentacion{
+ 
+    width: 70%;
+    display: flex;
+  
+    flex-wrap: wrap;
+    margin: 0 auto;
+    color: rgb(2, 2, 2);
+  }
+
+  .sobre_nosotrosPresentacion span{
+
+    width: 100%;
+     font-size: 1.3rem;
+     font-weight: bolder;
+     padding: 10px;
+     line-height: 25px;
+     letter-spacing: 2px;
+     margin-top: 40px;
+   
+   }
+
+  figure{
+    width: 70%;
+    margin: 0 auto;
+    color: rgb(2, 2, 2);
+  }
+  
+  figure img{
+    width: 100%;
+    margin-top: 60px;
+  }
+
   .card3{
     width: 100%;
    
+  }
+
+  .subscripcion{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items:center;
+   justify-content: center;
+  }
+
+  .container_subscripción{
+    width: 45%;
+    margin-left: 20px;
   }
 
 }
@@ -241,13 +309,39 @@
     padding: 20px;
   }
 
-  .sobre_nosotrosPresentacion img{
-    margin-top:50px;
+  .sobre_nosotrosPresentacion{
+ 
     width: 100%;
+    display: flex;
+    justify-content: center;
+  
+    flex-wrap: wrap;
+    margin: 0 auto;
+    color: rgb(2, 2, 2);
   }
+
+  .sobre_nosotrosPresentacion span{
+
+    width: 50%;
+     font-size: 1.3rem;
+     font-weight: bolder;
+     padding: 10px;
+     line-height: 25px;
+     letter-spacing: 2px;
+     margin-top: 40px;
+   
+   }
 
   .card3{
     width: 100%;
+  }
+
+  .subscripcion{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    align-items:center;
+    margin: 0 auto;
   }
 
 }
