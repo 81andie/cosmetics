@@ -109,6 +109,15 @@ export const Pedido = () => {
     localStorage.setItem('cart', JSON.stringify(updatedProducts));
   };
 
+  const eliminarProducto = (productos)=>{
+  
+    const actualizarProductos = products.filter((producto)=> producto.id !== productos.id );
+    setProducts(actualizarProductos);
+    localStorage.setItem('cart', JSON.stringify(actualizarProductos));
+  }
+
+
+
   const footer = (
     <div>
       <div  className="container_total" style={{ textAlign: 'right' }}>
@@ -133,6 +142,8 @@ export const Pedido = () => {
       <Button icon="pi pi-refresh" rounded raised onClick={() => window.location.reload()} />
     </div>
   );
+  
+
 
   return (
     <section className="container_pedido">
@@ -151,8 +162,6 @@ export const Pedido = () => {
        
           <Column field="price" header="Precio" body={priceBodyTemplate} />
         
-         
-        
           <Column
             className="cantidad"
             header="Cantidad"
@@ -166,6 +175,13 @@ export const Pedido = () => {
             />
 
           <Column header="Subtotal" body={(product) => formatCurrency(calculateSubtotal(product))} />
+          <Column
+                    header="Eliminar"
+                    body={(product) => (
+                        <Button  icon="pi pi-times" onClick={() => eliminarProducto(product)} />
+                    )}
+                />
+         
         </DataTable>
       </div>
     </section>

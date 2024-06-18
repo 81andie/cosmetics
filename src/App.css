@@ -327,6 +327,7 @@ url("https://img.freepik.com/fotos-premium/melocoton-ruboriza-polvo-fondo-blanco
   line-height: 25px;
   letter-spacing: 2px;
   margin-top: 40px;
+  margin-bottom: 20px;
  
 }
 
@@ -366,7 +367,7 @@ url("https://img.freepik.com/fotos-premium/melocoton-ruboriza-polvo-fondo-blanco
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin-right: 15px;
+
   padding: 10px;
   padding-left: 10px;
 }
@@ -401,20 +402,16 @@ figure img{
 
 .marca_logo1 {
   width: 25%;
- 
   height: auto;
   border: 2px solid rgb(252, 250, 250);
   font-weight: bolder;
 
- 
+margin: 0 auto;
+ margin-right: 10px;
   margin-top: 20px;
-  align-items: stretch;
   display: flex;
   flex-wrap: wrap;
   border-radius: 20px;
-  margin: 0 auto;
-  gap: 20px;
- 
   filter: drop-shadow(3px 9px 6px rgb(77, 76, 42));
   box-shadow: 2px 3px 2px black;
  
@@ -532,12 +529,13 @@ input{
 
 
 .informacion_container {
-  margin-top: 230px;
+  margin-top: 130px;
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
 
   justify-content: center;
+  margin-bottom: 150px;
 }
 
 .container_info_footer {
@@ -559,52 +557,25 @@ input{
 }
 
 
-.container_info_footer span{
- font-size: 1.2rem;
- margin-top: 10px;
-}
 
-.container_info_empresa img{
-  width: 20%;
-}
+
 
 .footer{
-  margin-top: 60px;
- 
-  height: 60vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  vertical-align: middle;
-  text-decoration: none;
-  list-style: none;
-  color: white;
-  background-color: black;
- gap: 10px;
-
-
 }
 
-.logo_empresa_footer{
-  width: 20%;
-  padding: 20px;
-  background-color: white;;
-}
 .container_info_empresa{
- 
-  margin-left: 15px;
-  line-height: 30px;
-
+  width: 30vw;
 }
 
-.social_icons1{
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
-  font-size: 20px;
+.logo_container{
+  width :20vw;
+  display: block;
 }
 
-.logo_empresa_footer{
-  width: 20vw;
-  border-radius: 10%;
+.logo_container img{
+  width:20vw;
+  border: 1px solid black;
 }
