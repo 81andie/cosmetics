@@ -76,8 +76,17 @@ export const Inicio = () => {
 
               <label for="email">Tu correo electrónico</label><br />
               <input type="email" id="lname" name="email" placeholder="email" /><br />
-              <input type="submit" value="Enviar" className="submit_button" />
-            </form>
+              {/*<input type="submit" value="Enviar" className="btnfos btnfos-1" />*/}
+              <a className="btnfos btnfos-1">
+      <svg>
+        <rect x="0" y="0" fill="none" width="100%" height="100% "/>
+        
+      </svg>
+     ENVIAR
+    </a> 
+             
+
+      </form>
           </div>
 
         </div>
