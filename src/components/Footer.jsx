@@ -43,49 +43,51 @@ export const Footer = () => {
 
       </section>
 
+
+<section className="logo_section_footer">
+<img src="/logo.jpg" className="logo_footer" />
+</section>
+
+<div className='container_footer_redes'>
+
+<i className="pi pi-instagram" style={{ color: 'white' }}></i>
+<i className="pi pi-youtube" style={{ color: 'white' }}></i>
+<i className="pi pi-facebook" style={{ color: 'white' }}></i>
+<i className="pi pi-telegram" style={{ color: 'white' }}></i>
+
+</div>
+
       <section className="footer">
 
-     
-       <h1>Encuéntranos en:</h1>
-     
 
+
+  
         <div className='container_info_empresa'>
-
-
-
-          <ul>Ubicación</ul>
-          <li>C/Acacias (Narnia)</li>
-          <li>telf: XXXXXXXXXXX</li>
-          <li>Correo Electrónico:<br /> XXXXXXXXXXX@gmail.com</li>
+          <ul><h1>Encuéntranos en:</h1>
+            <li>C/Acacias (Narnia)</li>
+            <li>telf: XXXXXXXXXXX</li>
+            <li>Correo Electrónico:<br /> XXXXXXXXXXX@gmail.com</li></ul>
 
 
         </div>
 
         <div className='container_info_empresa'>
-
-          <ul>Información</ul>
-          <li>Atención al cliente</li>
-          <li>Concertar Cita en tienda</li>
-          <li>Problemas con el pedido</li>
-          <li>Atención al cliente 24 horas</li>
+          <ul><h1>Información</h1>
+            <li>Atención al cliente</li>
+            <li>Concertar Cita en tienda</li>
+            <li>Problemas con el pedido</li>
+            <li>Atención al cliente 24 horas</li></ul>
 
         </div>
 
 
-       
-       
-     
+
+
+
 
 
       </section>
-      <div className='container_info_empresa1'>
-
-<i className="pi pi-instagram" style={{ color: 'black' }}></i>
-<i className="pi pi-youtube" style={{ color: 'black' }}></i>
-<i className="pi pi-facebook" style={{ color: 'black' }}></i>
-<i className="pi pi-telegram" style={{ color: 'black' }}></i>
-
- </div>
+    
 
 
     </>

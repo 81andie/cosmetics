@@ -559,23 +559,35 @@ input{
 
 
 
-
 .footer{
+
+ border: 1px solid black;
+ border-top: 2px solid black;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 30px;
 }
 
-.container_info_empresa{
-  width: 30vw;
+.container_info_empresa li{
+  list-style: none;
 }
 
-.logo_container{
-  width :20vw;
-  display: block;
+.logo_section_footer{
+  display: flex;
+  justify-content: center;
+
+  
 }
 
-.logo_container img{
-  width:20vw;
-  border: 1px solid black;
+.logo_section_footer img{
+ width: 25%;
+ height: auto;
+  
+}
+
+.container_footer_redes{
+text-align: center;
+background: black;
+border: 2px solid white;
 }
