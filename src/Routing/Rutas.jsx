@@ -5,6 +5,7 @@ import { Marca } from '../components/Marca';
 import { Pedido } from '../components/Pedido';
 import {Inicio} from '../components/Inicio';
 import { Marcas } from '../components/Marcas';
+import { Footer } from '../components/Footer';
 
 export const Routing = () => {
     return (
@@ -21,6 +22,7 @@ export const Routing = () => {
                    
                     
                 </Routes>
+                <Footer/>
             
         </>
 

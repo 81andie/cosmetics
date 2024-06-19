@@ -1,7 +1,10 @@
 import React from 'react'
-import { Footer } from './Footer'
+
 
 export const Inicio = () => {
+ 
+
+
   return (
     <>
 
@@ -30,6 +33,8 @@ export const Inicio = () => {
 
 
       <div className="nuestrasMarcas" id="marcas">
+
+     
 
         <h1>Nuestras marcas</h1>
 
@@ -79,7 +84,7 @@ export const Inicio = () => {
       </section>
 
 
-      <Footer />
+     
     </>
   )
 }

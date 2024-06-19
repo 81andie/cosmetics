@@ -129,10 +129,7 @@ export const Pedido = () => {
       <div className="totalIva"style={{ textAlign: 'right' }}>
         <em>Total con IVA:</em> {formatCurrency(totalWithIVA)}
       </div>
-      <div  className ="container_informacion" style={{ textAlign: 'center' }}>
-      <img src="/logo.jpg" className="logo_tienda1" alt="logo" />
-        <strong>Dirección:</strong> {companyAddress}
-      </div>
+      
     </div>
   );
 
