@@ -10,6 +10,9 @@ body {
 }
 
 
+
+
+
  body img{
   animation: fade linear forwards;
   scale: 0;
@@ -295,19 +298,14 @@ td {
 
 }
 
-tr {
-  background-color: rgb(243, 241, 240);
-}
 
 .producto_celda {
   display: flex;
 }
 
-.img_compra {
-  height: 50px;
-  object-fit: cover;
 
-}
+
+
 
 
 

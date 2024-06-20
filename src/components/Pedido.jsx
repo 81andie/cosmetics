@@ -49,7 +49,7 @@ export const Pedido = () => {
   };
 
   const imageBodyTemplate = (product) => {
-    return <img src={`/images/${product.image}`} alt={product.name} className="w-6rem shadow-2 border-round" />;
+    return <img src={`/images/${product.image}`} alt={product.name} className="img-products1"/>;
   };
 
   const priceBodyTemplate = (product) => {
@@ -151,7 +151,7 @@ export const Pedido = () => {
       <div className="card3">
         <DataTable value={products} header={header} footer={footer} tableStyle={{ minWidth: '60rem' }}>
         <Column field="name" header="Producto" className="producto" body={nameBodyTemplate} />
-        <Column header="Imagen" body={imageBodyTemplate} />
+        <Column header="Imagen" body={imageBodyTemplate}  />
         
           <Column field="price" header="Precio" body={priceBodyTemplate} />
         

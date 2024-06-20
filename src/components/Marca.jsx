@@ -13,7 +13,8 @@ import { Toast } from 'primereact/toast';
 export const Marca = () => {
     const toast = useRef(null);
 
-    const { id } = useParams()
+    const { id } = useParams();
+    
     const [products, setProducts] = useState([]);
     const [color, setColor] = useState([]);
     const [cart, setCart] = useState(() => {
