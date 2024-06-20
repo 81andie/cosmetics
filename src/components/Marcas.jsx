@@ -1,7 +1,15 @@
 import React from 'react'
 
+
 export const Marcas = () => {
+ 
+
+
   return (
+    <>
+  
+
+
     <div className="nuestrasMarcas" id="marcas">
       <h1>Nuestras marcas</h1>
       <img src="images/dior logo.png" className="marca_logo1"/>
@@ -17,9 +25,10 @@ export const Marcas = () => {
       <img src="images/siheidologo.png" className="marca_logo1"/>
       <img src="images/elisabet.png" className="marca_logo1"/>
       
-      
+     
      
 
     </div>
+    </>
   )
 }

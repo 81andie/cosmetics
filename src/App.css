@@ -262,7 +262,7 @@ header {
 }
 
 .logo_tienda1 {
-  width: 10%
+  width: 30%
 }
 
 
@@ -273,11 +273,20 @@ header {
   gap: 30px;
 }
 
+.pedido_titulo h1{
+  margin-top: 60px;
+  font-size: 2.2rem;
+  font-weight: bolder;
+  letter-spacing: 20px;
+  text-align: center;
+}
+
 table {
   width: 60%;
   margin: 0 auto;
   border: 1px solid black;
   font-size: 1.2rem;
+  
 
 }
 
@@ -418,6 +427,14 @@ margin: 0 auto;
 
 }
 
+.Subscribir_titulo h1{
+  margin-top: 60px;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  letter-spacing: 20px;
+  text-align: center;
+}
+
 
 .subscripcion{
  
@@ -429,9 +446,6 @@ margin: 0 auto;
 }
 
 .container_subscripción{
-
-
-
   width: 42%;
   margin-left: 10px;
 }
@@ -493,6 +507,11 @@ input{
 }
 
 
+.enviar_btn{
+  background-color: #fcfbfb;
+  padding: 2px;
+  height: 53px;
+}
 
 
 

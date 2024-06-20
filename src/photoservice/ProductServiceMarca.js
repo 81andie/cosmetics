@@ -1156,11 +1156,123 @@ export const ProductServiceMarca = {
                 price: 447.95,
                 category: 'Serums',
                 quantity: 0,
+                marca: 'Serums',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1062',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'siheidologo.png',
+                name: 'YUZU-c SHOT ECLAT',
+                description: 'Nutre tu piel con el sérum WASO Radiance Shot de Shisheido. Un sérum 98% de origen naturalcon una infusión de cítricos de yuzu(2) y vitamina C para un rostro más radiante. Este sérum de ácido hialurónico para pieles mixtas hidrata intensamente la piel y le aporta luminosidad para una rutina facial eficaz. ',
+                image: 'waso.avif',
+                price: 51.99,
+                category: 'Serums',
+                quantity: 0,
                 marca: 'serums',
                 inventoryStatus: 'INSTOCK',
                 rating: 3
             },
 
+            {
+                id: '1062',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'siheidologo.png',
+                name: 'ShiSheido Men Ultimune, Sérum fortalecedor pra hombres',
+                description: 'El Ultimune emblemático - reformulado para las necesidades únicas de los hombres.Dale a tu piel una ventaja para el futuro',
+                image: 'manshi.jpg',
+                price: 51.99,
+                category: 'Serums',
+                quantity: 0,
+                marca: 'serums',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+
+            {
+                id: '1062',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'cliniquelogo.png',
+                name: 'Take The Day Off - Desmaquillante Fácil de Ojos /Labios',
+                description: 'Este desmaquillador de ojos y labios no deja nada atrás. Disuelve sin esfuerzo el maquillaje de larga duración, incluso el rímel resistente al agua.',
+                image: 'ojosclinique.avif',
+                price: 25.99,
+                category: 'Serums',
+                quantity: 0,
+                marca: 'ojos',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1062',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'siheidologo.png',
+                name: 'Estuche Vital Perfection Lifting & Firming Ritual For Eyes',
+                description: 'Revitaliza el contorno de los ojos con este exclusivo ritual seleccionado meticulosamente, diseñado específicamente para abordar las necesidades antienvejecimiento de esta delicada área. Eleva tu rutina de cuidado de la piel con el Ritual Lifting y Reafirmante para Ojos de Shiseido y deslumbra con una mirada rejuvenecida y encantadora.',
+                image: 'shisheidopack.webp',
+                price: 58.49,
+                category: 'Serums',
+                quantity: 0,
+                marca: 'ojos',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+            
+            {
+                id: '1057',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'elisabet.png',
+                name: 'Advanced Ceramide Capsules',
+                description: 'ELIZABETH ARDEN ADVANCED CERAMIDE Capsules Daily Youth Restoring Eye Serum: Cápsulas monodosis que fortalecen la delicada piel del contorno de los ojos.',
+                image: 'ceramide.webp',
+                price: 45.95,
+                category: 'Crema hidratante',
+                quantity: 0,
+                marca: 'ojos',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1057',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'elisabet.png',
+                name: 'Advanced Ceramide Capsules',
+                description: 'ELIZABETH ARDEN ADVANCED CERAMIDE Capsules Daily Youth Restoring Eye Serum: Cápsulas monodosis que fortalecen la delicada piel del contorno de los ojos.',
+                image: 'ceramide.webp',
+                price: 45.95,
+                category: 'Crema hidratante',
+                quantity: 0,
+                marca: 'antiarrugas',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1057',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'siheidologo.png',
+                name: 'Men Skin Empowering Cream',
+                description: 'Apto para todo tipo de pieles, Shiseido Men Skin Empowering Cream es una crema hidratante masculina que combate los signos del envejecimiento y revitaliza la piel.',
+                image: 'antiarr.webp',
+                price: 145.95,
+                category: 'Crema hidratante',
+                quantity: 0,
+                marca: 'antiarrugas',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
 
 
 

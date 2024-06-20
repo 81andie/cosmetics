@@ -123,7 +123,23 @@ export const Navbar = () => {
                         
                         { label: 'Serums',  command:()=>{
                             navigate("/marcas/serums")
-                        }}, { label: 'Ojos' }, { label: 'Anti-Arrugas' }, { label: 'Hidratantes' }, { label: 'Con Color' }, 
+                        }}, 
+                        
+                        
+
+                        
+                        { label: 'Ojos' , command:()=>{
+                            navigate("/marcas/ojos")
+
+                        }}, 
+                        
+                        
+                        { label: 'Anti-Arrugas', command:()=>{
+                            navigate("/marcas/antiarrugas")
+                        } }, 
+                         
+                         
+                         { label: 'Hidratantes' }, { label: 'Con Color' }, 
                         
                         
                         

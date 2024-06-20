@@ -13,8 +13,6 @@ export const Pedido = () => {
     const storedProducts = localStorage.getItem('cart');
  
  
-    
-   
 
  
     if (storedProducts ) {
@@ -154,9 +152,7 @@ export const Pedido = () => {
         <DataTable value={products} header={header} footer={footer} tableStyle={{ minWidth: '60rem' }}>
         <Column field="name" header="Producto" className="producto" body={nameBodyTemplate} />
         <Column header="Imagen" body={imageBodyTemplate} />
-          
-         
-       
+        
           <Column field="price" header="Precio" body={priceBodyTemplate} />
         
           <Column
