@@ -13,8 +13,10 @@ import { Toast } from 'primereact/toast';
 export const Marca = () => {
     const toast = useRef(null);
 
+    const [allProducts, setAllProducts] = useState([]);
+    const [filteredProducts, setFilteredProducts] = useState([]);
     const { id } = useParams();
-    
+    const [searchTerm, setSearchTerm] = useState('');
     const [products, setProducts] = useState([]);
     const [color, setColor] = useState([]);
     const [cart, setCart] = useState(() => {
@@ -77,13 +79,16 @@ export const Marca = () => {
     useEffect(() => {
         ProductServiceMarca.getProducts().then(
             (data) => {
+
+                setAllProducts(data);
                 let items = data.filter(item => {
 
                     return item.marca === id
                 })
 
-
+            
                 setProducts(items)
+                setFilteredProducts(items);
                 console.log(items)
             }
         );
@@ -115,11 +120,27 @@ export const Marca = () => {
     }
 
 
+    const handleSearch = (event) => {
+       
+       
+        const term = event.target.value.toLowerCase();
+        setSearchTerm(term);
 
+        console.log('Búsqueda por:', term);
 
+        // Filtrar productos basados en la búsqueda por marca
+        const filteredItems = allProducts.filter(product => {
+            console.log('Producto:', product); // Verificar cada producto
+            if (product.name) {
+                return product.name.toLowerCase().includes(term);
+            }
+            return false;
+    });
+ 
+    console.log('Productos filtrados:', filteredItems);
+    setFilteredProducts(filteredItems); // Actualizar productos filtrados
 
-
-
+    };
 
 
 
@@ -200,8 +221,15 @@ export const Marca = () => {
     return (
         <div className="card-shooping">
 
-            <DataScroller ref={ds} value={products} itemTemplate={itemTemplate} rows={5} loader footer={footer} header="Click Load Button at Footer to Load More" />
+            <div className="p-inputgroup">
+                <input type="text" placeholder="Buscar por marca..." value={searchTerm} onChange={handleSearch } className="buscador" />
+                <Button icon="pi pi-search" className="p-button-secondary" />
+            </div>
 
+         {/*  <DataScroller ref={ds} value={products} itemTemplate={itemTemplate} rows={5} loader footer={footer} header="Click Load Button at Footer to Load More"/>*/}
+
+         <DataScroller value={filteredProducts} itemTemplate={itemTemplate} rows={15} />
+        
         </div>
     )
 

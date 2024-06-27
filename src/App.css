@@ -33,7 +33,7 @@ body {
 
 header {
   display: flex;
-  align-items: last baseline;
+
   color: white;
   height: 90vh;
   background-image: url("../public/images/portadita.jpg");
@@ -68,10 +68,8 @@ header {
 
 .logo_tienda {
 
-
-  height: auto;
-  background-color: rgba(248, 253, 251, 0.155);
-  filter: drop-shadow(0 0 0.75rem rgb(247, 200, 244));
+  height: 100px;
+  filter: drop-shadow(0 0 0.85rem rgb(255, 254, 254));
 }
 
 
@@ -663,4 +661,17 @@ input{
 text-align: center;
 background: black;
 border: 2px solid white;
+}
+
+.buscador{
+
+margin-top: -100px;
+  width: 100%;
+  height: 50px;
+  z-index:1
+}
+
+.p-button-secondary{
+  margin-top: -100px;
+  height: 50px;
 }

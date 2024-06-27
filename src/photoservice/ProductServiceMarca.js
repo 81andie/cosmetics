@@ -1284,7 +1284,8 @@ export const ProductServiceMarca = {
 
 
     getProductsMini() {
-        return Promise.resolve(this.getProductsData().slice(0, 5));
+     
+       return Promise.resolve(this.getProductsData().slice(0, 5));
     },
 
     getProductsSmall() {
@@ -1294,6 +1295,18 @@ export const ProductServiceMarca = {
     getProducts() {
         return Promise.resolve(this.getProductsData());
     },
+    
+    getProductsWithOrdersSmall() {
+        return Promise.resolve(this.getProductsData().slice(0, 10));
+    },
 
+    getProductsWithOrders() {
+        return Promise.resolve(this.getProductsData());
+    },
+
+    getProductsById(id){
+        const product= this.getProductsData.find(p=>p.id === parseInt(id,10));
+        return Promise.resolve(product);
+    }
 
 };

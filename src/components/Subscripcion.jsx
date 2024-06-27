@@ -20,10 +20,10 @@ export const Subscripcion = () => {
 
                 <div className="form_container">
                     <form>
-                        <label for="fname">Nombre y apellidos:</label><br />
+                        <label htmlFor="fname">Nombre y apellidos:</label><br />
                         <input type="text" id="fname" name="fname" placeholder="Tu nombre y apellidos" /><br />
 
-                        <label for="email">Tu correo electrónico</label><br />
+                        <label htmlFor="email">Tu correo electrónico</label><br />
                         <input type="email" id="lname" name="email" placeholder="Email" /><br />
                         {/*<input type="submit" value="Enviar" className="btnfos btnfos-1" />*/}
                         <button className="enviar_btn"><a className="btnfos btnfos-1">
