@@ -612,7 +612,7 @@ input {
 
 
 .steps_titulo{
-  width: 50%;
+  width: 90%;
   margin-top: 60px;
   font-size: 2.2rem;
   font-weight: bolder;
@@ -671,3 +671,4 @@ input {
   display: flex;
   justify-content: center;
 }
+

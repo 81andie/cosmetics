@@ -68,20 +68,20 @@
 
   }
 
-  .sobre_nosotrosPresentacion span{
+  .sobre_nosotrosPresentacion span {
 
     width: 100%;
-     font-size: 1.3rem;
-     font-weight: bolder;
-  
-     line-height: 25px;
-     letter-spacing: 2px;
-     margin-top: 40px;
-   
-   }
- 
+    font-size: 1.3rem;
+    font-weight: bolder;
 
-  .marca_logo1{
+    line-height: 25px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+
+  }
+
+
+  .marca_logo1 {
     width: 42%;
     height: auto;
     padding: 10px;
@@ -89,57 +89,71 @@
     margin-right: 15px;
     margin-bottom: 15px;
   }
-  .nuestrasMarcas{
+
+  .nuestrasMarcas {
     width: 100%;
     padding: 20px;
   }
 
-  .container_fotografiasTienda{
+  .container_fotografiasTienda {
     width: 100%;
   }
 
-  figure{
+  figure {
     width: 100%;
     margin: 0 auto;
     color: rgb(2, 2, 2);
   }
-  
-  figure img{
+
+  figure img {
     width: 100%;
     margin-top: 60px;
   }
 
-  .card3{
+  .card3 {
     width: 100%;
   }
 
-  .subscripcion{
+  .subscripcion {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    align-items:center;
-   justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
 
-  .container_subscripción{
+  .container_subscripción {
     width: 92%;
-   
+
   }
 
-  .steps_informacion{
+  .steps_informacion {
     display: flex;
     flex-direction: column;
     width: 100%;
     text-align: center;
-   
+
   }
 
   .p-steps ol {
     display: block;
   }
 
-   
+  .carrusel_pedido {
+    display: block;
+     
+  }
 
+  .custom-carousel {
+    width: 100%;
+    justify-content: center;
+
+  }
+
+  .img-carr-payment {
+  margin-left: 30px;
+
+  }
 }
 
 @media (min-width:481px) {}
@@ -192,23 +206,24 @@
     margin-top: 10px;
 
   }
-  .sobre_nosotrosPresentacion{
- 
+
+  .sobre_nosotrosPresentacion {
+
     width: 70%;
     display: flex;
     justify-content: center;
-  
+
     flex-wrap: wrap;
     margin: 0 auto;
     color: rgb(2, 2, 2);
   }
 
-  
- 
 
 
 
-  .marca_logo1{
+
+
+  .marca_logo1 {
     width: 20%;
     height: auto;
     padding: 20px;
@@ -217,68 +232,82 @@
     margin-bottom: 15px;
   }
 
-  .nuestrasMarcas{
+  .nuestrasMarcas {
     width: 70%;
     padding: 20px;
   }
 
-  .sobre_nosotrosPresentacion{
- 
+  .sobre_nosotrosPresentacion {
+
     width: 70%;
     display: flex;
-  
+
     flex-wrap: wrap;
     margin: 0 auto;
     color: rgb(2, 2, 2);
   }
 
-  .sobre_nosotrosPresentacion span{
+  .sobre_nosotrosPresentacion span {
 
     width: 100%;
-     font-size: 1.3rem;
-     font-weight: bolder;
-     padding: 10px;
-     line-height: 25px;
-     letter-spacing: 2px;
-     margin-top: 40px;
-   
-   }
+    font-size: 1.3rem;
+    font-weight: bolder;
+    padding: 10px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    margin-top: 40px;
 
-  figure{
+  }
+
+  figure {
     width: 70%;
     margin: 0 auto;
     color: rgb(2, 2, 2);
   }
-  
-  figure img{
+
+  figure img {
     width: 100%;
     margin-top: 60px;
   }
 
-  .card3{
+  .card3 {
     width: 100%;
-   
+
   }
 
-  .subscripcion{
+  .subscripcion {
     display: flex;
     flex-wrap: wrap;
     width: 90%;
-    align-items:center;
-   justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
 
-  .container_subscripción{
+  .container_subscripción {
     width: 40%;
     margin-left: 10px;
   }
 
- 
+
   .p-steps ol {
     display: flex;
   }
-   
 
+  .custom-carousel {
+    width: 70%;
+    justify-content: center;
+  }
+
+  .img-carr-payment {
+    width: 25%;
+    height: 35vh;
+    margin: 0 auto;
+  }
+
+  .carrusel_pedido {
+    display: flex;
+    justify-content: center;
+  }
 
 }
 
@@ -310,7 +339,7 @@
     margin-top: 10px;
   }
 
-  .marca_logo1{
+  .marca_logo1 {
     width: 25%;
     height: auto;
     margin-right: 15px;
@@ -318,43 +347,43 @@
     object-fit: contain;
   }
 
-  .nuestrasMarcas{
+  .nuestrasMarcas {
     width: 45%;
     padding: 20px;
   }
 
-  .sobre_nosotrosPresentacion{
- 
+  .sobre_nosotrosPresentacion {
+
     width: 100%;
     display: flex;
     justify-content: center;
-  
+
     flex-wrap: wrap;
     margin: 0 auto;
     color: rgb(2, 2, 2);
   }
 
-  .sobre_nosotrosPresentacion span{
+  .sobre_nosotrosPresentacion span {
 
     width: 50%;
-     font-size: 1.3rem;
-     font-weight: bolder;
-    
-     line-height: 25px;
-     letter-spacing: 2px;
-     margin-top: 40px;
-   
-   }
+    font-size: 1.3rem;
+    font-weight: bolder;
 
-  .card3{
+    line-height: 25px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+
+  }
+
+  .card3 {
     width: 100%;
   }
 
-  .subscripcion{
+  .subscripcion {
     display: flex;
     flex-wrap: wrap;
     width: 70%;
-    align-items:center;
+    align-items: center;
     margin: 0 auto;
   }
 
@@ -362,7 +391,19 @@
     display: flex;
   }
 
+  .custom-carousel {
+    width: 50%;
+    justify-content: center;
+  }
 
-   
+  .carrusel_pedido {
+    display: flex;
+    justify-content: center;
+  }
 
+  .img-carr-payment {
+    width: 25%;
+    height: 70vh;
+
+  }
 }
