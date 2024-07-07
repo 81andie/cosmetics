@@ -7,6 +7,7 @@ import {Inicio} from '../components/Inicio';
 import { Marcas } from '../components/Marcas';
 import { Footer } from '../components/Footer';
 
+
 export const Routing = () => {
     return (
         <>
@@ -18,6 +19,8 @@ export const Routing = () => {
                     <Route path="/ofertas" element={<Ofertas />} />
                     <Route path="/Pedido" element={<Pedido />} />
                     <Route path= "/marcas/:id" element={<Marca/>}/>
+                    
+                   
                    
                    
                     

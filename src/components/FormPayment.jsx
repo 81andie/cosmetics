@@ -103,16 +103,16 @@ export const FormPayment = () => {
 
     return (
         <>
-            <div className="Subscribir_titulo" >
+            <div className="payment_titulo" >
                 <h1>Ahora si, <br />formaliza tu pedido </h1>
             </div>
 
-            <section className="subscripcion">
+            <section className="form_payment">
 
 
                 <img src="https://img.freepik.com/foto-gratis/blogger-alto-angulo-estudio-listo-filmar_23-2148360165.jpg?t=st=1720361188~exp=1720364788~hmac=61215e54c8b6e49e6bb5d5220ebcdcbb2f4fb1a222b2ad8e5fc813a377112fed&w=360" />
 
-                <div className="container_subscripción">
+                <div className="container_payment">
 
                     <h3>Formaliza tu compra aqui (paso 1)</h3>
                     <h1>Por favor, inscribe tu nombre, apellidos y dirección</h1>
@@ -166,16 +166,16 @@ export const FormPayment = () => {
 
 
 
-            <div className="Subscribir_titulo" >
+            <div className="payment_titulo" >
                 <h1>Ahora si, <br />Casi ya estamos!! </h1>
             </div>
 
-            <section className="subscripcion">
+            <section className="form_payment">
 
 
                 <img src="https://img.freepik.com/vector-premium/tarjeta-credito-bancaria-dos-caras-anverso-reverso-tarjeta-debito-realista-detallada-sobre-fondo-blanco-diseno-plantilla-tarjeta-credito-presentacion-simbolo-pago-dinero_93083-3211.jpg?w=360" />
 
-                <div className="container_subscripción">
+                <div className="container_payment">
 
                     <h3>Intrudoduce los datos de tu tarjeta</h3>
                     <h1>Por favor, inscribe tu nº de tarjeta, caducidad y Cod.seguridad</h1>

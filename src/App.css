@@ -365,16 +365,18 @@ figure img {
   box-shadow: 2px 3px 2px black;
 }
 
-.Subscribir_titulo h1 {
+.Subscribir_titulo h1,
+.payment_titulo {
   margin-top: 60px;
-  font-size: 2.5rem;
+  font-size: 1.1rem;
   font-weight: bolder;
-  letter-spacing: 20px;
+
   text-align: center;
 }
 
 
-.subscripcion {
+.subscripcion,
+.form_payment{
   display: flex;
   flex-wrap: wrap;
   width: 70%;
@@ -672,3 +674,19 @@ input {
   justify-content: center;
 }
 
+.enviar_btn2
+{
+  width: 50px;
+  height: 20px;
+  margin-right: 15px;
+  color: white;
+  background-color: #0f0f0f;
+}
+
+.enviar_btn3{
+  width: 50px;
+  height: 20px;
+  margin-right: 15px;
+  color: rgb(6, 6, 6);
+  background-color: #fcfbfb;
+}

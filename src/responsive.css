@@ -114,7 +114,8 @@
     width: 100%;
   }
 
-  .subscripcion {
+  .subscripcion,
+  .form_payment {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -122,7 +123,8 @@
     justify-content: center;
   }
 
-  .container_subscripción {
+  .container_subscripción,
+  .container_payment {
     width: 92%;
 
   }
@@ -275,7 +277,8 @@
 
   }
 
-  .subscripcion {
+  .subscripcion,
+  .form_payment {
     display: flex;
     flex-wrap: wrap;
     width: 90%;
@@ -283,7 +286,8 @@
     justify-content: center;
   }
 
-  .container_subscripción {
+  .container_subscripción,
+  .container_payment {
     width: 40%;
     margin-left: 10px;
   }
@@ -379,7 +383,8 @@
     width: 100%;
   }
 
-  .subscripcion {
+  .subscripcion,
+  .form_payment {
     display: flex;
     flex-wrap: wrap;
     width: 70%;

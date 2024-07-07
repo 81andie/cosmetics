@@ -3,6 +3,8 @@ import { useState, useRef } from 'react';
 import { Steps } from 'primereact/steps';
 import { Toast } from 'primereact/toast';
 import { FormPayment } from './FormPayment';
+import { FormPayments } from './FormPayments';
+
 
 
 export const Payment = () => {
@@ -51,7 +53,11 @@ export const Payment = () => {
 
         </section>
 
-       <FormPayment/>
+       {/*<FormPayment/>*/}
+
+      <FormPayments/>
+
+
         
         </>
     )
