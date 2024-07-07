@@ -126,8 +126,17 @@
    
   }
 
- 
- 
+  .steps_informacion{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+   
+  }
+
+  .p-steps ol {
+    display: block;
+  }
 
    
 
@@ -265,7 +274,9 @@
   }
 
  
-   
+  .p-steps ol {
+    display: flex;
+  }
    
 
 
@@ -347,7 +358,9 @@
     margin: 0 auto;
   }
 
-
+  .p-steps ol {
+    display: flex;
+  }
 
 
    

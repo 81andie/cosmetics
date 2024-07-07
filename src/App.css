@@ -1,31 +1,36 @@
 body {
-
   width: 100%;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   background: rgb(252, 251, 251);
   font-family: "Cormorant Garamond", serif;
-  
 }
 
+.img-products,
+.logo_tienda,
+.img_perfumeria,
+.card-oferta,
+.img-products1,
+.marca_logo,
+.marca_logo1,
+.container_informacion img,
+.logo_section_footer,
+.subscripcion img{
 
-
-
-
- body img{
   animation: fade linear forwards;
   scale: 0;
   opacity: 0%;
-  animation-timeline: view() ;
+  animation-timeline: view();
   animation-range-start: entry -70px;
-  animation-range-end:exit -80px;
+  animation-range-end: exit -80px;
   transform-origin: bottom;
+
 }
 
 
-@keyframes fade{
-  100%{
+@keyframes fade {
+  100% {
     scale: 1;
     opacity: 100%;
   }
@@ -83,7 +88,6 @@ header {
   color: rgb(19, 19, 19);
   font-size: 1rem;
   font-weight: bold;
-
   border-radius: 5px;
   font-family: "Cormorant Garamond", serif;
   text-transform: uppercase;
@@ -103,7 +107,6 @@ header {
   letter-spacing: 2px;
   text-transform: uppercase;
   line-height: 29px;
-
 }
 
 .Ofertas {
@@ -118,7 +121,6 @@ header {
 
 .Ofertas h1 {
   margin-top: 15px;
-
 }
 
 .pi-hourglass {
@@ -132,7 +134,6 @@ header {
   margin: 0 auto;
   background: #faf7f7;
   color: rgb(41, 40, 40);
-
 }
 
 .solar {
@@ -143,7 +144,6 @@ header {
   padding: 20px;
   display: block;
   margin: 0 auto;
-
   width: 80%;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -151,14 +151,11 @@ header {
 }
 
 .img-products {
-
   height: 200px;
   object-fit: contain;
   border-radius: 28px;
   padding: 3px;
   /*border: 1px solid rgb(117, 100, 223);*/
-
-
 }
 
 .col-12 {
@@ -173,7 +170,6 @@ header {
 }
 
 .ofertasflash-title {
-
   background-repeat: no-repeat;
   font-size: 4rem;
   color: rgb(255, 255, 255);
@@ -182,17 +178,13 @@ header {
   font-style: normal;
   text-shadow: #FC0 1px 0 10px;
   filter: blur(1px);
-
-
 }
 
 .card-oferta {
-
   background-repeat: no-repeat;
   height: 30vh;
   background-image: url("https://img.freepik.com/fotos-premium/closeup-hermosos-labios-sexy-labios-regordetes-que-lapiz-labial-rojo_168410-2832.jpg?w=900");
   display: flex;
-
   align-items: center;
   justify-content: center;
   background-image: cover;
@@ -202,21 +194,12 @@ header {
   font-size: 1.9rem;
 }
 
-
-
-
-.img-products1 {
-
+.img-products1{
   height: 200px;
   object-fit: cover;
   padding: 3px;
   border-radius: 28px;
-
-
-
   /*border: 1px solid rgb(117, 100, 223);*/
-
-
 }
 
 .pi-shopping-cart {
@@ -235,8 +218,6 @@ header {
 }
 
 .marca_cabecera {
-
-
   height: 20vh;
   padding: 20px;
 }
@@ -266,7 +247,6 @@ header {
   width: 30%
 }
 
-
 .pedido_titulo {
   display: flex;
   justify-content: center;
@@ -274,7 +254,7 @@ header {
   gap: 30px;
 }
 
-.pedido_titulo h1{
+.pedido_titulo h1 {
   margin-top: 60px;
   font-size: 2.2rem;
   font-weight: bolder;
@@ -287,45 +267,29 @@ table {
   margin: 0 auto;
   border: 1px solid black;
   font-size: 1.2rem;
-  
-
 }
 
 td {
   border-bottom: 1px solid black;
-
 }
-
 
 .producto_celda {
   display: flex;
 }
 
-
-
-
-
-
-
-
 /*background-image:
 url("https://img.freepik.com/fotos-premium/melocoton-ruboriza-polvo-fondo-blanco_38705-53.jpg?w=996");*/
 
 
-.sobre_nosotrosPresentacion h1{
+.sobre_nosotrosPresentacion h1 {
   font-size: 2.5rem;
   font-weight: bolder;
   letter-spacing: 20px;
   margin-top: 50px;
- 
- 
 }
 
-
-
-.sobre_nosotrosPresentacion span{
-
- width: 50%;
+.sobre_nosotrosPresentacion span {
+  width: 50%;
   font-size: 1.3rem;
   font-weight: bolder;
   padding: 10px;
@@ -333,46 +297,30 @@ url("https://img.freepik.com/fotos-premium/melocoton-ruboriza-polvo-fondo-blanco
   letter-spacing: 2px;
   margin-top: 40px;
   margin-bottom: 20px;
- 
 }
 
 
-
-
-
-
-.sobre_nosotrosPresentacion{
- 
+.sobre_nosotrosPresentacion {
   width: 70%;
   display: flex;
-
   flex-wrap: wrap;
   margin: 0 auto;
   color: rgb(2, 2, 2);
- 
 }
 
 .nuestrasMarcas {
-
   width: 100%;
   display: flex;
   flex-wrap: wrap;
- 
- margin: 0 auto;
- 
-
+  margin: 0 auto;
   color: rgb(2, 2, 2);
   margin-bottom: 60px;
- 
- 
-
 }
 
-.marcas{
+.marcas {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-
   padding: 10px;
   padding-left: 10px;
 }
@@ -386,23 +334,20 @@ url("https://img.freepik.com/fotos-premium/melocoton-ruboriza-polvo-fondo-blanco
   font-weight: bolder;
   letter-spacing: 20px;
   text-align: center;
-  
 }
 
-figure{
+figure {
   margin-bottom: 50px;
   width: 70%;
   margin: 0 auto;
   color: rgb(2, 2, 2);
 }
 
-figure img{
+figure img {
   width: 100%;
   margin-top: 60px;
- 
+
 }
-
-
 
 
 .marca_logo1 {
@@ -410,20 +355,17 @@ figure img{
   height: auto;
   border: 2px solid rgb(252, 250, 250);
   font-weight: bolder;
-
-margin: 0 auto;
- margin-right: 10px;
+  margin: 0 auto;
+  margin-right: 10px;
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   border-radius: 20px;
   filter: drop-shadow(3px 9px 6px rgb(77, 76, 42));
   box-shadow: 2px 3px 2px black;
- 
-
 }
 
-.Subscribir_titulo h1{
+.Subscribir_titulo h1 {
   margin-top: 60px;
   font-size: 2.5rem;
   font-weight: bolder;
@@ -432,37 +374,32 @@ margin: 0 auto;
 }
 
 
-.subscripcion{
- 
+.subscripcion {
   display: flex;
   flex-wrap: wrap;
   width: 70%;
-  align-items:center;
+  align-items: center;
   margin: 0 auto;
 }
 
-.container_subscripción{
+.container_subscripción {
   width: 42%;
   margin-left: 10px;
 }
 
-label{
+label {
   font-size: 1.3rem;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
-  
 }
 
-input{
+input {
   padding: 10px;
   border: 2px solid black;
- 
 }
-
-
 
 .btnfos {
   color: #0f0f0f;
@@ -476,7 +413,6 @@ input{
   margin: 0 auto 2em;
   position: relative;
   text-transform: uppercase;
-  vertical-align: middle;
   width: 100%;
   border-radius: 50px;
 }
@@ -486,6 +422,7 @@ input{
   background: #fdfefe;
   font-weight: 100;
 }
+
 .btnfos-1 svg {
   position: absolute;
   left: 0;
@@ -493,9 +430,9 @@ input{
   width: 100%;
   height: 45px;
 }
+
 .btnfos-1 rect {
   fill: rgba(247, 247, 245, 0.324);
- 
   stroke: #292b28;
   stroke-width: 3;
   stroke-dasharray: 522, 94;
@@ -503,15 +440,11 @@ input{
 }
 
 
-.enviar_btn{
+.enviar_btn {
   background-color: #fcfbfb;
   padding: 2px;
   height: 53px;
 }
-
-
-
-
 
 
 .btnfos-1:hover {
@@ -519,16 +452,15 @@ input{
   letter-spacing: 1px;
   font-weight: bolder;
 }
+
 .btnfos-1:hover rect {
   color: black;
   stroke-width: 4;
   stroke-dasharray: 35, 510;
   stroke-dashoffset: 68;
   -webkit-transition: all 2.35s cubic-bezier(0.19, 1, 0.22, 1);
-          transition: all 3.35s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 3.35s cubic-bezier(0.19, 1, 0.22, 1);
 }
-
-
 
 .container_info span {
   margin-top: 20px;
@@ -578,7 +510,6 @@ input{
 
 .container_informacion img {
   width: 100px;
-
 }
 
 .card3 {
@@ -594,8 +525,6 @@ input{
   font-size: 12px;
   margin-left: 10px;
   border: 1px solid black;
-
-
 }
 
 
@@ -604,7 +533,6 @@ input{
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
-
   justify-content: center;
   margin-bottom: 150px;
 }
@@ -624,54 +552,122 @@ input{
   border-radius: 20px;
   border: 2px solid rgb(7, 7, 7);
   box-shadow: 2px 3px 2px black;
-
 }
 
 
 
 
-.footer{
-
- border: 1px solid black;
- border-top: 2px solid black;
+.footer {
+  border: 1px solid black;
+  border-top: 2px solid black;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
 }
 
-.container_info_empresa li{
+.container_info_empresa li {
   list-style: none;
 }
 
-.logo_section_footer{
+.logo_section_footer {
   display: flex;
   justify-content: center;
 
-  
 }
 
-.logo_section_footer img{
- width: 25%;
- height: auto;
-  
+.logo_section_footer img {
+  width: 25%;
+  height: auto;
+
 }
 
-.container_footer_redes{
-text-align: center;
-background: black;
-border: 2px solid white;
+.container_footer_redes {
+  text-align: center;
+  background: black;
+  border: 2px solid white;
 }
 
-.buscador{
-
-margin-top: -100px;
+.buscador {
+  margin-top: -100px;
   width: 100%;
   height: 50px;
-  z-index:1
+  z-index: 1
 }
 
-.p-button-secondary{
+.p-button-secondary {
   margin-top: -100px;
   height: 50px;
+}
+
+.image-products2{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  padding: 1px;
+  background-color: rgb(244, 241, 241);
+  border-radius: 28px;
+}
+
+
+
+.steps_titulo{
+  width: 50%;
+  margin-top: 60px;
+  font-size: 2.2rem;
+  font-weight: bolder;
+  letter-spacing: 20px;
+  text-align: center;
+  padding: 2px;
+  border: 1px solid black;
+}
+
+.steps_subs{
+  width: 90%;
+  margin-top: 60px;
+  font-size: 1.6rem;
+  font-weight: bolder;
+  letter-spacing: 10px;
+  color: white;
+  background-color: #0f0f0f;
+  padding: 2px;
+
+}
+
+.steps_informacion{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.card4{
+  width: 90%;
+}
+
+
+
+
+.card5{
+  margin-top: 100px;
+
+
+ 
+ 
+}
+
+.card_payment{
+  gap: 1;
+  height:275px;
+}
+
+.custom-carousel{
+  width: 50%;
+  justify-content: center;
+}
+
+.carrusel_pedido{
+  display: flex;
+  justify-content: center;
 }

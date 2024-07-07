@@ -4,6 +4,8 @@ import { Column } from 'primereact/column';
 import { Button } from 'primereact/button';
 import { Rating } from 'primereact/rating';
 import { Tag } from 'primereact/tag';
+import { Payment } from './Payment';
+
 
 export const Pedido = () => {
   const [products, setProducts] = useState([]);
@@ -25,19 +27,8 @@ export const Pedido = () => {
     } else {
       console.log('No products found in localStorage.');
     }
-
-
-
    
   }, []);
-
-
-
-
-
- 
-
-
 
 
 
@@ -49,7 +40,7 @@ export const Pedido = () => {
   };
 
   const imageBodyTemplate = (product) => {
-    return <img src={`/images/${product.image}`} alt={product.name} className="img-products1"/>;
+    return <img src={`/images/${product.image}`} alt={product.name} className="image-products2"/>;
   };
 
   const priceBodyTemplate = (product) => {
@@ -141,6 +132,8 @@ export const Pedido = () => {
 
 
   return (
+
+    <>
     <section className="container_pedido">
       <div className="pedido_titulo">
         <img src="/logo.jpg" className="logo_tienda1" alt="logo" />
@@ -178,5 +171,12 @@ export const Pedido = () => {
         </DataTable>
       </div>
     </section>
+
+    <Payment/>
+               
+
+
+    </>
+
   );
 };
