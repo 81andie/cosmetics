@@ -690,3 +690,96 @@ input {
   color: rgb(6, 6, 6);
   background-color: #fcfbfb;
 }
+
+/*prueba confetti*/
+
+
+.payment_card{
+  display: flex;
+ 
+  justify-content: center;
+ 
+}
+.card {
+  border: 2px solid black;
+  min-height: 250px;
+  max-width: 400px;
+  width: 100%;
+  transition: transform 0.5s ease;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.card button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.card:hover {
+  transform: scale(0.96);
+}
+
+.trigger {
+  width: 100%;
+  height: 100%;
+  color: #0a0a0a;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.reset {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  color: #222020;
+  font-size: 14px;
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  backface-visibility: hidden;
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+  color: #100f0f;
+  font-weight: 700;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card.active {
+  transform: perspective(700px) rotateY(180deg);
+}
+
+.canvas {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+/* Make sure text can still be selected */
+.card-back :not(.canvas) {
+  z-index: 1;
+}

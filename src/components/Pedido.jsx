@@ -4,7 +4,7 @@ import { Column } from 'primereact/column';
 import { Button } from 'primereact/button';
 import { Rating } from 'primereact/rating';
 import { Tag } from 'primereact/tag';
-import { Payment } from './Payment';
+import { FormPayments } from './FormPayments';
 
 
 export const Pedido = () => {
@@ -172,7 +172,7 @@ export const Pedido = () => {
       </div>
     </section>
 
-    <Payment/>
+ <FormPayments/>
                
 
 
