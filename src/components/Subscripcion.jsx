@@ -11,7 +11,7 @@ export const Subscripcion = () => {
         <section className="subscripcion">
 
 
-            <img src="https://img.freepik.com/foto-gratis/cerrar-sonriente-modelo-posando-planta_23-2148888223.jpg?t=st=1718467485~exp=1718471085~hmac=480be55be8d4dd1eaa3ffa6e00c7d53646ab5fbde5fa500853a6472c90d18a53&w=360" />
+            <img src="https://img.freepik.com/foto-gratis/cerrar-sonriente-modelo-posando-planta_23-2148888223.jpg?t=st=1718467485~exp=1718471085~hmac=480be55be8d4dd1eaa3ffa6e00c7d53646ab5fbde5fa500853a6472c90d18a53&w=360" alt="modelo sonriente"/>
 
             <div className="container_subscripción">
 

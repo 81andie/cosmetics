@@ -63,7 +63,7 @@ export const Footer = () => {
 
   
         <div className='container_info_empresa'>
-          <ul><h1>Encuéntranos en:</h1>
+          <ul><h1>Encuéntranos:</h1>
             <li>C/Acacias (Narnia)</li>
             <li>telf: XXXXXXXXXXX</li>
             <li>Correo Electrónico:<br /> XXXXXXXXXXX@gmail.com</li></ul>
@@ -79,11 +79,6 @@ export const Footer = () => {
             <li>Atención al cliente 24 horas</li></ul>
 
         </div>
-
-
-
-
-
 
 
       </section>
