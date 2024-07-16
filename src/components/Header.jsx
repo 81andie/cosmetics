@@ -9,15 +9,6 @@ import 'primeicons/primeicons.css';
 export const Header = () => {
 
 
-
-
-
-  
-
-
- 
-
-
   return (
     <>
       <div className="social_icons">
@@ -31,16 +22,16 @@ export const Header = () => {
       <Navbar />
 
       <header className="header">
-        <img src="/logo.jpg" className="logo_tienda" />
+        <img src="/logo.jpg" className="logo_tienda" alt="logo de la tienda" />
 
-       
+
 
 
 
 
       </header>
 
-     
+
 
 
 

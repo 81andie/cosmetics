@@ -18,7 +18,7 @@ export const Nosotros = () => {
 </div>
 
 <figure>
-<img src="https://img.freepik.com/fotos-premium/hay-tienda-monton-botellas-frascos-exhibicion-generativa-ai_1028863-43627.jpg?w=1060" className="img_perfumeria" />
+<img src="https://img.freepik.com/fotos-premium/hay-tienda-monton-botellas-frascos-exhibicion-generativa-ai_1028863-43627.jpg?w=1060" className="img_perfumeria" alt="imagen de la perfumeria"/>
 <figcaption>Nuestra perfumeria en el año 1921</figcaption>
 
 </figure>

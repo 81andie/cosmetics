@@ -1,6 +1,5 @@
 import React from 'react';
 import { useState, useEffect, useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { Carousel } from 'primereact/carousel';
 import { Tag } from 'primereact/tag';
 import { Steps } from 'primereact/steps';
@@ -40,7 +39,7 @@ export const FormPayments = () => {
 
     const [step, setStep] = useState(1);
     const [products, setProducts] = useState([]);
-    const navigate = useNavigate();
+  
 
     useEffect(() => {
         const storedProducts = localStorage.getItem('cart');
@@ -188,7 +187,7 @@ export const FormPayments = () => {
                 <div className="payment_titulo">
                     <h1>Ahora si, <br />Casi ya estamos!!</h1>
                     <section className="form_payment">
-                        <img src="https://img.freepik.com/vector-premium/tarjeta-credito-bancaria-dos-caras-anverso-reverso-tarjeta-debito-realista-detallada-sobre-fondo-blanco-diseno-plantilla-tarjeta-credito-presentacion-simbolo-pago-dinero_93083-3211.jpg" alt="Step 3" />
+                        <img src="https://img.freepik.com/vector-premium/tarjeta-credito-bancaria-dos-caras-anverso-reverso-tarjeta-debito-realista-detallada-sobre-fondo-blanco-diseno-plantilla-tarjeta-credito-presentacion-simbolo-pago-dinero_93083-3211.jpg" alt="fotografia targeta de credito" />
                         <div className="container_payment">
                             <h3>Introduce los datos de tu tarjeta</h3>
                             <h1>Por favor, inscribe tu nº de tarjeta, caducidad y Cod.seguridad</h1>
