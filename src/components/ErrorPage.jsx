@@ -19,6 +19,9 @@ export const ErrorPage = () => {
        </div>
 
             <div className="container_mosaico">
+
+                
+           <h1 className="numeros_error">404</h1>
           
                 <img src="https://img.freepik.com/foto-gratis/coleccion-productos-maquillaje-belleza_23-2148620012.jpg?t=st=1721158679~exp=1721162279~hmac=e6d0877ee4da49926455d546b7f78aa475b27b423d84b816c023ca378ef5337d&w=900" className="img-prueba" />
            
@@ -32,13 +35,10 @@ export const ErrorPage = () => {
            
 
            
-           <img src="https://img.freepik.com/fotos-premium/botella-pinta-unas_23-2148110960.jpg?w=1060" className="img-prueba1" />
-       
-           <img src="https://img.freepik.com/fotos-premium/mujer-piel-sana-belleza-tocando-su-rostro-mujer-hermosa-fondo-color-marron_431835-7642.jpg?w=826" className="img-prueba" />
-         
+          
+           
             
             </div>
-            <h1 className="numeros_error">404</h1>
         
 
            

@@ -886,7 +886,7 @@ input {
 
 .error{
   position: absolute;
-  font-size: 15rem;
+  font-size: 12rem;
   text-align: center;
   z-index:1000;
   top: 140;
@@ -901,7 +901,7 @@ input {
 
 
 .error_relative{
-  font-size: 8rem;
+  font-size: 7rem;
 }
 
 
@@ -1097,8 +1097,10 @@ input {
 }
 
 .numeros_error{
-  font-size:3rem;
-  margin-left: 390px;
+  font-size: 8rem;
+  text-align: center;
+ 
+ 
 
  
 }
