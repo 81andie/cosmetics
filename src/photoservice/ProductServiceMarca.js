@@ -83,8 +83,8 @@ export const ProductServiceMarca = {
                     { color: 'Rose', id: '1-rose' },
                     { color: 'Beige', id: '1-Bei' },
                     { color: 'Dioreli', id: '1-Dio' },
-                    { color: 'Lucky', id: '1-lucky' },
-                    { color: '', id: 'colorSeleccionado' },
+                    { color: 'Lucky', id: '1-lucky' }
+                  
                    
 
                 ],

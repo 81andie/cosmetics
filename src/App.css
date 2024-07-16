@@ -385,6 +385,10 @@ figure img {
   margin: 0 auto;
 }
 
+.form_payment img{
+  width: 50%;
+}
+
 
 
 .container_subscripción {
@@ -522,14 +526,19 @@ input {
 }
 
 .spanColor {
-  width: 50px;
-  height: 50px;
-  padding: 10px;
-  background-color: rgba(86, 72, 72, 0.68);
-  color: white;
-  font-size: 12px;
+  display: flex;
+  width: 100px;
+  height: 40px;
+  padding: 5px;
+ margin-top: 10px;
+  font-size: 10px;
   margin-left: 10px;
-  border: 1px solid black;
+  border-top: 2px solid black;
+   
+}
+
+.pi-trash{
+  font-size: 1rem;
 }
 
 
@@ -787,4 +796,309 @@ input {
 /* Make sure text can still be selected */
 .card-back :not(.canvas) {
   z-index: 1;
+}
+
+
+.container_mosaico{
+  display: flex;
+  justify-content: center;
+ margin-top: 80px;
+  height: 70vh;
+  opacity: 30%;
+
+}
+
+.img-prueba{
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  -webkit-animation: roll-in-left 1.9s ease-out both;
+	        animation: roll-in-left 1.9s ease-out both;
+
+}
+
+@-webkit-keyframes roll-in-left {
+  0% {
+    -webkit-transform: translateX(-800px) rotate(-540deg);
+            transform: translateX(-800px) rotate(-540deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+@keyframes roll-in-left {
+  0% {
+    -webkit-transform: translateX(-800px) rotate(-540deg);
+            transform: translateX(-800px) rotate(-540deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+
+.img-prueba1{
+  margin-top: 60px;
+  width: 150px;
+  height: 150px;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  -webkit-animation: roll-in-blurred-bottom 1.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: roll-in-blurred-bottom 1.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+
+
+@-webkit-keyframes roll-in-blurred-bottom {
+  0% {
+    -webkit-transform: translateY(800px) rotate(720deg);
+            transform: translateY(800px) rotate(720deg);
+    -webkit-filter: blur(50px);
+            filter: blur(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotate(0deg);
+            transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+@keyframes roll-in-blurred-bottom {
+  0% {
+    -webkit-transform: translateY(800px) rotate(720deg);
+            transform: translateY(800px) rotate(720deg);
+    -webkit-filter: blur(50px);
+            filter: blur(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotate(0deg);
+            transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+.error{
+  position: absolute;
+  font-size: 15rem;
+  text-align: center;
+  z-index:1000;
+  top: 140;
+
+
+  background-image:url("https://img.freepik.com/foto-gratis/polvo-rosa-extendido-pinceles-frotandose-si_23-2148208948.jpg?t=st=1721161193~exp=1721164793~hmac=3f92f35db8f731c2556515500bbdbfbc62fc9a220b846b896a43e84a801d453f&w=360");
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: flicker-in-1 2s linear both;
+	        animation: flicker-in-1 2s linear both;
+}
+
+
+.error_relative{
+  font-size: 8rem;
+}
+
+
+@-webkit-keyframes flicker-in-1 {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  10.1% {
+    opacity: 1;
+  }
+  10.2% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  20.1% {
+    opacity: 1;
+  }
+  20.6% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  30.1% {
+    opacity: 1;
+  }
+  30.5% {
+    opacity: 1;
+  }
+  30.6% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 0;
+  }
+  45.1% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 1;
+  }
+  55.1% {
+    opacity: 0;
+  }
+  57% {
+    opacity: 0;
+  }
+  57.1% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  60.1% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 0;
+  }
+  65.1% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  75.1% {
+    opacity: 0;
+  }
+  77% {
+    opacity: 0;
+  }
+  77.1% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  85.1% {
+    opacity: 0;
+  }
+  86% {
+    opacity: 0;
+  }
+  86.1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flicker-in-1 {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  10.1% {
+    opacity: 1;
+  }
+  10.2% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  20.1% {
+    opacity: 1;
+  }
+  20.6% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  30.1% {
+    opacity: 1;
+  }
+  30.5% {
+    opacity: 1;
+  }
+  30.6% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 0;
+  }
+  45.1% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 1;
+  }
+  55.1% {
+    opacity: 0;
+  }
+  57% {
+    opacity: 0;
+  }
+  57.1% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  60.1% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 0;
+  }
+  65.1% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  75.1% {
+    opacity: 0;
+  }
+  77% {
+    opacity: 0;
+  }
+  77.1% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  85.1% {
+    opacity: 0;
+  }
+  86% {
+    opacity: 0;
+  }
+  86.1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.numeros_error{
+  font-size:3rem;
+  margin-left: 390px;
+
+ 
 }

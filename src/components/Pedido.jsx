@@ -60,7 +60,7 @@ export const Pedido = () => {
     return (
         <span>
             {rowData.name}
-            {rowData.color && <span className="spanColor"> - {rowData.color}</span>}
+            {rowData.color && <span className="spanColor">Color: {rowData.color} </span>}
         </span>
     );
 };
@@ -164,7 +164,8 @@ export const Pedido = () => {
           <Column
                     header="Eliminar"
                     body={(product) => (
-                        <Button  icon="pi pi-times" onClick={() => eliminarProducto(product)} />
+                     
+                        <Button  icon="pi pi-trash" onClick={() => eliminarProducto(product)} />
                     )}
                 />
          
