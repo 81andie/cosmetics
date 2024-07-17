@@ -14,6 +14,9 @@ import './Nosotros.css';
 import './NuestrasMarcas.css';
 import './Subscripcion.css';
 import './Footer.css';
+import './Marca.css';
+import './Pedido.css';
+import './FormPayments.css';
 
 
 function App() {

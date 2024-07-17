@@ -12,7 +12,6 @@ body {
 .img_perfumeria,
 .card-oferta,
 .img-products1,
-.marca_logo,
 .marca_logo1,
 .container_informacion img,
 .logo_section_footer,
@@ -36,6 +35,33 @@ body {
 }
 
 
+.buscador {
+  margin-top: -100px;
+  width: 100%;
+  height: 50px;
+  z-index: 1
+}
+
+
+.container_informacion {
+  margin-top: 20px;
+  padding: 20px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+
+.container_informacion img {
+  width: 100px;
+}
+
+.ofertas-subtitle {
+  font-size: 1.9rem;
+}
 
 .Ofertas {
   display: flex;
@@ -67,36 +93,6 @@ body {
   width: 20%;
 }
 
-
-.card-shooping {
-  padding: 20px;
-  display: block;
-  margin: 0 auto;
-  width: 80%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-
-}
-
-.img-products {
-  height: 200px;
-  object-fit: contain;
-  border-radius: 28px;
-  padding: 3px;
-  /*border: 1px solid rgb(117, 100, 223);*/
-}
-
-.col-12 {
-  border: 1px solid rgb(214, 212, 212);
-  margin-top: 20px;
-  box-shadow: 1px 2px 2px 2px rgba(239, 226, 228, 0.525);
-  margin-bottom: 30px;
-}
-
-.p-rating .p-rating-item.p-rating-item-active .p-rating-icon {
-  color: black;
-}
-
 .ofertasflash-title {
   background-repeat: no-repeat;
   font-size: 4rem;
@@ -118,286 +114,8 @@ body {
   background-image: cover;
 }
 
-.ofertas-subtitle {
-  font-size: 1.9rem;
-}
-
-.img-products1{
-  height: 200px;
-  object-fit: cover;
-  padding: 3px;
-  border-radius: 28px;
-  /*border: 1px solid rgb(117, 100, 223);*/
-}
-
-.pi-shopping-cart {
-  font-size: 20px;
-}
-
-.p-button {
-  background: black;
-}
-
-.marca_logo {
-  width: 10%;
-  height: auto;
-  margin-top: -10px;
-
-}
-
-.marca_cabecera {
-  height: 20vh;
-  padding: 20px;
-}
-
-.title_producto {
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-family: "Cormorant Garamond", serif;
-}
-
-.tags {
-  color: black;
-  border: 1px solid black;
-  background: white;
-  padding: 4px;
-}
-
-.parrafo_descripcion {
-  line-height: 23px;
-}
-
-.container_btncompra {
-  margin-bottom: 20px;
-}
-
-.logo_tienda1 {
-  width: 30%
-}
-
-.pedido_titulo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-
-.pedido_titulo h1 {
-  margin-top: 60px;
-  font-size: 2.2rem;
-  font-weight: bolder;
-  letter-spacing: 20px;
-  text-align: center;
-}
-
-table {
-  width: 60%;
-  margin: 0 auto;
-  border: 1px solid black;
-  font-size: 1.2rem;
-}
-
-td {
-  border-bottom: 1px solid black;
-}
-
-.producto_celda {
-  display: flex;
-}
-
 /*background-image:
 url("https://img.freepik.com/fotos-premium/melocoton-ruboriza-polvo-fondo-blanco_38705-53.jpg?w=996");*/
-
-.form_payment{
-  display: flex;
-  flex-wrap: wrap;
-  width: 70%;
-  align-items: center;
-  margin: 0 auto;
-}
-
-
-
-.container_info span {
-  margin-top: 20px;
-  font-size: 1.2rem;
-
-}
-
-.container_total,
-.totalIva {
-  width: 100%;
-  font-size: 1.3rem;
-  background: rgb(9, 9, 9);
-  color: white;
-  margin-bottom: 5px;
-
-}
-
-.iva {
-
-  border-bottom: 1px solid black;
-  font-size: 1.1rem;
-  margin-bottom: 5px;
-}
-
-.producto {
-  width: 230px;
-  text-align: center;
-  font-weight: bolder;
-  font-size: 1rem;
-}
-
-.cantidad input {
-  width: 60px;
-  padding: 8px;
-}
-
-.container_informacion {
-  margin-top: 20px;
-  padding: 20px;
-  width: 150px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 auto;
-
-}
-
-
-
-.container_informacion img {
-  width: 100px;
-}
-
-.card3 {
-  width: 99%;
-}
-
-.p-datatable-wrapper{
-  width: 100%;
-}
-
-.spanColor {
-  display: flex;
-  width: 100px;
-  height: 40px;
-  padding: 5px;
- margin-top: 10px;
-  font-size: 10px;
-  margin-left: 10px;
-  border-top: 2px solid black;
-   
-}
-
-.pi-trash{
-  font-size: 1rem;
-}
-
-
-
-
-
-
-
-.buscador {
-  margin-top: -100px;
-  width: 100%;
-  height: 50px;
-  z-index: 1
-}
-
-.p-button-secondary {
-  margin-top: -100px;
-  height: 50px;
-}
-
-.image-products2{
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  padding: 1px;
-  background-color: rgb(244, 241, 241);
-  border-radius: 28px;
-}
-
-
-
-.steps_titulo{
-  width: 90%;
-  margin-top: 60px;
-  font-size: 2.2rem;
-  font-weight: bolder;
-  letter-spacing: 20px;
-  text-align: center;
-  padding: 2px;
-  border: 1px solid black;
-}
-
-.steps_subs{
-  width: 90%;
-  margin-top: 60px;
-  font-size: 1.6rem;
-  font-weight: bolder;
-  letter-spacing: 10px;
-  color: white;
-  background-color: #0f0f0f;
-  padding: 2px;
-
-}
-
-.steps_informacion{
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items:center;
-}
-
-.card4{
-  width: 90%;
-}
-
-
-
-
-.card5{
-  margin-top: 100px;
-
-}
-
-.card_payment{
-  gap: 1;
-  height:275px;
-}
-
-.custom-carousel{
-  width: 50%;
-  justify-content: center;
-}
-
-.carrusel_pedido{
-  display: flex;
-  justify-content: center;
-}
-
-.enviar_btn2
-{
-  width: 50px;
-  height: 20px;
-  margin-right: 15px;
-  color: white;
-  background-color: #0f0f0f;
-}
-
-.enviar_btn3{
-  width: 50px;
-  height: 20px;
-  margin-right: 15px;
-  color: rgb(6, 6, 6);
-  background-color: #fcfbfb;
-}
-
 
 
 

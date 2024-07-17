@@ -1,0 +1,42 @@
+.card-shooping {
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 97%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+  }
+
+  .col-12 {
+   
+    border: 1px solid rgb(214, 212, 212);
+    margin-top: 20px;
+    box-shadow: 1px 2px 2px 2px rgba(239, 226, 228, 0.525);
+    margin-bottom: 30px;
+  }
+
+  .img-products1{
+    height: 200px;
+    object-fit: cover;
+    padding: 3px;
+    border-radius: 28px;
+    /*border: 1px solid rgb(117, 100, 223);*/
+  }
+  
+
+  .pi-shopping-cart {
+    font-size: 20px;
+  }
+
+
+  .p-button {
+    background: black;
+  }
+  
+  .marca_logo {
+  
+    height: auto;
+    margin-top: -10px;
+  
+  }

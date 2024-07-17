@@ -16,22 +16,19 @@
 
 
 .subscripcion{
-  width: 100%;
+  width: 83%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
- justify-content: center;
-}
+  margin: 0 auto;
 
+}
 
 
 .form_payment img{
   width: 50%;
 
 }
-
-
-
 
 
 label {

@@ -215,11 +215,17 @@
   .container_subscripción{
     width: 60%;
     flex-wrap: wrap;
+    padding: 10px;
   }
 
   .subscripcion{
     width: 100%;
+   
+    flex-wrap: wrap;
+    margin: 0 auto;
   }
+
+
 
 
 
@@ -306,9 +312,7 @@
     margin-left: 10px;
   }
 
-  .form_container{
-    width: 60%;
-  }
+ 
 
   .p-steps ol {
     display: flex;

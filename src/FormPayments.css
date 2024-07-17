@@ -1,0 +1,99 @@
+.form_payment{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .form_payment img{
+    width: 30%;
+  }
+  .container_payment{
+    width: 40%;
+  }
+ 
+  
+  .container_info span {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  
+  }
+  
+  
+  
+  .steps_titulo{
+    width: 90%;
+    margin-top: 60px;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    letter-spacing: 20px;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid black;
+  }
+  
+  .steps_subs{
+    width: 90%;
+    margin-top: 60px;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    color: white;
+    background-color: #0f0f0f;
+    padding: 2px;
+  
+  }
+  
+  .steps_informacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+  }
+  
+  .card4{
+    width: 90%;
+  }
+  
+  
+  .card5{
+    margin-top: 100px;
+  
+  }
+  
+  .card_payment{
+    gap: 1;
+    height:275px;
+  }
+  
+  .custom-carousel{
+    width: 50%;
+    justify-content: center;
+  }
+  
+  .carrusel_pedido{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .enviar_btn2
+  {
+    width: 50px;
+    height: 20px;
+    margin-right: 15px;
+    color: white;
+    background-color: #0f0f0f;
+  }
+  
+  .enviar_btn3{
+    width: 50px;
+    height: 20px;
+    margin-right: 15px;
+    color: rgb(6, 6, 6);
+    background-color: #fcfbfb;
+  }
+  
+  
+  

@@ -1,0 +1,150 @@
+
+
+.img-products {
+    height: 200px;
+    object-fit: contain;
+    border-radius: 28px;
+    padding: 3px;
+    /*border: 1px solid rgb(117, 100, 223);*/
+  }
+  
+  .p-rating .p-rating-item.p-rating-item-active .p-rating-icon {
+    color: black;
+  }
+  
+  
+  .marca_cabecera {
+    height: 20vh;
+    padding: 20px;
+  }
+  
+  .title_producto {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: "Cormorant Garamond", serif;
+  }
+  
+  .tags {
+    color: black;
+    border: 1px solid black;
+    background: white;
+    padding: 4px;
+  }
+  
+  .parrafo_descripcion {
+    line-height: 23px;
+  }
+  
+  .container_btncompra {
+    margin-bottom: 20px;
+  }
+  
+  .logo_tienda1 {
+    width: 30%
+  }
+  
+  .pedido_titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .pedido_titulo h1 {
+    margin-top: 60px;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    letter-spacing: 20px;
+    text-align: center;
+  }
+  
+  table {
+    width: 98%;
+    margin: 0 auto;
+    border: 1px solid black;
+    font-size: 1.2rem;
+  }
+  
+  td {
+    border-bottom: 1px solid black;
+  }
+  
+  .producto_celda {
+    display: flex;
+  }
+
+  .container_total,
+.totalIva {
+  width: 100%;
+  font-size: 1.3rem;
+  background: rgb(9, 9, 9);
+  color: white;
+  margin-bottom: 5px;
+
+}
+
+.iva {
+
+  border-bottom: 1px solid black;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.producto {
+  width: 230px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.cantidad input {
+  width: 60px;
+  padding: 8px;
+}
+
+
+
+
+
+.card3 {
+  width: 99%;
+}
+
+.p-datatable-wrapper{
+  width: 100%;
+}
+
+.spanColor {
+  display: flex;
+  width: 100px;
+  height: 40px;
+  padding: 5px;
+ margin-top: 10px;
+  font-size: 10px;
+  margin-left: 10px;
+  border-top: 2px solid black;
+   
+}
+
+.pi-trash{
+  font-size: 1rem;
+}
+
+
+
+
+
+.p-button-secondary {
+  margin-top: -100px;
+  height: 50px;
+}
+
+.image-products2{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  padding: 1px;
+  background-color: rgb(244, 241, 241);
+  border-radius: 28px;
+}
+  
