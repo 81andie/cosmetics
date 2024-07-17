@@ -6,10 +6,6 @@ export const Footer = () => {
     <>
       <section className='informacion_container'>
 
-
-
-
-
         <div className="container_info_footer">
           <i className="pi pi-truck"> Envios gratis</i>
 
@@ -44,24 +40,21 @@ export const Footer = () => {
       </section>
 
 
-<section className="logo_section_footer">
-<img src="/logo.jpg" className="logo_footer" />
-</section>
+      <section className="logo_section_footer">
+        <img src="/logo.jpg" className="logo_footer" />
+      </section>
 
-<div className='container_footer_redes'>
+      <div className='container_footer_redes'>
 
-<i className="pi pi-instagram" style={{ color: 'white' }}></i>
-<i className="pi pi-youtube" style={{ color: 'white' }}></i>
-<i className="pi pi-facebook" style={{ color: 'white' }}></i>
-<i className="pi pi-telegram" style={{ color: 'white' }}></i>
+        <i className="pi pi-instagram" style={{ color: 'white' }}></i>
+        <i className="pi pi-youtube" style={{ color: 'white' }}></i>
+        <i className="pi pi-facebook" style={{ color: 'white' }}></i>
+        <i className="pi pi-telegram" style={{ color: 'white' }}></i>
 
-</div>
+      </div>
 
       <section className="footer">
 
-
-
-  
         <div className='container_info_empresa'>
           <ul><h1>Encuéntranos:</h1>
             <li>C/Acacias (Narnia)</li>
@@ -80,9 +73,8 @@ export const Footer = () => {
 
         </div>
 
-
       </section>
-    
+
 
 
     </>

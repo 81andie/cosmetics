@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    color: white;
+    height: 70vh;
+    background-image: url("../public/images/portadita.jpg");
+    background-size: cover;
+    opacity: 80%;
+    font-family: "Cormorant Garamond", serif;
+    background-attachment: fixed;
+
+  }
+  
+  .pi {
+    font-size: 25px;
+    padding: 5px;
+  }
+  
+  .social_icons {
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    gap: 18px;
+    background: rgb(9, 9, 9);
+    padding: 2px;
+  }
+  
+  
+  .pi-instagram,
+  .pi-telegram,
+  .pi-facebook,
+  .pi-youtube {
+    font-size: 18px;
+  }
+  
+  .logo_tienda1 {
+   width: 20%;
+   height: auto;
+    filter: drop-shadow(0 0 0.85rem rgb(255, 254, 254));
+  }

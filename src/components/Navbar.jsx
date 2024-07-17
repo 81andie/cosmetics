@@ -1,7 +1,7 @@
 import React from 'react'
 import { MegaMenu } from 'primereact/megamenu';
 import { useNavigate } from 'react-router-dom';
-import { Pedido } from './Pedido';
+
 
 
 

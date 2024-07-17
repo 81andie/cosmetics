@@ -1,10 +1,10 @@
 import React from 'react'
 import { Navbar } from './Navbar';
-
-
 import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
+
+
 
 export const Header = () => {
 
@@ -12,7 +12,6 @@ export const Header = () => {
   return (
     <>
       <div className="social_icons">
-
         <i className="pi pi-instagram" style={{ color: 'white' }}></i>
         <i className="pi pi-youtube" style={{ color: 'white' }}></i>
         <i className="pi pi-facebook" style={{ color: 'white' }}></i>
@@ -22,18 +21,10 @@ export const Header = () => {
       <Navbar />
 
       <header className="header">
-        <img src="/logo.jpg" className="logo_tienda" alt="logo de la tienda" />
-
-
-
-
-
-
+        <div className="container_logo">
+      <img src="/logo.jpg" className="logo_tienda1" alt="logo" />
+      </div>
       </header>
-
-
-
-
 
     </>
   )

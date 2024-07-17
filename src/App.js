@@ -1,16 +1,20 @@
 
-import './App.css';
-import './responsive.css';
-import './ColorVariantSelector.css'
 import { Routing } from './Routing/Rutas';
 import { BrowserRouter as Router } from 'react-router-dom';
-import 'primeflex/primeflex.css';
-
-        
-
 import { Header } from './components/Header';
-import { Inicio } from './components/Inicio';
-import 'primeicons/primeicons.css';
+import './responsive.css';
+import './ColorVariantSelector.css';
+import 'primeflex/primeflex.css';
+import './App.css';
+import './Header.css';
+import './Navbar.css';
+import './ErrorPage.css';
+import './Targeta.css';
+import './Nosotros.css';
+import './NuestrasMarcas.css';
+import './Subscripcion.css';
+import './Footer.css';
+
 
 function App() {
   return (

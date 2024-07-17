@@ -1,0 +1,60 @@
+.informacion_container {
+    margin-top: 130px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 150px;
+  }
+  
+  .container_info_footer {
+    width: 200px;
+    height: 170px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    line-height: 17px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: black;
+    border-radius: 20px;
+    border: 2px solid rgb(7, 7, 7);
+    box-shadow: 2px 3px 2px black;
+    font-size: 1.1rem;
+  }
+  
+  
+  .footer {
+    border: 1px solid black;
+    border-top: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+  
+  .container_info_empresa li {
+    list-style: none;
+    font-size:1.1rem;
+  }
+  
+  .logo_section_footer {
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .logo_section_footer img {
+    width: 25%;
+    height: auto;
+  
+  }
+  
+  .container_footer_redes {
+    text-align: center;
+    background: black;
+    border: 2px solid white;
+  }
+  

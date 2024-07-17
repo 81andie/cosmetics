@@ -17,7 +17,6 @@ body {
 .container_informacion img,
 .logo_section_footer,
 .subscripcion img{
-
   animation: fade linear forwards;
   scale: 0;
   opacity: 0%;
@@ -36,81 +35,9 @@ body {
   }
 }
 
-header {
-  display: flex;
 
-  color: white;
-  height: 90vh;
-  background-image: url("../public/images/portadita.jpg");
-  background-size: cover;
-  opacity: 80%;
-  font-family: "Cormorant Garamond", serif;
-  background-attachment: fixed;
-
-}
-
-.pi {
-  font-size: 25px;
-  padding: 5px;
-}
-
-.social_icons {
-  display: flex;
-  font-size: 12px;
-  justify-content: center;
-  gap: 18px;
-  background: rgb(9, 9, 9);
-  padding: 2px;
-}
-
-
-.pi-instagram,
-.pi-telegram,
-.pi-facebook,
-.pi-youtube {
-  font-size: 18px;
-}
-
-.logo_tienda {
-
-  height: 100px;
-  filter: drop-shadow(0 0 0.85rem rgb(255, 254, 254));
-}
-
-
-
-.p-menuitem-icon {
-  color: rgb(32, 44, 4);
-}
-
-
-.p-menuitem-text {
-  color: rgb(19, 19, 19);
-  font-size: 1rem;
-  font-weight: bold;
-  border-radius: 5px;
-  font-family: "Cormorant Garamond", serif;
-  text-transform: uppercase;
-
-}
-
-.p-submenu {
-  color: rgb(150, 139, 227);
-  line-height: 35px;
-  font-size: 0.8rem;
-}
-
-.p-submenu-header {
-  font-size: 1.1rem;
-  font-weight: bolder;
-  color: rgb(4, 4, 4);
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  line-height: 29px;
-}
 
 .Ofertas {
-
   display: flex;
   justify-content: center;
   width: 100%;
@@ -139,6 +66,7 @@ header {
 .solar {
   width: 20%;
 }
+
 
 .card-shooping {
   padding: 20px;
@@ -280,103 +208,6 @@ td {
 /*background-image:
 url("https://img.freepik.com/fotos-premium/melocoton-ruboriza-polvo-fondo-blanco_38705-53.jpg?w=996");*/
 
-
-.sobre_nosotrosPresentacion h1 {
-  font-size: 2.5rem;
-  font-weight: bolder;
-  letter-spacing: 20px;
-  margin-top: 50px;
-}
-
-.sobre_nosotrosPresentacion span {
-  width: 50%;
-  font-size: 1.3rem;
-  font-weight: bolder;
-  padding: 10px;
-  line-height: 25px;
-  letter-spacing: 2px;
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
-
-
-.sobre_nosotrosPresentacion {
-  width: 70%;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  color: rgb(2, 2, 2);
-}
-
-.nuestrasMarcas {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  color: rgb(2, 2, 2);
-  margin-bottom: 60px;
-}
-
-.marcas {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px;
-  padding-left: 10px;
-}
-
-
-
-
-.nuestrasMarcas h1 {
-  margin-top: 60px;
-  font-size: 2.5rem;
-  font-weight: bolder;
-  letter-spacing: 20px;
-  text-align: center;
-}
-
-figure {
-  margin-bottom: 50px;
-  width: 70%;
-  margin: 0 auto;
-  color: rgb(2, 2, 2);
-}
-
-figure img {
-  width: 100%;
-  margin-top: 60px;
-
-}
-
-
-.marca_logo1 {
-  width: 25%;
-  height: auto;
-  border: 2px solid rgb(252, 250, 250);
-  font-weight: bolder;
-  margin: 0 auto;
-  margin-right: 10px;
-  object-fit: contain;
-  margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  border-radius: 20px;
-  filter: drop-shadow(3px 9px 6px rgb(77, 76, 42));
-  box-shadow: 2px 3px 2px black;
-}
-
-.Subscribir_titulo h1,
-.payment_titulo {
-  margin-top: 60px;
-  font-size: 1.1rem;
-  font-weight: bolder;
-
-  text-align: center;
-}
-
-
-.subscripcion,
 .form_payment{
   display: flex;
   flex-wrap: wrap;
@@ -385,91 +216,7 @@ figure img {
   margin: 0 auto;
 }
 
-.form_payment img{
-  width: 50%;
-}
 
-
-
-.container_subscripción {
-  width: 42%;
-  margin-left: 10px;
-}
-
-label {
-  font-size: 1.3rem;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-input {
-  padding: 10px;
-  border: 2px solid black;
-}
-
-.btnfos {
-  color: #0f0f0f;
-  cursor: pointer;
-  display: block;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 45px;
-  max-width: 360px;
-  margin: 0 auto 2em;
-  position: relative;
-  text-transform: uppercase;
-  width: 100%;
-  border-radius: 50px;
-}
-
-.btnfos-1 {
-  border-radius: 20px;
-  background: #fdfefe;
-  font-weight: 100;
-}
-
-.btnfos-1 svg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 45px;
-}
-
-.btnfos-1 rect {
-  fill: rgba(247, 247, 245, 0.324);
-  stroke: #292b28;
-  stroke-width: 3;
-  stroke-dasharray: 522, 94;
-  border-radius: 20px;
-}
-
-
-.enviar_btn {
-  background-color: #fcfbfb;
-  padding: 2px;
-  height: 53px;
-}
-
-
-.btnfos-1:hover {
-  background: rgba(225, 51, 45, 0);
-  letter-spacing: 1px;
-  font-weight: bolder;
-}
-
-.btnfos-1:hover rect {
-  color: black;
-  stroke-width: 4;
-  stroke-dasharray: 35, 510;
-  stroke-dashoffset: 68;
-  -webkit-transition: all 2.35s cubic-bezier(0.19, 1, 0.22, 1);
-  transition: all 3.35s cubic-bezier(0.19, 1, 0.22, 1);
-}
 
 .container_info span {
   margin-top: 20px;
@@ -517,12 +264,18 @@ input {
 
 }
 
+
+
 .container_informacion img {
   width: 100px;
 }
 
 .card3 {
-  width: 80%;
+  width: 99%;
+}
+
+.p-datatable-wrapper{
+  width: 100%;
 }
 
 .spanColor {
@@ -542,67 +295,10 @@ input {
 }
 
 
-.informacion_container {
-  margin-top: 130px;
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 150px;
-}
-
-.container_info_footer {
-  width: 200px;
-  height: 170px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 20px;
-  line-height: 17px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  color: black;
-  border-radius: 20px;
-  border: 2px solid rgb(7, 7, 7);
-  box-shadow: 2px 3px 2px black;
-  font-size: 1.1rem;
-}
 
 
 
 
-.footer {
-  border: 1px solid black;
-  border-top: 2px solid black;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 20px;
-}
-
-.container_info_empresa li {
-  list-style: none;
-  font-size:1.1rem;
-}
-
-.logo_section_footer {
-  display: flex;
-  justify-content: center;
-
-}
-
-.logo_section_footer img {
-  width: 25%;
-  height: auto;
-
-}
-
-.container_footer_redes {
-  text-align: center;
-  background: black;
-  border: 2px solid white;
-}
 
 .buscador {
   margin-top: -100px;
@@ -668,9 +364,6 @@ input {
 .card5{
   margin-top: 100px;
 
-
- 
- 
 }
 
 .card_payment{
@@ -705,402 +398,8 @@ input {
   background-color: #fcfbfb;
 }
 
-/*prueba confetti*/
-
-
-.payment_card{
-  display: flex;
- 
-  justify-content: center;
- 
-}
-.card {
-  border: 2px solid black;
-  min-height: 250px;
-  max-width: 400px;
-  width: 100%;
-  transition: transform 0.5s ease;
-  transform-style: preserve-3d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  position: relative;
-  border-radius: 12px;
-  text-align: center;
-  margin-top: 100px;
-}
-
-.card button {
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  font-weight: 700;
-}
-
-.card:hover {
-  transform: scale(0.96);
-}
-
-.trigger {
-  width: 100%;
-  height: 100%;
-  color: #0a0a0a;
-  font-size: 22px;
-  font-weight: 700;
-}
-
-.reset {
-  position: absolute;
-  bottom: 15px;
-  right: 15px;
-  color: #222020;
-  font-size: 14px;
-}
-
-.card-front,
-.card-back {
-  position: absolute;
-  backface-visibility: hidden;
-  height: 100%;
-  width: 100%;
-  font-size: 20px;
-  color: #100f0f;
-  font-weight: 700;
-}
-
-.card-back {
-  transform: rotateY(180deg);
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.card.active {
-  transform: perspective(700px) rotateY(180deg);
-}
-
-.canvas {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: 0;
-}
-
-/* Make sure text can still be selected */
-.card-back :not(.canvas) {
-  z-index: 1;
-}
-
-
-.container_mosaico{
-  display: flex;
-  justify-content: center;
- margin-top: 80px;
-  height: 70vh;
-  opacity: 30%;
-
-}
-
-.img-prueba{
-  margin-top: 10px;
-  width: 150px;
-  height: 150px;
-  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-  -webkit-animation: roll-in-left 1.9s ease-out both;
-	        animation: roll-in-left 1.9s ease-out both;
-
-}
-
-@-webkit-keyframes roll-in-left {
-  0% {
-    -webkit-transform: translateX(-800px) rotate(-540deg);
-            transform: translateX(-800px) rotate(-540deg);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0) rotate(0deg);
-            transform: translateX(0) rotate(0deg);
-    opacity: 1;
-  }
-}
-@keyframes roll-in-left {
-  0% {
-    -webkit-transform: translateX(-800px) rotate(-540deg);
-            transform: translateX(-800px) rotate(-540deg);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0) rotate(0deg);
-            transform: translateX(0) rotate(0deg);
-    opacity: 1;
-  }
-}
-
-
-.img-prueba1{
-  margin-top: 60px;
-  width: 150px;
-  height: 150px;
-  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-  -webkit-animation: roll-in-blurred-bottom 1.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-	        animation: roll-in-blurred-bottom 1.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-}
 
 
 
-@-webkit-keyframes roll-in-blurred-bottom {
-  0% {
-    -webkit-transform: translateY(800px) rotate(720deg);
-            transform: translateY(800px) rotate(720deg);
-    -webkit-filter: blur(50px);
-            filter: blur(50px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0) rotate(0deg);
-            transform: translateY(0) rotate(0deg);
-    opacity: 1;
-  }
-}
-@keyframes roll-in-blurred-bottom {
-  0% {
-    -webkit-transform: translateY(800px) rotate(720deg);
-            transform: translateY(800px) rotate(720deg);
-    -webkit-filter: blur(50px);
-            filter: blur(50px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0) rotate(0deg);
-            transform: translateY(0) rotate(0deg);
-    opacity: 1;
-  }
-}
-
-.error{
-  position: absolute;
-  font-size: 12rem;
-  text-align: center;
-  z-index:1000;
-  top: 140;
 
 
-  background-image:url("https://img.freepik.com/foto-gratis/polvo-rosa-extendido-pinceles-frotandose-si_23-2148208948.jpg?t=st=1721161193~exp=1721164793~hmac=3f92f35db8f731c2556515500bbdbfbc62fc9a220b846b896a43e84a801d453f&w=360");
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-animation: flicker-in-1 2s linear both;
-	        animation: flicker-in-1 2s linear both;
-}
-
-
-.error_relative{
-  font-size: 7rem;
-}
-
-
-@-webkit-keyframes flicker-in-1 {
-  0% {
-    opacity: 0;
-  }
-  10% {
-    opacity: 0;
-  }
-  10.1% {
-    opacity: 1;
-  }
-  10.2% {
-    opacity: 0;
-  }
-  20% {
-    opacity: 0;
-  }
-  20.1% {
-    opacity: 1;
-  }
-  20.6% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 0;
-  }
-  30.1% {
-    opacity: 1;
-  }
-  30.5% {
-    opacity: 1;
-  }
-  30.6% {
-    opacity: 0;
-  }
-  45% {
-    opacity: 0;
-  }
-  45.1% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 1;
-  }
-  55% {
-    opacity: 1;
-  }
-  55.1% {
-    opacity: 0;
-  }
-  57% {
-    opacity: 0;
-  }
-  57.1% {
-    opacity: 1;
-  }
-  60% {
-    opacity: 1;
-  }
-  60.1% {
-    opacity: 0;
-  }
-  65% {
-    opacity: 0;
-  }
-  65.1% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 1;
-  }
-  75.1% {
-    opacity: 0;
-  }
-  77% {
-    opacity: 0;
-  }
-  77.1% {
-    opacity: 1;
-  }
-  85% {
-    opacity: 1;
-  }
-  85.1% {
-    opacity: 0;
-  }
-  86% {
-    opacity: 0;
-  }
-  86.1% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes flicker-in-1 {
-  0% {
-    opacity: 0;
-  }
-  10% {
-    opacity: 0;
-  }
-  10.1% {
-    opacity: 1;
-  }
-  10.2% {
-    opacity: 0;
-  }
-  20% {
-    opacity: 0;
-  }
-  20.1% {
-    opacity: 1;
-  }
-  20.6% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 0;
-  }
-  30.1% {
-    opacity: 1;
-  }
-  30.5% {
-    opacity: 1;
-  }
-  30.6% {
-    opacity: 0;
-  }
-  45% {
-    opacity: 0;
-  }
-  45.1% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 1;
-  }
-  55% {
-    opacity: 1;
-  }
-  55.1% {
-    opacity: 0;
-  }
-  57% {
-    opacity: 0;
-  }
-  57.1% {
-    opacity: 1;
-  }
-  60% {
-    opacity: 1;
-  }
-  60.1% {
-    opacity: 0;
-  }
-  65% {
-    opacity: 0;
-  }
-  65.1% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 1;
-  }
-  75.1% {
-    opacity: 0;
-  }
-  77% {
-    opacity: 0;
-  }
-  77.1% {
-    opacity: 1;
-  }
-  85% {
-    opacity: 1;
-  }
-  85.1% {
-    opacity: 0;
-  }
-  86% {
-    opacity: 0;
-  }
-  86.1% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.numeros_error{
-  font-size: 8rem;
-  text-align: center;
- 
- 
-
- 
-}
