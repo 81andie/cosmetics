@@ -46,17 +46,7 @@ export const Navbar = () => {
                     ]
 
                     },
-                    {
-                        label: 'Perfumes',
-                        items: [{ label: 'Perfumes', command: () =>{
-                            navigate("/marcas/perfumes")
-                        }
-
-                        
-                        }, { label: 'Agua de Colonia', command: () =>{
-                            navigate("/marcas/aguasdecolonia")
-                        } }]
-                    }
+                    
                 ],
                
             ]
