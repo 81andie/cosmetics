@@ -22,10 +22,10 @@ export const Mapa = () => {
 
     return (
         <>
-        
 
-          <h1 className="localizacion">Dónde estamos?</h1>
-          <h2 className = "subtitulo_localizacion">Dónde esta nuestro negocio</h2>
+
+            <h1 className="localizacion">Dónde estamos?</h1>
+            <h2 className="subtitulo_localizacion">Dónde esta nuestro negocio</h2>
 
             <div className="container_geolocalizacion">
 
@@ -46,8 +46,8 @@ export const Mapa = () => {
                         />
                         <Marker position={[40.68066738794562, -4.103453062058489]}>
                             <Popup>
-                               Cleopatra Cosmétics
-                               <img src="https://th.bing.com/th/id/OIP.yzpdG3lmkHW5l3WFq_KkAAHaE8?rs=1&pid=ImgDetMain" className="imagen-tienda"></img>
+                                Cleopatra Cosmétics
+                                <img src="https://th.bing.com/th/id/OIP.yzpdG3lmkHW5l3WFq_KkAAHaE8?rs=1&pid=ImgDetMain" className="imagen-tienda"></img>
                             </Popup>
                         </Marker>
                     </MapContainer>
