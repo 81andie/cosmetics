@@ -19,12 +19,16 @@ export const Header = () => {
         <i className="pi pi-telegram" style={{ color: 'white' }}></i>
       </div>
 
+     
+
       <Navbar />
 
       <header className="header">
-        <div className="container_logo">
-      <img src="/logo.jpg" className="logo_tienda1" alt="logo" />
+      <div className="container_logo">
+      <img src="/logo.jpg" className="logo_tienda2" alt="logo" />
+    
       </div>
+      
       </header>
 
     </>

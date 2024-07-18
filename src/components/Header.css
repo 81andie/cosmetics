@@ -4,9 +4,10 @@ header {
     height: 70vh;
     background-image: url("../../public/images/portadita.jpg");
     background-size: cover;
-    opacity: 80%;
+    opacity: 69%;
     font-family: "Cormorant Garamond", serif;
     background-attachment: fixed;
+   
 
   }
   
@@ -32,8 +33,16 @@ header {
     font-size: 18px;
   }
   
-  .logo_tienda1 {
-   width: 20%;
-   height: auto;
-    filter: drop-shadow(0 0 0.85rem rgb(255, 254, 254));
-  }
+.logo_tienda2{
+  width: 17%;
+  height: auto;
+ opacity: 120%;
+
+}
+
+.container_logo{
+  display: flex;
+ justify-content: left;
+ align-items:center
+
+}

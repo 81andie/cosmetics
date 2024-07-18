@@ -1,14 +1,10 @@
 @media (min-width:320px) {
   header {
     display: block;
-    height: 30vh;
+    height: 50vh;
   }
+ 
 
-  .logo_tienda1 {
-    width: 30%;
-    height: 40px;
-    filter: drop-shadow(0 0 0.85rem rgb(255, 254, 254));
-   }
 
   .card {
     width: 100%;
