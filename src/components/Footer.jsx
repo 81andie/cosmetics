@@ -1,5 +1,6 @@
 import React from 'react'
 import 'primeicons/primeicons.css';
+import './Footer.css';
 
 export const Footer = () => {
   return (

@@ -6,17 +6,6 @@ import './responsive.css';
 import './ColorVariantSelector.css';
 import 'primeflex/primeflex.css';
 import './App.css';
-import './Header.css';
-import './Navbar.css';
-import './ErrorPage.css';
-import './Targeta.css';
-import './Nosotros.css';
-import './NuestrasMarcas.css';
-import './Subscripcion.css';
-import './Footer.css';
-import './Marca.css';
-import './Pedido.css';
-import './FormPayments.css';
 
 
 function App() {

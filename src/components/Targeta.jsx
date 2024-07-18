@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect, useState, useRef } from "react";
 import JSConfetti from "js-confetti";
+import './Targeta.css';
 
 export const Targeta = ({ frontContent, backContent }) => {
 

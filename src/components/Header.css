@@ -2,7 +2,7 @@ header {
     display: flex;
     color: white;
     height: 70vh;
-    background-image: url("../public/images/portadita.jpg");
+    background-image: url("../../public/images/portadita.jpg");
     background-size: cover;
     opacity: 80%;
     font-family: "Cormorant Garamond", serif;

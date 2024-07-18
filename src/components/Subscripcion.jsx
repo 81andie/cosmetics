@@ -1,4 +1,5 @@
 import React from 'react'
+import './Subscripcion.css';
 
 export const Subscripcion = () => {
     return (

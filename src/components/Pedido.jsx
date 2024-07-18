@@ -5,6 +5,7 @@ import { Button } from 'primereact/button';
 import { Rating } from 'primereact/rating';
 import { Tag } from 'primereact/tag';
 import { FormPayments } from './FormPayments';
+import './Pedido.css';
 
 
 export const Pedido = () => {

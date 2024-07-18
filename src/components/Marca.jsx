@@ -1,4 +1,5 @@
 import React from 'react'
+import './Marca.css';
 
 import { useEffect, useRef, useState } from 'react';
 import { Button } from 'primereact/button';

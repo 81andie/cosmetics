@@ -5,6 +5,7 @@ import { Tag } from 'primereact/tag';
 import { Steps } from 'primereact/steps';
 import { Toast } from 'primereact/toast';
 import { Targeta } from './Targeta';
+import './FormPayments.css';
 
 export const FormPayments = () => {
 
