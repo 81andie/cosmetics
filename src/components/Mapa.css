@@ -1,29 +1,28 @@
-.subtitulo_localizacion{
+.subtitulo_localizacion {
     text-align: center;
     letter-spacing: 12px;
     text-align: center;
 }
 
-
-
-.localizacion{
+.localizacion {
     padding: 10px;
     margin-top: 140px;
     text-transform: uppercase;
     letter-spacing: 22px;
     text-align: center;
 }
-.container_geolocalizacion{
+
+.container_geolocalizacion {
     width: 100%;
     margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    align-items:center;
+    align-items: center;
 }
 
-.imagen-tienda{
+.imagen-tienda {
     width: 100%;
     height: auto;
 }
