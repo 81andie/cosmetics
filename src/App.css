@@ -26,6 +26,10 @@ body {
 
 }
 
+.pi{
+  font-size: 20px;
+}
+
 
 @keyframes fade {
   100% {

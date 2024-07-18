@@ -8,11 +8,11 @@
   }
   
   .container_info_footer {
-    width: 200px;
-    height: 170px;
+    width: 165px;
+    height: 165px;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 20px;
+    padding: 10px;
     line-height: 17px;
     display: flex;
     flex-direction: column;
