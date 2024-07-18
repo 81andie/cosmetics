@@ -1,42 +1,41 @@
 .sobre_nosotrosPresentacion h1 {
-    font-size: 2rem;
-    font-weight: bolder;
-    letter-spacing: 22px;
-    margin-top: 50px;
+  font-size: 2rem;
+  font-weight: bolder;
+  letter-spacing: 22px;
+  margin-top: 50px;
   text-align: center;
-  }
-  
-  .sobre_nosotrosPresentacion span {
-    width: 90%;
-    
-    font-size: 1.3rem;
-    font-weight: bolder;
-    padding: 5px;
-    line-height: 25px;
-    letter-spacing: 12px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    text-align: left;
-  
-  }
-  .sobre_nosotrosPresentacion {
-    width: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    color: rgb(2, 2, 2);
-  }
-  
-  figure {
-    margin-bottom: 50px;
-    width: 70%;
-    margin: 0 auto;
-    color: rgb(2, 2, 2);
-  }
-  
-  figure img {
-    width: 100%;
-    margin-top: 60px;
-  
-  }
-  
+}
+
+.sobre_nosotrosPresentacion span {
+  width: 90%;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  padding: 5px;
+  line-height: 25px;
+  letter-spacing: 12px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: left;
+
+}
+
+.sobre_nosotrosPresentacion {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  color: rgb(2, 2, 2);
+}
+
+figure {
+  margin-bottom: 50px;
+  width: 70%;
+  margin: 0 auto;
+  color: rgb(2, 2, 2);
+}
+
+figure img {
+  width: 100%;
+  margin-top: 60px;
+
+}

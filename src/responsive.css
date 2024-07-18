@@ -145,6 +145,10 @@
   margin-left: 30px;
 
   }
+
+  .parr_container{
+    text-align: center;
+  }
 }
 
 @media (min-width:481px) {}
@@ -418,5 +422,9 @@
     width: 25%;
     height: 70vh;
 
+  }
+
+  .parr_container{
+    text-align: left;
   }
 }

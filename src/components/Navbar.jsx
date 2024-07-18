@@ -38,7 +38,7 @@ export const Navbar = () => {
                             
                             { label: 'Contacto', 
                             command: () => {
-                                navigate("/marcas/carolinaherrera");
+                                navigate("/contacto");
                             } }, 
 
 

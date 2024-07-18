@@ -8,6 +8,7 @@ import { Inicio } from '../components/Inicio';
 import { Footer } from '../components/Footer';
 import { NuestrasMarcas } from '../components/NuestrasMarcas';
 import { ErrorPage } from '../components/ErrorPage';
+import { Contacto } from '../components/Contacto';
 
 
 export const Routing = () => {
@@ -23,6 +24,7 @@ export const Routing = () => {
                     <Route path="/ofertas" element={<Ofertas />} />
                     <Route path="/Pedido" element={<Pedido />} />
                     <Route path="/marcas/:id" element={<Marca />} />
+                    <Route path="/contacto" element={<Contacto />} />
                     <Route path="*" element={<ErrorPage />}/>
 
 

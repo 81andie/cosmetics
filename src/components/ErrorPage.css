@@ -1,9 +1,9 @@
 .error_container {
-  font-size: 3rem;
+  font-size: 2rem;
   display: flex;
   gap: 20px;
   justify-content: center;
-  
+
 }
 
 .error {
@@ -13,19 +13,30 @@
 
 .Disculpa_container {
   text-align: center;
+  align-items: center;
 }
 
-.numeros{
-
+.numeros {
   font-size: 4rem;
-    
 }
 
-.numeros_container{
+.numeros_container {
   display: flex;
-font-size: 3rem;
-  
+  font-size: 3rem;
 
 
 }
 
+.Btn-volver{
+ 
+  width: 150px;
+  background-color: black;
+  padding: 9px;
+  border: none;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+  padding: 17px;
+}
