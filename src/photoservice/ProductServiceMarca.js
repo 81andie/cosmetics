@@ -1338,7 +1338,261 @@ export const ProductServiceMarca = {
                 marca: 'hidratantes',
                 inventoryStatus: 'INSTOCK',
                 rating: 3
+            },
+
+            {
+                id: '1076',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'cliniquelogo.png',
+                name: 'Moisture Surge Intense, tratamiento Hidro-Regenerador 72h',
+                description: 'Este gel-crema de textura rica hidrata durante 72 horas y calma la piel para dejarla suave, tersa y luminosa.',
+                image: 'hdrateclinic.webp',
+                price: 46.99,
+                category: 'Crema hidratante',
+                quantity: 0,
+                marca: 'hidratantes',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1077',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'logoChanel.png',
+                name: 'Chanel, Hydra Beaty Crème',
+                description: 'El gesto hidratante indispensable para el confort de las pieles normales a secas. HYDRA BEAUTY Crème hidrata en profundidad y protege la piel de los radicales libres. Su textura fresca y untuosa se funde delicadamente revelando sutiles notas afrutadas.',
+                image: 'hidra.avif',
+                price: 68.99,
+                category: 'Crema hidratante',
+                quantity: 0,
+                marca: 'hidratantes',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+
+            {
+                id: '1078',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'originslogo.png',
+                name: 'Ginzing-',
+                description: 'Esta hidratante multifunción con café y ginseng hidrata y aporta energía de forma instantánea.Además protege de los rayos UV. Todo esto mientras añade un toque de color para que consigas un acabado impecable. notarás tu piel vibrante, sana y radiante.',
+                image: 'originscolor.avif',
+                price: 42.99,
+                category: 'Crema hidratante con color',
+                quantity: 0,
+                marca: 'concolor',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1079',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'the ordinary.logo.avif',
+                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
+                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
+                image: 'ordinaryhidratante.avif',
+                price: 7.99,
+                category: 'Crema hidratante',
+                quantity: 0,
+                marca: 'hidratantes',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1080',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'the ordinary.logo.avif',
+                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
+                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
+                image: 'ordinaryhidratante.avif',
+                price: 7.99,
+                category: 'Crema hidratante',
+                quantity: 0,
+                marca: 'hidratantes',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+
+            {
+                id: '1081',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'the ordinary.logo.avif',
+                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
+                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
+                image: 'ordinaryhidratante.avif',
+                price: 7.99,
+                category: 'Crema hidratante',
+                quantity: 0,
+                marca: 'hidratantes',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1082',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'the ordinary.logo.avif',
+                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
+                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
+                image: 'ordinaryhidratante.avif',
+                price: 7.99,
+                category: 'Crema hidratante',
+                quantity: 0,
+                marca: 'hidratantes',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1083',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'the ordinary.logo.avif',
+                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
+                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
+                image: 'ordinaryhidratante.avif',
+                price: 7.99,
+                category: 'Crema hidratante',
+                quantity: 0,
+                marca: 'hidratantes',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1084',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'the ordinary.logo.avif',
+                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
+                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
+                image: 'ordinaryhidratante.avif',
+                price: 7.99,
+                category: 'Crema hidratante',
+                quantity: 0,
+                marca: 'hidratantes',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1085',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'the ordinary.logo.avif',
+                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
+                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
+                image: 'ordinaryhidratante.avif',
+                price: 7.99,
+                category: 'Crema hidratante',
+                quantity: 0,
+                marca: 'hidratantes',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1086',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'the ordinary.logo.avif',
+                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
+                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
+                image: 'ordinaryhidratante.avif',
+                price: 7.99,
+                category: 'Crema hidratante',
+                quantity: 0,
+                marca: 'hidratantes',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1087',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'the ordinary.logo.avif',
+                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
+                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
+                image: 'ordinaryhidratante.avif',
+                price: 7.99,
+                category: 'Crema hidratante',
+                quantity: 0,
+                marca: 'hidratantes',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1088',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'the ordinary.logo.avif',
+                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
+                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
+                image: 'ordinaryhidratante.avif',
+                price: 7.99,
+                category: 'Crema hidratante',
+                quantity: 0,
+                marca: 'hidratantes',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1089',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'the ordinary.logo.avif',
+                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
+                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
+                image: 'ordinaryhidratante.avif',
+                price: 7.99,
+                category: 'Crema hidratante',
+                quantity: 0,
+                marca: 'hidratantes',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1090',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'the ordinary.logo.avif',
+                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
+                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
+                image: 'ordinaryhidratante.avif',
+                price: 7.99,
+                category: 'Crema hidratante',
+                quantity: 0,
+                marca: 'hidratantes',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
             }
+
+
+
+
+
+
+
+
+
+            
+
+
 
 
 
