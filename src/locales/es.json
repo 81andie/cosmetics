@@ -35,17 +35,38 @@
       "Summary of your order": "Resumen de tu pedido",
       "Order": "Orden"
     },
-    "header": {
-      "home": "Inicio",
-      "KnowMe": "Conóceme un poco más",
-      "aboutMe": "Sobre mí",
-      "whatdoIoffer": "¿Qué ofrezco?",
-      "training": "Formación",
-      "skills": "Competencias",
-      "certifications": "Certificaciones",
-      "contact": "Contacto",
-      "helloWorld": "¡Hola Mundo!",
-      "Im": "Soy Andrea, una desarrolladora web"
-    }
+  "SobreNosotros": {
+    "aboutus": "Sobre Nosotros",
+    "Fundation": "Fundada en 1910, Cleopatra nació de la idea de crear una experiencia de compra única para los amantes de la belleza. Nos inspiramos en la naturaleza y la ciencia para seleccionar los mejores productos para ti.",
+    "Ourstore": "Cleopatra ha sobrevivido al tiempo, a las guerras y en épocas donde abrirse un espacio en la supervivencia. Es una esencia de resistencia y resiliencia. Una empresa familiar donde la tercera generación de la familia toma las riendas hacia la modernidad, buscando las mejores exclusividades en todo tipo de marcas de lujo.",
+    "OurstoreImg": "Nuestra perfumería en el año 1921",
+    "Our brands": "Nuestras marcas",
+    "Don't miss": "No te pierdas nada de nada",
+    "Formalize": "¡Formaliza tu inscripción aquí!",
+    "Just for": "Solo por inscribirte, recibirás al instante en tu correo electrónico un 50% de descuento en tu próxima compra",
+    "Name": "Nombre y apellidos",
+    "Email": "Tu correo electrónico",
+    "Send": "Enviar",
+    "Free shipping": "Envíos gratis",
+    "Euros": "Euros",
+    "samples": "Muestras",
+    "sampleschoose": "Hasta 2 muestras gratis",
+    "choose": "Elige a tu gusto",
+    "returns": "Devoluciones",
+    "Return": "Devolución de cualquier producto gratuitamente",
+    "up to 60 days": "hasta 60 días para cambios y devoluciones",
+    "Click & Collect": "Click y recogida Express",
+    "Collection": "Recogida en 2 horas gratis",
+    "Receive your order": "Recibe tu pedido en comercios cercanos",
+    "Find us": "Encuéntranos:",
+    "Address": "C/Acacias (Narnia)",
+    "Phone": "telf: XXXXXXXXXXX",
+    "Mail": "Correo Electrónico: XXXXXXXXXXX@gmail.com",
+    "Information": "Información",
+    "Customer service": "Atención al cliente",
+    "Schedule an appointment in store": "Concertar Cita en tienda",
+    "Order issues": "Problemas con el pedido",
+    "24-hour customer service": "Atención al cliente 24 horas"
+  }
   }
   

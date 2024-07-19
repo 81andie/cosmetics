@@ -53,7 +53,22 @@
         "samples":"Mostres",
         "sampleschoose": "Fins a 2 mostres gratuites",
         "choose": "Estria al teu gust",
+        "returns": "Devolucions",
+        "Return": "Devolucó de qualsevol producte gratuitamente",
+        "up to 60 days": "fins a 60 dies per canvis i devolucions",
+        "Click & Collect": "Click y recollida Express",
+        "Collection": "Recollida en 2 hores gratis",
+        "Receive your order":"Rep la teva comanda en establiments propers",
+        "Find us": "Troba'ns:",
+        "Address": "C/Acacias (Narnia)",
+        "Phone": "telf: XXXXXXXXXXX",
+        "Mail": "Correo Electrónico: XXXXXXXXXXX@gmail.com",
+        "Information": "Informació",
+        "Customer service": "Atenció al client",
+        "Schedule an appointment in store": "Concertar Cita en botiga",
+        "Order issues": "Problemes amb la comanda",
+        "24-hour customer service": "Atenció al client 24 hores"
+      }
 
 
     }
-}
