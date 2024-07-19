@@ -141,8 +141,14 @@ export const Navbar = () => {
                         
                         
                         { label: 'BB Correct', command:()=>{
-                            navigate("/marcas/BB")
-                        }}, { label: 'AntiManchas' }]
+                            navigate("/marcas/BBcolor")
+
+
+                        }}, 
+                        
+                        { label: 'AntiManchas', command:()=>{
+                            navigate("/marcas/antimanchas")
+                        } }]
                     },
                     {
                         label: 'Cremas Corporales',
