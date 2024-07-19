@@ -40,8 +40,8 @@ export const ProductServiceMarca = {
                 code: 'zz21cz3c1',
                 color: 'No color',
                 portada: 'dior logo.png',
-                name: 'Christian Dior, J´adore l´or ',
-                description: 'Todo el oro de Jadore en un concentrado puro y esencial. Para L´Or de J´adore, Francis Kurkdjian, Director Creativo de Perfumes Dior, exalta la belleza de las flores de J´adore amplificando sus matices y acentuando sus colores.',
+                name: 'Christian Dior, Jadore Or ',
+                description: 'Todo el oro de Jadore en un concentrado puro y esencial. Para Francis Kurkdjian, Director Creativo de Perfumes Dior, exalta la belleza de las flores amplificando sus matices y acentuando sus colores.',
                 image: 'Jadore.jpg',
                 price: 168,
                 category: 'Eau da Parfum mujer || 125ml',
@@ -89,7 +89,6 @@ export const ProductServiceMarca = {
 
                 ],
                 category: 'Lipstic',
-              
                 quantity: 0,
                 marca: 'dior',
                 inventoryStatus: 'INSTOCK',
@@ -767,7 +766,7 @@ export const ProductServiceMarca = {
             {
                 id: '1041',
                 
-                color: '',
+                color: 'No color',
                 code: 'cm230f032',
                 portada: 'gucci.jpg',
                 name: 'Illuminateur de beauté',
@@ -1130,7 +1129,7 @@ export const ProductServiceMarca = {
             },
 
             {
-                id: '1062',
+                id: '1063',
                 color: 'No color',
                 code: 'cm230f032',
                 portada: 'siheidologo.png',
@@ -1146,7 +1145,7 @@ export const ProductServiceMarca = {
             },
 
             {
-                id: '1062',
+                id: '1064',
                 color: 'No color',
                 code: 'cm230f032',
                 portada: 'siheidologo.png',
@@ -1162,7 +1161,7 @@ export const ProductServiceMarca = {
             },
 
             {
-                id: '1062',
+                id: '1065',
                 color: 'No color',
                 code: 'cm230f032',
                 portada: 'siheidologo.png',
@@ -1178,7 +1177,7 @@ export const ProductServiceMarca = {
             },
 
             {
-                id: '1062',
+                id: '1066',
                 color: 'No color',
                 code: 'cm230f032',
                 portada: 'siheidologo.png',
@@ -1195,7 +1194,7 @@ export const ProductServiceMarca = {
 
 
             {
-                id: '1062',
+                id: '1067',
                 color: 'No color',
                 code: 'cm230f032',
                 portada: 'cliniquelogo.png',
@@ -1211,7 +1210,7 @@ export const ProductServiceMarca = {
             },
 
             {
-                id: '1062',
+                id: '1068',
                 color: 'No color',
                 code: 'cm230f032',
                 portada: 'siheidologo.png',
@@ -1227,7 +1226,7 @@ export const ProductServiceMarca = {
             },
             
             {
-                id: '1057',
+                id: '1069',
                 color: 'No color',
                 code: 'cm230f032',
                 portada: 'elisabet.png',
@@ -1243,7 +1242,7 @@ export const ProductServiceMarca = {
             },
 
             {
-                id: '1057',
+                id: '1070',
                 color: 'No color',
                 code: 'cm230f032',
                 portada: 'elisabet.png',
@@ -1259,7 +1258,57 @@ export const ProductServiceMarca = {
             },
 
             {
-                id: '1057',
+                id: '1071',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'Filorgalogo.jpg',
+                name: 'Ncef-Essence- Loción facial antiarrugas, firmeza y luminosidad',
+                description: 'NCEF-Reverse, la gama de cuidados intensivos contra el envejecimiento celular de los Laboratorios Filorga: 4 tratamientos regeneradores que contienen el equivalente a una dosis de NCTF. Aplicar Optim-Eyes mañana y noche en el contorno del ojo con suaves toquecitos.',
+                image: 'Filorgaanti.avif',
+                price: 55.95,
+                category: 'Crema Antiarrugas',
+                quantity: 0,
+                marca: 'antiarrugas',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+
+            {
+                id: '1072',
+                code: 'cm230f032',
+                color: 'No color',
+                portada: 'logoChanel.png',
+                name: 'Chanel, Crema Alisadora y Reafirmante',
+                description: 'Por primera vez, la Investigación de CHANEL crea una crema alisadora y reafirmante con una alta concentración de ingredientes de origen natural. LE LIFT Crème, compuesta por un 94% de ingredientes de origen natural, incorpora un nuevo activo ultraeficaz: el concentrado botánico de alfalfa, tan eficaz como el retinol*, en una fórmula suave para la piel. Se presenta en tres texturas ultrasensoriales: Crème Fine, Crème y Crème Riche, para una perfecta afinidad con todos los tipos de piel.',
+                image: 'Chanel anti.avif',
+                price: 138,
+                category: 'Crema Antiarrugas',
+                quantity: 0,
+                marca: 'antiarrugas',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+
+            {
+                id: '1073',
+                code: 'cm230f032',
+                color: 'No color',
+                portada: 'the ordinary.logo.avif',
+                name: 'Emulsión de Retinoide Granactivo* 2 % - Sérum antiedad',
+                description: 'Esta fórmula contiene dos tipos de retinoides avanzados de nueva generación: Retinoide Granactivo en una concentración del 2 %. Se trata de un complejo soluble de hidroxipinacolona retinoato, que es un tipo de retinoide también llamado éster de ácido transretinoico total.',
+                image: 'ordinaryserum.avif',
+                price: 14.99,
+                category: 'Crema Antiarrugas',
+                quantity: 0,
+                marca: 'antiarrugas',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1074',
                 color: 'No color',
                 code: 'cm230f032',
                 portada: 'siheidologo.png',
@@ -1269,10 +1318,27 @@ export const ProductServiceMarca = {
                 price: 145.95,
                 category: 'Crema hidratante',
                 quantity: 0,
-                marca: 'antiarrugas',
+                marca: 'hidratantes',
                 inventoryStatus: 'INSTOCK',
                 rating: 3
             },
+
+
+            {
+                id: '1075',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'the ordinary.logo.avif',
+                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
+                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
+                image: 'ordinaryhidratante.avif',
+                price: 7.99,
+                category: 'Crema hidratante',
+                quantity: 0,
+                marca: 'hidratantes',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            }
 
 
 

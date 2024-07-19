@@ -112,13 +112,19 @@ export const Marca = () => {
     };
 
     const showInfo = () => {
+
+        if(toast.current){
         toast.current.show({
             severity: 'info',
             summary: 'Mensaje información al usuario',
             detail: 'Ha agregado su producto en el carrito',
             life: 3000
         });
+
+    }else{
+        console.log('Toast ref is null');
     }
+}
 
 
     const handleSearch = (event) => {

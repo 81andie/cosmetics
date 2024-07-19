@@ -15,26 +15,35 @@ export const FormPayments = () => {
         {
             label: ' tu informacion',
             command: (event) => {
+                if(toast.current){
                 toast.current.show({ severity: 'info', summary: '1º PASO', detail: event.item.label });
             }
+        }
         },
         {
             label: 'tus productos',
+
             command: (event) => {
+                if(toast.current){
                 toast.current.show({ severity: 'warn', summary: '2º PASO', detail: event.item.label });
             }
+        }
         },
         {
             label: '"CLICK" a"payment"',
             command: (event) => {
+                if(toast.current){
                 toast.current.show({ severity: 'info', summary: '3º PASO', detail: event.item.label });
             }
+        }
         },
         {
             label: 'tu confirmación, tu pedido ha sido un éxito',
             command: (event) => {
+                if(toast.current){
                 toast.current.show({ severity: 'success', summary: '4º paso', detail: event.item.label });
             }
+        }
         }
     ];
 

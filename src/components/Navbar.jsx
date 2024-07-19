@@ -118,7 +118,6 @@ export const Navbar = () => {
                         }}, 
                         
                         
-
                         
                         { label: 'Ojos' , command:()=>{
                             navigate("/marcas/ojos")
@@ -131,7 +130,13 @@ export const Navbar = () => {
                         } }, 
                          
                          
-                         { label: 'Hidratantes' }, { label: 'Con Color' }, 
+                         { label: 'Hidratantes', command: ()=>{
+                            navigate("/marcas/hidratantes")
+                         }}, 
+                         
+                         { label: 'Con Color', command:()=>{
+                            navigate("/marcas/concolor")
+                         }}, 
                         
                         
                         

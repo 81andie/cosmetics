@@ -18,8 +18,7 @@
 
   .img-products1{
     height: 200px;
-    object-fit: cover;
-    padding: 3px;
+    object-fit: contain;
     border-radius: 28px;
     /*border: 1px solid rgb(117, 100, 223);*/
   }
