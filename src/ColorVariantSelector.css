@@ -1,9 +1,9 @@
 .color-selector-button {
 
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   border-radius: 100%;
-  font-size: 7.1px;
+  font-size: 7.5px;
   color: white;
   margin-left: 2px;
 
@@ -172,9 +172,45 @@
 
 
 
+
 .color-selectors-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 
+}
+
+
+.bg-nuits {
+  background-color: #f6192bec;
+}
+
+.bg-obsess {
+  background-color: #f8a394fe;
+}
+
+.bg-dor {
+  background-color: rgb(243, 213, 104);
+}
+
+.bg-roseline{
+  background-color: rgb(253, 94, 224);
+}
+
+
+.bg-mimose{
+  background-color: #f2b8c3;
+}
+
+
+.bg-line{
+  background-color:#d29237
+}
+
+.bg-carol{
+  background-color: rgb(196, 188, 245)
+}
+
+.bg-carolina{
+  background-color: rgb(205, 162, 245);
 }

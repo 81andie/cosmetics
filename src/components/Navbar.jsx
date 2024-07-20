@@ -15,7 +15,7 @@ export const Navbar = () => {
 
 
 
-        { 
+        {
             label: 'Home', icon: 'pi pi-fw pi-star-fill',
             items: [
                 [
@@ -34,30 +34,32 @@ export const Navbar = () => {
                                 command: () => {
                                     navigate("/marcas");
                                 }
-                            }, 
-                            
-                            { label: 'Contacto', 
-                            command: () => {
-                                navigate("/contacto");
-                            } }, 
+                            },
+
+                            {
+                                label: 'Contacto',
+                                command: () => {
+                                    navigate("/contacto");
+                                }
+                            },
 
 
-                          
-                    ]
+
+                        ]
 
                     },
-                    
+
                 ],
-               
+
             ]
         },
 
-        { 
-            label: 'Productos', icon: 'pi pi-fw pi-star-fill',
+        {
+            label: 'Marcas principales', icon: 'pi pi-fw pi-star-fill',
             items: [
                 [
                     {
-                        label: 'marcas ',
+                        label: 'Marcas',
                         items: [
 
                             {
@@ -71,36 +73,45 @@ export const Navbar = () => {
                                 command: () => {
                                     navigate("/marcas/chanel");
                                 }
-                            }, 
-                            
-                            { label: 'Carolina Herrera', 
-                            command: () => {
-                                navigate("/marcas/carolinaherrera");
-                            } }, 
+                            },
+
+                            {
+                                label: 'Carolina Herrera',
+                                command: () => {
+                                    navigate("/marcas/carolinaherrera");
+                                }
+                            },
 
 
-                            { label: 'Guerlain', command: () => {
-                                navigate("/marcas/guerlain");
-                            }  }, 
-                            
-                            { label: 'Gucci', command: () => {
-                                navigate("/marcas/gucci");
-                            }  }]
+                            {
+                                label: 'Guerlain', command: () => {
+                                    navigate("/marcas/guerlain");
+                                }
+                            },
+
+                            {
+                                label: 'Gucci', command: () => {
+                                    navigate("/marcas/gucci");
+                                }
+                            }]
 
                     },
                     {
                         label: 'Perfumes',
-                        items: [{ label: 'Perfumes', command: () =>{
-                            navigate("/marcas/perfumes")
-                        }
+                        items: [{
+                            label: 'Perfumes', command: () => {
+                                navigate("/marcas/perfumes")
+                            }
 
-                        
-                        }, { label: 'Agua de Colonia', command: () =>{
-                            navigate("/marcas/aguasdecolonia")
-                        } }]
+
+                        }, {
+                            label: 'Agua de Colonia', command: () => {
+                                navigate("/marcas/aguasdecolonia")
+                            }
+                        }]
                     }
                 ],
-               
+
             ]
         },
         {
@@ -109,56 +120,80 @@ export const Navbar = () => {
                 [
                     {
                         label: 'Cremas faciales',
-                        items: [{ label: 'Cremas', command:()=>{
-                            navigate("/marcas/cremas")
-                        } }, 
-                        
-                        { label: 'Serums',  command:()=>{
-                            navigate("/marcas/serums")
-                        }}, 
-                        
-                        
-                        
-                        { label: 'Ojos' , command:()=>{
-                            navigate("/marcas/ojos")
+                        items: [{
+                            label: 'Cremas', command: () => {
+                                navigate("/marcas/cremas")
+                            }
+                        },
 
-                        }}, 
-                        
-                        
-                        { label: 'Anti-Arrugas', command:()=>{
-                            navigate("/marcas/antiarrugas")
-                        } }, 
-                         
-                         
-                         { label: 'Hidratantes', command: ()=>{
-                            navigate("/marcas/hidratantes")
-                         }}, 
-                         
-                         { label: 'Con Color', command:()=>{
-                            navigate("/marcas/concolor")
-                         }}, 
-                        
-                        
-                        
-                        { label: 'BB Correct', command:()=>{
-                            navigate("/marcas/BBcolor")
+                        {
+                            label: 'Serums', command: () => {
+                                navigate("/marcas/serums")
+                            }
+                        },
 
 
-                        }}, 
-                        
-                        { label: 'AntiManchas', command:()=>{
-                            navigate("/marcas/antimanchas")
-                        } }]
+
+                        {
+                            label: 'Ojos', command: () => {
+                                navigate("/marcas/ojos")
+
+                            }
+                        },
+
+
+                        {
+                            label: 'Anti-Arrugas', command: () => {
+                                navigate("/marcas/antiarrugas")
+                            }
+                        },
+
+
+                        {
+                            label: 'Hidratantes', command: () => {
+                                navigate("/marcas/hidratantes")
+                            }
+                        },
+
+                        {
+                            label: 'Con Color', command: () => {
+                                navigate("/marcas/concolor")
+                            }
+                        },
+
+
+
+
+                        {
+                            label: 'AntiManchas', command: () => {
+                                navigate("/marcas/antimanchas")
+                            }
+                        }]
                     },
-                    {
-                        label: 'Cremas Corporales',
-                        items: [{ label: 'Hidratantes' }, { label: 'Anticelulíticas' }]
-                    },
+
                 ],
                 [
                     {
                         label: 'Cremas de protección solar',
-                        items: [{ label: 'Aceites' }, { label: 'Crema' }, { label: 'Aftesun' }]
+                        items: [
+
+                            {
+                                label: 'Aceites', command: () => {
+                                    navigate("marcas/aceitessolares")
+                                }
+                            },
+
+                            {
+                                label: 'Crema', command: () => {
+                                    navigate("marcas/cremasolares")
+                                }
+                            },
+
+                            {
+                                label: 'Aftesun', command: () => {
+                                    navigate("marcas/aftesun")
+                                }
+                            }]
                     }
 
                 ]
@@ -171,7 +206,19 @@ export const Navbar = () => {
                 [
                     {
                         label: 'Labiales',
-                        items: [{ label: 'Gloss' }, { label: 'Barras' }]
+                        items: [
+
+                            {
+                                label: 'Gloss', command: () => {
+                                    navigate("marcas/gloss");
+                                }
+                            },
+                            {
+                                label: 'Barras', command: () => {
+                                    navigate("marcas/barras")
+                                }
+
+                            }]
                     },
                     {
                         label: 'Ojos',
@@ -214,9 +261,11 @@ export const Navbar = () => {
                 [
                     {
                         label: 'Resumen de tu pedido',
-                        items: [{ label: 'Ver', command: ()=>{
-                            navigate('/Pedido')
-                        } }]
+                        items: [{
+                            label: 'Ver', command: () => {
+                                navigate('/Pedido')
+                            }
+                        }]
                     }
 
                 ]
@@ -228,16 +277,16 @@ export const Navbar = () => {
 
     return (
         <>
-        <div>
-            <div className="card-menu">
-           
-                <MegaMenu model={items} breakpoint="960px" 
-               
-                />
-                
+            <div>
+                <div className="card-menu">
 
+                    <MegaMenu model={items} breakpoint="960px"
+
+                    />
+
+
+                </div>
             </div>
-        </div>
         </>
     )
 }
