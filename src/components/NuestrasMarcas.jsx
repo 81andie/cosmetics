@@ -9,6 +9,7 @@ export const NuestrasMarcas = () => {
                 <h1>Nuestras marcas</h1>
 
                 <div className="marcas">
+                    
                     <img src="images/dior logo.png" className="marca_logo1" alt="logo de la marca Dior" />
                     <img src="images/Touslogo.webp" className="marca_logo1" alt="logo de la marca Tous" />
                     <img src="images/gucci.jpg" className="marca_logo1" alt="logo de la marca Gucci" />

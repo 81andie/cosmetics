@@ -26,8 +26,33 @@ export const Marca = () => {
         return savedCart ? JSON.parse(savedCart) : [];
     })
 
+
     const agregarColor = (e, productId) => {
+        const selectedColor = [e.target.getAttribute('data-color')];
+    
+        if (!selectedColor) {
+            console.error("No se ha seleccionado ningún color.");
+            return;
+        }
+    
+        setColor(prevState => {
+            const currentColors = prevState[productId] || [];
+            const updatedColors = currentColors.includes(selectedColor) ? currentColors : [...currentColors, selectedColor];
+            console.log(`Colores actualizados para el producto ${productId}: ${updatedColors}`);
+            return { ...prevState, [productId]: updatedColors };
+        });
+    
+      
+    };
+
+
+
+    {/*const agregarColor = (e, productId) => {
         const selectedColor = e.target.getAttribute('data-color');
+
+   
+
+        
         setColor(prevState => ({ ...prevState, [productId]: selectedColor }));
         console.log(`Color seleccionado para el producto ${productId}: ${selectedColor}`);
 
@@ -42,17 +67,14 @@ export const Marca = () => {
             return updatedCart;
         });
 
-
-
-    };
-
-
-
-
-
+      
+    }; 
+    
     const addToCart = (product) => {
 
         console.log("Agregando al carrito:", product);
+
+        
 
         const isProductInCart = cart.some(item => item.id === product.id);
 
@@ -69,9 +91,58 @@ export const Marca = () => {
 
         }
 
+    };
+    
+    
+    
+    
+    */}
 
+
+
+
+
+  const addToCart = (product) => {
+
+      //  console.log("Agregando al carrito:", product.color);
+        const selectedColors= color[product.id] || [];
+
+        console.log(selectedColors);
+
+        const isProductInCart = cart.some(item => item.id === product.id && item.color === selectedColors);
+
+
+        if (!isProductInCart) {
+            const updatedProduct = {...product, color: selectedColors };
+            const updateCart = [...cart, updatedProduct,];
+            console.log('Producto actualizado:', updatedProduct);
+
+            setCart(updateCart);
+
+
+            localStorage.setItem('cart', JSON.stringify(updateCart));
+
+        }
+
+        toast.current.show({
+            severity: 'info',
+            summary: 'Agregado al carrito',
+            detail: `${product.name} (${selectedColors.join(', ')})`
+        });
 
     };
+
+
+
+
+
+
+
+
+
+
+
+
 
     const ds = useRef(null);
 
@@ -90,7 +161,7 @@ export const Marca = () => {
             
                 setProducts(items)
                 setFilteredProducts(items);
-                console.log(items)
+               
             }
         );
     }, [id]); // eslint-disable-line react-hooks/exhaustive-deps

@@ -222,7 +222,17 @@ export const Navbar = () => {
                     },
                     {
                         label: 'Ojos',
-                        items: [{ label: 'Paletas' }, { label: 'EyeLiners' }]
+                        items: [
+                            {
+                                label: 'Paletas', command: () => {
+                                    navigate("marcas/paletas")
+                                }
+                            },
+                            {
+                                label: 'EyeLiners', command: () => {
+                                    navigate("marcas/eyeliners")
+                                }
+                            }]
                     }
                 ],
                 [

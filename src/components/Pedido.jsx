@@ -6,29 +6,30 @@ import { Rating } from 'primereact/rating';
 import { Tag } from 'primereact/tag';
 import { FormPayments } from './FormPayments';
 import './Pedido.css';
+import { FilterOperator } from 'primereact/api';
 
 
 export const Pedido = () => {
   const [products, setProducts] = useState([]);
 
 
+
+
   useEffect(() => {
     const storedProducts = localStorage.getItem('cart');
- 
- 
 
- 
-    if (storedProducts ) {
+
+    if (storedProducts) {
       const parsedProducts = JSON.parse(storedProducts);
-   
+
       console.log('Productos recuperados de localStorage:', parsedProducts);
       setProducts(parsedProducts);
-      
-    
+
+
     } else {
       console.log('No products found in localStorage.');
     }
-   
+
   }, []);
 
 
@@ -41,7 +42,7 @@ export const Pedido = () => {
   };
 
   const imageBodyTemplate = (product) => {
-    return <img src={`/images/${product.image}`} alt={product.name} className="image-products2"/>;
+    return <img src={`/images/${product.image}`} alt={product.name} className="image-products2" />;
   };
 
   const priceBodyTemplate = (product) => {
@@ -53,21 +54,39 @@ export const Pedido = () => {
   };
 
 
-  const BodyTemplateColor= (product) => {
+  const BodyTemplateColor = (product) => {
     return product.color ? <span>{product.color}</span> : null;
   };
- 
-  const nameBodyTemplate = (rowData) => {
-    return (
-        <span>
-            {rowData.name}
-            {rowData.color && <span className="spanColor">Color: {rowData.color} </span>}
-        </span>
-    );
-};
-  
 
- 
+  const nameBodyTemplate = (rowData) => {
+
+    const colors = Array.isArray(rowData.color) ? rowData.color : [];
+
+
+    return (
+
+      <div>
+        <span>
+     {rowData.name}  </span>
+        {/*{rowData.color && <span className="spanColor">Color: {rowData.color.length}  </span>}*/}
+
+        {colors.map((color, index) => (
+        <div key={index}>
+          <span>Color {index + 1}: {color}</span>
+        </div>
+      ))}
+        
+
+      </div>
+
+
+
+
+    );
+  };
+
+
+
 
   const getSeverity = (product) => {
     switch (product.inventoryStatus) {
@@ -99,9 +118,9 @@ export const Pedido = () => {
     localStorage.setItem('cart', JSON.stringify(updatedProducts));
   };
 
-  const eliminarProducto = (productos)=>{
-  
-    const actualizarProductos = products.filter((producto)=> producto.id !== productos.id );
+  const eliminarProducto = (productos) => {
+
+    const actualizarProductos = products.filter((producto) => producto.id !== productos.id);
     setProducts(actualizarProductos);
     localStorage.setItem('cart', JSON.stringify(actualizarProductos));
   }
@@ -110,16 +129,16 @@ export const Pedido = () => {
 
   const footer = (
     <div>
-      <div  className="container_total" style={{ textAlign: 'right' }}>
+      <div className="container_total" style={{ textAlign: 'right' }}>
         <em>Total:</em> {formatCurrency(total)}
       </div>
       <div className="iva" style={{ textAlign: 'right' }}>
         <strong>IVA (21%):</strong> {formatCurrency(IVA)}
       </div>
-      <div className="totalIva"style={{ textAlign: 'right' }}>
+      <div className="totalIva" style={{ textAlign: 'right' }}>
         <em>Total con IVA:</em> {formatCurrency(totalWithIVA)}
       </div>
-      
+
     </div>
   );
 
@@ -129,53 +148,53 @@ export const Pedido = () => {
       <Button icon="pi pi-refresh" rounded raised onClick={() => window.location.reload()} />
     </div>
   );
-  
+
 
 
   return (
 
     <>
-    <section className="container_pedido">
-      <div className="pedido_titulo">
-        <img src="/logo.jpg" className="logo_tienda1" alt="logo" />
-        <h1>TU PEDIDO</h1>
-      </div>
-      <hr />
+      <section className="container_pedido">
+        <div className="pedido_titulo">
+          <img src="/logo.jpg" className="logo_tienda1" alt="logo" />
+          <h1>TU PEDIDO</h1>
+        </div>
+        <hr />
 
-      <div className="card3">
-        <DataTable value={products} header={header} footer={footer} tableStyle={{ minWidth: '60rem' }}>
-        <Column field="name" header="Producto" className="producto" body={nameBodyTemplate} />
-        <Column header="Imagen" body={imageBodyTemplate}  />
-        
-          <Column field="price" header="Precio" body={priceBodyTemplate} />
-        
-          <Column
-            className="cantidad"
-            header="Cantidad"
-            body={(product) => (
-              <input
-                type="number"
-                value={product.quantity || 1}
-                onChange={(e) => handleQuantityChange(e, product)}
-              />
-            )}
+        <div className="card3">
+          <DataTable value={products} header={header} footer={footer} tableStyle={{ minWidth: '60rem' }}>
+            <Column field="name" header="Producto" className="producto" body={nameBodyTemplate} />
+            <Column header="Imagen" body={imageBodyTemplate} />
+
+            <Column field="price" header="Precio" body={priceBodyTemplate} />
+
+            <Column
+              className="cantidad"
+              header="Cantidad"
+              body={(product) => (
+                <input
+                  type="number"
+                  value={product.quantity || 1}
+                  onChange={(e) => handleQuantityChange(e, product)}
+                />
+              )}
             />
 
-          <Column header="Subtotal" body={(product) => formatCurrency(calculateSubtotal(product))} />
-          <Column
-                    header="Eliminar"
-                    body={(product) => (
-                     
-                        <Button  icon="pi pi-trash" onClick={() => eliminarProducto(product)} />
-                    )}
-                />
-         
-        </DataTable>
-      </div>
-    </section>
+            <Column header="Subtotal" body={(product) => formatCurrency(calculateSubtotal(product))} />
+            <Column
+              header="Eliminar"
+              body={(product) => (
 
- <FormPayments/>
-               
+                <Button icon="pi pi-trash" onClick={() => eliminarProducto(product)} />
+              )}
+            />
+
+          </DataTable>
+        </div>
+      </section>
+
+      <FormPayments />
+
 
 
     </>

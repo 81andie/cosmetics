@@ -116,10 +116,10 @@ export const FormPayments = () => {
     return (
         <>
 
-            <section class="steps_informacion">
+            <section className="steps_informacion">
 
-                <h1 class="steps_titulo">PAYMENT</h1>
-                <h3 class="steps_subs">Sigue estos 4 pasos</h3>
+                <h1 className="steps_titulo">PAYMENT</h1>
+                <h3 className="steps_subs">Sigue estos 4 pasos</h3>
 
                 <div className="card4">
                     <Toast ref={toast}></Toast>

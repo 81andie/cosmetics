@@ -400,7 +400,7 @@ export const ProductServiceMarca = {
                     { color: 'Dor', id: '00023'},
                     { color: 'carolina', id: '00024'},
                     { color: 'Line', id: '00026'},
-                    { color: 'Carol', id: '00103' }
+                    { color: 'Carol', id: '00027' }
                   
                 
                 ],
@@ -1583,8 +1583,8 @@ export const ProductServiceMarca = {
             },
 
             {
-                id: '1090',
-                color: 'No color',
+                id: '1091',
+                color: '',
                 code: 'cm230f032',
                 portada: 'featybeatylogo.jpg',
                 name: 'Gloss Bomb Stix ',
@@ -1595,16 +1595,46 @@ export const ProductServiceMarca = {
                 quantity: 0,
                 marca: 'gloss',
                 variants: [
-                    { color: 'Roige Beige', id: '1-red' },
-                    { color: 'Nude', id: '1-pinky' },
-                    { color: 'Doré', id: '1-nudeon' },
-                    { color: 'fucsia', id: '1-nud' },
-                    { color: 'chery', id: '1-cherry' },
-                    { color: 'Rose', id: '1-Rose electric' },
-                    { color: 'dorado', id: '1-doradi' },
-                    { color: 'chanel', id: '1-chanel' },
-                    { color: 'Lucky', id: '1-luckyChanel' },
-                    { color: 'Brown', id: '1-brownsugar' },
+                    { color: 'Roige Beige', id: '00032' },
+                    { color: 'Nude', id: '00033' },
+                    { color: 'Doré', id: '00034' },
+                    { color: 'fucsia', id: '00035' },
+                    { color: 'chery', id: '00036' },
+                    { color: 'Rose', id: '00037' },
+                    { color: 'dorado', id: '00038' },
+                    { color: 'chanel', id: '00039' },
+                    { color: 'Lucky', id: '00040' },
+                    { color: 'Brown', id: '00041' },
+                 
+
+                ],
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1092',
+                color: '',
+                code: 'cm230f032',
+                portada: 'featybeatylogo.jpg',
+                name: 'Gloss Bomb Heat',
+                description: 'Fenty Beauty combina una barra de labios hidratante y un gloss brillante para crear su nuevo Gloss Bomb Stix con un resultado altamente pigmentado. Ahora puedes disfrutar del brillo explosivo de los Gloss Bomb en una barra de color. ',
+                image: 'glossheat.avif',
+                price: 23.99,
+                category: 'Lip Gloss',
+                quantity: 0,
+                marca: 'gloss',
+                variants: [
+                    { color: 'hot', id: '00042' },
+                    { color: 'Nudie', id: '00043' },
+                    { color: 'Doré', id: '00044' },
+                    { color: 'fucsia', id: '00045' },
+                    { color: 'chery', id: '00046' },
+                    { color: 'Rose', id: '00047' },
+                    { color: 'dorado', id: '00048' },
+                    { color: 'chanel', id: '00049' },
+                    { color: 'Lucky', id: '00050' },
+                    { color: 'Brown', id: '00051' },
                  
 
                 ],
@@ -1613,88 +1643,102 @@ export const ProductServiceMarca = {
             },
 
 
-            {
-                id: '1091',
-                color: 'No color',
-                code: 'cm230f032',
-                portada: 'the ordinary.logo.avif',
-                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
-                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
-                image: 'ordinaryhidratante.avif',
-                price: 7.99,
-                category: 'Crema hidratante',
-                quantity: 0,
-                marca: 'hidratantes',
-                inventoryStatus: 'INSTOCK',
-                rating: 3
-            },
-
-            {
-                id: '1092',
-                color: 'No color',
-                code: 'cm230f032',
-                portada: 'the ordinary.logo.avif',
-                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
-                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
-                image: 'ordinaryhidratante.avif',
-                price: 7.99,
-                category: 'Crema hidratante',
-                quantity: 0,
-                marca: 'hidratantes',
-                inventoryStatus: 'INSTOCK',
-                rating: 3
-            },
-
-            {
-                id: '1093',
-                color: 'No color',
-                code: 'cm230f032',
-                portada: 'the ordinary.logo.avif',
-                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
-                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
-                image: 'ordinaryhidratante.avif',
-                price: 7.99,
-                category: 'Crema hidratante',
-                quantity: 0,
-                marca: 'hidratantes',
-                inventoryStatus: 'INSTOCK',
-                rating: 3
-            },
 
             {
                 id: '1094',
-                color: 'No color',
+                color: '',
                 code: 'cm230f032',
-                portada: 'the ordinary.logo.avif',
-                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
-                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
-                image: 'ordinaryhidratante.avif',
-                price: 7.99,
-                category: 'Crema hidratante',
+                portada: 'charlottelogo.png',
+                name: 'Hollywood Beauty Icon - K.I.S.S.I.N.G',
+                description: 'HOLLYWOOD BEAUTY ICONS5 bonitos tonos rosa satinado con la fórmula K.I.S.S.I.N.G de Charlotte, conocida en todo el mundo y elaborada con ingredientes para unos labios más suaves y carnosos.Combina tus barras de labios Hollywood Beauty Icon con los galardonados lápices Lip Cheat de Charlotte para redefinir tus labios y evitar las manchas y las transferencias.',
+                image: 'hialuronic charlotte.avif',
+                price: 37.99,
+                category: 'Barras de Labios',
                 quantity: 0,
-                marca: 'hidratantes',
+                variants: [
+                    { color: 'happetal', id: '00057' },
+                    { color: 'kiss', id: '00058' },
+                    { color: 'crystal', id: '00059' },
+                    { color: 'romance', id: '00060' },
+                    { color: 'glacé', id: '00061' }
+                   
+
+                ],
+                marca: 'barras',
                 inventoryStatus: 'INSTOCK',
                 rating: 3
             },
 
-            {
-                id: '1095',
-                color: 'No color',
-                code: 'cm230f032',
-                portada: 'the ordinary.logo.avif',
-                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
-                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
-                image: 'ordinaryhidratante.avif',
-                price: 7.99,
-                category: 'Crema hidratante',
-                quantity: 0,
-                marca: 'hidratantes',
-                inventoryStatus: 'INSTOCK',
-                rating: 3
-            },
+
+         
+
 
             {
                 id: '1096',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'the ordinary.logo.avif',
+                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
+                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
+                image: 'ordinaryhidratante.avif',
+                price: 7.99,
+                category: 'Crema hidratante',
+                quantity: 0,
+                marca: 'hidratantes',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1097',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'the ordinary.logo.avif',
+                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
+                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
+                image: 'ordinaryhidratante.avif',
+                price: 7.99,
+                category: 'Crema hidratante',
+                quantity: 0,
+                marca: 'hidratantes',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1098',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'the ordinary.logo.avif',
+                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
+                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
+                image: 'ordinaryhidratante.avif',
+                price: 7.99,
+                category: 'Crema hidratante',
+                quantity: 0,
+                marca: 'hidratantes',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1099',
+                color: 'No color',
+                code: 'cm230f032',
+                portada: 'the ordinary.logo.avif',
+                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
+                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
+                image: 'ordinaryhidratante.avif',
+                price: 7.99,
+                category: 'Crema hidratante',
+                quantity: 0,
+                marca: 'hidratantes',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
+
+            {
+                id: '1100',
                 color: 'No color',
                 code: 'cm230f032',
                 portada: 'the ordinary.logo.avif',

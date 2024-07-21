@@ -4,7 +4,7 @@
   height: 45px;
   border-radius: 100%;
   font-size: 7.5px;
-  color: white;
+  color: rgb(72, 69, 69);
   margin-left: 2px;
 
 }
@@ -20,154 +20,163 @@
 .bg-jardin {
   background-color: #a17467;
 }
-.bg-329{
- background-color: #c46d69;
+
+.bg-329 {
+  background-color: #c46d69;
 }
 
-.bg-mimi{
+.bg-mimi {
   background-color: #f5bbb7;
 }
-.bg-rose{
+
+.bg-rose {
   background-color: #e77186;
 }
 
-.bg-beige{
+.bg-beige {
   background-color: c;
 }
-.bg-dioreli{
+
+.bg-dioreli {
   background-color: #bd6c6e;
 }
-.bg-lucky{
- background-color: #e52130;
+
+.bg-lucky {
+  background-color: #e52130;
 }
-.bg-brown{
+
+.bg-brown {
   background-color: #9b533d;
 }
 
-.bg-roige{
-  background-color: rgb(227, 136, 103) ;
+.bg-roige {
+  background-color: rgb(227, 136, 103);
 }
 
-.bg-nude{
+.bg-nude {
   background-color: rgb(252, 194, 217);
 }
-.bg-doré{
+
+.bg-doré {
   background-color: rgb(220, 194, 137);
 }
 
-.bg-fucsia{
+.bg-fucsia {
   background-color: rgb(254, 3, 120);
 }
 
-.bg-chery{
+.bg-chery {
   background-color: rgb(247, 150, 196);
 }
 
-.bg-dorado{
+.bg-dorado {
   background-color: #f5d2b8;
 }
 
-.bg-chanel{
+.bg-chanel {
   background-color: #cc1804;
 }
 
-.bg-01{
+.bg-01 {
   background-color: #f6c7c1;
 }
 
-.bg-02{
+.bg-02 {
   background-color: #fadc6d;
 }
 
-.bg-03{
+.bg-03 {
   background-color: #fadfb6;
 }
 
-.bg-04{
+.bg-04 {
   background-color: #f6d8e8;
 }
-.bg-05{
+
+.bg-05 {
   background-color: #fddaa7;
 }
 
-.bg-06{
+.bg-06 {
   background-color: #fadfb6;
 }
 
-.bg-07{
+.bg-07 {
   background-color: #d4bb95;
 }
 
-.bg-08{
+.bg-08 {
   background-color: #f5e9d8;
 }
 
-.bg-09{
+.bg-09 {
   background-color: #fddaa7;
 }
 
-.bg-10{
+.bg-10 {
   background-color: #fee19e;
 }
 
-.bg-11{
+.bg-11 {
   background-color: #d4bb95;
 }
 
-.bg-12{
+.bg-12 {
   background-color: #face91;
 }
 
-.bg-13{
+.bg-13 {
   background-color: #f4dabe;
 }
 
-.bg-14{
+.bg-14 {
   background-color: #f4bf95;
 }
 
-.bg-15{
+.bg-15 {
   background-color: #f9ca88;
 }
 
 
-.bg-16{
+.bg-16 {
   background-color: #f8d5ee;
 }
 
-.bg-17{
+.bg-17 {
   background-color: #412803;
 }
 
-.bg-18{
+.bg-18 {
   background-color: #72490e;
 }
 
-.bg-19{
+.bg-19 {
   background-color: #976213;
 }
 
-.bg-20{
+.bg-20 {
   background-color: #342003;
 }
 
-.bg-noir{
+.bg-noir {
   background-image: url("/public/images/noir.webp");
 }
-.bg-lilac{
+
+.bg-lilac {
   background-image: url("/public/images/lilas.webp");
 }
-.bg-granate{
+
+.bg-granate {
   background-image: url("/public/images/granate.webp");
 }
 
-.bg-luminios{
+.bg-luminios {
   background-image: url("/public/images/iluminité.avif");
   width: 70px;
   height: 70px;
   background-size: cover;
   object-fit: cover;
-  
+
 }
 
 
@@ -193,24 +202,89 @@
   background-color: rgb(243, 213, 104);
 }
 
-.bg-roseline{
+.bg-roseline {
   background-color: rgb(253, 94, 224);
 }
 
 
-.bg-mimose{
+.bg-mimose {
   background-color: #f2b8c3;
 }
 
 
-.bg-line{
-  background-color:#d29237
+.bg-line {
+  background-color: #d29237
 }
 
-.bg-carol{
+.bg-carol {
   background-color: rgb(196, 188, 245)
 }
 
-.bg-carolina{
+.bg-carolina {
   background-color: rgb(205, 162, 245);
+}
+
+.bg-hot {
+  background-color: #2c1b03
+}
+
+.bg-nudie {
+  background-color: #f0c6c4;
+}
+
+.bg-camelia {
+  background-color: #fac7d0;
+}
+.bg-cerise{
+  background-color: #f895a7c0;
+}
+.bg-fucsie{
+  background-color: #fc4c9ed4;
+}
+.bg-fuclight{
+  background-color: #fdb2fed4;
+}
+
+.bg-blossom{
+  background-color: #fcb0da;
+}
+
+.bg-happetal{
+  background-color: #f194c7;
+}
+
+.bg-kiss{
+  background-color: #e01083;
+}
+
+.bg-crystal{
+  background-color: #ee4a58;
+}
+
+.bg-romance{
+  background-color: #fa64a8;
+}
+
+.bg-glacé{
+  background-color: #b7135d;
+}
+
+.bg-bat{
+  background-color: #bb7b98;
+}
+
+.bg-dusty{
+  background-color: #e772a7;
+}
+
+.bg-redred{
+  background-color: #fd0808;
+}
+
+.bg-velours{
+  background-color: #f59393;
+}
+
+.bg-cel{
+  background-color: #df9dee;
 }
