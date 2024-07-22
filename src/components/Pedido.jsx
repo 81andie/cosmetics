@@ -18,7 +18,6 @@ export const Pedido = () => {
   useEffect(() => {
     const storedProducts = localStorage.getItem('cart');
 
-
     if (storedProducts) {
       const parsedProducts = JSON.parse(storedProducts);
 
@@ -54,25 +53,37 @@ export const Pedido = () => {
   };
 
 
-  const BodyTemplateColor = (product) => {
+  const BodyTemplateColor = ({colors,id}) => {
+  if (!Array.isArray(colors)) {
+      return null;
+    }
 
- 
-    return product.color ? <span>{product.color}</span> : null;
-  };
+    return (
+      <div>
+        {colors.map((color, index) => (
+          <span className="spanColor" key={`color-${id}-${index}`} style={{ display: 'block' }}>
+           Color escogido: {color}
+          </span>
+        ))}
+      </div>
+    );
 
-  const nameBodyTemplate = (rowData) => {
 
-    let colors = rowData.color;
+  }
 
-    let colorsFlatered = colors.flat();
-    
+  const nameBodyTemplate = (product) => {
+
+   //return <span className="spanColor">{rowData.name} </span>
+
    return (
-  <>
-   <span className="spanColor">{rowData.name}, {colorsFlatered.length} </span>
-
+    <div key={product.id}>
+      <span className="span_product">{product.name}</span>
+      <BodyTemplateColor colors={product.color} id={product.id} />
+    </div>
+  );
    
-    </>
-   )}
+    
+   }
 
 
 
@@ -109,7 +120,7 @@ export const Pedido = () => {
 
   const eliminarProducto = (productos) => {
 
-    const actualizarProductos = products.filter((producto) => producto.id !== productos.id);
+    const actualizarProductos = products.filter((producto) => producto.id !== productos.id );
     setProducts(actualizarProductos);
     localStorage.setItem('cart', JSON.stringify(actualizarProductos));
   }
@@ -153,6 +164,7 @@ export const Pedido = () => {
         <div className="card3">
           <DataTable value={products} header={header} footer={footer} tableStyle={{ minWidth: '60rem' }}>
             <Column field="name" header="Producto" className="producto" body={nameBodyTemplate} />
+  
             <Column header="Imagen" body={imageBodyTemplate} />
 
             <Column field="price" header="Precio" body={priceBodyTemplate} />

@@ -28,7 +28,7 @@ export const Marca = () => {
 
 
     const agregarColor = (e, productId) => {
-        const selectedColor = [e.target.getAttribute('data-color')];
+        const selectedColor = e.target.getAttribute('data-color');
     
         if (!selectedColor) {
             console.error("No se ha seleccionado ningún color.");
@@ -103,33 +103,28 @@ export const Marca = () => {
 
 
   const addToCart = (product) => {
+    const selectedColors = color[product.id] || [];
+    const existingProductIndex = cart.findIndex((item) => item.id === product.id);
+    let updatedCart;
 
-      //  console.log("Agregando al carrito:", product.color);
-        const selectedColors= color[product.id] || [];
+    if (existingProductIndex !== -1) {
+      updatedCart = cart.map((item, index) => 
+        index === existingProductIndex ? { ...item, color: selectedColors, quantity: (item.quantity || 1) + 1 } : item
+      );
+    } else {
+      const newProduct = { ...product, color: selectedColors, quantity: 1 };
+      updatedCart = [...cart, newProduct];
+    }
 
-        console.log(selectedColors);
+    setCart(updatedCart);
+    localStorage.setItem('cart', JSON.stringify(updatedCart));
 
-        const isProductInCart = cart.some(item => item.id === product.id && item.color === selectedColors);
-
-
-        if (!isProductInCart) {
-            const updatedProduct = {...product, color: selectedColors };
-            const updateCart = [...cart, updatedProduct,];
-            console.log('Producto actualizado:', updatedProduct);
-
-            setCart(updateCart);
-
-
-            localStorage.setItem('cart', JSON.stringify(updateCart));
-
-        }
-
-        toast.current.show({
-            severity: 'info',
-            summary: 'Agregado al carrito',
-            detail: `${product.name} (${selectedColors.join(', ')})`
-        });
-
+    toast.current.show({
+      severity: 'info',
+      summary: 'Agregado al carrito',
+      detail: `${product.name} (${selectedColors.join(', ')})`,
+    });
+     
     };
 
 
