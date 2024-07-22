@@ -6,7 +6,7 @@ import { Rating } from 'primereact/rating';
 import { Tag } from 'primereact/tag';
 import { FormPayments } from './FormPayments';
 import './Pedido.css';
-import { FilterOperator } from 'primereact/api';
+
 
 
 export const Pedido = () => {
@@ -55,35 +55,24 @@ export const Pedido = () => {
 
 
   const BodyTemplateColor = (product) => {
+
+ 
     return product.color ? <span>{product.color}</span> : null;
   };
 
   const nameBodyTemplate = (rowData) => {
 
-    const colors = Array.isArray(rowData.color) ? rowData.color : [];
+    let colors = rowData.color;
 
+    let colorsFlatered = colors.flat();
+    
+   return (
+  <>
+   <span className="spanColor">{rowData.name}, {colorsFlatered.length} </span>
 
-    return (
-
-      <div>
-        <span>
-     {rowData.name}  </span>
-        {/*{rowData.color && <span className="spanColor">Color: {rowData.color.length}  </span>}*/}
-
-        {colors.map((color, index) => (
-        <div key={index}>
-          <span>Color {index + 1}: {color}</span>
-        </div>
-      ))}
-        
-
-      </div>
-
-
-
-
-    );
-  };
+   
+    </>
+   )}
 
 
 
