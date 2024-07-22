@@ -99,6 +99,7 @@ export const FormPayments = () => {
                 <div>
                     <h4 className="mb-1">{product.name}</h4>
                     <h6 className="mt-0 mb-3">${product.price}</h6>
+                    
                     <Tag value={product.inventoryStatus} severity={getSeverity(product)}></Tag>
                 </div>
             </div>

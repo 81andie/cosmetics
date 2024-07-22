@@ -1,29 +1,35 @@
 .form_payment{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 50%;
     align-items: center;
-    margin: 0 auto;
+   justify-content: center;
   }
   
   .form_payment img{
     width: 30%;
   }
-  .container_payment{
-    width: 40%;
-  }
+ 
  
   
   .container_info span {
+   
     margin-top: 20px;
     font-size: 1.2rem;
   
+  }
+  .form_container{
+    width: 80%;
+
+  }
+  .container_payment{
+    width: 70%;
   }
   
   
   
   .steps_titulo{
-    width: 90%;
+    width: 50%;
     margin-top: 60px;
     font-size: 2.2rem;
     font-weight: bolder;
@@ -95,5 +101,8 @@
     background-color: #fcfbfb;
   }
   
+  .colors_carr{
+    display: block;
+  }
   
   
