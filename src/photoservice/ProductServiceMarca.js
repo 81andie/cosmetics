@@ -83,7 +83,7 @@ export const ProductServiceMarca = {
                     { color: 'Rose', id: '1-rose' },
                     { color: 'Beige', id: '1-Bei' },
                     { color: 'Dioreli', id: '1-Dio' },
-                    { color: 'Lucky', id: '1-lucky' }
+                    { color: 'Lucky', id: '1-lucky' },
                   
                    
 
@@ -94,21 +94,7 @@ export const ProductServiceMarca = {
                 inventoryStatus: 'INSTOCK',
                 rating: 4
             },
-            {
-                id: '1005',
-                color: 'No color',
-                code: 'av2231fwg',
-                portada: 'dior logo.png',
-                name: 'Dior Addict Lip Tint',
-                description: 'La barra de labios Dior Addict se viste con carcasas de edición limitada, con diseños inspirados en las tendencias de los desfiles Dior. Combínelos con los 40 tonos brillantes de la gama para un mix & match firmado por Dior.',
-                image: 'DiorInc.jpg',
-                price: 44,
-                category: 'Accessories',
-                quantity: 0,
-                marca: 'dior',
-                inventoryStatus: 'OUTOFSTOCK',
-                rating: 4
-            },
+           
             {
                 id: '1006',
                 color: 'No color',
@@ -753,7 +739,7 @@ export const ProductServiceMarca = {
                 code: 'cm230f032',
                 portada: 'gucci.jpg',
                 name: 'Gucci Vernis à òngles, crystal black',
-                description: 'Inspirado en las fuerzas magnéticas de la luz de la luna, el Eau de Parfum Intense Gucci Bloom es una potente fragancia que canaliza el espíritu creativo y anima a todo el mundo a florecer y convertirse en su versión más auténtica. Una radiante nota de salida de absoluto de azahar da comienzo al conjuro, mientras que su corazón floral de jazmín sambac y nardo se despliega con dama de noche, una flor que desprende su olor por la noche y que realza el embriagador aroma de esta fragancia.',
+                description: 'La colección cápsula Vernis à Ongles presenta diez tonos vibrantes en un esmalte de uñas intenso de gran cobertura que ofrece un brillo lustroso y duradero con un encanto de antaño.',
                 image: 'vernisgucci.avif',
                 price: 34,
                 category: 'Esmaltes de uñas',
@@ -1005,7 +991,7 @@ export const ProductServiceMarca = {
                 code: 'cm230f032',
                 portada: 'cliniquelogo.png',
                 name: 'Smart clinical repair',
-                description: 'Esta innovadora crema hidratante de Clinique se absorbe rápidamente gracias a su textura en gel. Contiene ingredientes altamente hidratantes como el biofermento de aloe exclusivo y ácido hialurónico, que trabajan en conjunto para mantener la piel hidratada y humectada durante largos períodos, estimulando la capacidad de la piel para retener la humedad. El resultado es una piel visiblemente más joven, saludable y firme.',
+                description: 'Crema hidratante con SPF30, de textura ligera de rápida absorción con acabado invisible sin dejar tono blanco. Testada por dermatólogos y segura para piel sensible.',
                 image: 'smart.jpg',
                 price: 64.28,
                 category: 'Crema hidratante',
@@ -1105,7 +1091,7 @@ export const ProductServiceMarca = {
                 description: 'Suero iluminador super potente de Clinique. Ayuda a corregir visiblemente la decoloración y las cicatrices del acné, al tiempo que interrumpe las futuras manchas oscuras.',
                 image: 'event.webp',
                 price: 47.95,
-                category: 'Crema hidratante',
+                category: 'Serums',
                 quantity: 0,
                 marca: 'serums',
                 inventoryStatus: 'INSTOCK',
