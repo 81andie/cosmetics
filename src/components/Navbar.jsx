@@ -238,12 +238,11 @@ export const Navbar = () => {
                 [
                     {
                         label: 'Rubores',
-                        items: [{ label: 'Gelatina' }, { label: 'Polvos' }]
+                        items: [ { label: 'Crema', command: ()=>{
+                            navigate("marcas/colorete")
+                        } }]
                     },
-                    {
-                        label: 'Maquillaje',
-                        items: [{ label: 'Corrector' }, { label: 'Bases' }]
-                    }
+                    
                 ]
             ]
         },
@@ -256,7 +255,7 @@ export const Navbar = () => {
                         label: 'Ofertas',
                         items: [{
                             label: 'Sólo 24h', command: () => {
-                                navigate('/ofertas');
+                                navigate('marcas/ofertas');
                             }
                         },]
                     },

@@ -1,11 +1,13 @@
 .color-selector-button {
 
-  width: 45px;
-  height: 45px;
+  width: 48px;
+  height: 48px;
   border-radius: 100%;
-  font-size: 7.5px;
-  color: rgb(72, 69, 69);
+  font-size: 7.1px;
+  color: rgb(250, 250, 250);
   margin-left: 2px;
+  background-color: black;
+  font-weight: 900;
 
 }
 
@@ -180,8 +182,6 @@
 }
 
 
-
-
 .color-selectors-container {
   display: flex;
   flex-wrap: wrap;
@@ -287,4 +287,73 @@
 
 .bg-cel{
   background-color: #df9dee;
+}
+
+.bg-nuit1{
+  background-color: #f61b1b;
+}
+
+.bg-nuit2{
+  background-color: #c17231b5;
+}
+
+.bg-nuit3{
+  background-color: #b91644;
+}
+
+
+.bg-dior01{
+  background-color: #30302a;
+}
+
+.bg-dior02{
+  background-color: #eb7395;
+}
+
+.bg-dior03{
+  background-color: #f54c7c;
+}
+
+.bg-dior04{
+  background-color: #5c4e1c;
+}
+
+.bg-dior05{
+  background-color: #99a920;
+}
+
+.bg-dior06{
+  background-color: #87712b;
+}
+
+.bg-dior07{
+  background-color: #78570b;
+}
+
+.bg-dior08{
+  background-color: #2fa8c6;
+}
+
+.bg-dior09{
+  background-color: #4a0bd1;
+}
+
+.bg-guer01{
+ background-image:url("/public/images/621902_th.webp");
+}
+
+.bg-guer02{
+  background-image:url("/public/images/621904_th.webp");
+}
+
+.bg-guer03{
+  background-image:url("/public/images/621907_th.webp");
+}
+
+.bg-eye02{
+  background-color: #412803;
+}
+
+.bg-mine{
+  background-color: #9b533d;
 }

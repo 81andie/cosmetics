@@ -1,6 +1,5 @@
 import React from 'react'
 import './Marca.css';
-
 import { useEffect, useRef, useState } from 'react';
 import { Button } from 'primereact/button';
 import { DataScroller } from 'primereact/datascroller';
@@ -20,7 +19,9 @@ export const Marca = () => {
     const [searchTerm, setSearchTerm] = useState('');
     const [products, setProducts] = useState([]);
     const [color, setColor] = useState([]);
+
     const [cart, setCart] = useState(() => {
+
         const savedCart = localStorage.getItem('cart');
 
         return savedCart ? JSON.parse(savedCart) : [];
@@ -29,20 +30,20 @@ export const Marca = () => {
 
     const agregarColor = (e, productId) => {
         const selectedColor = e.target.getAttribute('data-color');
-    
+
         if (!selectedColor) {
             console.error("No se ha seleccionado ningún color.");
             return;
         }
-    
+
         setColor(prevState => {
             const currentColors = prevState[productId] || [];
             const updatedColors = currentColors.includes(selectedColor) ? currentColors : [...currentColors, selectedColor];
             console.log(`Colores actualizados para el producto ${productId}: ${updatedColors}`);
             return { ...prevState, [productId]: updatedColors };
         });
-    
-      
+
+
     };
 
 
@@ -102,41 +103,30 @@ export const Marca = () => {
 
 
 
-  const addToCart = (product) => {
-    const selectedColors = color[product.id] || [];
-    const existingProductIndex = cart.findIndex((item) => item.id === product.id);
-    let updatedCart;
+    const addToCart = (product) => {
+        const selectedColors = color[product.id] || [];
+        const existingProductIndex = cart.findIndex((item) => item.id === product.id);
+        let updatedCart;
 
-    if (existingProductIndex !== -1) {
-      updatedCart = cart.map((item, index) => 
-        index === existingProductIndex ? { ...item, color: selectedColors, quantity: (item.quantity || 1) + 1 } : item
-      );
-    } else {
-      const newProduct = { ...product, color: selectedColors, quantity: 1 };
-      updatedCart = [...cart, newProduct];
-    }
+        if (existingProductIndex !== -1) {
+            updatedCart = cart.map((item, index) =>
+                index === existingProductIndex ? { ...item, color: selectedColors, quantity: (item.quantity || 1) + 1 } : item
+            );
+        } else {
+            const newProduct = { ...product, color: selectedColors, quantity: 1 };
+            updatedCart = [...cart, newProduct];
+        }
 
-    setCart(updatedCart);
-    localStorage.setItem('cart', JSON.stringify(updatedCart));
+        setCart(updatedCart);
+        localStorage.setItem('cart', JSON.stringify(updatedCart));
 
-    toast.current.show({
-      severity: 'info',
-      summary: 'Agregado al carrito',
-      detail: `${product.name} (${selectedColors.join(', ')})`,
-    });
-     
+        toast.current.show({
+            severity: 'info',
+            summary: 'Agregado al carrito',
+            detail: `${product.name} (${selectedColors.join(', ')})`,
+        });
+
     };
-
-
-
-
-
-
-
-
-
-
-
 
 
     const ds = useRef(null);
@@ -153,13 +143,12 @@ export const Marca = () => {
                     return item.marca === id
                 })
 
-            
                 setProducts(items)
                 setFilteredProducts(items);
-               
+
             }
         );
-    }, [id]); // eslint-disable-line react-hooks/exhaustive-deps
+    }, [id]);
 
     const getSeverity = (product) => {
         switch (product.inventoryStatus) {
@@ -179,23 +168,23 @@ export const Marca = () => {
 
     const showInfo = () => {
 
-        if(toast.current){
-        toast.current.show({
-            severity: 'info',
-            summary: 'Mensaje información al usuario',
-            detail: 'Ha agregado su producto en el carrito',
-            life: 3000
-        });
+        if (toast.current) {
+            toast.current.show({
+                severity: 'info',
+                summary: 'Mensaje información al usuario',
+                detail: 'Ha agregado su producto en el carrito',
+                life: 3000
+            });
 
-    }else{
-        console.log('Toast ref is null');
+        } else {
+            console.log('Toast ref is null');
+        }
     }
-}
 
 
     const handleSearch = (event) => {
-       
-       
+
+
         const term = event.target.value.toLowerCase();
         setSearchTerm(term);
 
@@ -208,10 +197,10 @@ export const Marca = () => {
                 return product.name.toLowerCase().includes(term);
             }
             return false;
-    });
- 
-    console.log('Productos filtrados:', filteredItems);
-    setFilteredProducts(filteredItems); // Actualizar productos filtrados
+        });
+
+        console.log('Productos filtrados:', filteredItems);
+        setFilteredProducts(filteredItems); // Actualizar productos filtrados
 
     };
 
@@ -295,14 +284,14 @@ export const Marca = () => {
         <div className="card-shooping">
 
             <div className="p-inputgroup">
-                <input type="text" placeholder="Buscar por marca..." value={searchTerm} onChange={handleSearch } className="buscador" />
+                <input type="text" placeholder="Buscar por marca..." value={searchTerm} onChange={handleSearch} className="buscador" />
                 <Button icon="pi pi-search" className="p-button-secondary" />
             </div>
 
-         {/*  <DataScroller ref={ds} value={products} itemTemplate={itemTemplate} rows={5} loader footer={footer} header="Click Load Button at Footer to Load More"/>*/}
+            {/*  <DataScroller ref={ds} value={products} itemTemplate={itemTemplate} rows={5} loader footer={footer} header="Click Load Button at Footer to Load More"/>*/}
 
-         <DataScroller value={filteredProducts} itemTemplate={itemTemplate} rows={15} />
-        
+            <DataScroller value={filteredProducts} itemTemplate={itemTemplate} rows={15} />
+
         </div>
     )
 

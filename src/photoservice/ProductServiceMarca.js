@@ -24,7 +24,7 @@ export const ProductServiceMarca = {
                 color: 'No color',
                 portada: 'dior logo.png',
                 code: 'nvklal433',
-                name: 'Christian Dior, Gris Dior ',
+                name: 'Christian Dior, Gray Dior ',
                 description: 'Este estuche couture, inédito en Dior, celebra esta fragancia emblemática de La Collection Privée Christian Dior, cuya estela chipre con notas de rosa en un plisado de contrastes alterna notas cítricas, florales y amaderadas. || 125ML',
                 image: 'Diorper1.jpg',
                 price: 265,
@@ -524,7 +524,7 @@ export const ProductServiceMarca = {
                 code: 'cm230f032',
                 color: 'No color',
                 portada: 'logo carolina.jpg',
-                name: 'Luckycharms Alegría de Vivir',
+                name: 'Luckycharms Sunrise',
                 description: 'Alegría de Vivir Eau de Parfum es un aroma ligero y ultrafemenino que te da la bienvenida con un ramo de delicadas peonías y un rico corazón de madera de cedro, enraizado en notas de fondo de vapor de arroz.',
                 image: 'lucky.avif',
                 price: 95,
@@ -621,8 +621,8 @@ export const ProductServiceMarca = {
                 code: 'cm230f032',
                 color: 'No color',
                 portada: 'logoguerlain.png',
-                name: 'brocha para polvos bronceadores, terracotta',
-                description: 'Alegría de Vivir Eau de Parfum es un aroma ligero y ultrafemenino que te da la bienvenida con un ramo de delicadas peonías y un rico corazón de madera de cedro, enraizado en notas de fondo de vapor de arroz.',
+                name: 'Brush style japan',
+                description: 'Brocha de maquillaje, elaborada por maestros de Japón. Máxima calidad',
                 image: 'brocha.avif',
                 price: 57,
                 category: 'Accesorios maquillaje',
@@ -889,7 +889,7 @@ export const ProductServiceMarca = {
                 color: 'No color',
                 code: 'cm230f032',
                 portada: 'aqua di parma.jpg',
-                name: 'blue mediterraneo mirto di panarea',
+                name: 'blue mediterranean mirto di panarea',
                 description: 'Regenera ya desde el inicio, gracias a las notas aromáticas del mirto y de la albahaca, unidas al limón y a la bergamota.En el corazón, toques de brisa marina se unen a  la rosa y al jazmín.El fondo es intenso, con lentisco y enebro que se fusionan con la madera de cedro y el ámbar.',
                 image: 'aquadi.webp',
                 price: 105.95,
@@ -1068,7 +1068,7 @@ export const ProductServiceMarca = {
                 color: 'No color',
                 code: 'cm230f032',
                 portada: 'elisabet.png',
-                name: 'Ceramide premire crema hidrante regenerante intensiva spf 30',
+                name: 'Ceramide premire creme intensive spf 30',
                 description: 'Para garantizar la comodidad y tersura de la piel madura, Ceramide Premiere proporciona un triple beneficio, hidratando* de forma intensa la piel, fortaleciéndola con nutrientes esenciales, favoreciendo su renovación celular en superficie y mejorando su aspecto.',
                 image: 'creme.webp',
                 price: 23.95,
@@ -1117,7 +1117,7 @@ export const ProductServiceMarca = {
                 color: 'No color',
                 code: 'cm230f032',
                 portada: 'siheidologo.png',
-                name: 'Bio Performance Skin filler serum antiedad',
+                name: 'Bio Performance Skin filler serum antiage',
                 description: 'Descubre la innovación en el cuidado de la piel con el serum antiedad de SHISEIDO: Bio-Performance Skin Filler. Este dúo de sérums complementarios, inspirados en la medicina estética, redefine el enfoque anti-edad para obtener una piel con aspecto cinco años más joven en un solo día* ',
                 image: 'bioperfomance.webp',
                 price: 147.95,
@@ -1181,11 +1181,11 @@ export const ProductServiceMarca = {
                 color: 'No color',
                 code: 'cm230f032',
                 portada: 'siheidologo.png',
-                name: 'ShiSheido Men Ultimune, Sérum fortalecedor pra hombres',
+                name: 'ShiSheido Men Ultimune, ',
                 description: 'El Ultimune emblemático - reformulado para las necesidades únicas de los hombres.Dale a tu piel una ventaja para el futuro',
                 image: 'manshi.jpg',
                 price: 51.99,
-                category: 'Serums',
+                category: 'Serums para hombres',
                 quantity: 0,
                 marca: 'serums',
                 inventoryStatus: 'INSTOCK',
@@ -1198,11 +1198,11 @@ export const ProductServiceMarca = {
                 color: 'No color',
                 code: 'cm230f032',
                 portada: 'cliniquelogo.png',
-                name: 'Take The Day Off - Desmaquillante Fácil de Ojos /Labios',
+                name: 'Take The Day Off ',
                 description: 'Este desmaquillador de ojos y labios no deja nada atrás. Disuelve sin esfuerzo el maquillaje de larga duración, incluso el rímel resistente al agua.',
                 image: 'ojosclinique.avif',
                 price: 25.99,
-                category: 'Serums',
+                category: 'Serums,  Desmaquillante Fácil de Ojos /Labios',
                 quantity: 0,
                 marca: 'ojos',
                 inventoryStatus: 'INSTOCK',
@@ -1214,7 +1214,7 @@ export const ProductServiceMarca = {
                 color: 'No color',
                 code: 'cm230f032',
                 portada: 'siheidologo.png',
-                name: 'Estuche Vital Perfection Lifting & Firming Ritual For Eyes',
+                name: ' Vital Perfection Lifting & Firming Ritual For Eyes',
                 description: 'Revitaliza el contorno de los ojos con este exclusivo ritual seleccionado meticulosamente, diseñado específicamente para abordar las necesidades antienvejecimiento de esta delicada área. Eleva tu rutina de cuidado de la piel con el Ritual Lifting y Reafirmante para Ojos de Shiseido y deslumbra con una mirada rejuvenecida y encantadora.',
                 image: 'shisheidopack.webp',
                 price: 58.49,
@@ -1241,28 +1241,14 @@ export const ProductServiceMarca = {
                 rating: 3
             },
 
-            {
-                id: '1070',
-                color: 'No color',
-                code: 'cm230f032',
-                portada: 'elisabet.png',
-                name: 'Advanced Ceramide Capsules',
-                description: 'ELIZABETH ARDEN ADVANCED CERAMIDE Capsules Daily Youth Restoring Eye Serum: Cápsulas monodosis que fortalecen la delicada piel del contorno de los ojos.',
-                image: 'ceramide.webp',
-                price: 45.95,
-                category: 'Crema hidratante',
-                quantity: 0,
-                marca: 'antiarrugas',
-                inventoryStatus: 'INSTOCK',
-                rating: 3
-            },
+           
 
             {
                 id: '1071',
                 color: 'No color',
                 code: 'cm230f032',
                 portada: 'Filorgalogo.jpg',
-                name: 'Ncef-Essence- Loción facial antiarrugas, firmeza y luminosidad',
+                name: 'Ncef-Essence',
                 description: 'NCEF-Reverse, la gama de cuidados intensivos contra el envejecimiento celular de los Laboratorios Filorga: 4 tratamientos regeneradores que contienen el equivalente a una dosis de NCTF. Aplicar Optim-Eyes mañana y noche en el contorno del ojo con suaves toquecitos.',
                 image: 'Filorgaanti.avif',
                 price: 55.95,
@@ -1279,7 +1265,7 @@ export const ProductServiceMarca = {
                 code: 'cm230f032',
                 color: 'No color',
                 portada: 'logoChanel.png',
-                name: 'Chanel, Crema Alisadora y Reafirmante',
+                name: 'Chanel, Crème',
                 description: 'Por primera vez, la Investigación de CHANEL crea una crema alisadora y reafirmante con una alta concentración de ingredientes de origen natural. LE LIFT Crème, compuesta por un 94% de ingredientes de origen natural, incorpora un nuevo activo ultraeficaz: el concentrado botánico de alfalfa, tan eficaz como el retinol*, en una fórmula suave para la piel. Se presenta en tres texturas ultrasensoriales: Crème Fine, Crème y Crème Riche, para una perfecta afinidad con todos los tipos de piel.',
                 image: 'Chanel anti.avif',
                 price: 138,
@@ -1296,7 +1282,7 @@ export const ProductServiceMarca = {
                 code: 'cm230f032',
                 color: 'No color',
                 portada: 'the ordinary.logo.avif',
-                name: 'Emulsión de Retinoide Granactivo* 2 % - Sérum antiedad',
+                name: 'Granactive retinoid 2%',
                 description: 'Esta fórmula contiene dos tipos de retinoides avanzados de nueva generación: Retinoide Granactivo en una concentración del 2 %. Se trata de un complejo soluble de hidroxipinacolona retinoato, que es un tipo de retinoide también llamado éster de ácido transretinoico total.',
                 image: 'ordinaryserum.avif',
                 price: 14.99,
@@ -1329,7 +1315,7 @@ export const ProductServiceMarca = {
                 color: 'No color',
                 code: 'cm230f032',
                 portada: 'the ordinary.logo.avif',
-                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
+                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfeccions',
                 description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
                 image: 'ordinaryhidratante.avif',
                 price: 7.99,
@@ -1345,7 +1331,7 @@ export const ProductServiceMarca = {
                 color: 'No color',
                 code: 'cm230f032',
                 portada: 'cliniquelogo.png',
-                name: 'Moisture Surge Intense, tratamiento Hidro-Regenerador 72h',
+                name: 'Moisture Surge Intense, 72h',
                 description: 'Este gel-crema de textura rica hidrata durante 72 horas y calma la piel para dejarla suave, tersa y luminosa.',
                 image: 'hdrateclinic.webp',
                 price: 46.99,
@@ -1670,103 +1656,307 @@ export const ProductServiceMarca = {
             },
 
 
-         
+            {
+                id: '1095',
+                color: '',
+                code: 'cm230f032',
+                portada: 'logoChanel.png',
+                name: 'Rouge Allure Velvet nuit Blanche',
+                description: 'La barra de labios aterciopelada luminosa: la textura segunda piel ultraconfortable sublima los labios con un concentrado de pigmentos puros para un acabado luminoso, intenso y de larga duración.',
+                image: 'Chanel alure.avif',
+                price: 49.99,
+                category: 'Barras de Labios',
+                quantity: 0,
+                variants: [
+                    { color: 'nuit1', id: '00060' },
+                    { color: 'nuit2', id: '00061' },
+                    { color: 'nuit3', id: '00062' },
+                    
+
+                ],
+                marca: 'barras',
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            },
 
 
             {
                 id: '1096',
-                color: 'No color',
+                color: '',
                 code: 'cm230f032',
-                portada: 'the ordinary.logo.avif',
-                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
-                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
-                image: 'ordinaryhidratante.avif',
-                price: 7.99,
-                category: 'Crema hidratante',
+                portada: 'dior logo.png',
+                name: 'DiorShow Mono Couleur',
+                description: 'Vista su mirada de Dior con las sombras de ojos Diorshow Mono Couleur altamente pigmentadas: 20 tonos mates, satinados, metalizados o con purpurina para lograr acabados espectaculares. Sombras en polvo con una diversidad de tonos que permiten crear looks para cada momento. La sombra de ojos de larga duración se aplica con una textura confortable gracias a una fórmula enriquecida con ingredientes de tratamiento. El estuche compacto y elegante de la sombra Diorshow Mono Couleur muestra un diseño inspirado en los códigos de la couture Dior, con unas letras CD plateadas como cierre.',
+                image: 'diorpalette.webp',
+                price: 40.00,
+                category: 'Sombra de ojos de larga duración y color Intenso',
                 quantity: 0,
-                marca: 'hidratantes',
+
+                variants: [
+                    { color: 'dior01', id: '00063' },
+                    { color: 'dior02', id: '00064' },
+                    { color: 'dior03', id: '00065' },
+                    { color: 'dior04', id: '00066' },
+                    { color: 'dior05', id: '00067' },
+                    { color: 'dior06', id: '00068' },
+                    { color: 'dior07', id: '00069' },
+                    { color: 'dior08', id: '00070' },
+                    { color: 'dior09', id: '00071' },
+                    
+
+                ],
+                marca: 'paletas',
                 inventoryStatus: 'INSTOCK',
                 rating: 3
             },
 
             {
                 id: '1097',
-                color: 'No color',
+                color: '',
                 code: 'cm230f032',
-                portada: 'the ordinary.logo.avif',
-                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
-                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
-                image: 'ordinaryhidratante.avif',
-                price: 7.99,
-                category: 'Crema hidratante',
+                portada: 'logoguerlain.png',
+                name: ' Les Ombres G',
+                description: 'Las paletas de sombras de ojos Ombres G poseen una textura excepcional elaborada con pigmentos intensos que ofrecen tonos de larga duración y una profundidad inigualable. Estas sombras visten la mirada con 4 acabados: satinado intenso, mate profundo, metálico luminoso y nacarado brillante.',
+                image: 'sombra ojos guerlain.avif',
+                price: 62.59,
+                category: 'Sombras de ojos, paletas',
                 quantity: 0,
-                marca: 'hidratantes',
+                variants: [
+                    { color: 'guer01', id: '00072' },
+                    { color: 'guer02', id: '00073' },
+                    { color: 'guer03', id: '00074' },
+                ],
+                marca: 'paletas',
                 inventoryStatus: 'INSTOCK',
                 rating: 3
             },
 
+
             {
                 id: '1098',
-                color: 'No color',
+                color: '',
                 code: 'cm230f032',
-                portada: 'the ordinary.logo.avif',
-                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
-                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
-                image: 'ordinaryhidratante.avif',
-                price: 7.99,
-                category: 'Crema hidratante',
+                portada: 'logoguerlain.png',
+                name: 'Mad Eyes intense Liner',
+                description: 'MAD EYES Intense Liner, un delineador líquido de trazo gráfico, intenso y de larga duración desde la primera pasada. ',
+                image: 'eyeliner guerlain.avif',
+                price: 47.59,
+                category: 'EyeLiners de ojos',
                 quantity: 0,
-                marca: 'hidratantes',
+                variants: [
+                    { color: 'eye01', id: '00075' },
+                    { color: 'eye02', id: '00076' },
+                    
+                ],
+                marca: 'eyeliners',
                 inventoryStatus: 'INSTOCK',
                 rating: 3
             },
 
             {
                 id: '1099',
-                color: 'No color',
+                color: '',
                 code: 'cm230f032',
-                portada: 'the ordinary.logo.avif',
-                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
-                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
-                image: 'ordinaryhidratante.avif',
-                price: 7.99,
-                category: 'Crema hidratante',
+                portada: 'logoChanel.png',
+                name: 'Les Beiges, Blush Belle Mine hiver',
+                description: 'un toque de color fresco y luminoso para crear un efecto buena cara fresco y natural y un aspecto revitalizado.En el icónico estuche cuadrado curvado LES BEIGES, una creación exclusiva grabada en relieve con un copo de nieve cincelado y la emblemática doble C.',
+                image: 'chanelcol.avif',
+                price: 64.99,
+                category: 'Coloretes',
                 quantity: 0,
-                marca: 'hidratantes',
+                variants: [
+                    { color: 'Mine', id: '00077' },
+                   
+                    
+
+                ],
+                marca: 'colorete',
                 inventoryStatus: 'INSTOCK',
                 rating: 3
             },
+
 
             {
                 id: '1100',
                 color: 'No color',
                 code: 'cm230f032',
-                portada: 'the ordinary.logo.avif',
-                name: 'Hydrators and oils Niacinamide Zinc-Fórmula antiimperfecciones',
-                description: 'Una fórmula con una alta concentración de vitaminas y minerales para luchar contra las imperfecciones y las inflamaciones cutáneas. La niacinamida (vitamina B3), presente en este producto en una concentración del 10 %, minimiza la apariencia de las imperfecciones y los poros dilatados. Esta fórmula contiene sal de zinc y ácido pirrolidín carboxílico, lo que permite regular la producción de grasa.',
-                image: 'ordinaryhidratante.avif',
-                price: 7.99,
-                category: 'Crema hidratante',
+                portada: 'logo lancome.webp',
+                name: 'Blush subtil',
+                description: 'Lancôme - Colorete de larga duración muy fino y ligero disponible en una amplia gama de colores, desde tonos neutros a los más intensos. ',
+                image: 'lancomecol.webp',
+                price: 49.99,
+                category: 'Coloretes',
                 quantity: 0,
-                marca: 'hidratantes',
+
+                variants: [
+                    { color: 'Mine', id: '00078' },
+                   
+
+                ],
+                marca: 'colorete',
                 inventoryStatus: 'INSTOCK',
                 rating: 3
-            }
+            },
 
-
-
-
-
-
-
-
+          
 
             
 
+            {
+                id: '1101',
+                color: 'No color',
+                portada: '50descuento.jpg',
+                code: 'f230fh0g3',
+                
+                name: 'Juice Boom',
+                description: 'Brillo labial con una fragancia afrutada y un acabado brillante, labios hidratados y afrutados.',
+                image: 'essejuice.jpg',
+                price: 1.19,
+                category: 'Gloss-Bálsamo',
+                quantity: 0,
+                marca: 'ofertas',
+                inventoryStatus: 'INSTOCK',
+                rating: 5
+            },
 
 
+            {
+                id: '1102',
+                color: 'No color',
+                portada: '50descuento.jpg',
+                code: 'nvklal433',
+                name: 'Essence So Mesmering',
+                description: 'El tratamiento especial para los labios essence So Mesmerizing asegurará que tus labios sean aún más hermosos.',
+                image: 'mesmering.webp',
+                price: 2.50,
+                category: 'Gloss-Bálsamo',
+                quantity: 0,
+                inventoryStatus: 'INSTOCK',
+                marca: 'ofertas',
+                rating: 4
+            },
+            {
+                id: '1103',
+                color: 'No color',
+                portada: '50descuento.jpg',
+                code: 'zz21cz3c1',
+                name: 'Blue Band',
+                description: 'brillo de labios para dar volumen',
+                image: 'essence-extreme.webp',
+                price: 2.50,
+                category: 'Gloss-Bálsamo',
+                quantity: 0,
+                inventoryStatus: 'LOWSTOCK',
+                marca: 'ofertas',
+                rating: 3
+            },
+            {
+                id: '1104',
+                color: 'No color',
+                portada: '50descuento.jpg',
+                code: '244wgerg2',
+                name: 'Essence What A Tint!',
+                description: 'Colorete líquido y brillo labial',
+                image: 'tint.webp',
+                price: 2.96,
+                category: 'Clothing',
+                quantity: 0,
+                marca: 'ofertas',
+                inventoryStatus: 'INSTOCK',
+                rating: 5
+            },
+            {
+                id: '1105',
+                color: 'No color',
+                portada: '50descuento.jpg',
+                code: 'h456wer53',
+                name: 'Catrice Wild Hibiscus',
+                description: 'Bálsamo labial nutritivo',
+                image: 'catrice-bálsamos.webp',
+                price: 4.84,
+                category: 'Bálsamos',
+                quantity: 0,
+                marca: 'ofertas',
+                inventoryStatus: 'INSTOCK',
+                rating: 4
+            },
 
-
+            {
+                id: '1106',
+                color: 'No color',
+                portada: '50descuento.jpg',
+                code: 'av2231fwg',
+                name: 'Catrice SpaceGlam',
+                description: 'Sombra de ojos, formato mini',
+                image: 'catrice-space.webp',
+                price: 4.50,
+                category: 'Sombra de Ojos, Cromática',
+                quantity: 0,
+                inventoryStatus: 'OUTOFSTOCK',
+                marca: 'ofertas',
+                rating: 4
+            },
+            {
+                id: '1107',
+                code: 'bib36pfvm',
+                color: 'No color',
+                portada: '50descuento.jpg',
+                name: 'Catrice Iconails',
+                description: 'Los esmaltes ICONails Gel de Catrice están enriquecidos con aceite de acai, que proporciona cuidado a las uñas naturales además de un color intenso - Color y Cuidado. El aceite de Acai es reconocido por sus propiedades nutritivas, hidratantes y regeneradoras, y fomenta el acabado brillante.',
+                image: 'iconails.webp',
+                price: 1.99,
+                category: 'Esmaltes',
+                quantity: 0,
+                marca: 'ofertas',
+                inventoryStatus: 'LOWSTOCK',
+                rating: 3
+            },
+            {
+                id: '1108',
+                code: 'mbvjkgip5',
+                color: 'No color',
+                portada: '50descuento.jpg',
+                name: 'Boss The Scent Elixir',
+                description: 'fragancia amaderada y floral, resalta la sensualidad de cualquier mujer, también existe la versión para hombre de esta fragancia',
+                image: 'boss-elixir.webp',
+                price: 78.20,
+                category: 'Eau de Parfum',
+                quantity: 0,
+                marca: 'ofertas',
+                inventoryStatus: 'INSTOCK',
+                rating: 5
+            },
+            {
+                id: '1109',
+                code: 'vbb124btr',
+                color: 'No color',
+                portada: '50descuento.jpg',
+                name: 'Estée Lauder, Contorno de ojos antiojeras y antiedad Advanced Night Repair Eye Supercharged Gel-Creme',
+                description: 'Contorno de ojos lujo',
+                image: 'esteLauder.webp',
+                price: 36.99,
+                category: 'Cremas faciales',
+                marca: 'ofertas',
+                quantity: 0,
+                inventoryStatus: 'LOWSTOCK',
+                rating: 4
+            },
+            {
+                id: '1110',
+                code: 'cm230f032',
+                color: 'No color',
+                portada: '50descuento.jpg',
+                name: 'Biotherm Force Supreme',
+                description: 'Cofre Force Supreme Limpieza y Antiedad para Hombres',
+                image: 'biotherm-homme.webp',
+                price: 59.94,
+                marca: 'ofertas',
+                category: 'Tratamientos corporales para hombres',
+                quantity: 63,
+                inventoryStatus: 'INSTOCK',
+                rating: 3
+            }
+           
 
 
         ];
