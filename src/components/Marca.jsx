@@ -151,7 +151,7 @@ export const Marca = () => {
 
             }
         );
-    }, [id,t]);
+    }, [id, t]);
 
     const getSeverity = (product) => {
         switch (product.inventoryStatus) {

@@ -1,0 +1,23 @@
+
+
+.container_btnIdiomas{
+    border-top: 5px solid black;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+
+}
+
+.boton_lenguaje{
+    background-color: rgb(188, 186, 179);
+    color: rgb(7, 7, 7);
+    border: none;
+    padding: 4px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+
+
