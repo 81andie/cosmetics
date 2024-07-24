@@ -1,12 +1,15 @@
 import React from 'react'
 import './Subscripcion.css';
+import { useTranslation } from 'react-i18next';
 
 export const Subscripcion = () => {
+    const { t } = useTranslation();
+
     return (
 <>
      
         <div className="Subscribir_titulo" >
-        <h1>No te pierdas, <br/>nada de nada... </h1>
+        <h1> {t('SobreNosotros.Dont miss')} </h1>
         </div>
 
         <section className="subscripcion">
@@ -15,15 +18,15 @@ export const Subscripcion = () => {
 
             <div className="container_subscripción">
 
-                <h3>Formaliza tu inscripción aqui!</h3>
-                <h1>Sólo por inscribirte, recibirás al instante a tu correo,<br/> un 50% de descuento en tu próxima compra</h1>
+                <h3>{t('SobreNosotros.Formalize')}</h3>
+                <h1>{t('SobreNosotros.Just for')}</h1>
 
                 <div className="form_container">
                     <form>
-                        <label htmlFor="fname">Nombre y apellidos:</label><br />
+                        <label htmlFor="fname">{t('SobreNosotros.Name')}</label><br />
                         <input type="text" id="fname" name="fname" placeholder="Tu nombre y apellidos" /><br />
 
-                        <label htmlFor="email">Tu correo electrónico</label><br />
+                        <label htmlFor="email">{t('SobreNosotros.Email')}</label><br />
                         <input type="email" id="lname" name="email" placeholder="Email" /><br />
                         {/*<input type="submit" value="Enviar" className="btnfos btnfos-1" />*/}
                         <button className="enviar_btn"><a className="btnfos btnfos-1">
@@ -31,7 +34,7 @@ export const Subscripcion = () => {
                                 <rect x="0" y="0" fill="none" width="100%" height="100% " />
 
                             </svg>
-                            ENVIAR
+                            {t('SobreNosotros.Send')}
                         </a>
                         </button>
                     </form>

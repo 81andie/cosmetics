@@ -2,6 +2,7 @@ import React from 'react'
 import './Marca.css';
 import { useEffect, useRef, useState } from 'react';
 import { Button } from 'primereact/button';
+import { useTranslation } from 'react-i18next';
 import { DataScroller } from 'primereact/datascroller';
 import { Rating } from 'primereact/rating';
 import { Tag } from 'primereact/tag';
@@ -11,6 +12,8 @@ import { Toast } from 'primereact/toast';
 
 
 export const Marca = () => {
+
+    const { t } = useTranslation();
     const toast = useRef(null);
 
     const [allProducts, setAllProducts] = useState([]);
@@ -134,7 +137,7 @@ export const Marca = () => {
 
 
     useEffect(() => {
-        ProductServiceMarca.getProducts().then(
+        ProductServiceMarca.getProducts(t).then(
             (data) => {
 
                 setAllProducts(data);
@@ -148,7 +151,7 @@ export const Marca = () => {
 
             }
         );
-    }, [id]);
+    }, [id,t]);
 
     const getSeverity = (product) => {
         switch (product.inventoryStatus) {

@@ -1,6 +1,12 @@
+
+
 export const ProductServiceMarca = {
 
-    getProductsData() {
+  
+
+    getProductsData(t) {
+
+
         return [
 
             {
@@ -9,10 +15,10 @@ export const ProductServiceMarca = {
                 portada: 'dior logo.png',
                 code: 'f230fh0g3',
                 name: 'Christian Dior Eden-Roc',
-                description: 'Declaración vibrante al Hotel du Cap Eden-Roc, la eau de parfum Eden-Roc encierra el espíritu de este lugar mítico. Este perfume mediterráneo despliega notas de sal marina, flores blancas y pino, que reflejan una personalidad hedonista y llena de vida. ',
+                description: t('Products.des_Dior1'),
                 image: 'EdenDior.jpg',
                 price: 130,
-                category: 'Eau da parfum unisex ',
+                category: t('Products.cat_Dior1'),
                 quantity: 0,
                 marca: 'dior',
                 inventoryStatus: 'INSTOCK',
@@ -25,10 +31,10 @@ export const ProductServiceMarca = {
                 portada: 'dior logo.png',
                 code: 'nvklal433',
                 name: 'Christian Dior, Gray Dior ',
-                description: 'Este estuche couture, inédito en Dior, celebra esta fragancia emblemática de La Collection Privée Christian Dior, cuya estela chipre con notas de rosa en un plisado de contrastes alterna notas cítricas, florales y amaderadas. || 125ML',
+                description: t('Products.des_Dior2'),
                 image: 'Diorper1.jpg',
                 price: 265,
-                category: 'Eau da parfum unisex || 125ml',
+                category: t('Products.cat_Dior1'),
                 quantity: 0,
                 marca: 'dior',
                 inventoryStatus: 'INSTOCK',
@@ -41,10 +47,10 @@ export const ProductServiceMarca = {
                 color: 'No color',
                 portada: 'dior logo.png',
                 name: 'Christian Dior, Jadore Or ',
-                description: 'Todo el oro de Jadore en un concentrado puro y esencial. Para Francis Kurkdjian, Director Creativo de Perfumes Dior, exalta la belleza de las flores amplificando sus matices y acentuando sus colores.',
+                description:t('Products.des_Dior3'),
                 image: 'Jadore.jpg',
                 price: 168,
-                category: 'Eau da Parfum mujer || 125ml',
+                category: t('Products.cat_Dior2'),
                 quantity: 0,
                 marca: 'dior',
                 inventoryStatus: 'LOWSTOCK',
@@ -56,10 +62,10 @@ export const ProductServiceMarca = {
                 color: 'No color',
                 portada: 'dior logo.png',
                 name: 'Christian Dior, Miss Dior',
-                description: 'En 1947, Miss Dior nació de ese impulso irracional, de ese deseo imperioso de reencantar la vida de las mujeres, de hacerles redescubrir los resplandecientes colores del amor. ',
+                description: t('Products.des_Dior4'),
                 image: 'MissDior.jpg',
                 price: 164,
-                category: 'Eau da Parfum mujer || 100ml',
+                category: t('Products.cat_Dior3'),
                 quantity: 0,
                 marca: 'dior',
                 inventoryStatus: 'INSTOCK',
@@ -71,7 +77,7 @@ export const ProductServiceMarca = {
                 code: 'h456wer53',
                 portada: 'dior logo.png',
                 name: 'Dior Addict',
-                description: 'La barra de labios Dior Addict se viste con carcasas de edición limitada, con diseños inspirados en las tendencias de los desfiles Dior. Combínelos con los 40 tonos brillantes de la gama para un mix & match firmado por Dior.',
+                description: t('Products.des_Dior5'),
                 image: 'DiosAddicts.avif',
                 price: 30,
                 variants: [
@@ -88,7 +94,7 @@ export const ProductServiceMarca = {
                    
 
                 ],
-                category: 'Lipstic',
+                category: t('Products.cat_Dior4'),
                 quantity: 0,
                 marca: 'dior',
                 inventoryStatus: 'INSTOCK',
@@ -101,10 +107,10 @@ export const ProductServiceMarca = {
                 code: 'bib36pfvm',
                 portada: 'dior logo.png',
                 name: 'Dior Addict Lip Glow Oil',
-                description: 'brillo de labios que suaviza y revitaliza los labios mientras los realza con un acabado brillante, su textura no grasa y no pegajosa rompe con las fronteras del brillo y forma una película alisadora que envuelve los labios de un efecto espejo.',
+                description: t('Products.des_Dior6'),
                 image: 'pinkoil.jpg',
                 price: 32,
-                category: 'Brillo Labios',
+                category: t('Products.cat_Dior4'),
                 quantity: 0,
                 marca: 'dior',
                 inventoryStatus: 'LOWSTOCK',
@@ -116,10 +122,10 @@ export const ProductServiceMarca = {
                 code: 'mbvjkgip5',
                 portada: 'dior logo.png',
                 name: 'Diorshow 5 coulers',
-                description: 'Paleta de ojos - 5 sombras de ojos - colores intensos y larga duración',
+                description: t('Products.des_Dior7'),
                 image: 'paleta.jpg',
                 price: 34,
-                category: 'Sombras de ojos',
+                category: t('Products.cat_Dior5'),
                 quantity: 0,
                 marca: 'dior',
                 inventoryStatus: 'INSTOCK',
@@ -131,10 +137,10 @@ export const ProductServiceMarca = {
                 code: 'vbb124btr',
                 portada: 'dior logo.png',
                 name: 'Dior Vernís',
-                description: 'Laca de uñas - color couture - brillo y larga duración - efecto gel - tratamiento protector',
+                description: t('Products.des_Dior8'),
                 image: 'pintauñas Dior.jpg',
                 price: 39,
-                category: 'Laca de uñas',
+                category: t('Products.cat_Dior6'),
                 quantity: 0,
                 marca: 'dior',
                 inventoryStatus: 'LOWSTOCK',
@@ -146,10 +152,10 @@ export const ProductServiceMarca = {
                 code: 'cm230f032',
                 portada: 'dior logo.png',
                 name: 'Sauvage',
-                description: 'Para componer el perfume Sauvage, Dior encontró su inspiración en las inmensas extensiones vírgenes bajo una noche teñida de azul, a la hora en la que se eleva el intenso aroma de un fuego crepitante',
+                description: t('Products.des_Dior9'),
                 image: 'savage.jpg',
                 price: 165,
-                category: 'Parfum',
+                category: t('Products.cat_Dior7'),
                 quantity: 0,
                 marca: 'dior',
                 inventoryStatus: 'INSTOCK',
@@ -1950,29 +1956,31 @@ export const ProductServiceMarca = {
 
 
 
-    getProductsMini() {
+    getProductsMini(t) {
      
-       return Promise.resolve(this.getProductsData().slice(0, 5));
+       return Promise.resolve(this.getProductsData(t).slice(0, 5));
     },
 
-    getProductsSmall() {
-        return Promise.resolve(this.getProductsData().slice(0, 10));
+    getProductsSmall(t) {
+        return Promise.resolve(this.getProductsData(t).slice(0, 10));
     },
 
-    getProducts() {
-        return Promise.resolve(this.getProductsData());
+    getProducts(t) {
+
+        
+        return Promise.resolve(this.getProductsData(t));
     },
     
-    getProductsWithOrdersSmall() {
-        return Promise.resolve(this.getProductsData().slice(0, 10));
+    getProductsWithOrdersSmall(t) {
+        return Promise.resolve(this.getProductsData(t).slice(0, 10));
     },
 
-    getProductsWithOrders() {
-        return Promise.resolve(this.getProductsData());
+    getProductsWithOrders(t) {
+        return Promise.resolve(this.getProductsData(t));
     },
 
-    getProductsById(id){
-        const product= this.getProductsData.find(p=>p.id === parseInt(id,10));
+    getProductsById(id,t){
+        const product= this.getProductsData(t).find(p=>p.id === parseInt(id,10));
         return Promise.resolve(product);
     }
 
