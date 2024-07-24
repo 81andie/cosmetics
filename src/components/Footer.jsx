@@ -1,41 +1,44 @@
 import React from 'react'
 import 'primeicons/primeicons.css';
 import './Footer.css';
+import { useTranslation } from 'react-i18next';
 
 export const Footer = () => {
+
+  const { t } = useTranslation();
   return (
     <>
       <section className='informacion_container'>
 
         <div className="container_info_footer">
-          <i className="pi pi-truck"> Envios gratis</i>
+          <i className="pi pi-truck"> {t('SobreNosotros.Free shipping')}</i>
 
           <span>30 Euros</span>
-          <span>Entrega 1-2 dias</span>
+          <span>{t('SobreNosotros.Delivery')}</span>
         </div>
 
         <div className="container_info_footer">
-          <i className="pi pi-star"> Muestras</i>
-          <span>Hasta 2 muestras gratis</span>
-          <span>Elige a tu gusto</span>
+          <i className="pi pi-star"> {t('SobreNosotros.samples')}</i>
+          <span>{t('SobreNosotros.sampleschoose')}</span>
+          <span>{t('SobreNosotros.choose')}</span>
         </div>
 
         <div className="container_info_footer">
-          <i className="pi pi-undo"> Devoluciones</i>
-          <span>Devuelve cualquier producto gratis</span>
-          <span>Hasta 60 dias para cambios y devoluciones</span>
+          <i className="pi pi-undo"> {t('SobreNosotros.returns')}</i>
+          <span>{t('SobreNosotros.Return')}</span>
+          <span>{t('SobreNosotros.up to 60 days')}</span>
         </div>
 
         <div className="container_info_footer">
-          <i className="pi pi-ticket"> Click & Collect</i>
-          <span>Recoger en 2 horas</span>
-          <span>Gratis</span>
+          <i className="pi pi-ticket"> {t('SobreNosotros.Click & Collect')}</i>
+          <span>{t('SobreNosotros.Collection')}</span>
+       
         </div>
 
         <div className="container_info_footer">
-          <i className="pi pi-map-marker"> Puntos de recogida</i>
-          <span>Recibe tu pedido en comercios cercanos</span>
-          <span>Gratis</span>
+          <i className="pi pi-map-marker"> {t('SobreNosotros.Collection1')}</i>
+          <span>{t('SobreNosotros.Receive your order')}</span>
+         
         </div>
 
       </section>
@@ -57,20 +60,20 @@ export const Footer = () => {
       <section className="footer">
 
         <div className='container_info_empresa'>
-          <ul><h1>Encuéntranos:</h1>
-            <li>C/Acacias (Narnia)</li>
-            <li>telf: XXXXXXXXXXX</li>
-            <li>Correo Electrónico:<br /> XXXXXXXXXXX@gmail.com</li></ul>
+          <ul><h1>{t('SobreNosotros.Find us')}</h1>
+            <li> {t('SobreNosotros.Address')}</li>
+            <li>{t('SobreNosotros.Phone')}</li>
+            <li>{t('SobreNosotros.Mail')}</li></ul>
 
 
         </div>
 
         <div className='container_info_empresa'>
-          <ul><h1>Información</h1>
-            <li>Atención al cliente</li>
-            <li>Concertar Cita en tienda</li>
-            <li>Problemas con el pedido</li>
-            <li>Atención al cliente 24 horas</li></ul>
+          <ul><h1>{t('SobreNosotros.Information')}</h1>
+            <li>{t('SobreNosotros.Customer service')}</li>
+            <li>{t('SobreNosotros.Schedule an appointment in store')}</li>
+            <li>{t('SobreNosotros.Order issues')}</li>
+            <li>{t('SobreNosotros.24-hour customer service')}</li></ul>
 
         </div>
 

@@ -2,6 +2,7 @@ import React from 'react'
 import { MegaMenu } from 'primereact/megamenu';
 import { useNavigate } from 'react-router-dom';
 import './Navbar.css';
+import { useTranslation } from 'react-i18next';
 
 
 
@@ -10,34 +11,35 @@ import './Navbar.css';
 export const Navbar = () => {
 
     const navigate = useNavigate();
+    const { t } = useTranslation();
 
     const items = [
 
 
 
         {
-            label: 'Home', icon: 'pi pi-fw pi-star-fill',
+            label: t('navbar.home'), icon: 'pi pi-fw pi-star-fill',
             items: [
                 [
                     {
-                        label: 'Quiénes somos',
+                        label: t('navbar.home'),
                         items: [
 
                             {
-                                label: 'Sobre nosotros',
+                                label: t('navbar.aboutus'),
                                 command: () => {
                                     navigate("/Inicio");
                                 }
 
                             }, {
-                                label: 'Nuestras marcas',
+                                label: t('SobreNosotros.Our brands'),
                                 command: () => {
                                     navigate("/marcas");
                                 }
                             },
 
                             {
-                                label: 'Contacto',
+                                label: t('navbar.contact'),
                                 command: () => {
                                     navigate("/contacto");
                                 }
@@ -55,11 +57,11 @@ export const Navbar = () => {
         },
 
         {
-            label: 'Marcas principales', icon: 'pi pi-fw pi-star-fill',
+            label: t('navbar.Our principal'), icon: 'pi pi-fw pi-star-fill',
             items: [
                 [
                     {
-                        label: 'Marcas',
+                        label: t('navbar.brand'),
                         items: [
 
                             {
@@ -97,15 +99,15 @@ export const Navbar = () => {
 
                     },
                     {
-                        label: 'Perfumes',
+                        label: t('navbar.fragances'),
                         items: [{
-                            label: 'Perfumes', command: () => {
+                            label: t('navbar.fragances'), command: () => {
                                 navigate("/marcas/perfumes")
                             }
 
 
                         }, {
-                            label: 'Agua de Colonia', command: () => {
+                            label: t('navbar.eau de toilette'), command: () => {
                                 navigate("/marcas/aguasdecolonia")
                             }
                         }]
@@ -115,19 +117,19 @@ export const Navbar = () => {
             ]
         },
         {
-            label: 'Tratamientos', icon: 'pi pi-fw pi-star',
+            label: t('navbar.treatments'), icon: 'pi pi-fw pi-star',
             items: [
                 [
                     {
-                        label: 'Cremas faciales',
+                        label: t('navbar.creams'),
                         items: [{
-                            label: 'Cremas', command: () => {
+                            label: t('navbar.creams'), command: () => {
                                 navigate("/marcas/cremas")
                             }
                         },
 
                         {
-                            label: 'Serums', command: () => {
+                            label: t('navbar.serum'), command: () => {
                                 navigate("/marcas/serums")
                             }
                         },
@@ -135,7 +137,7 @@ export const Navbar = () => {
 
 
                         {
-                            label: 'Ojos', command: () => {
+                            label: t('navbar.eyes'), command: () => {
                                 navigate("/marcas/ojos")
 
                             }
@@ -143,20 +145,20 @@ export const Navbar = () => {
 
 
                         {
-                            label: 'Anti-Arrugas', command: () => {
+                            label: t('navbar.anti-wrinkle'), command: () => {
                                 navigate("/marcas/antiarrugas")
                             }
                         },
 
 
                         {
-                            label: 'Hidratantes', command: () => {
+                            label: t('navbar.Moisturizers'), command: () => {
                                 navigate("/marcas/hidratantes")
                             }
                         },
 
                         {
-                            label: 'Con Color', command: () => {
+                            label: t('navbar.with color'), command: () => {
                                 navigate("/marcas/concolor")
                             }
                         },
@@ -165,7 +167,7 @@ export const Navbar = () => {
 
 
                         {
-                            label: 'AntiManchas', command: () => {
+                            label: t('navbar.Anti-spot'), command: () => {
                                 navigate("/marcas/antimanchas")
                             }
                         }]
@@ -174,23 +176,23 @@ export const Navbar = () => {
                 ],
                 [
                     {
-                        label: 'Cremas de protección solar',
+                        label: t('navbar.Sun protection'),
                         items: [
 
                             {
-                                label: 'Aceites', command: () => {
+                                label: t('navbar.oils'), command: () => {
                                     navigate("marcas/aceitessolares")
                                 }
                             },
 
                             {
-                                label: 'Crema', command: () => {
+                                label: t('navbar.creams'), command: () => {
                                     navigate("marcas/cremasolares")
                                 }
                             },
 
                             {
-                                label: 'Aftesun', command: () => {
+                                label:  t('navbar.Aftesun'), command: () => {
                                     navigate("marcas/aftesun")
                                 }
                             }]
@@ -201,35 +203,35 @@ export const Navbar = () => {
             ]
         },
         {
-            label: 'Maquillaje', icon: 'pi pi-fw pi-palette',
+            label:  t('navbar.Makeup'), icon: 'pi pi-fw pi-palette',
             items: [
                 [
                     {
-                        label: 'Labiales',
+                        label: t('navbar.lipsticks'),
                         items: [
 
                             {
-                                label: 'Gloss', command: () => {
+                                label: t('navbar.gloss'), command: () => {
                                     navigate("marcas/gloss");
                                 }
                             },
                             {
-                                label: 'Barras', command: () => {
+                                label: t('navbar.lipsticks'), command: () => {
                                     navigate("marcas/barras")
                                 }
 
                             }]
                     },
                     {
-                        label: 'Ojos',
+                        label: t('navbar.eyes'),
                         items: [
                             {
-                                label: 'Paletas', command: () => {
+                                label: t('navbar.palettes'), command: () => {
                                     navigate("marcas/paletas")
                                 }
                             },
                             {
-                                label: 'EyeLiners', command: () => {
+                                label: t('navbar.eyeliners'), command: () => {
                                     navigate("marcas/eyeliners")
                                 }
                             }]
@@ -237,8 +239,8 @@ export const Navbar = () => {
                 ],
                 [
                     {
-                        label: 'Rubores',
-                        items: [ { label: 'Crema', command: ()=>{
+                        label: t('navbar.blushes'),
+                        items: [ { label: t('navbar.blushes'), command: ()=>{
                             navigate("marcas/colorete")
                         } }]
                     },
@@ -248,13 +250,13 @@ export const Navbar = () => {
         },
 
         {
-            label: 'Ofertas Flash', icon: 'pi pi-fw pi-hourglass',
+            label: t('navbar.flash'), icon: 'pi pi-fw pi-hourglass',
             items: [
                 [
                     {
-                        label: 'Ofertas',
+                        label: t('navbar.Sales'),
                         items: [{
-                            label: 'Sólo 24h', command: () => {
+                            label: t('navbar.Only'), command: () => {
                                 navigate('marcas/ofertas');
                             }
                         },]
@@ -265,13 +267,13 @@ export const Navbar = () => {
             ]
         },
         {
-            label: 'Tu pedido', icon: 'pi pi-fw pi-shopping-cart',
+            label:t('navbar.Summary of your order') , icon: 'pi pi-fw pi-shopping-cart',
             items: [
                 [
                     {
                         label: 'Resumen de tu pedido',
                         items: [{
-                            label: 'Ver', command: () => {
+                            label: t('pedido.View'), command: () => {
                                 navigate('/Pedido')
                             }
                         }]

@@ -1,12 +1,16 @@
 import React from 'react';
 import './NuestrasMarcas.css';
+import { useTranslation } from 'react-i18next';
 
 export const NuestrasMarcas = () => {
+
+    const { t } = useTranslation();
+
     return (
         <>
             <div className="nuestrasMarcas" id="marcas">
 
-                <h1>Nuestras marcas</h1>
+                <h1>{t('SobreNosotros.Our brands')}</h1>
 
                 <div className="marcas">
                     
