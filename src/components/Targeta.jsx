@@ -2,8 +2,11 @@ import React from 'react'
 import { useEffect, useState, useRef } from "react";
 import JSConfetti from "js-confetti";
 import './Targeta.css';
+import { useTranslation } from 'react-i18next';
 
 export const Targeta = ({ frontContent, backContent }) => {
+
+    const { t } = useTranslation();
 
     const [isFlipped, setIsFlipped] = useState(false);
     const canvasRef = useRef();
@@ -16,8 +19,9 @@ export const Targeta = ({ frontContent, backContent }) => {
     const handleClick = () => {
         if (!isFlipped) {
             confettiRef.current.addConfetti({
-                confettiRadius: 5,
-                confettiNumber: 300
+                emojiSize: 20,
+                confettiNumber: 250,
+                emojis:['✨', '💫', '🌸','🏵️', '💮']
             });
         }
 
@@ -26,19 +30,19 @@ export const Targeta = ({ frontContent, backContent }) => {
     return (
         <div className={`card ${isFlipped ? "active" : "inactive"}`}>
             <div className="card-front">
-
-            <img src="/logo.jpg" className="logo_tienda" />
-            <h6>Has finalizado con éxito tu pedido</h6>
-                <button type="button" onClick={handleClick} className="trigger icon">Felicidades!
+            <button type="button" onClick={handleClick} className="trigger icon">{t('pedido.Congratulations')}
                     {frontContent}
                 </button>
+            <img src="/logo.jpg" className="logo_tienda" />
+            <h6>{t('pedido.Finish')}</h6>
+              
               
             </div>
             <div className="card-back">
                 {backContent}
                 <canvas className="canvas" ref={canvasRef} />
                 <button type="button" className="reset" onClick={handleClick}>
-                    Muchas grácias por confiar en nosotros, en breve lo recibirás en tu domicilio
+                {t('pedido.Thanyou')}
                 </button>
             </div>
         </div>

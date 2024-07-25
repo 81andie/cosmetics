@@ -1,13 +1,18 @@
 .form_payment{
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
+   width: 100%;
     align-items: center;
    justify-content: center;
+  
   }
   
   .form_payment img{
-    width: 30%;
+    width: 40%;
+  }
+
+  .form_payment h1{
+    width: 50%;
   }
  
  
@@ -19,11 +24,12 @@
   
   }
   .form_container{
-    width: 80%;
+    width: 40%;
+   
 
   }
   .container_payment{
-    width: 70%;
+    width: 40%;
   }
   
   

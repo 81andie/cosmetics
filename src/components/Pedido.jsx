@@ -6,12 +6,13 @@ import { Rating } from 'primereact/rating';
 import { Tag } from 'primereact/tag';
 import { FormPayments } from './FormPayments';
 import './Pedido.css';
+import { useTranslation } from 'react-i18next';
 
 
 
 export const Pedido = () => {
   const [products, setProducts] = useState([]);
-
+  const { t } = useTranslation();
 
 
 
@@ -62,7 +63,7 @@ export const Pedido = () => {
       <div>
         {colors.map((color, index) => (
           <span className="spanColor" key={`color-${id}-${index}`} style={{ display: 'block' }}>
-           Color escogido: {color}
+           Color: {color}
           </span>
         ))}
       </div>
@@ -130,13 +131,13 @@ export const Pedido = () => {
   const footer = (
     <div>
       <div className="container_total" style={{ textAlign: 'right' }}>
-        <em>Total:</em> {formatCurrency(total)}
+        <em>{t('pedido.Total')}:</em> {formatCurrency(total)}
       </div>
       <div className="iva" style={{ textAlign: 'right' }}>
-        <strong>IVA (21%):</strong> {formatCurrency(IVA)}
+        <strong>{t('pedido.iva')}(21%):</strong> {formatCurrency(IVA)}
       </div>
       <div className="totalIva" style={{ textAlign: 'right' }}>
-        <em>Total con IVA:</em> {formatCurrency(totalWithIVA)}
+        <em>{t('pedido.whithIva')}</em> {formatCurrency(totalWithIVA)}
       </div>
 
     </div>
@@ -144,7 +145,7 @@ export const Pedido = () => {
 
   const header = (
     <div className="flex flex-wrap align-items-center justify-content-between gap-1">
-      <span className="text-l text-900 font-bold">Productos</span>
+      <span className="text-l text-900 font-bold">{t('pedido.yourProducts')}</span>
       <Button icon="pi pi-refresh" rounded raised onClick={() => window.location.reload()} />
     </div>
   );
@@ -157,21 +158,21 @@ export const Pedido = () => {
       <section className="container_pedido">
         <div className="pedido_titulo">
           <img src="/logo.jpg" className="logo_tienda1" alt="logo" />
-          <h1>TU PEDIDO</h1>
+          <h1>{t('pedido.YOUR ORDER')}</h1>
         </div>
         <hr />
 
         <div className="card3">
           <DataTable value={products} header={header} footer={footer} tableStyle={{ minWidth: '60rem' }}>
-            <Column field="name" header="Producto" className="producto" body={nameBodyTemplate} />
+            <Column field="name" header={t('pedido.Product')} className="producto" body={nameBodyTemplate} />
   
-            <Column header="Imagen" body={imageBodyTemplate} />
+            <Column header={t('pedido.Image')} body={imageBodyTemplate} />
 
-            <Column field="price" header="Precio" body={priceBodyTemplate} />
+            <Column field="price" header={t('pedido.Price')} body={priceBodyTemplate} />
 
             <Column
               className="cantidad"
-              header="Cantidad"
+              header={t('pedido.Quantity')}
               body={(product) => (
                 <input
                   type="number"
@@ -181,9 +182,9 @@ export const Pedido = () => {
               )}
             />
 
-            <Column header="Subtotal" body={(product) => formatCurrency(calculateSubtotal(product))} />
+            <Column header={t('pedido.Subtotal')} body={(product) => formatCurrency(calculateSubtotal(product))} />
             <Column
-              header="Eliminar"
+              header={t('pedido.Trash')}
               body={(product) => (
 
                 <Button icon="pi pi-trash" onClick={() => eliminarProducto(product)} />

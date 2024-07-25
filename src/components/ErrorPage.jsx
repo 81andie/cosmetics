@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './ErrorPage.css';
+import { useTranslation } from 'react-i18next';
 
 export const ErrorPage = () => {
+    const { t } = useTranslation();
+
     return (
         <>
 
@@ -10,10 +13,10 @@ export const ErrorPage = () => {
             <img src="/logo.jpg" className="logo_tienda1" alt="logo" />
                 <img src="https://c.tenor.com/fmrdRSoGibYAAAAC/black-lipstick.gif"></img>
 
-            <h1>Lo  sentimos</h1>
-            <h3>En estos momentos, no podemos encontrar la páginaque está buscando <br />Si quiere puede esperar y probarlo en otro momento</h3>
+            <h1>{t('404.Sorry')}</h1>
+            <h3>{t('404.At this')}</h3>
         
-            <button className="Btn-volver"><Link to="/inicio" className="link">Volver a Inicio</Link></button> 
+            <button className="Btn-volver"><Link to="/inicio" className="link">{t('404.Backto')}</Link></button> 
                
             </div>
                

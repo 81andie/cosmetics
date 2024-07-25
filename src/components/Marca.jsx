@@ -123,11 +123,21 @@ export const Marca = () => {
         setCart(updatedCart);
         localStorage.setItem('cart', JSON.stringify(updatedCart));
 
-        toast.current.show({
-            severity: 'info',
-            summary: 'Agregado al carrito',
-            detail: `${product.name} (${selectedColors.join(', ')})`,
-        });
+        if (toast.current) {
+            toast.current.show({
+                severity: 'info',
+                summary: 'Agregado al carrito',
+                detail: (
+                    <div style={{ display: 'flex', alignItems: 'center' }}>
+                        <img src={`/images/${product.image}`} alt={product.name} style={{ width: '50px', height: '50px', marginRight: '10px' }} />
+                        <span>{product.name} ({selectedColors.join(', ')})</span>
+                    </div>
+                ),
+                life: 3000
+            });
+        } else {
+            console.error('Toast ref is null');
+        }
 
     };
 

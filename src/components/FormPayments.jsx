@@ -5,43 +5,47 @@ import { Tag } from 'primereact/tag';
 import { Steps } from 'primereact/steps';
 import { Toast } from 'primereact/toast';
 import { Targeta } from './Targeta';
+import { useTranslation } from 'react-i18next';
 import './FormPayments.css';
 
 export const FormPayments = () => {
+
+const { t } = useTranslation();
 
     const [activeIndex, setActiveIndex] = useState(1);
     const toast = useRef(null);
     const items = [
         {
-            label: ' tu informacion',
+            label:t('pedido.Your Info'),
+          
             command: (event) => {
                 if (toast.current) {
-                    toast.current.show({ severity: 'info', summary: '1º PASO', detail: event.item.label });
+                    toast.current.show({ severity: 'info', summary: t('pedido.Step1'), detail: event.item.label });
                 }
             }
         },
         {
-            label: 'tus productos',
+            label: t('pedido.yourProducts'),
 
             command: (event) => {
                 if (toast.current) {
-                    toast.current.show({ severity: 'warn', summary: '2º PASO', detail: event.item.label });
+                    toast.current.show({ severity: 'warn', summary: t('pedido.Steps2'), detail: event.item.label });
                 }
             }
         },
         {
-            label: '"CLICK" a"payment"',
+            label: t('pedido.click'),
             command: (event) => {
                 if (toast.current) {
-                    toast.current.show({ severity: 'info', summary: '3º PASO', detail: event.item.label });
+                    toast.current.show({ severity: 'info', summary: t('pedido.Steps3'), detail: event.item.label });
                 }
             }
         },
         {
-            label: 'tu confirmación, tu pedido ha sido un éxito',
+            label: t('pedido.your confirmation'),
             command: (event) => {
                 if (toast.current) {
-                    toast.current.show({ severity: 'success', summary: '4º paso', detail: event.item.label });
+                    toast.current.show({ severity: 'success', summary: t('pedido.Steps4'), detail: event.item.label });
                 }
             }
         }
@@ -119,8 +123,8 @@ export const FormPayments = () => {
 
             <section className="steps_informacion">
 
-                <h1 className="steps_titulo">PAYMENT</h1>
-                <h3 className="steps_subs">Sigue estos 4 pasos</h3>
+                <h1 className="steps_titulo">{t('pedido.Payment')}</h1>
+                <h3 className="steps_subs">{t('pedido.Sigue')}</h3>
 
                 <div className="card4">
                     <Toast ref={toast}></Toast>
@@ -131,26 +135,26 @@ export const FormPayments = () => {
 
             {step === 1 && (
                 <div className="payment_titulo">
-                    <h1>Ahora si, <br />formaliza tu pedido </h1>
+                    <h1>{t('pedido.Now')}</h1>
                     <section className="form_payment">
                         <img src="https://img.freepik.com/foto-gratis/blogger-alto-angulo-estudio-listo-filmar_23-2148360165.jpg" alt="Step 1" />
                         <div className="container_payment">
-                            <h3>Formaliza tu compra aqui (paso 1)</h3>
-                            <h1>Por favor, inscribe tu nombre, apellidos y dirección</h1>
+                           
+                            <h1>{t('pedido.Please')}</h1>
                             <div className="form_container">
                                 <form>
-                                    <label htmlFor="fname">Nombre y apellidos:</label><br />
-                                    <input type="text" id="fname" name="fname" placeholder="Tu nombre y apellidos" /><br />
-                                    <label htmlFor="email">Tu correo electrónico</label><br />
+                                    <label htmlFor="fname">{t('pedido.Name')}:</label><br />
+                                    <input type="text" id="fname" name="fname" placeholder={t('pedido.Names')}/><br />
+                                    <label htmlFor="email">{t('pedido.Email')}</label><br />
                                     <input type="email" id="email" name="email" placeholder="Email" /><br />
-                                    <label htmlFor="address">Dirección:</label><br />
-                                    <input type="text" id="address" name="address" placeholder="Dirección" /><br />
+                                    <label htmlFor="address">{t('pedido.Address')}</label><br />
+                                    <input type="text" id="address" name="address" placeholder={t('pedido.Address')} /><br />
                                     <button className="enviar_btn" type="button" onClick={handleNextStep}>
                                         <a className="btnfos btnfos-1">
                                             <svg>
                                                 <rect x="0" y="0" fill="none" width="100%" height="100%" />
                                             </svg>
-                                            Seguir
+                                            {t('pedido.Next')}
                                         </a>
                                     </button>
                                 </form>
@@ -164,8 +168,8 @@ export const FormPayments = () => {
                 <div>
                     <div className="card5">
                         <section className="steps_informacion">
-                            <h1 className="steps_titulo">Tus productos</h1>
-                            <h3 className="steps_subs">Paso 2, comprueba que todo esté correcto</h3>
+                            <h1 className="steps_titulo">{t('pedido.yourProducts')}</h1>
+                            <h3 className="steps_subs">{t('pedido.Step2')}</h3>
                         </section>
                     </div>
                     <section className="carrusel_pedido">
@@ -185,10 +189,10 @@ export const FormPayments = () => {
                             alt="Payment"
                         />
                         <button className="enviar_btn2" type="button" onClick={handlePreviousStep}>
-                            Volver
+                        {t('pedido.back')}
                         </button>
                         <button className="enviar_btn3" type="button" onClick={handleNextStep}>
-                            Seguir
+                        {t('pedido.Next')}
                         </button>
                     </section>
                 </div>
@@ -196,36 +200,34 @@ export const FormPayments = () => {
 
             {step === 3 && (
                 <div className="payment_titulo">
-                    <h1>Ahora si, <br />Casi ya estamos!!</h1>
+                    <h1> {t('pedido.Now1')}</h1>
                     <section className="form_payment">
                         <img src="https://img.freepik.com/vector-premium/tarjeta-credito-bancaria-dos-caras-anverso-reverso-tarjeta-debito-realista-detallada-sobre-fondo-blanco-diseno-plantilla-tarjeta-credito-presentacion-simbolo-pago-dinero_93083-3211.jpg" alt="fotografia targeta de credito" />
                         <div className="container_payment">
-                            <h3>Introduce los datos de tu tarjeta</h3>
-                            <h1>Por favor, inscribe tu nº de tarjeta, caducidad y Cod.seguridad</h1>
+                            <h3>{t('pedido.enter')}</h3>
+                            <h1>{t('pedido.Please1')}</h1>
                             <div className="form_container">
                                 <form>
-                                    <label htmlFor="cardNumber">Número de tarjeta:</label><br />
-                                    <input type="number" id="cardNumber" name="cardNumber" placeholder="Número de tarjeta" /><br />
-                                    <label htmlFor="expiryDate">Caducidad:</label><br />
-                                    <input type="date" id="expiryDate" name="expiryDate" placeholder="Caducidad" /><br />
-                                    <label htmlFor="securityCode">Código de seguridad:</label><br />
-                                    <input type="number" id="securityCode" name="securityCode" placeholder="Código de seguridad" /><br />
+                                    <label htmlFor="cardNumber">{t('pedido.Numbertar')}</label><br />
+                                    <input type="number" id="cardNumber" name="cardNumber" placeholder={t('pedido.Numbertar')} /><br />
+                                    <label htmlFor="expiryDate">{t('pedido.Expiration')}:</label><br />
+                                    <input type="date" id="expiryDate" name="expiryDate" placeholder={t('pedido.Expiration')} /><br />
+                                    <label htmlFor="securityCode">{t('pedido.CodeSeg')}</label><br />
+                                    <input type="number" id="securityCode" name="securityCode" placeholder={t('pedido.CodeSeg')} /><br />
 
-                                    <button className="enviar_btn" type="submit">
+                                    <button className="enviar_btn" type="submit" onClick={handleNextStep}>
                                         <a className="btnfos btnfos-1">
                                             <svg>
                                                 <rect x="0" y="0" fill="none" width="100%" height="100%" />
                                             </svg>
-                                            Pagar
+                                            {t('pedido.Pay')}
                                         </a>
                                     </button>
                                     <br />
 
-                                    <button className="enviar_btn3" type="button" onClick={handleNextStep}>
-                                        Seguir
-                                    </button>
+                                    
                                     <button className="enviar_btn" type="button" onClick={handlePreviousStep}>
-                                        Volver
+                                    {t('pedido.back')}
                                     </button>
 
                                 </form>

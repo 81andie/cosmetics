@@ -5,10 +5,11 @@
    
   }
   .card {
-    border: 2px solid black;
+    border: 1px solid rgb(199, 196, 196);
     min-height: 250px;
     max-width: 400px;
     width: 100%;
+    height: 50vh;
     transition: transform 0.5s ease;
     transform-style: preserve-3d;
     display: flex;
@@ -20,6 +21,7 @@
     border-radius: 12px;
     text-align: center;
     margin-top: 100px;
+    background-image: url("https://img.freepik.com/fotos-premium/decoracion-flores-boda-enfoque-selectivo-enfoque-suave-flores-blancasxa_198067-103134.jpg?w=900")
   }
   
   .card button {
@@ -35,10 +37,11 @@
   }
   
   .trigger {
+   margin-top: 20px;
     width: 100%;
-    height: 100%;
+    top: 20;
     color: #0a0a0a;
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 700;
   }
   
@@ -56,7 +59,7 @@
     backface-visibility: hidden;
     height: 100%;
     width: 100%;
-    font-size: 20px;
+    font-size: 22px;
     color: #100f0f;
     font-weight: 700;
   }
@@ -87,4 +90,10 @@
   .card-back :not(.canvas) {
     z-index: 1;
   }
+
+
+  .logo_tienda{
+    width: 35%;
+  }
+
   

@@ -94,9 +94,7 @@
     
   }
 
-  .form_payment {
-    width: 100%;
-  }
+  
  
   .subscripcion img{
     width: 100%;
@@ -107,9 +105,35 @@
     margin: 0 auto;
   }
 
-  .container_payment {
-    width: 92%;
+  .form_payment{
+   
+   flex-direction: column;
+   
+  
   }
+
+  .form_payment img{
+    width: 90%;
+  }
+
+  .form_payment h1 {
+    width: 100%;
+   
+}
+
+  .form_container{
+    width: 100%;
+  }
+  .container_payment{
+    width: 90%;
+   justify-content: center;
+  }
+
+
+ .steps_titulo{
+  font-size: 1.6rem;
+  border: none;
+ }
 
 
   .steps_informacion {
@@ -135,13 +159,12 @@
 
   }
 
-  .img-carr-payment {
-  margin-left: 30px;
-
-  }
-
   .parr_container{
     text-align: center;
+  }
+
+  .pedido_titulo h1{
+    font-size: 1.4rem;
   }
 }
 
@@ -287,20 +310,35 @@
     
   }
 
-  .form_payment {
+  .form_payment{
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+   flex-direction: row;
+   width: 100%;
     align-items: center;
-    justify-content: center;
+   justify-content: center;
+  
+  }
+  
+  .form_payment img{
+    width: 44%;
   }
 
- 
-  .container_payment
- {
-    width: 53%;
-    margin-left: 10px;
+  .form_payment h1{
+    width: 100%;
+    margin-left: 20px;
   }
+
+
+  .form_container{
+    width: 100%;
+    margin-left: 20px;
+   
+
+  }
+  .container_payment{
+    width: 40%;
+  }
+  
 
  
 
