@@ -32,6 +32,7 @@ export const Marca = () => {
 
 
     const agregarColor = (e, productId) => {
+       e.preventDefault();
         const selectedColor = e.target.getAttribute('data-color');
 
         if (!selectedColor) {
@@ -179,20 +180,7 @@ export const Marca = () => {
         }
     };
 
-    const showInfo = () => {
-
-        if (toast.current) {
-            toast.current.show({
-                severity: 'info',
-                summary: 'Mensaje información al usuario',
-                detail: 'Ha agregado su producto en el carrito',
-                life: 3000
-            });
-
-        } else {
-            console.log('Toast ref is null');
-        }
-    }
+   
 
 
     const handleSearch = (event) => {
@@ -265,7 +253,7 @@ export const Marca = () => {
                                 </div>
                             </div>
                             <div className="flex flex-row lg:flex-column align-items-center lg:align-items-end gap-4 lg:gap-2 container_btncompra">
-                                <Toast ref={toast} />
+                               
 
                                 <span className="text-2xl font-semibold">€{data.price}</span>
                                 <Button
@@ -274,7 +262,7 @@ export const Marca = () => {
                                     disabled={data.inventoryStatus === 'OUTOFSTOCK'}
                                     onClick={() => {
                                         addToCart(data);
-                                        showInfo();
+                                       
 
                                     }}
                                 />
@@ -295,7 +283,7 @@ export const Marca = () => {
 
     return (
         <div className="card-shooping">
-
+   <Toast ref={toast} />
             <div className="p-inputgroup">
                 <input type="text" placeholder="Buscar por marca..." value={searchTerm} onChange={handleSearch} className="buscador" />
                 <Button icon="pi pi-search" className="p-button-secondary" />
