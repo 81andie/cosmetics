@@ -45,7 +45,7 @@ export const Footer = () => {
 
 
       <section className="logo_section_footer">
-        <img src="/logo.jpg" className="logo_footer" />
+        <img src="/cosmetics/logo.jpg" className="logo_footer" />
       </section>
 
       <div className='container_footer_redes'>

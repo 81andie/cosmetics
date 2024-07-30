@@ -19,4 +19,5 @@ En donde hay scripts, modificarlos a:
     "start": "react-scripts start",
     "build": "react-scripts build",
 Paso 6) Ejecutar npm run github
-Paso 7) Ir al archivo .gitignore y borrar cualquier referencia a la carpeta build
+Paso 7) Ir a github al cabo de unos minotos y comprovar que hay una nueva branca que se llama gh-pages
+Paso 8) Una vez creada, volver a settings -> pages y seleccionar como branca de deploy la branca gh-pages y aplicar cambios guardando con save

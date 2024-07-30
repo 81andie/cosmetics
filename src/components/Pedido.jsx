@@ -42,7 +42,7 @@ export const Pedido = () => {
   };
 
   const imageBodyTemplate = (product) => {
-    return <img src={`/images/${product.image}`} alt={product.name} className="image-products2" />;
+    return <img src={`/cosmetics/images/${product.image}`} alt={product.name} className="image-products2" />;
   };
 
   const priceBodyTemplate = (product) => {
@@ -157,7 +157,7 @@ export const Pedido = () => {
     <>
       <section className="container_pedido">
         <div className="pedido_titulo">
-          <img src="/logo.jpg" className="logo_tienda1" alt="logo" />
+          <img src="/cosmetics/logo.jpg" className="logo_tienda1" alt="logo" />
           <h1>{t('pedido.YOUR ORDER')}</h1>
         </div>
         <hr />

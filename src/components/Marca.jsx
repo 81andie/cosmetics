@@ -130,7 +130,7 @@ export const Marca = () => {
                 summary: 'Agregado al carrito',
                 detail: (
                     <div style={{ display: 'flex', alignItems: 'center' }}>
-                        <img src={`/images/${product.image}`} alt={product.name} style={{ width: '50px', height: '50px', marginRight: '10px' }} />
+                        <img src={`/cosmetics/images/${product.image}`} alt={product.name} style={{ width: '50px', height: '50px', marginRight: '10px' }} />
                         <span>{product.name} ({selectedColors.join(', ')})</span>
                     </div>
                 ),
@@ -214,10 +214,10 @@ export const Marca = () => {
 
                 <div className="col-12">
 
-                    <img className="marca_logo " src={`/images/${data.portada}`} alt={data.portada} />
+                    <img className="marca_logo " src={`/cosmetics/images/${data.portada}`} alt={data.portada} />
                     <div className="flex flex-column xl:flex-row xl:align-items-start p-2 gap-5">
 
-                        <img className="w-9 sm:w-16rem xl:w-10rem shadow-2 block xl:block mx-auto border-round img-products1" src={`/images/${data.image}`} alt={data.name} />
+                        <img className="w-9 sm:w-16rem xl:w-10rem shadow-2 block xl:block mx-auto border-round img-products1" src={`/cosmetics/images/${data.image}`} alt={data.name} />
                         <div className="flex flex-column lg:flex-row justify-content-between align-items-center xl:align-items-start lg:flex-1 gap-3">
                             <div className="flex flex-column align-items-center lg:align-items-start gap-1">
                                 <div className="flex flex-column gap-4">

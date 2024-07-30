@@ -10,7 +10,7 @@ export const ErrorPage = () => {
         <>
 
             <div className="Disculpa_container">
-            <img src="/logo.jpg" className="logo_tienda1" alt="logo" />
+            <img src="/cosmetics/logo.jpg" className="logo_tienda1" alt="logo" />
                 <img src="https://c.tenor.com/fmrdRSoGibYAAAAC/black-lipstick.gif"></img>
 
             <h1>{t('404.Sorry')}</h1>

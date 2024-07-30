@@ -1,7 +1,7 @@
 
 import { Routing } from './Routing/Rutas';
-import { BrowserRouter as Router } from 'react-router-dom';
-import { Header } from './components/Header';
+
+
 import './responsive.css';
 import './ColorVariantSelector.css';
 import 'primeflex/primeflex.css';
@@ -17,10 +17,9 @@ function App() {
     <I18nextProvider i18n={i18n}>
     <div className="App">
       <LanguageSelector/>
-      <Router>
-     <Header/>
+
      <Routing/>
-     </Router>
+  
     </div>
 
     </I18nextProvider>

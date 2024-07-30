@@ -25,7 +25,7 @@ export const Header = () => {
 
       <header className="header">
       <div className="container_logo">
-      <img src="/logo.jpg" className="logo_tienda2" alt="logo" />
+      <img src="/cosmetics/logo.jpg" className="logo_tienda2" alt="logo" />
     
       </div>
       

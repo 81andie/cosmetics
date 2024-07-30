@@ -98,7 +98,7 @@ const { t } = useTranslation();
         return (
             <div className="border-1 surface-border border-round m-1 text-center py-3 px-2 card_payment">
                 <div className="mb-2">
-                    <img src={`/images/${product.image}`} alt={product.name} className="shadow-2 image-products2" />
+                    <img src={`/cosmetics/images/${product.image}`} alt={product.name} className="shadow-2 image-products2" />
                 </div>
                 <div>
                     <h4 className="mb-1">{product.name}</h4>

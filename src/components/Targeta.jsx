@@ -33,7 +33,7 @@ export const Targeta = ({ frontContent, backContent }) => {
             <button type="button" onClick={handleClick} className="trigger icon">{t('pedido.Congratulations')}
                     {frontContent}
                 </button>
-            <img src="/logo.jpg" className="logo_tienda" />
+            <img src="/cosmetics/logo.jpg" className="logo_tienda" />
             <h6>{t('pedido.Finish')}</h6>
               
               
