@@ -1,39 +1,33 @@
-.Subscribir_titulo h1{
+.Subscribir_titulo h1 {
   font-size: 1.8rem;
   text-align: center;
- letter-spacing: 10px;;
+  letter-spacing: 10px;
+  margin-top: 30px;
 }
 
+.img_subscription{
+  width: 40vw;
+  height: auto;
+}
 
 .payment_titulo {
-  margin-top: 60px;
   font-size: 1.1rem;
   font-weight: bolder;
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
 
 label {
   font-size: 1.3rem;
 }
 
 form {
-  
+
   display: flex;
   flex-direction: column;
 }
 
 input {
-  padding: 10px;
+  height: 6vh;
   border: 2px solid black;
 }
 
