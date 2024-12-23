@@ -188,14 +188,20 @@ const { t } = useTranslation();
                             className="img-carr-payment"
                             alt="Payment"
                         />
-                        <button className="enviar_btn2" type="button" onClick={handlePreviousStep}>
+                       
+                    </section>
+                    <div className="flex justify-content-center">
+
+                    <button className="enviar_btn2" type="button" onClick={handlePreviousStep}>
                         {t('pedido.back')}
                         </button>
                         <button className="enviar_btn3" type="button" onClick={handleNextStep}>
                         {t('pedido.Next')}
                         </button>
-                    </section>
-                </div>
+                    </div>
+                    </div>
+
+
             )}
 
             {step === 3 && (
