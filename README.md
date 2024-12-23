@@ -21,3 +21,5 @@ En donde hay scripts, modificarlos a:
 Paso 6) Ejecutar npm run github
 Paso 7) Ir a github al cabo de unos minotos y comprovar que hay una nueva branca que se llama gh-pages
 Paso 8) Una vez creada, volver a settings -> pages y seleccionar como branca de deploy la branca gh-pages y aplicar cambios guardando con save
+Paso 9) Revisar el routing para que tenga el BrowserRouting apuntando a como se llama el proyecto.
+Ejemplo: https://github.com/81andie/cosmetics/blob/master/src/Routing/Rutas.jsx linia 19
