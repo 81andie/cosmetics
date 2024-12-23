@@ -14,8 +14,6 @@ export const Nosotros = () => {
         <span>{t('SobreNosotros.Fundation')}</span>
         <h1>{t('SobreNosotros.Ourstore1')}</h1>
         <span>{t('SobreNosotros.Ourstore')}</span>
-       
-      
       </div>
 
       <figure>
