@@ -1,31 +1,28 @@
 .sobre_nosotrosPresentacion {
-  width: 72%;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 0 auto;
   color: rgb(2, 2, 2);
 }
 
 .sobre_nosotrosPresentacion h1 {
   font-size: 2rem;
   font-weight: bolder;
-  letter-spacing: 15px;
-  margin-top: 10px;
+  letter-spacing: 8px;
+  margin-top: 50px;
   text-align: center;
-
+ 
 }
 
 .sobre_nosotrosPresentacion span {
   width: 70%;
   font-size: 1.3rem;
-  font-weight: bolder;
+  font-weight:200;
   padding: 5px;
-  line-height: 15px;
-  letter-spacing: 15px;
+  line-height: 20px;
+  margin: 0 auto;
   text-align: center;
-
+  
 }
 
 
