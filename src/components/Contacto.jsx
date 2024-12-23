@@ -6,11 +6,8 @@ export const Contacto = () => {
     return (
         <>
         <section className="Contacto">
-
             <h1 className="titulo_contacto"> Nuestro Equipo</h1>
-
             <div className="parr_container">
-
                 <img src="https://img.freepik.com/foto-gratis/sonriente-mujer-empresa-lider-brazos-cruzado_1262-3089.jpg?t=st=1721315464~exp=1721319064~hmac=4c4787724a918477394c720cf84186154fb6768c79ca136ccb25ec030300ff6f&w=900" className="imgEquipo" alt="imagen gerente"></img>
                 <div>
                     <h3><strong>Gerente</strong></h3>

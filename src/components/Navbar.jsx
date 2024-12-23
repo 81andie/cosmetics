@@ -14,9 +14,6 @@ export const Navbar = () => {
     const { t } = useTranslation();
 
     const items = [
-
-
-
         {
             label: t('navbar.home'), icon: 'pi pi-fw pi-star-fill',
             items: [
@@ -44,15 +41,9 @@ export const Navbar = () => {
                                     navigate("/contacto");
                                 }
                             },
-
-
-
                         ]
-
                     },
-
                 ],
-
             ]
         },
 
@@ -192,7 +183,7 @@ export const Navbar = () => {
                             },
 
                             {
-                                label:  t('navbar.Aftesun'), command: () => {
+                                label: t('navbar.Aftesun'), command: () => {
                                     navigate("marcas/aftesun")
                                 }
                             }]
@@ -203,7 +194,7 @@ export const Navbar = () => {
             ]
         },
         {
-            label:  t('navbar.Makeup'), icon: 'pi pi-fw pi-palette',
+            label: t('navbar.Makeup'), icon: 'pi pi-fw pi-palette',
             items: [
                 [
                     {
@@ -234,17 +225,19 @@ export const Navbar = () => {
                                 label: t('navbar.eyeliners'), command: () => {
                                     navigate("marcas/eyeliners")
                                 }
-                            }]
+                            }
+                        ]
                     }
                 ],
                 [
                     {
                         label: t('navbar.blushes'),
-                        items: [ { label: t('navbar.blushes'), command: ()=>{
-                            navigate("marcas/colorete")
-                        } }]
+                        items: [{
+                            label: t('navbar.blushes'), command: () => {
+                                navigate("marcas/colorete")
+                            }
+                        }]
                     },
-                    
                 ]
             ]
         },
@@ -261,26 +254,22 @@ export const Navbar = () => {
                             }
                         },]
                     },
-
                 ],
-
             ]
         },
         {
-            label:t('navbar.Summary of your order') , icon: 'pi pi-fw pi-shopping-cart',
+            label: t('navbar.Summary of your order'), icon: 'pi pi-fw pi-shopping-cart',
             items: [
                 [
                     {
-                        label: 'Resumen de tu pedido',
+                        label: 'Tu pedido',
                         items: [{
                             label: t('pedido.View'), command: () => {
                                 navigate('/Pedido')
                             }
                         }]
                     }
-
                 ]
-
             ]
         }
     ];
@@ -290,12 +279,8 @@ export const Navbar = () => {
         <>
             <div>
                 <div className="card-menu">
-
                     <MegaMenu model={items} breakpoint="960px"
-
                     />
-
-
                 </div>
             </div>
         </>
