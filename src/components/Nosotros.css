@@ -1,7 +1,7 @@
 .sobre_nosotrosPresentacion h1 {
   font-size: 2rem;
   font-weight: bolder;
-  letter-spacing: 22px;
+  letter-spacing: 15px;
   margin-top: 50px;
   text-align: center;
 }
@@ -12,10 +12,10 @@
   font-weight: bolder;
   padding: 5px;
   line-height: 25px;
-  letter-spacing: 12px;
+  letter-spacing: 15px;
   margin-top: 40px;
   margin-bottom: 20px;
-  text-align: left;
+  text-align: center;
 
 }
 
