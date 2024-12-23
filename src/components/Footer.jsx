@@ -32,13 +32,13 @@ export const Footer = () => {
         <div className="container_info_footer">
           <i className="pi pi-ticket"> {t('SobreNosotros.Click & Collect')}</i>
           <span>{t('SobreNosotros.Collection')}</span>
-       
+
         </div>
 
         <div className="container_info_footer">
           <i className="pi pi-map-marker"> {t('SobreNosotros.Collection1')}</i>
           <span>{t('SobreNosotros.Receive your order')}</span>
-         
+
         </div>
 
       </section>
@@ -74,10 +74,14 @@ export const Footer = () => {
             <li>{t('SobreNosotros.Schedule an appointment in store')}</li>
             <li>{t('SobreNosotros.Order issues')}</li>
             <li>{t('SobreNosotros.24-hour customer service')}</li></ul>
-
         </div>
 
       </section>
+
+      <div className="flex flex-column align-items-center">
+        <p>&copy; 2024 .Todos los derechos reservados.</p>
+        <p className="text-center">Esta página ha sido diseñada y desarrollada por <br></br>Andrea Hernández Hernández</p>
+      </div>
 
 
 

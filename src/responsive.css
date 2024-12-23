@@ -164,6 +164,10 @@
   .pedido_titulo h1 {
     font-size: 1.4rem;
   }
+
+  .footer{
+    display: block;
+  }
 }
 
 @media (min-width:481px) {}
@@ -325,6 +329,11 @@
   }
 
   .carrusel_pedido {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer{
     display: flex;
     justify-content: center;
   }
