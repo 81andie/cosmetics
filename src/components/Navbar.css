@@ -1,11 +1,11 @@
 .p-menuitem-icon {
     color: rgb(10, 10, 10);
-    font-size: 0.9rem;  
+    font-size: 0.5rem;  
   }
   
   .p-menuitem-text {
     color: rgb(19, 19, 19);
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: bold;
     border-radius: 5px;
     font-family: "Cormorant Garamond", serif;
@@ -14,7 +14,7 @@
   }
   
   .p-submenu { 
-    line-height: 35px;
+    line-height: 20px;
     font-size: 0.8rem;
   }
   
@@ -24,6 +24,5 @@
     color: rgb(4, 4, 4);
     letter-spacing: 1px;
     text-transform: uppercase;
-    line-height: 5px;
   }
   
