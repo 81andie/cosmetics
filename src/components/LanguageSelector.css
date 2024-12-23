@@ -1,6 +1,6 @@
 
 .container_btnIdiomas{
-    height: 5vh;
+    
     display: flex;
     justify-content:flex-end;
     margin-inline-end: 10px;
@@ -11,7 +11,7 @@
     background-color: rgba(188, 186, 179, 0.65);
     color: rgb(7, 7, 7);
     border: none;
-    padding: 3px;
+    padding: 4px;
     width: 80px;
     border-radius: 10px;
     font-size: 0.8rem;

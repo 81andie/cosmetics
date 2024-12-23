@@ -1,7 +1,7 @@
 header {
     display: flex;
     color: white;
-    height: 70vh;
+ 
     background-image: url("../../public/images/portadita.jpg");
     background-size: cover;
     opacity: 69%;
