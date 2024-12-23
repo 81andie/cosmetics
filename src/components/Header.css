@@ -1,48 +1,50 @@
 header {
-    display: flex;
-    color: white;
- 
-    background-image: url("../../public/images/portadita.jpg");
-    background-size: cover;
-    opacity: 69%;
-    font-family: "Cormorant Garamond", serif;
-    background-attachment: fixed;
-   
+  display: flex;
+  height: 35vh;
+  color: white;
+  background-image: url("../../public/images/portadita.jpg");
+  background-size: cover;
+  opacity: 69%;
+  font-family: "Cormorant Garamond", serif;
+  background-attachment: fixed;
+}
 
-  }
-  
-  .pi {
-    font-size: 25px;
-    padding: 5px;
-  }
-  
-  .social_icons {
-    display: flex;
-    font-size: 12px;
-    justify-content: center;
-    gap: 18px;
-    background: rgb(9, 9, 9);
-    padding: 2px;
-  }
-  
-  
-  .pi-instagram,
-  .pi-telegram,
-  .pi-facebook,
-  .pi-youtube {
-    font-size: 18px;
-  }
-  
-.logo_tienda2{
+.social_icons {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  background: rgb(9, 9, 9);
+  padding: 4px;
+}
+
+.social_icons:hover{
+  padding: 4px;
+}
+
+.pi-instagram,
+.pi-telegram,
+.pi-facebook,
+.pi-youtube {
+  transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+
+.pi-instagram:hover,
+.pi-telegram:hover,
+.pi-facebook:hover,
+.pi-youtube:hover{
+ padding: 3.5px;
+ border-radius: 100%;
+  background-color:chocolate;
+}
+
+.logo_tienda2 {
   width: 17%;
   height: auto;
- opacity: 120%;
+  opacity: 120%;
 
 }
 
-.container_logo{
+.container_logo {
   display: flex;
- justify-content: left;
- align-items:center
-
+  justify-content: left;
 }
