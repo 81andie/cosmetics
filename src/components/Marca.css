@@ -1,7 +1,6 @@
 .card-shooping {
-   margin: 0 auto;
-  
-    margin-bottom: 20px;
+  margin: 0 auto;
+    margin-bottom: 40px;
   
   }
 
@@ -31,6 +30,7 @@
   }
   
   .marca_logo {
+    width: 18.5%;
     height: auto;
-  
+    margin-top: 10px;
   }

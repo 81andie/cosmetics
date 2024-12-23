@@ -52,61 +52,6 @@ export const Marca = () => {
 
 
 
-    {/*const agregarColor = (e, productId) => {
-        const selectedColor = e.target.getAttribute('data-color');
-
-   
-
-        
-        setColor(prevState => ({ ...prevState, [productId]: selectedColor }));
-        console.log(`Color seleccionado para el producto ${productId}: ${selectedColor}`);
-
-        setCart(prevCart => {
-            const updatedCart = prevCart.map(item => {
-                if (item.id === productId) {
-                    return { ...item, color: selectedColor };
-                }
-                return item;
-            });
-            console.log('Carrito actualizado:', updatedCart);
-            return updatedCart;
-        });
-
-      
-    }; 
-    
-    const addToCart = (product) => {
-
-        console.log("Agregando al carrito:", product);
-
-        
-
-        const isProductInCart = cart.some(item => item.id === product.id);
-
-
-        if (!isProductInCart) {
-            const updatedProduct = { ...product, color: color[product.id] || '' };
-            const updateCart = [...cart, updatedProduct];
-            console.log('Producto actualizado:', updatedProduct);
-
-            setCart(updateCart);
-
-
-            localStorage.setItem('cart', JSON.stringify(updateCart));
-
-        }
-
-    };
-    
-    
-    
-    
-    */}
-
-
-
-
-
     const addToCart = (product) => {
         const selectedColors = color[product.id] || [];
         const existingProductIndex = cart.findIndex((item) => item.id === product.id);
@@ -214,17 +159,16 @@ export const Marca = () => {
 
                 <div className="col-12">
 
-                    <img className="marca_logo " src={`/cosmetics/images/${data.portada}`} alt={data.portada} />
+                    <img className="marca_logo" src={`/cosmetics/images/${data.portada}`} alt={data.portada} />
                    
-                    <div className="flex flex-column xl:flex-row  p-1 gap-1">
+                    <div className="flex flex-column md:flex-row xl:flex-row  p-1 gap-1">
                    
                         <img className="w-9 sm:w-16rem xl:w-10rem shadow-2 block xl:block mx-auto border-round img-products1" src={`/cosmetics/images/${data.image}`} alt={data.name} />
                        
-                        
                         <div className="flex flex-column lg:flex-row justify-content-evenly align-items-center xl:align-items-start lg:flex-1 gap-3">
                             <div className="flex flex-column align-items-center lg:align-items-start gap-1">
-                                <div className="flex flex-column align-items-center gap-2">
-                                  
+                                <div className="flex flex-column align-items-center text-center gap-2 ml-2">
+                                <div className="text-4xl font-bold  p-1 text-900 title_producto">{data.name}</div>
                                     {/* Aquí puedes agregar el selector de color */}
                                     {data.variants && (
                                         <div className="flex flex-row gap-1 p-1 color-selectors-container">
@@ -238,18 +182,18 @@ export const Marca = () => {
                                             ))}
                                         </div>
                                     )}
- <div className="text-4xl font-bold align-items-center p-1 text-900 title_producto">{data.name}</div>
+
                                     <div className="text-2l p-2 parrafo_descripcion">{data.description}</div>
 
 
                                 </div>
 
 
-                                <div className="flex flex-column gap-2 mt-3.5">
+                                <div className="flex flex-column justify-content-center gap-2 mt-3.5">
                                     <Rating value={data.rating} readOnly cancel={false} ></Rating>
-                                    <span className="flex align-items-center p-1 gap-2">
+                                    <span className="flex align-items-center  p-1 gap-2">
 
-                                        <i className="pi pi-tag product-category-icon "></i>
+                                        <i className="pi pi-tag product-category-icon"></i>
 
                                         <span className="font-semibold">{data.category}</span>
                                     </span>
@@ -280,7 +224,7 @@ export const Marca = () => {
         );
     };
 
-    const footer = <Button type="text" icon="pi pi-plus" label="Load" onClick={() => ds.current.load()} />;
+  
 
 
 
