@@ -215,13 +215,16 @@ export const Marca = () => {
                 <div className="col-12">
 
                     <img className="marca_logo " src={`/cosmetics/images/${data.portada}`} alt={data.portada} />
-                    <div className="flex flex-column xl:flex-row xl:align-items-start p-2 gap-5">
-
+                   
+                    <div className="flex flex-column xl:flex-row  p-1 gap-1">
+                   
                         <img className="w-9 sm:w-16rem xl:w-10rem shadow-2 block xl:block mx-auto border-round img-products1" src={`/cosmetics/images/${data.image}`} alt={data.name} />
-                        <div className="flex flex-column lg:flex-row justify-content-between align-items-center xl:align-items-start lg:flex-1 gap-3">
+                       
+                        
+                        <div className="flex flex-column lg:flex-row justify-content-evenly align-items-center xl:align-items-start lg:flex-1 gap-3">
                             <div className="flex flex-column align-items-center lg:align-items-start gap-1">
-                                <div className="flex flex-column gap-4">
-                                    <div className="text-4xl font-bold  p-1 text-900 title_producto">{data.name}</div>
+                                <div className="flex flex-column align-items-center gap-2">
+                                  
                                     {/* Aquí puedes agregar el selector de color */}
                                     {data.variants && (
                                         <div className="flex flex-row gap-1 p-1 color-selectors-container">
@@ -235,7 +238,7 @@ export const Marca = () => {
                                             ))}
                                         </div>
                                     )}
-
+ <div className="text-4xl font-bold align-items-center p-1 text-900 title_producto">{data.name}</div>
                                     <div className="text-2l p-2 parrafo_descripcion">{data.description}</div>
 
 

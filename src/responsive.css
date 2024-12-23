@@ -213,7 +213,7 @@
   .marca_logo {
     width: 20%;
     height: auto;
-    margin-top: 10px;
+    margin-top: 5px;
 
   }
 
@@ -340,7 +340,7 @@
 
 }
 
-@media(min-width: 1025px) {
+@media(min-width: 1024px) {
   header {
     display: flex;
     align-items: flex-start;
@@ -353,9 +353,7 @@
     height: auto;
   }
 
-  .card {
-    width: 100%;
-  }
+  
 
   .marca_logo {
     width: 10%;
