@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cosmetics/static/css/main.ea8dcaf6.css",
+    "main.css": "/cosmetics/static/css/main.b62c5cdb.css",
     "main.js": "/cosmetics/static/js/main.c0b6ff14.js",
     "static/media/portadita.jpg": "/cosmetics/static/media/portadita.953c2610a6ae6db2a136.jpg",
     "static/media/primeicons.svg": "/cosmetics/static/media/primeicons.6ed59f962963a4a73af2.svg",
@@ -16,11 +16,11 @@
     "static/media/621902_th.webp": "/cosmetics/static/media/621902_th.404307f566d4ff809495.webp",
     "static/media/621907_th.webp": "/cosmetics/static/media/621907_th.9681b3518596b2b800c7.webp",
     "static/media/621904_th.webp": "/cosmetics/static/media/621904_th.f5e7cf07e279199dea1e.webp",
-    "main.ea8dcaf6.css.map": "/cosmetics/static/css/main.ea8dcaf6.css.map",
+    "main.b62c5cdb.css.map": "/cosmetics/static/css/main.b62c5cdb.css.map",
     "main.c0b6ff14.js.map": "/cosmetics/static/js/main.c0b6ff14.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea8dcaf6.css",
+    "static/css/main.b62c5cdb.css",
     "static/js/main.c0b6ff14.js"
   ]
 }
