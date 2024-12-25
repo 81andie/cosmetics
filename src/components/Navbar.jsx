@@ -279,7 +279,7 @@ export const Navbar = () => {
         <>
             <div>
                 <div className="card-menu">
-                    <MegaMenu model={items} breakpoint="960px"
+                    <MegaMenu model={items} breakpoint="960px" 
                     />
                 </div>
             </div>
