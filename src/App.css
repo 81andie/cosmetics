@@ -7,24 +7,7 @@ body {
   font-family: "Cormorant Garamond", serif;
 }
 
-.img-products,
-.logo_tienda,
-.img_perfumeria,
-.card-oferta,
-.img-products1,
-.marca_logo1,
-.container_informacion img,
-.logo_section_footer,
-.subscripcion img{
-  animation: fade linear forwards;
-  scale: 0;
-  opacity: 0%;
-  animation-timeline: view();
-  animation-range-start: entry -70px;
-  animation-range-end: exit -80px;
-  transform-origin: bottom;
 
-}
 
 .pi{
   font-size: 20px;
