@@ -24,9 +24,7 @@ export const Marca = () => {
     const [color, setColor] = useState([]);
 
     const [cart, setCart] = useState(() => {
-
         const savedCart = localStorage.getItem('cart');
-
         return savedCart ? JSON.parse(savedCart) : [];
     })
 
@@ -129,7 +127,6 @@ export const Marca = () => {
 
 
     const handleSearch = (event) => {
-
 
         const term = event.target.value.toLowerCase();
         setSearchTerm(term);
