@@ -11,6 +11,7 @@
     font-family: "Cormorant Garamond", serif;
     text-transform: uppercase;
     text-align: center;
+    line-height: 10px;
   }
   
   .p-submenu { 
