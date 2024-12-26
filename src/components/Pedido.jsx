@@ -49,9 +49,7 @@ export const Pedido = () => {
     return formatCurrency(product.price);
   };
 
-  const ratingBodyTemplate = (product) => {
-    return <Rating value={product.rating} readOnly cancel={false} />;
-  };
+
 
 
   const BodyTemplateColor = ({colors,id}) => {
@@ -87,20 +85,6 @@ export const Pedido = () => {
    }
 
 
-
-
-  const getSeverity = (product) => {
-    switch (product.inventoryStatus) {
-      case 'INSTOCK':
-        return 'success';
-      case 'LOWSTOCK':
-        return 'warning';
-      case 'OUTOFSTOCK':
-        return 'danger';
-      default:
-        return null;
-    }
-  };
 
   const calculateSubtotal = (product) => {
     return product.price * (product.quantity || 1);
