@@ -2,8 +2,12 @@
 
 [Ver la página web](https://81andie.github.io/cosmetics/)
 
+![mockDrop_Apple Pencil close by (3) (1)](https://github.com/user-attachments/assets/0ca2c215-3414-4a5a-8045-b538beeece7a)
 
 
+Este proyecto ha sido desarrollado con React.
+
+Bienvenidos al mundo de  Cleopatra Cosmetics. Esta aplicación es un e-comerce que te permite explorar una gran variedad de productos cosméticos, descubrir nuevas marcas y realizar compras. Si te apasionan los productos de belleza, este es tu sitio ideal.
 
 
 
