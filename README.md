@@ -1,4 +1,4 @@
-# Como desplegar web en github
+# Como desplegar web en github  (Breve tutorial)
 
 Paso 1) Hacer el repositorio publico
 Paso 2) Habilitar el github pages. Un exemplo: https://github.com/81andie/cosmetics/settings/pages
