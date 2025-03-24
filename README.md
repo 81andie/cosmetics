@@ -10,6 +10,25 @@ Este proyecto ha sido desarrollado con React.
 Bienvenidos al mundo de  Cleopatra Cosmetics. Esta aplicación es un e-comerce que te permite explorar una gran variedad de productos cosméticos, descubrir nuevas marcas y realizar compras. Si te apasionan los productos de belleza, este es tu sitio ideal.
 
 
+## Requisitos
+
+- **Node.js** (recomendado la versión 18.x o superior)
+- **npm** (gestor de paquetes de Node.js).
+- React (puedes instalarlo globalmente con `npm install -g create-react-app`)
+
+## Clonar el repositorio
+
+```bash
+https://github.com/81andie/cosmetics.git
+
+
+```
+
+
+
+
+
+
 
 
 
